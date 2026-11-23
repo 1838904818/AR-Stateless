@@ -1,0 +1,760 @@
+{
+  "calibration": {
+    "0.01": {
+      "actual_false_alarms": 68,
+      "actual_fpr": 0.009963369963369963,
+      "allowed_false_alarms": 68,
+      "calibration_rows": 6825,
+      "decision": "attack iff gate_attack_logit - gate_normal_logit > threshold",
+      "order_statistic_zero_based": 6756,
+      "row_ids_sha256": "2ca1d773a3588c1c513c0c61ccb4843172c52fa73fabf366a7af09faf0fccbe4",
+      "target_fpr": 0.01,
+      "threshold": -4.288989543914795,
+      "threshold_source": "permanent Normal TRAIN holdout only; no test labels",
+      "ties": "strict greater-than; no randomized tie breaking"
+    },
+    "0.02": {
+      "actual_false_alarms": 136,
+      "actual_fpr": 0.019926739926739927,
+      "allowed_false_alarms": 136,
+      "calibration_rows": 6825,
+      "decision": "attack iff gate_attack_logit - gate_normal_logit > threshold",
+      "order_statistic_zero_based": 6688,
+      "row_ids_sha256": "2ca1d773a3588c1c513c0c61ccb4843172c52fa73fabf366a7af09faf0fccbe4",
+      "target_fpr": 0.02,
+      "threshold": -5.321849822998047,
+      "threshold_source": "permanent Normal TRAIN holdout only; no test labels",
+      "ties": "strict greater-than; no randomized tie breaking"
+    },
+    "0.05": {
+      "actual_false_alarms": 341,
+      "actual_fpr": 0.04996336996336996,
+      "allowed_false_alarms": 341,
+      "calibration_rows": 6825,
+      "decision": "attack iff gate_attack_logit - gate_normal_logit > threshold",
+      "order_statistic_zero_based": 6483,
+      "row_ids_sha256": "2ca1d773a3588c1c513c0c61ccb4843172c52fa73fabf366a7af09faf0fccbe4",
+      "target_fpr": 0.05,
+      "threshold": -6.616269588470459,
+      "threshold_source": "permanent Normal TRAIN holdout only; no test labels",
+      "ties": "strict greater-than; no randomized tie breaking"
+    }
+  },
+  "checkpoint_file": "checkpoints/checkpoint_000.pt",
+  "checkpoint_sha256": "c9d8302ace6982f8a20ef65cec809ab52bc7eb96ac722528ad5d342c713d2f0c",
+  "default_decision": {
+    "accuracy": 0.9963818986931634,
+    "attack_detection": 0.970467032967033,
+    "confusion_matrix": [
+      [
+        17038,
+        24,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        43,
+        1413,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "evaluated_test_rows": 18518,
+    "macro_f1": 0.987439157479412,
+    "normal_fpr": 0.0014066346266556895,
+    "per_class_recall": {
+      "0": 0.9985933653733443,
+      "1": 0.970467032967033
+    },
+    "seen_classes": [
+      0,
+      1
+    ],
+    "weighted_f1": 0.9963710243198475
+  },
+  "family_schedule": {
+    "backend": "shared_joint_histgb",
+    "separately_trained": false
+  },
+  "family_training_seconds": 0.0,
+  "gate_schedule": {
+    "backend": "histgb",
+    "elapsed_seconds": 1.708814900019206,
+    "gate_retention": false,
+    "iterations": 80
+  },
+  "gate_training_seconds": 1.708814900019206,
+  "operating_points": {
+    "0.01": {
+      "attack_family_macro_recall": 0.989010989010989,
+      "attack_family_macro_recall_support_ge20": 0.989010989010989,
+      "attack_guard_excluded_classes": [],
+      "attack_recall": 0.989010989010989,
+      "attack_recall_definition": "P(predicted_label != Normal | true_label != Normal)",
+      "attack_support": 1456,
+      "balanced_accuracy": 0.9879998093572118,
+      "confusion_labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "confusion_matrix": [
+        [
+          16840,
+          222,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          16,
+          1440,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "evaluated_rows": 18518,
+      "excluded_unseen_rows": 11730,
+      "macro_f1": 0.9583260477170141,
+      "normal_fpr": 0.013011370296565468,
+      "normal_support": 17062,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "Normal",
+          "error_count": 222,
+          "error_to_newer_class": 0,
+          "error_to_normal": 0,
+          "error_to_other_old": 222,
+          "f1": 0.9929830768323604,
+          "introduced_task": 0,
+          "precision": 0.9990507831039392,
+          "recall": 0.9869886297034345,
+          "support": 17062,
+          "train_count": 68246
+        },
+        {
+          "class_id": 1,
+          "class_name": "Generic",
+          "error_count": 16,
+          "error_to_newer_class": 0,
+          "error_to_normal": 16,
+          "error_to_other_old": 0,
+          "f1": 0.9236690186016677,
+          "introduced_task": 0,
+          "precision": 0.8664259927797834,
+          "recall": 0.989010989010989,
+          "support": 1456,
+          "train_count": 5827
+        }
+      ],
+      "total_available_rows": 30248
+    },
+    "0.02": {
+      "attack_family_macro_recall": 0.992445054945055,
+      "attack_family_macro_recall_support_ge20": 0.992445054945055,
+      "attack_guard_excluded_classes": [],
+      "attack_recall": 0.992445054945055,
+      "attack_recall_definition": "P(predicted_label != Normal | true_label != Normal)",
+      "attack_support": 1456,
+      "balanced_accuracy": 0.9840609989295666,
+      "confusion_labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "confusion_matrix": [
+        [
+          16647,
+          415,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          11,
+          1445,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "evaluated_rows": 18518,
+      "excluded_unseen_rows": 11730,
+      "macro_f1": 0.9294492571335357,
+      "normal_fpr": 0.02432305708592193,
+      "normal_support": 17062,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "Normal",
+          "error_count": 415,
+          "error_to_newer_class": 0,
+          "error_to_normal": 0,
+          "error_to_other_old": 415,
+          "f1": 0.9873665480427046,
+          "introduced_task": 0,
+          "precision": 0.9993396566214432,
+          "recall": 0.975676942914078,
+          "support": 17062,
+          "train_count": 68246
+        },
+        {
+          "class_id": 1,
+          "class_name": "Generic",
+          "error_count": 11,
+          "error_to_newer_class": 0,
+          "error_to_normal": 11,
+          "error_to_other_old": 0,
+          "f1": 0.8715319662243667,
+          "introduced_task": 0,
+          "precision": 0.7768817204301075,
+          "recall": 0.992445054945055,
+          "support": 1456,
+          "train_count": 5827
+        }
+      ],
+      "total_available_rows": 30248
+    },
+    "0.05": {
+      "attack_family_macro_recall": 0.9951923076923077,
+      "attack_family_macro_recall_support_ge20": 0.9951923076923077,
+      "attack_guard_excluded_classes": [],
+      "attack_recall": 0.9951923076923077,
+      "attack_recall_definition": "P(predicted_label != Normal | true_label != Normal)",
+      "attack_support": 1456,
+      "balanced_accuracy": 0.9705477421710864,
+      "confusion_labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "confusion_matrix": [
+        [
+          16139,
+          923,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          1449,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "evaluated_rows": 18518,
+      "excluded_unseen_rows": 11730,
+      "macro_f1": 0.864523995804161,
+      "normal_fpr": 0.054096823350134805,
+      "normal_support": 17062,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "Normal",
+          "error_count": 923,
+          "error_to_newer_class": 0,
+          "error_to_normal": 0,
+          "error_to_other_old": 923,
+          "f1": 0.9719947000722717,
+          "introduced_task": 0,
+          "precision": 0.9995664560881952,
+          "recall": 0.9459031766498652,
+          "support": 17062,
+          "train_count": 68246
+        },
+        {
+          "class_id": 1,
+          "class_name": "Generic",
+          "error_count": 7,
+          "error_to_newer_class": 0,
+          "error_to_normal": 7,
+          "error_to_other_old": 0,
+          "f1": 0.7570532915360502,
+          "introduced_task": 0,
+          "precision": 0.6108768971332209,
+          "recall": 0.9951923076923077,
+          "support": 1456,
+          "train_count": 5827
+        }
+      ],
+      "total_available_rows": 30248
+    }
+  },
+  "postprocessing": {
+    "cbf": false,
+    "logits_stored": false,
+    "operations": [],
+    "weight_alignment": false
+  },
+  "seen_classes": [
+    0,
+    1
+  ],
+  "stage_attempt_seconds": 2.1452578000025824,
+  "task_index": 0,
+  "variant_metadata": {
+    "attack_memory": null,
+    "class_exposure_caps": {
+      "1": {
+        "available_rows": 5244,
+        "cap_rows": 1600,
+        "quota_rows": 400,
+        "selected_ids_sha256": "0ad42c754319f0e6aa4743d4e1fbef93290dfff4d82282089cb3e1780c0bf704",
+        "selected_rows": 1600
+      }
+    },
+    "quota_semantics": "per-class attack capacity from aa.attack_targets(aacil); train/validation split unchanged",
+    "variant": "V1b"
+  }
+}

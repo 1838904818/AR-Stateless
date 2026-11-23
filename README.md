@@ -100,6 +100,8 @@ and each folder's `SHA256SUMS` lists its files.
 | `results/published_methods_s1.json` | DER++, iCaRL, ECBRS and BiC: per-seed values and paired tests |
 | `results/nsl_kdd/` | All methods on NSL-KDD (diagnostic, not part of the registered comparison) |
 | `results/benign_volume_and_hybrid/` | Benign volume 5k/10k/20k and the hybrid control R3-H |
+| `results/neural_replay_controls/` | Neural AR, Replay-BS, Freq and WACB on UNSW-NB15 and CIC-IDS-2017, seeds 10–14 |
+| `results/forgetting_reduction_variants/` | Forgetting-reduction variants (capped new-class exposure, k-means memory): development screen and confirmation on seeds 15–19; none was confirmed |
 | `results/forgetting_diagnostics_unsw/` | UNSW-NB15 forgetting diagnostics D1–D3 (offline joint model, matched exposure, larger memory), seeds 10–14 |
 | `results/nsl_calibration_refresh/` | NSL-KDD calibration-pool refresh with UNSW-NB15 as control, seeds 10–14 |
 | `results/implementation_equivalence/` | This package versus the experiment pipeline: 40 runs, all thresholds and confusion matrices identical (checksums in `SHA256SUMS`) |

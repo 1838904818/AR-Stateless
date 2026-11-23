@@ -1,0 +1,748 @@
+{
+  "calibration": {
+    "0.01": {
+      "actual_false_alarms": 10702,
+      "actual_fpr": 0.00999931793103255,
+      "allowed_false_alarms": 10702,
+      "calibration_rows": 1070273,
+      "decision": "attack iff gate_attack_logit - gate_normal_logit > threshold",
+      "order_statistic_zero_based": 1059570,
+      "row_ids_sha256": "d9c654bbf6def9c4e27782b4a187c1cd2503f97231682c1ce674e73fabe5dd5d",
+      "target_fpr": 0.01,
+      "threshold": -0.06952595710754395,
+      "threshold_source": "permanent Normal TRAIN holdout only; no test labels",
+      "ties": "strict greater-than; no randomized tie breaking"
+    },
+    "0.02": {
+      "actual_false_alarms": 21399,
+      "actual_fpr": 0.01999396415680859,
+      "allowed_false_alarms": 21405,
+      "calibration_rows": 1070273,
+      "decision": "attack iff gate_attack_logit - gate_normal_logit > threshold",
+      "order_statistic_zero_based": 1048867,
+      "row_ids_sha256": "d9c654bbf6def9c4e27782b4a187c1cd2503f97231682c1ce674e73fabe5dd5d",
+      "target_fpr": 0.02,
+      "threshold": -1.6263000965118408,
+      "threshold_source": "permanent Normal TRAIN holdout only; no test labels",
+      "ties": "strict greater-than; no randomized tie breaking"
+    },
+    "0.05": {
+      "actual_false_alarms": 53512,
+      "actual_fpr": 0.04999845833726535,
+      "allowed_false_alarms": 53513,
+      "calibration_rows": 1070273,
+      "decision": "attack iff gate_attack_logit - gate_normal_logit > threshold",
+      "order_statistic_zero_based": 1016759,
+      "row_ids_sha256": "d9c654bbf6def9c4e27782b4a187c1cd2503f97231682c1ce674e73fabe5dd5d",
+      "target_fpr": 0.05,
+      "threshold": -3.2564854621887207,
+      "threshold_source": "permanent Normal TRAIN holdout only; no test labels",
+      "ties": "strict greater-than; no randomized tie breaking"
+    }
+  },
+  "checkpoint_file": "checkpoints/checkpoint_003.pt",
+  "checkpoint_sha256": "1b3330185fbe8829e6be0410c2858edfa50179ddccb7c306f1ba7c93d82dcffd",
+  "default_decision": {
+    "accuracy": 0.9675865763960699,
+    "attack_detection": 0.949395412428622,
+    "confusion_matrix": [
+      [
+        2660583,
+        122,
+        34,
+        69,
+        2234,
+        24457,
+        26
+      ],
+      [
+        242,
+        105566,
+        0,
+        49076,
+        12,
+        0,
+        0
+      ],
+      [
+        1445,
+        0,
+        247839,
+        0,
+        119,
+        9,
+        0
+      ],
+      [
+        0,
+        598,
+        0,
+        72943,
+        0,
+        0,
+        0
+      ],
+      [
+        18,
+        0,
+        0,
+        0,
+        180,
+        0,
+        0
+      ],
+      [
+        26907,
+        4,
+        0,
+        16,
+        7,
+        5122,
+        4
+      ],
+      [
+        110,
+        0,
+        0,
+        0,
+        0,
+        0,
+        57360
+      ]
+    ],
+    "evaluated_test_rows": 3255102,
+    "macro_f1": 0.6909001442431046,
+    "normal_fpr": 0.01002483697826062,
+    "per_class_recall": {
+      "0": 0.9899751630217394,
+      "1": 0.6815282512137176,
+      "2": 0.9936931663272016,
+      "3": 0.9918684815273113,
+      "4": 0.9090909090909091,
+      "5": 0.1597629444791017,
+      "6": 0.9980859578910736
+    },
+    "seen_classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "weighted_f1": 0.9680526498190762
+  },
+  "family_schedule": {
+    "backend": "shared_joint_histgb",
+    "separately_trained": false
+  },
+  "family_training_seconds": 0.0,
+  "gate_schedule": {
+    "backend": "histgb",
+    "elapsed_seconds": 19.880176800012123,
+    "gate_retention": false,
+    "iterations": 163
+  },
+  "gate_training_seconds": 19.880176800012123,
+  "operating_points": {
+    "0.01": {
+      "attack_family_macro_recall": 0.7892926524235314,
+      "attack_family_macro_recall_support_ge20": 0.7892926524235314,
+      "attack_guard_excluded_classes": [],
+      "attack_recall": 0.9496050756108863,
+      "attack_recall_definition": "P(predicted_label != Normal | true_label != Normal)",
+      "attack_support": 567577,
+      "balanced_accuracy": 0.8179388850457103,
+      "confusion_labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "confusion_matrix": [
+        [
+          2660156,
+          124,
+          36,
+          74,
+          2240,
+          24869,
+          26
+        ],
+        [
+          242,
+          105566,
+          0,
+          49076,
+          12,
+          0,
+          0
+        ],
+        [
+          1378,
+          0,
+          247865,
+          0,
+          147,
+          22,
+          0
+        ],
+        [
+          0,
+          598,
+          0,
+          72943,
+          0,
+          0,
+          0
+        ],
+        [
+          18,
+          0,
+          0,
+          0,
+          180,
+          0,
+          0
+        ],
+        [
+          26855,
+          4,
+          0,
+          16,
+          7,
+          5174,
+          4
+        ],
+        [
+          110,
+          0,
+          0,
+          0,
+          0,
+          0,
+          57360
+        ]
+      ],
+      "evaluated_rows": 3255102,
+      "excluded_unseen_rows": 0,
+      "macro_f1": 0.6907236149319623,
+      "normal_fpr": 0.010183719221216548,
+      "normal_support": 2687525,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "Normal",
+          "error_count": 27369,
+          "error_to_newer_class": 27245,
+          "error_to_normal": 0,
+          "error_to_other_old": 124,
+          "f1": 0.9895890916476883,
+          "introduced_task": 0,
+          "precision": 0.9893620067845426,
+          "recall": 0.9898162807787835,
+          "support": 2687525,
+          "train_count": 10702724
+        },
+        {
+          "class_id": 1,
+          "class_name": "DoS",
+          "error_count": 49330,
+          "error_to_newer_class": 49088,
+          "error_to_normal": 242,
+          "error_to_other_old": 0,
+          "f1": 0.8083526042544068,
+          "introduced_task": 0,
+          "precision": 0.9931697587777067,
+          "recall": 0.6815282512137176,
+          "support": 154896,
+          "train_count": 499404
+        },
+        {
+          "class_id": 2,
+          "class_name": "DDoS",
+          "error_count": 1547,
+          "error_to_newer_class": 169,
+          "error_to_normal": 1378,
+          "error_to_other_old": 0,
+          "f1": 0.9968168939882931,
+          "introduced_task": 1,
+          "precision": 0.9998547807390854,
+          "recall": 0.993797411511876,
+          "support": 249412,
+          "train_count": 1014521
+        },
+        {
+          "class_id": 3,
+          "class_name": "Bruteforce",
+          "error_count": 598,
+          "error_to_newer_class": 0,
+          "error_to_normal": 0,
+          "error_to_other_old": 598,
+          "f1": 0.7456478405315614,
+          "introduced_task": 1,
+          "precision": 0.5973597359735974,
+          "recall": 0.9918684815273113,
+          "support": 73541,
+          "train_count": 307402
+        },
+        {
+          "class_id": 4,
+          "class_name": "WebAttack",
+          "error_count": 18,
+          "error_to_newer_class": 0,
+          "error_to_normal": 18,
+          "error_to_other_old": 0,
+          "f1": 0.12931034482758622,
+          "introduced_task": 2,
+          "precision": 0.06960556844547564,
+          "recall": 0.9090909090909091,
+          "support": 198,
+          "train_count": 730
+        },
+        {
+          "class_id": 5,
+          "class_name": "Infiltration",
+          "error_count": 26886,
+          "error_to_newer_class": 4,
+          "error_to_normal": 26855,
+          "error_to_other_old": 27,
+          "f1": 0.16656740442655935,
+          "introduced_task": 2,
+          "precision": 0.17209379677365708,
+          "recall": 0.16138490330630068,
+          "support": 32060,
+          "train_count": 128579
+        },
+        {
+          "class_id": 6,
+          "class_name": "Botnet",
+          "error_count": 110,
+          "error_to_newer_class": 0,
+          "error_to_normal": 110,
+          "error_to_other_old": 0,
+          "f1": 0.9987811248476406,
+          "introduced_task": 3,
+          "precision": 0.9994772608468374,
+          "recall": 0.9980859578910736,
+          "support": 57470,
+          "train_count": 228721
+        }
+      ],
+      "total_available_rows": 3255102
+    },
+    "0.02": {
+      "attack_family_macro_recall": 0.803555151262276,
+      "attack_family_macro_recall_support_ge20": 0.803555151262276,
+      "attack_guard_excluded_classes": [],
+      "attack_recall": 0.9535076298017714,
+      "attack_recall_definition": "P(predicted_label != Normal | true_label != Normal)",
+      "attack_support": 567577,
+      "balanced_accuracy": 0.8286154599160879,
+      "confusion_labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "confusion_matrix": [
+        [
+          2631026,
+          162,
+          383,
+          103,
+          3018,
+          52805,
+          28
+        ],
+        [
+          240,
+          105566,
+          0,
+          49076,
+          12,
+          2,
+          0
+        ],
+        [
+          759,
+          0,
+          248137,
+          0,
+          492,
+          24,
+          0
+        ],
+        [
+          0,
+          598,
+          0,
+          72943,
+          0,
+          0,
+          0
+        ],
+        [
+          11,
+          0,
+          0,
+          0,
+          187,
+          0,
+          0
+        ],
+        [
+          25279,
+          7,
+          1,
+          17,
+          9,
+          6743,
+          4
+        ],
+        [
+          99,
+          0,
+          0,
+          0,
+          0,
+          0,
+          57371
+        ]
+      ],
+      "evaluated_rows": 3255102,
+      "excluded_unseen_rows": 0,
+      "macro_f1": 0.6823510845065661,
+      "normal_fpr": 0.021022688161040363,
+      "normal_support": 2687525,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "Normal",
+          "error_count": 56499,
+          "error_to_newer_class": 56337,
+          "error_to_normal": 0,
+          "error_to_other_old": 162,
+          "f1": 0.9844924329351561,
+          "introduced_task": 0,
+          "precision": 0.9900700455405143,
+          "recall": 0.9789773118389596,
+          "support": 2687525,
+          "train_count": 10702724
+        },
+        {
+          "class_id": 1,
+          "class_name": "DoS",
+          "error_count": 49330,
+          "error_to_newer_class": 49090,
+          "error_to_normal": 240,
+          "error_to_other_old": 0,
+          "f1": 0.808225732977579,
+          "introduced_task": 0,
+          "precision": 0.9927868112439224,
+          "recall": 0.6815282512137176,
+          "support": 154896,
+          "train_count": 499404
+        },
+        {
+          "class_id": 2,
+          "class_name": "DDoS",
+          "error_count": 1275,
+          "error_to_newer_class": 516,
+          "error_to_normal": 759,
+          "error_to_other_old": 0,
+          "f1": 0.9966682264481366,
+          "introduced_task": 1,
+          "precision": 0.9984548589455217,
+          "recall": 0.9948879765207769,
+          "support": 249412,
+          "train_count": 1014521
+        },
+        {
+          "class_id": 3,
+          "class_name": "Bruteforce",
+          "error_count": 598,
+          "error_to_newer_class": 0,
+          "error_to_normal": 0,
+          "error_to_other_old": 598,
+          "f1": 0.7455335241210139,
+          "introduced_task": 1,
+          "precision": 0.5972130114050386,
+          "recall": 0.9918684815273113,
+          "support": 73541,
+          "train_count": 307402
+        },
+        {
+          "class_id": 4,
+          "class_name": "WebAttack",
+          "error_count": 11,
+          "error_to_newer_class": 0,
+          "error_to_normal": 11,
+          "error_to_other_old": 0,
+          "f1": 0.09550561797752809,
+          "introduced_task": 2,
+          "precision": 0.05029585798816568,
+          "recall": 0.9444444444444444,
+          "support": 198,
+          "train_count": 730
+        },
+        {
+          "class_id": 5,
+          "class_name": "Infiltration",
+          "error_count": 25317,
+          "error_to_newer_class": 4,
+          "error_to_normal": 25279,
+          "error_to_other_old": 34,
+          "f1": 0.1471724469083528,
+          "introduced_task": 2,
+          "precision": 0.11318696075469165,
+          "recall": 0.2103243917654398,
+          "support": 32060,
+          "train_count": 128579
+        },
+        {
+          "class_id": 6,
+          "class_name": "Botnet",
+          "error_count": 99,
+          "error_to_newer_class": 0,
+          "error_to_normal": 99,
+          "error_to_other_old": 0,
+          "f1": 0.9988596101781968,
+          "introduced_task": 3,
+          "precision": 0.999442537846454,
+          "recall": 0.9982773621019663,
+          "support": 57470,
+          "train_count": 228721
+        }
+      ],
+      "total_available_rows": 3255102
+    },
+    "0.05": {
+      "attack_family_macro_recall": 0.8175497668070552,
+      "attack_family_macro_recall_support_ge20": 0.8175497668070552,
+      "attack_guard_excluded_classes": [],
+      "attack_recall": 0.9577696065908238,
+      "attack_recall_definition": "P(predicted_label != Normal | true_label != Normal)",
+      "attack_support": 567577,
+      "balanced_accuracy": 0.8364167042820218,
+      "confusion_labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "confusion_matrix": [
+        [
+          2552123,
+          364,
+          1096,
+          303,
+          5512,
+          128071,
+          56
+        ],
+        [
+          226,
+          105566,
+          0,
+          49076,
+          19,
+          9,
+          0
+        ],
+        [
+          511,
+          0,
+          248223,
+          0,
+          643,
+          35,
+          0
+        ],
+        [
+          0,
+          598,
+          0,
+          72943,
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          0,
+          0,
+          0,
+          191,
+          0,
+          0
+        ],
+        [
+          23152,
+          19,
+          3,
+          81,
+          35,
+          8764,
+          6
+        ],
+        [
+          73,
+          0,
+          0,
+          0,
+          0,
+          4,
+          57393
+        ]
+      ],
+      "evaluated_rows": 3255102,
+      "excluded_unseen_rows": 0,
+      "macro_f1": 0.668237939162083,
+      "normal_fpr": 0.05038167086817797,
+      "normal_support": 2687525,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "Normal",
+          "error_count": 135402,
+          "error_to_newer_class": 135038,
+          "error_to_normal": 0,
+          "error_to_other_old": 364,
+          "f1": 0.9697221511367563,
+          "introduced_task": 0,
+          "precision": 0.9906955962752884,
+          "recall": 0.949618329131822,
+          "support": 2687525,
+          "train_count": 10702724
+        },
+        {
+          "class_id": 1,
+          "class_name": "DoS",
+          "error_count": 49330,
+          "error_to_newer_class": 49104,
+          "error_to_normal": 226,
+          "error_to_other_old": 0,
+          "f1": 0.807564172687737,
+          "introduced_task": 0,
+          "precision": 0.9907927956676397,
+          "recall": 0.6815282512137176,
+          "support": 154896,
+          "train_count": 499404
+        },
+        {
+          "class_id": 2,
+          "class_name": "DDoS",
+          "error_count": 1189,
+          "error_to_newer_class": 678,
+          "error_to_normal": 511,
+          "error_to_other_old": 0,
+          "f1": 0.9954123841566848,
+          "introduced_task": 1,
+          "precision": 0.9955920456277424,
+          "recall": 0.9952327875162382,
+          "support": 249412,
+          "train_count": 1014521
+        },
+        {
+          "class_id": 3,
+          "class_name": "Bruteforce",
+          "error_count": 598,
+          "error_to_newer_class": 0,
+          "error_to_normal": 0,
+          "error_to_other_old": 598,
+          "f1": 0.744529049116074,
+          "introduced_task": 1,
+          "precision": 0.595924936480315,
+          "recall": 0.9918684815273113,
+          "support": 73541,
+          "train_count": 307402
+        },
+        {
+          "class_id": 4,
+          "class_name": "WebAttack",
+          "error_count": 7,
+          "error_to_newer_class": 0,
+          "error_to_normal": 7,
+          "error_to_other_old": 0,
+          "f1": 0.05789633222188542,
+          "introduced_task": 2,
+          "precision": 0.02984375,
+          "recall": 0.9646464646464646,
+          "support": 198,
+          "train_count": 730
+        },
+        {
+          "class_id": 5,
+          "class_name": "Infiltration",
+          "error_count": 23296,
+          "error_to_newer_class": 6,
+          "error_to_normal": 23152,
+          "error_to_other_old": 138,
+          "f1": 0.10375096926182203,
+          "introduced_task": 2,
+          "precision": 0.06402548161568639,
+          "recall": 0.27336244541484717,
+          "support": 32060,
+          "train_count": 128579
+        },
+        {
+          "class_id": 6,
+          "class_name": "Botnet",
+          "error_count": 77,
+          "error_to_newer_class": 0,
+          "error_to_normal": 73,
+          "error_to_other_old": 4,
+          "f1": 0.998790515553622,
+          "introduced_task": 3,
+          "precision": 0.9989208946131756,
+          "recall": 0.9986601705237516,
+          "support": 57470,
+          "train_count": 228721
+        }
+      ],
+      "total_available_rows": 3255102
+    }
+  },
+  "postprocessing": {
+    "cbf": false,
+    "logits_stored": false,
+    "operations": [],
+    "weight_alignment": false
+  },
+  "seen_classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "stage_attempt_seconds": 829.0521349999472,
+  "task_index": 3,
+  "variant_metadata": {
+    "attack_memory": null,
+    "class_exposure_caps": {
+      "6": {
+        "available_rows": 205848,
+        "cap_rows": 233,
+        "quota_rows": 233,
+        "selected_ids_sha256": "3cccb141ac774e77da7508adc8f1f89d4db146af2084bd97a600b5d4ec856706",
+        "selected_rows": 233
+      }
+    },
+    "quota_semantics": "per-class attack capacity from aa.attack_targets(aacil); train/validation split unchanged",
+    "variant": "V1a"
+  }
+}
