@@ -90,6 +90,12 @@ confusion matrices, the calibration record and the checkpoint hash.
 | `results/nsl_kdd/` | All methods on NSL-KDD (diagnostic, not part of the registered comparison) |
 | `results/benign_volume_and_hybrid/` | Benign volume 5k/10k/20k and the hybrid control R3-H |
 
+## Use of AI tools
+
+Claude (Anthropic) and Codex (OpenAI) were used to help implement and run the code
+and to edit the documentation. I reviewed the results and the text and take full
+responsibility for them.
+
 ## License
 
 MIT.
