@@ -45,6 +45,7 @@ report.
 
 | Module | Responsibility |
 |---|---|
+| `ar_stateless/prepare.py` | Build the input arrays from the official CSV releases |
 | `ar_stateless/data.py` | Load the prepared arrays, check their SHA-256, define the task order |
 | `ar_stateless/splits.py` | Permanent row roles in TRAIN: hold-outs, benign stopping subset, per-task benign draw |
 | `ar_stateless/memory.py` | Memory quotas, training/stopping slot split, memory update |
@@ -59,15 +60,21 @@ report.
 ```bash
 pip install -e ".[test]"
 pytest
+python -m ar_stateless prepare --dataset UNSW-NB15 --raw-root RAW --out DATA/unsw-nb15 --intermediate WORK
 python -m ar_stateless --dataset UNSW-NB15 --seed 10 --data-root DATA --out runs
 python -m ar_stateless --dataset UNSW-NB15 --seed 10 --method r3-l --data-root DATA --out runs
 python summarize.py runs --dataset UNSW-NB15 --seeds 10 11 12 13 14
 ```
 
 `DATA/<dataset>/` holds `train_x.npy`, `train_y.npy`, `test_x.npy`, `test_y.npy` and
-`data_quality.json`. The arrays are built from the official CSV releases as described
-in Section 3 and Appendix A of the report; the preparation scripts are available on
-request.
+`data_quality.json`. `prepare` builds them from the official CSV releases (RAW holds
+the original dataset folders) as described in Section 3 of the report. UNSW-NB15 is
+globally deduplicated and conflicting labels are removed before an 80/20 stratified
+split; CIC-IDS-2017 and CSE-CIC-IDS2018 use a fixed group split with no identical
+raw row in both training and test; NSL-KDD keeps its official split. Scaling and
+encoding are fitted on the first task only. On 23 November 2026 the generated arrays
+for all four datasets matched the arrays used for the published results
+byte-for-byte (16 of 16 SHA-256 comparisons).
 
 The results in `results/` were produced by our earlier experiment pipeline. Run on the
 same machine, this package reproduces its thresholds, boosting iteration counts and
@@ -90,6 +97,7 @@ confusion matrices, the calibration record and the checkpoint hash.
 | `results/published_methods_s1.json` | DER++, iCaRL, ECBRS and BiC: per-seed values and paired tests |
 | `results/nsl_kdd/` | All methods on NSL-KDD (diagnostic, not part of the registered comparison) |
 | `results/benign_volume_and_hybrid/` | Benign volume 5k/10k/20k and the hybrid control R3-H |
+| `results/implementation_equivalence/` | This package versus the experiment pipeline: 40 runs, all thresholds and confusion matrices identical (checksums in `SHA256SUMS`) |
 
 ## Use of AI tools
 

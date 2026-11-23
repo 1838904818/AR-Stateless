@@ -1,0 +1,2479 @@
+{
+  "dataset": "NSL-KDD",
+  "seed": 14,
+  "method": "ar-stateless",
+  "release": [
+    {
+      "task": 0,
+      "default_cm": [
+        [
+          9537,
+          174,
+          0,
+          0,
+          0
+        ],
+        [
+          1297,
+          6163,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "calibrated_cm": {
+        "0.01": [
+          [
+            9365,
+            346,
+            0,
+            0,
+            0
+          ],
+          [
+            838,
+            6622,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "0.02": [
+          [
+            8835,
+            876,
+            0,
+            0,
+            0
+          ],
+          [
+            423,
+            7037,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "0.05": [
+          [
+            8655,
+            1056,
+            0,
+            0,
+            0
+          ],
+          [
+            300,
+            7160,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "iterations": 144,
+      "thresholds": {
+        "0.01": -8.729532241821289,
+        "0.02": -9.44838809967041,
+        "0.05": -10.10590648651123
+      }
+    },
+    {
+      "task": 1,
+      "default_cm": [
+        [
+          9445,
+          46,
+          220,
+          0,
+          0
+        ],
+        [
+          1287,
+          5870,
+          303,
+          0,
+          0
+        ],
+        [
+          798,
+          135,
+          1488,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "calibrated_cm": {
+        "0.01": [
+          [
+            8838,
+            97,
+            776,
+            0,
+            0
+          ],
+          [
+            266,
+            6303,
+            891,
+            0,
+            0
+          ],
+          [
+            53,
+            176,
+            2192,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "0.02": [
+          [
+            8744,
+            105,
+            862,
+            0,
+            0
+          ],
+          [
+            78,
+            6358,
+            1024,
+            0,
+            0
+          ],
+          [
+            3,
+            188,
+            2230,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "0.05": [
+          [
+            8565,
+            150,
+            996,
+            0,
+            0
+          ],
+          [
+            41,
+            6388,
+            1031,
+            0,
+            0
+          ],
+          [
+            0,
+            189,
+            2232,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "iterations": 87,
+      "thresholds": {
+        "0.01": -6.4722065925598145,
+        "0.02": -7.693915367126465,
+        "0.05": -9.036747932434082
+      }
+    },
+    {
+      "task": 2,
+      "default_cm": [
+        [
+          9486,
+          19,
+          205,
+          1,
+          0
+        ],
+        [
+          1661,
+          5741,
+          58,
+          0,
+          0
+        ],
+        [
+          852,
+          219,
+          1349,
+          1,
+          0
+        ],
+        [
+          2579,
+          0,
+          0,
+          306,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "calibrated_cm": {
+        "0.01": [
+          [
+            9410,
+            44,
+            228,
+            29,
+            0
+          ],
+          [
+            707,
+            6040,
+            306,
+            407,
+            0
+          ],
+          [
+            436,
+            254,
+            1728,
+            3,
+            0
+          ],
+          [
+            1906,
+            4,
+            107,
+            868,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "0.02": [
+          [
+            8847,
+            88,
+            719,
+            57,
+            0
+          ],
+          [
+            395,
+            6306,
+            344,
+            415,
+            0
+          ],
+          [
+            272,
+            326,
+            1811,
+            12,
+            0
+          ],
+          [
+            1451,
+            4,
+            120,
+            1310,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "0.05": [
+          [
+            8717,
+            123,
+            739,
+            132,
+            0
+          ],
+          [
+            312,
+            6385,
+            345,
+            418,
+            0
+          ],
+          [
+            80,
+            382,
+            1938,
+            21,
+            0
+          ],
+          [
+            1339,
+            5,
+            128,
+            1413,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "iterations": 76,
+      "thresholds": {
+        "0.01": -5.438607215881348,
+        "0.02": -6.676617622375488,
+        "0.05": -7.894317150115967
+      }
+    },
+    {
+      "task": 3,
+      "default_cm": [
+        [
+          9475,
+          32,
+          199,
+          0,
+          5
+        ],
+        [
+          2055,
+          5129,
+          276,
+          0,
+          0
+        ],
+        [
+          864,
+          153,
+          1404,
+          0,
+          0
+        ],
+        [
+          2699,
+          0,
+          0,
+          181,
+          5
+        ],
+        [
+          48,
+          0,
+          0,
+          0,
+          19
+        ]
+      ],
+      "calibrated_cm": {
+        "0.01": [
+          [
+            8921,
+            72,
+            693,
+            9,
+            16
+          ],
+          [
+            730,
+            6166,
+            503,
+            61,
+            0
+          ],
+          [
+            318,
+            328,
+            1774,
+            1,
+            0
+          ],
+          [
+            1834,
+            4,
+            241,
+            755,
+            51
+          ],
+          [
+            22,
+            0,
+            0,
+            1,
+            44
+          ]
+        ],
+        "0.02": [
+          [
+            8855,
+            94,
+            709,
+            24,
+            29
+          ],
+          [
+            604,
+            6188,
+            566,
+            62,
+            40
+          ],
+          [
+            167,
+            405,
+            1845,
+            4,
+            0
+          ],
+          [
+            1511,
+            4,
+            277,
+            1032,
+            61
+          ],
+          [
+            15,
+            0,
+            1,
+            1,
+            50
+          ]
+        ],
+        "0.05": [
+          [
+            8713,
+            155,
+            724,
+            69,
+            50
+          ],
+          [
+            310,
+            6277,
+            628,
+            195,
+            50
+          ],
+          [
+            43,
+            468,
+            1899,
+            7,
+            4
+          ],
+          [
+            1116,
+            225,
+            291,
+            1179,
+            74
+          ],
+          [
+            8,
+            0,
+            1,
+            6,
+            52
+          ]
+        ]
+      },
+      "iterations": 97,
+      "thresholds": {
+        "0.01": -5.838860034942627,
+        "0.02": -7.094252109527588,
+        "0.05": -8.483699798583984
+      }
+    }
+  ],
+  "reference": [
+    {
+      "task_index": 0,
+      "seen_classes": [
+        0,
+        1
+      ],
+      "checkpoint_file": "checkpoints/checkpoint_000.pt",
+      "checkpoint_sha256": "a4254f97776a1bafddb5b95526fc34a54837bd18da251d0bad37dcc1ce848b96",
+      "gate_schedule": {
+        "iterations": 144,
+        "backend": "histgb",
+        "elapsed_seconds": 8.731373499998881,
+        "gate_retention": false
+      },
+      "family_schedule": {
+        "backend": "shared_joint_histgb",
+        "separately_trained": false
+      },
+      "gate_training_seconds": 8.731373499998881,
+      "family_training_seconds": 0.0,
+      "postprocessing": {
+        "operations": [],
+        "logits_stored": false,
+        "weight_alignment": false,
+        "cbf": false
+      },
+      "calibration": {
+        "0.01": {
+          "target_fpr": 0.01,
+          "threshold": -8.729532241821289,
+          "decision": "attack iff gate_attack_logit - gate_normal_logit > threshold",
+          "calibration_rows": 6735,
+          "allowed_false_alarms": 67,
+          "actual_false_alarms": 67,
+          "actual_fpr": 0.009948032665181886,
+          "order_statistic_zero_based": 6667,
+          "ties": "strict greater-than; no randomized tie breaking",
+          "row_ids_sha256": "0594fe379a34701ae967e7c3509b6bb6634a4ccea9d34b14c13f6c7d9334de3d",
+          "threshold_source": "permanent Normal TRAIN holdout only; no test labels"
+        },
+        "0.02": {
+          "target_fpr": 0.02,
+          "threshold": -9.44838809967041,
+          "decision": "attack iff gate_attack_logit - gate_normal_logit > threshold",
+          "calibration_rows": 6735,
+          "allowed_false_alarms": 134,
+          "actual_false_alarms": 134,
+          "actual_fpr": 0.019896065330363772,
+          "order_statistic_zero_based": 6600,
+          "ties": "strict greater-than; no randomized tie breaking",
+          "row_ids_sha256": "0594fe379a34701ae967e7c3509b6bb6634a4ccea9d34b14c13f6c7d9334de3d",
+          "threshold_source": "permanent Normal TRAIN holdout only; no test labels"
+        },
+        "0.05": {
+          "target_fpr": 0.05,
+          "threshold": -10.10590648651123,
+          "decision": "attack iff gate_attack_logit - gate_normal_logit > threshold",
+          "calibration_rows": 6735,
+          "allowed_false_alarms": 336,
+          "actual_false_alarms": 336,
+          "actual_fpr": 0.049888641425389756,
+          "order_statistic_zero_based": 6398,
+          "ties": "strict greater-than; no randomized tie breaking",
+          "row_ids_sha256": "0594fe379a34701ae967e7c3509b6bb6634a4ccea9d34b14c13f6c7d9334de3d",
+          "threshold_source": "permanent Normal TRAIN holdout only; no test labels"
+        }
+      },
+      "operating_points": {
+        "0.01": {
+          "confusion_matrix": [
+            [
+              9365,
+              346,
+              0,
+              0,
+              0
+            ],
+            [
+              838,
+              6622,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "confusion_labels": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evaluated_rows": 17171,
+          "macro_f1": 0.9292408423590444,
+          "balanced_accuracy": 0.9260189310207075,
+          "attack_recall": 0.8876675603217158,
+          "attack_recall_definition": "P(predicted_label != Normal | true_label != Normal)",
+          "attack_family_macro_recall": 0.8876675603217158,
+          "attack_support": 7460,
+          "normal_fpr": 0.03562969828030069,
+          "normal_support": 9711,
+          "per_class": [
+            {
+              "class_id": 0,
+              "class_name": "Normal",
+              "introduced_task": 0,
+              "train_count": 67343,
+              "support": 9711,
+              "recall": 0.9643703017196993,
+              "precision": 0.9178672939331569,
+              "f1": 0.9405443406648589,
+              "error_to_newer_class": 0,
+              "error_to_normal": 0,
+              "error_to_other_old": 346,
+              "error_count": 346
+            },
+            {
+              "class_id": 1,
+              "class_name": "DoS",
+              "introduced_task": 0,
+              "train_count": 45927,
+              "support": 7460,
+              "recall": 0.8876675603217158,
+              "precision": 0.9503444316877153,
+              "f1": 0.9179373440532298,
+              "error_to_newer_class": 0,
+              "error_to_normal": 838,
+              "error_to_other_old": 0,
+              "error_count": 838
+            }
+          ],
+          "total_available_rows": 22544,
+          "excluded_unseen_rows": 5373,
+          "attack_family_macro_recall_support_ge20": 0.8876675603217158,
+          "attack_guard_excluded_classes": []
+        },
+        "0.02": {
+          "confusion_matrix": [
+            [
+              8835,
+              876,
+              0,
+              0,
+              0
+            ],
+            [
+              423,
+              7037,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "confusion_labels": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evaluated_rows": 17171,
+          "macro_f1": 0.9235105257909544,
+          "balanced_accuracy": 0.9265453026790602,
+          "attack_recall": 0.9432975871313672,
+          "attack_recall_definition": "P(predicted_label != Normal | true_label != Normal)",
+          "attack_family_macro_recall": 0.9432975871313672,
+          "attack_support": 7460,
+          "normal_fpr": 0.09020698177324683,
+          "normal_support": 9711,
+          "per_class": [
+            {
+              "class_id": 0,
+              "class_name": "Normal",
+              "introduced_task": 0,
+              "train_count": 67343,
+              "support": 9711,
+              "recall": 0.9097930182267532,
+              "precision": 0.9543097861309138,
+              "f1": 0.9315198481733354,
+              "error_to_newer_class": 0,
+              "error_to_normal": 0,
+              "error_to_other_old": 876,
+              "error_count": 876
+            },
+            {
+              "class_id": 1,
+              "class_name": "DoS",
+              "introduced_task": 0,
+              "train_count": 45927,
+              "support": 7460,
+              "recall": 0.9432975871313672,
+              "precision": 0.8892960950334892,
+              "f1": 0.9155012034085734,
+              "error_to_newer_class": 0,
+              "error_to_normal": 423,
+              "error_to_other_old": 0,
+              "error_count": 423
+            }
+          ],
+          "total_available_rows": 22544,
+          "excluded_unseen_rows": 5373,
+          "attack_family_macro_recall_support_ge20": 0.9432975871313672,
+          "attack_guard_excluded_classes": []
+        },
+        "0.05": {
+          "confusion_matrix": [
+            [
+              8655,
+              1056,
+              0,
+              0,
+              0
+            ],
+            [
+              300,
+              7160,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "confusion_labels": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evaluated_rows": 17171,
+          "macro_f1": 0.9204264448951769,
+          "balanced_accuracy": 0.9255214299143366,
+          "attack_recall": 0.9597855227882037,
+          "attack_recall_definition": "P(predicted_label != Normal | true_label != Normal)",
+          "attack_family_macro_recall": 0.9597855227882037,
+          "attack_support": 7460,
+          "normal_fpr": 0.10874266295953043,
+          "normal_support": 9711,
+          "per_class": [
+            {
+              "class_id": 0,
+              "class_name": "Normal",
+              "introduced_task": 0,
+              "train_count": 67343,
+              "support": 9711,
+              "recall": 0.8912573370404696,
+              "precision": 0.966499162479062,
+              "f1": 0.9273545483767277,
+              "error_to_newer_class": 0,
+              "error_to_normal": 0,
+              "error_to_other_old": 1056,
+              "error_count": 1056
+            },
+            {
+              "class_id": 1,
+              "class_name": "DoS",
+              "introduced_task": 0,
+              "train_count": 45927,
+              "support": 7460,
+              "recall": 0.9597855227882037,
+              "precision": 0.8714703018500487,
+              "f1": 0.913498341413626,
+              "error_to_newer_class": 0,
+              "error_to_normal": 300,
+              "error_to_other_old": 0,
+              "error_count": 300
+            }
+          ],
+          "total_available_rows": 22544,
+          "excluded_unseen_rows": 5373,
+          "attack_family_macro_recall_support_ge20": 0.9597855227882037,
+          "attack_guard_excluded_classes": []
+        }
+      },
+      "default_decision": {
+        "confusion_matrix": [
+          [
+            9537,
+            174,
+            0,
+            0,
+            0
+          ],
+          [
+            1297,
+            6163,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "seen_classes": [
+          0,
+          1
+        ],
+        "accuracy": 0.9143323044668337,
+        "macro_f1": 0.9108918451150838,
+        "weighted_f1": 0.9131871841787438,
+        "attack_detection": 0.8261394101876676,
+        "normal_fpr": 0.017917825146740785,
+        "per_class_recall": {
+          "0": 0.9820821748532592,
+          "1": 0.8261394101876676
+        },
+        "evaluated_test_rows": 17171
+      },
+      "stage_attempt_seconds": 10.009453399994527
+    },
+    {
+      "task_index": 1,
+      "seen_classes": [
+        0,
+        1,
+        2
+      ],
+      "checkpoint_file": "checkpoints/checkpoint_001.pt",
+      "checkpoint_sha256": "24e1785f69aa22291ff0f4b63bcc13b54155b484ced7771c4f4ac73f7806236e",
+      "gate_schedule": {
+        "iterations": 87,
+        "backend": "histgb",
+        "elapsed_seconds": 13.992550599999959,
+        "gate_retention": false
+      },
+      "family_schedule": {
+        "backend": "shared_joint_histgb",
+        "separately_trained": false
+      },
+      "gate_training_seconds": 13.992550599999959,
+      "family_training_seconds": 0.0,
+      "postprocessing": {
+        "operations": [],
+        "logits_stored": false,
+        "weight_alignment": false,
+        "cbf": false
+      },
+      "calibration": {
+        "0.01": {
+          "target_fpr": 0.01,
+          "threshold": -6.4722065925598145,
+          "decision": "attack iff gate_attack_logit - gate_normal_logit > threshold",
+          "calibration_rows": 6735,
+          "allowed_false_alarms": 67,
+          "actual_false_alarms": 67,
+          "actual_fpr": 0.009948032665181886,
+          "order_statistic_zero_based": 6667,
+          "ties": "strict greater-than; no randomized tie breaking",
+          "row_ids_sha256": "0594fe379a34701ae967e7c3509b6bb6634a4ccea9d34b14c13f6c7d9334de3d",
+          "threshold_source": "permanent Normal TRAIN holdout only; no test labels"
+        },
+        "0.02": {
+          "target_fpr": 0.02,
+          "threshold": -7.693915367126465,
+          "decision": "attack iff gate_attack_logit - gate_normal_logit > threshold",
+          "calibration_rows": 6735,
+          "allowed_false_alarms": 134,
+          "actual_false_alarms": 134,
+          "actual_fpr": 0.019896065330363772,
+          "order_statistic_zero_based": 6600,
+          "ties": "strict greater-than; no randomized tie breaking",
+          "row_ids_sha256": "0594fe379a34701ae967e7c3509b6bb6634a4ccea9d34b14c13f6c7d9334de3d",
+          "threshold_source": "permanent Normal TRAIN holdout only; no test labels"
+        },
+        "0.05": {
+          "target_fpr": 0.05,
+          "threshold": -9.036747932434082,
+          "decision": "attack iff gate_attack_logit - gate_normal_logit > threshold",
+          "calibration_rows": 6735,
+          "allowed_false_alarms": 336,
+          "actual_false_alarms": 336,
+          "actual_fpr": 0.049888641425389756,
+          "order_statistic_zero_based": 6398,
+          "ties": "strict greater-than; no randomized tie breaking",
+          "row_ids_sha256": "0594fe379a34701ae967e7c3509b6bb6634a4ccea9d34b14c13f6c7d9334de3d",
+          "threshold_source": "permanent Normal TRAIN holdout only; no test labels"
+        }
+      },
+      "operating_points": {
+        "0.01": {
+          "confusion_matrix": [
+            [
+              8838,
+              97,
+              776,
+              0,
+              0
+            ],
+            [
+              266,
+              6303,
+              891,
+              0,
+              0
+            ],
+            [
+              53,
+              176,
+              2192,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "confusion_labels": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evaluated_rows": 19592,
+          "macro_f1": 0.8443441823115215,
+          "balanced_accuracy": 0.8868063665539125,
+          "attack_recall": 0.9677158182370206,
+          "attack_recall_definition": "P(predicted_label != Normal | true_label != Normal)",
+          "attack_family_macro_recall": 0.8751585767076064,
+          "attack_support": 9881,
+          "normal_fpr": 0.08989805375347544,
+          "normal_support": 9711,
+          "per_class": [
+            {
+              "class_id": 0,
+              "class_name": "Normal",
+              "introduced_task": 0,
+              "train_count": 67343,
+              "support": 9711,
+              "recall": 0.9101019462465245,
+              "precision": 0.9651632630774271,
+              "f1": 0.9368242527029892,
+              "error_to_newer_class": 776,
+              "error_to_normal": 0,
+              "error_to_other_old": 97,
+              "error_count": 873
+            },
+            {
+              "class_id": 1,
+              "class_name": "DoS",
+              "introduced_task": 0,
+              "train_count": 45927,
+              "support": 7460,
+              "recall": 0.8449061662198392,
+              "precision": 0.9584854014598541,
+              "f1": 0.8981191222570533,
+              "error_to_newer_class": 891,
+              "error_to_normal": 266,
+              "error_to_other_old": 0,
+              "error_count": 1157
+            },
+            {
+              "class_id": 2,
+              "class_name": "Probe",
+              "introduced_task": 1,
+              "train_count": 11656,
+              "support": 2421,
+              "recall": 0.9054109871953738,
+              "precision": 0.5680228038351904,
+              "f1": 0.6980891719745222,
+              "error_to_newer_class": 0,
+              "error_to_normal": 53,
+              "error_to_other_old": 176,
+              "error_count": 229
+            }
+          ],
+          "total_available_rows": 22544,
+          "excluded_unseen_rows": 2952,
+          "attack_family_macro_recall_support_ge20": 0.8751585767076064,
+          "attack_guard_excluded_classes": []
+        },
+        "0.02": {
+          "confusion_matrix": [
+            [
+              8744,
+              105,
+              862,
+              0,
+              0
+            ],
+            [
+              78,
+              6358,
+              1024,
+              0,
+              0
+            ],
+            [
+              3,
+              188,
+              2230,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "confusion_labels": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evaluated_rows": 19592,
+          "macro_f1": 0.8422908269450989,
+          "balanced_accuracy": 0.8912693341962968,
+          "attack_recall": 0.9918024491448234,
+          "attack_recall_definition": "P(predicted_label != Normal | true_label != Normal)",
+          "attack_family_macro_recall": 0.8866929004809347,
+          "attack_support": 9881,
+          "normal_fpr": 0.0995777983729791,
+          "normal_support": 9711,
+          "per_class": [
+            {
+              "class_id": 0,
+              "class_name": "Normal",
+              "introduced_task": 0,
+              "train_count": 67343,
+              "support": 9711,
+              "recall": 0.9004222016270209,
+              "precision": 0.9908215297450425,
+              "f1": 0.9434613724643937,
+              "error_to_newer_class": 862,
+              "error_to_normal": 0,
+              "error_to_other_old": 105,
+              "error_count": 967
+            },
+            {
+              "class_id": 1,
+              "class_name": "DoS",
+              "introduced_task": 0,
+              "train_count": 45927,
+              "support": 7460,
+              "recall": 0.8522788203753351,
+              "precision": 0.9559464742144038,
+              "f1": 0.9011409538657784,
+              "error_to_newer_class": 1024,
+              "error_to_normal": 78,
+              "error_to_other_old": 0,
+              "error_count": 1102
+            },
+            {
+              "class_id": 2,
+              "class_name": "Probe",
+              "introduced_task": 1,
+              "train_count": 11656,
+              "support": 2421,
+              "recall": 0.9211069805865345,
+              "precision": 0.5417881438289601,
+              "f1": 0.6822701545051246,
+              "error_to_newer_class": 0,
+              "error_to_normal": 3,
+              "error_to_other_old": 188,
+              "error_count": 191
+            }
+          ],
+          "total_available_rows": 22544,
+          "excluded_unseen_rows": 2952,
+          "attack_family_macro_recall_support_ge20": 0.8866929004809347,
+          "attack_guard_excluded_classes": []
+        },
+        "0.05": {
+          "confusion_matrix": [
+            [
+              8565,
+              150,
+              996,
+              0,
+              0
+            ],
+            [
+              41,
+              6388,
+              1031,
+              0,
+              0
+            ],
+            [
+              0,
+              189,
+              2232,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "confusion_labels": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evaluated_rows": 19592,
+          "macro_f1": 0.8346676783880554,
+          "balanced_accuracy": 0.8867409500152337,
+          "attack_recall": 0.995850622406639,
+          "attack_recall_definition": "P(predicted_label != Normal | true_label != Normal)",
+          "attack_family_macro_recall": 0.8891166767991867,
+          "attack_support": 9881,
+          "normal_fpr": 0.11801050355267223,
+          "normal_support": 9711,
+          "per_class": [
+            {
+              "class_id": 0,
+              "class_name": "Normal",
+              "introduced_task": 0,
+              "train_count": 67343,
+              "support": 9711,
+              "recall": 0.8819894964473278,
+              "precision": 0.9952358819428306,
+              "f1": 0.9351968117049735,
+              "error_to_newer_class": 996,
+              "error_to_normal": 0,
+              "error_to_other_old": 150,
+              "error_count": 1146
+            },
+            {
+              "class_id": 1,
+              "class_name": "DoS",
+              "introduced_task": 0,
+              "train_count": 45927,
+              "support": 7460,
+              "recall": 0.8563002680965147,
+              "precision": 0.9496060651107477,
+              "f1": 0.9005427504053006,
+              "error_to_newer_class": 1031,
+              "error_to_normal": 41,
+              "error_to_other_old": 0,
+              "error_count": 1072
+            },
+            {
+              "class_id": 2,
+              "class_name": "Probe",
+              "introduced_task": 1,
+              "train_count": 11656,
+              "support": 2421,
+              "recall": 0.9219330855018587,
+              "precision": 0.5240666823197934,
+              "f1": 0.6682634730538922,
+              "error_to_newer_class": 0,
+              "error_to_normal": 0,
+              "error_to_other_old": 189,
+              "error_count": 189
+            }
+          ],
+          "total_available_rows": 22544,
+          "excluded_unseen_rows": 2952,
+          "attack_family_macro_recall_support_ge20": 0.8891166767991867,
+          "attack_guard_excluded_classes": []
+        }
+      },
+      "default_decision": {
+        "confusion_matrix": [
+          [
+            9445,
+            46,
+            220,
+            0,
+            0
+          ],
+          [
+            1287,
+            5870,
+            303,
+            0,
+            0
+          ],
+          [
+            798,
+            135,
+            1488,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "seen_classes": [
+          0,
+          1,
+          2
+        ],
+        "accuracy": 0.8576459779501837,
+        "macro_f1": 0.8099065308510017,
+        "weighted_f1": 0.8546332250539764,
+        "attack_detection": 0.7889889687278615,
+        "normal_fpr": 0.027391617753063535,
+        "per_class_recall": {
+          "0": 0.9726083822469365,
+          "1": 0.7868632707774799,
+          "2": 0.6146220570012392
+        },
+        "evaluated_test_rows": 19592
+      },
+      "stage_attempt_seconds": 16.28898059999483
+    },
+    {
+      "task_index": 2,
+      "seen_classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "checkpoint_file": "checkpoints/checkpoint_002.pt",
+      "checkpoint_sha256": "d8a4ed9016e9ad7d341192b39bdc1ca7bfc7ea9085d07017d4197fe6e51d0d34",
+      "gate_schedule": {
+        "iterations": 76,
+        "backend": "histgb",
+        "elapsed_seconds": 12.735736700000416,
+        "gate_retention": false
+      },
+      "family_schedule": {
+        "backend": "shared_joint_histgb",
+        "separately_trained": false
+      },
+      "gate_training_seconds": 12.735736700000416,
+      "family_training_seconds": 0.0,
+      "postprocessing": {
+        "operations": [],
+        "logits_stored": false,
+        "weight_alignment": false,
+        "cbf": false
+      },
+      "calibration": {
+        "0.01": {
+          "target_fpr": 0.01,
+          "threshold": -5.438607215881348,
+          "decision": "attack iff gate_attack_logit - gate_normal_logit > threshold",
+          "calibration_rows": 6735,
+          "allowed_false_alarms": 67,
+          "actual_false_alarms": 67,
+          "actual_fpr": 0.009948032665181886,
+          "order_statistic_zero_based": 6667,
+          "ties": "strict greater-than; no randomized tie breaking",
+          "row_ids_sha256": "0594fe379a34701ae967e7c3509b6bb6634a4ccea9d34b14c13f6c7d9334de3d",
+          "threshold_source": "permanent Normal TRAIN holdout only; no test labels"
+        },
+        "0.02": {
+          "target_fpr": 0.02,
+          "threshold": -6.676617622375488,
+          "decision": "attack iff gate_attack_logit - gate_normal_logit > threshold",
+          "calibration_rows": 6735,
+          "allowed_false_alarms": 134,
+          "actual_false_alarms": 134,
+          "actual_fpr": 0.019896065330363772,
+          "order_statistic_zero_based": 6600,
+          "ties": "strict greater-than; no randomized tie breaking",
+          "row_ids_sha256": "0594fe379a34701ae967e7c3509b6bb6634a4ccea9d34b14c13f6c7d9334de3d",
+          "threshold_source": "permanent Normal TRAIN holdout only; no test labels"
+        },
+        "0.05": {
+          "target_fpr": 0.05,
+          "threshold": -7.894317150115967,
+          "decision": "attack iff gate_attack_logit - gate_normal_logit > threshold",
+          "calibration_rows": 6735,
+          "allowed_false_alarms": 336,
+          "actual_false_alarms": 336,
+          "actual_fpr": 0.049888641425389756,
+          "order_statistic_zero_based": 6398,
+          "ties": "strict greater-than; no randomized tie breaking",
+          "row_ids_sha256": "0594fe379a34701ae967e7c3509b6bb6634a4ccea9d34b14c13f6c7d9334de3d",
+          "threshold_source": "permanent Normal TRAIN holdout only; no test labels"
+        }
+      },
+      "operating_points": {
+        "0.01": {
+          "confusion_matrix": [
+            [
+              9410,
+              44,
+              228,
+              29,
+              0
+            ],
+            [
+              707,
+              6040,
+              306,
+              407,
+              0
+            ],
+            [
+              436,
+              254,
+              1728,
+              3,
+              0
+            ],
+            [
+              1906,
+              4,
+              107,
+              868,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "confusion_labels": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evaluated_rows": 22477,
+          "macro_f1": 0.714938911267632,
+          "balanced_accuracy": 0.6983192236284417,
+          "attack_recall": 0.7611624627917907,
+          "attack_recall_definition": "P(predicted_label != Normal | true_label != Normal)",
+          "attack_family_macro_recall": 0.6080908908324988,
+          "attack_support": 12766,
+          "normal_fpr": 0.03099577798372979,
+          "normal_support": 9711,
+          "per_class": [
+            {
+              "class_id": 0,
+              "class_name": "Normal",
+              "introduced_task": 0,
+              "train_count": 67343,
+              "support": 9711,
+              "recall": 0.9690042220162702,
+              "precision": 0.7552773095754073,
+              "f1": 0.8488949030221019,
+              "error_to_newer_class": 257,
+              "error_to_normal": 0,
+              "error_to_other_old": 44,
+              "error_count": 301
+            },
+            {
+              "class_id": 1,
+              "class_name": "DoS",
+              "introduced_task": 0,
+              "train_count": 45927,
+              "support": 7460,
+              "recall": 0.8096514745308311,
+              "precision": 0.9523809523809523,
+              "f1": 0.8752354731198377,
+              "error_to_newer_class": 713,
+              "error_to_normal": 707,
+              "error_to_other_old": 0,
+              "error_count": 1420
+            },
+            {
+              "class_id": 2,
+              "class_name": "Probe",
+              "introduced_task": 1,
+              "train_count": 11656,
+              "support": 2421,
+              "recall": 0.7137546468401487,
+              "precision": 0.729421696918531,
+              "f1": 0.7215031315240084,
+              "error_to_newer_class": 3,
+              "error_to_normal": 436,
+              "error_to_other_old": 254,
+              "error_count": 693
+            },
+            {
+              "class_id": 3,
+              "class_name": "R2L",
+              "introduced_task": 2,
+              "train_count": 995,
+              "support": 2885,
+              "recall": 0.30086655112651645,
+              "precision": 0.6641162968630452,
+              "f1": 0.41412213740458015,
+              "error_to_newer_class": 0,
+              "error_to_normal": 1906,
+              "error_to_other_old": 111,
+              "error_count": 2017
+            }
+          ],
+          "total_available_rows": 22544,
+          "excluded_unseen_rows": 67,
+          "attack_family_macro_recall_support_ge20": 0.6080908908324988,
+          "attack_guard_excluded_classes": []
+        },
+        "0.02": {
+          "confusion_matrix": [
+            [
+              8847,
+              88,
+              719,
+              57,
+              0
+            ],
+            [
+              395,
+              6306,
+              344,
+              415,
+              0
+            ],
+            [
+              272,
+              326,
+              1811,
+              12,
+              0
+            ],
+            [
+              1451,
+              4,
+              120,
+              1310,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "confusion_labels": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evaluated_rows": 22477,
+          "macro_f1": 0.7434442870744878,
+          "balanced_accuracy": 0.7396119581046321,
+          "attack_recall": 0.8340905530314899,
+          "attack_recall_definition": "P(predicted_label != Normal | true_label != Normal)",
+          "attack_family_macro_recall": 0.6824730340375632,
+          "attack_support": 12766,
+          "normal_fpr": 0.08897126969416126,
+          "normal_support": 9711,
+          "per_class": [
+            {
+              "class_id": 0,
+              "class_name": "Normal",
+              "introduced_task": 0,
+              "train_count": 67343,
+              "support": 9711,
+              "recall": 0.9110287303058388,
+              "precision": 0.8068399452804378,
+              "f1": 0.8557748113755078,
+              "error_to_newer_class": 776,
+              "error_to_normal": 0,
+              "error_to_other_old": 88,
+              "error_count": 864
+            },
+            {
+              "class_id": 1,
+              "class_name": "DoS",
+              "introduced_task": 0,
+              "train_count": 45927,
+              "support": 7460,
+              "recall": 0.8453083109919571,
+              "precision": 0.9378346222486615,
+              "f1": 0.88917089678511,
+              "error_to_newer_class": 759,
+              "error_to_normal": 395,
+              "error_to_other_old": 0,
+              "error_count": 1154
+            },
+            {
+              "class_id": 2,
+              "class_name": "Probe",
+              "introduced_task": 1,
+              "train_count": 11656,
+              "support": 2421,
+              "recall": 0.7480380008261049,
+              "precision": 0.604876419505678,
+              "f1": 0.6688827331486611,
+              "error_to_newer_class": 12,
+              "error_to_normal": 272,
+              "error_to_other_old": 326,
+              "error_count": 610
+            },
+            {
+              "class_id": 3,
+              "class_name": "R2L",
+              "introduced_task": 2,
+              "train_count": 995,
+              "support": 2885,
+              "recall": 0.4540727902946274,
+              "precision": 0.7302118171683389,
+              "f1": 0.5599487069886728,
+              "error_to_newer_class": 0,
+              "error_to_normal": 1451,
+              "error_to_other_old": 124,
+              "error_count": 1575
+            }
+          ],
+          "total_available_rows": 22544,
+          "excluded_unseen_rows": 67,
+          "attack_family_macro_recall_support_ge20": 0.6824730340375632,
+          "attack_guard_excluded_classes": []
+        },
+        "0.05": {
+          "confusion_matrix": [
+            [
+              8717,
+              123,
+              739,
+              132,
+              0
+            ],
+            [
+              312,
+              6385,
+              345,
+              418,
+              0
+            ],
+            [
+              80,
+              382,
+              1938,
+              21,
+              0
+            ],
+            [
+              1339,
+              5,
+              128,
+              1413,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "confusion_labels": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evaluated_rows": 22477,
+          "macro_f1": 0.7576406588251468,
+          "balanced_accuracy": 0.7609525831074437,
+          "attack_recall": 0.8644054519818267,
+          "attack_recall_definition": "P(predicted_label != Normal | true_label != Normal)",
+          "attack_family_macro_recall": 0.7153894943268989,
+          "attack_support": 12766,
+          "normal_fpr": 0.10235815055092164,
+          "normal_support": 9711,
+          "per_class": [
+            {
+              "class_id": 0,
+              "class_name": "Normal",
+              "introduced_task": 0,
+              "train_count": 67343,
+              "support": 9711,
+              "recall": 0.8976418494490783,
+              "precision": 0.8343223583460949,
+              "f1": 0.8648246440795674,
+              "error_to_newer_class": 871,
+              "error_to_normal": 0,
+              "error_to_other_old": 123,
+              "error_count": 994
+            },
+            {
+              "class_id": 1,
+              "class_name": "DoS",
+              "introduced_task": 0,
+              "train_count": 45927,
+              "support": 7460,
+              "recall": 0.8558981233243967,
+              "precision": 0.9260333575054387,
+              "f1": 0.8895855102751654,
+              "error_to_newer_class": 763,
+              "error_to_normal": 312,
+              "error_to_other_old": 0,
+              "error_count": 1075
+            },
+            {
+              "class_id": 2,
+              "class_name": "Probe",
+              "introduced_task": 1,
+              "train_count": 11656,
+              "support": 2421,
+              "recall": 0.8004956629491945,
+              "precision": 0.6152380952380953,
+              "f1": 0.6957458266020463,
+              "error_to_newer_class": 21,
+              "error_to_normal": 80,
+              "error_to_other_old": 382,
+              "error_count": 483
+            },
+            {
+              "class_id": 3,
+              "class_name": "R2L",
+              "introduced_task": 2,
+              "train_count": 995,
+              "support": 2885,
+              "recall": 0.4897746967071057,
+              "precision": 0.7121975806451613,
+              "f1": 0.5804066543438078,
+              "error_to_newer_class": 0,
+              "error_to_normal": 1339,
+              "error_to_other_old": 133,
+              "error_count": 1472
+            }
+          ],
+          "total_available_rows": 22544,
+          "excluded_unseen_rows": 67,
+          "attack_family_macro_recall_support_ge20": 0.7153894943268989,
+          "attack_guard_excluded_classes": []
+        }
+      },
+      "default_decision": {
+        "confusion_matrix": [
+          [
+            9486,
+            19,
+            205,
+            1,
+            0
+          ],
+          [
+            1661,
+            5741,
+            58,
+            0,
+            0
+          ],
+          [
+            852,
+            219,
+            1349,
+            1,
+            0
+          ],
+          [
+            2579,
+            0,
+            0,
+            306,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "seen_classes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "accuracy": 0.7510788806335364,
+        "macro_f1": 0.6240308881620656,
+        "weighted_f1": 0.7176866703580418,
+        "attack_detection": 0.6011279962400125,
+        "normal_fpr": 0.023169601482854518,
+        "per_class_recall": {
+          "0": 0.9768303985171455,
+          "1": 0.7695710455764075,
+          "2": 0.5572077653862041,
+          "3": 0.10606585788561525
+        },
+        "evaluated_test_rows": 22477
+      },
+      "stage_attempt_seconds": 15.480277099995874
+    },
+    {
+      "task_index": 3,
+      "seen_classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "checkpoint_file": "checkpoints/checkpoint_003.pt",
+      "checkpoint_sha256": "f14a7550603f532612b097ff1c3ad91f3d449a864c9ee6ebba405ab720158961",
+      "gate_schedule": {
+        "iterations": 97,
+        "backend": "histgb",
+        "elapsed_seconds": 17.411157900001854,
+        "gate_retention": false
+      },
+      "family_schedule": {
+        "backend": "shared_joint_histgb",
+        "separately_trained": false
+      },
+      "gate_training_seconds": 17.411157900001854,
+      "family_training_seconds": 0.0,
+      "postprocessing": {
+        "operations": [],
+        "logits_stored": false,
+        "weight_alignment": false,
+        "cbf": false
+      },
+      "calibration": {
+        "0.01": {
+          "target_fpr": 0.01,
+          "threshold": -5.838860034942627,
+          "decision": "attack iff gate_attack_logit - gate_normal_logit > threshold",
+          "calibration_rows": 6735,
+          "allowed_false_alarms": 67,
+          "actual_false_alarms": 67,
+          "actual_fpr": 0.009948032665181886,
+          "order_statistic_zero_based": 6667,
+          "ties": "strict greater-than; no randomized tie breaking",
+          "row_ids_sha256": "0594fe379a34701ae967e7c3509b6bb6634a4ccea9d34b14c13f6c7d9334de3d",
+          "threshold_source": "permanent Normal TRAIN holdout only; no test labels"
+        },
+        "0.02": {
+          "target_fpr": 0.02,
+          "threshold": -7.094252109527588,
+          "decision": "attack iff gate_attack_logit - gate_normal_logit > threshold",
+          "calibration_rows": 6735,
+          "allowed_false_alarms": 134,
+          "actual_false_alarms": 134,
+          "actual_fpr": 0.019896065330363772,
+          "order_statistic_zero_based": 6600,
+          "ties": "strict greater-than; no randomized tie breaking",
+          "row_ids_sha256": "0594fe379a34701ae967e7c3509b6bb6634a4ccea9d34b14c13f6c7d9334de3d",
+          "threshold_source": "permanent Normal TRAIN holdout only; no test labels"
+        },
+        "0.05": {
+          "target_fpr": 0.05,
+          "threshold": -8.483699798583984,
+          "decision": "attack iff gate_attack_logit - gate_normal_logit > threshold",
+          "calibration_rows": 6735,
+          "allowed_false_alarms": 336,
+          "actual_false_alarms": 336,
+          "actual_fpr": 0.049888641425389756,
+          "order_statistic_zero_based": 6398,
+          "ties": "strict greater-than; no randomized tie breaking",
+          "row_ids_sha256": "0594fe379a34701ae967e7c3509b6bb6634a4ccea9d34b14c13f6c7d9334de3d",
+          "threshold_source": "permanent Normal TRAIN holdout only; no test labels"
+        }
+      },
+      "operating_points": {
+        "0.01": {
+          "confusion_matrix": [
+            [
+              8921,
+              72,
+              693,
+              9,
+              16
+            ],
+            [
+              730,
+              6166,
+              503,
+              61,
+              0
+            ],
+            [
+              318,
+              328,
+              1774,
+              1,
+              0
+            ],
+            [
+              1834,
+              4,
+              241,
+              755,
+              51
+            ],
+            [
+              22,
+              0,
+              0,
+              1,
+              44
+            ]
+          ],
+          "confusion_labels": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evaluated_rows": 22544,
+          "macro_f1": 0.6477178577021518,
+          "balanced_accuracy": 0.6792720855528691,
+          "attack_recall": 0.7737084080105977,
+          "attack_recall_definition": "P(predicted_label != Normal | true_label != Normal)",
+          "attack_family_macro_recall": 0.619427868242703,
+          "attack_support": 12833,
+          "normal_fpr": 0.0813510452064669,
+          "normal_support": 9711,
+          "per_class": [
+            {
+              "class_id": 0,
+              "class_name": "Normal",
+              "introduced_task": 0,
+              "train_count": 67343,
+              "support": 9711,
+              "recall": 0.9186489547935331,
+              "precision": 0.7544186046511628,
+              "f1": 0.8284732540861813,
+              "error_to_newer_class": 718,
+              "error_to_normal": 0,
+              "error_to_other_old": 72,
+              "error_count": 790
+            },
+            {
+              "class_id": 1,
+              "class_name": "DoS",
+              "introduced_task": 0,
+              "train_count": 45927,
+              "support": 7460,
+              "recall": 0.8265415549597855,
+              "precision": 0.9385083713850837,
+              "f1": 0.8789736279401283,
+              "error_to_newer_class": 564,
+              "error_to_normal": 730,
+              "error_to_other_old": 0,
+              "error_count": 1294
+            },
+            {
+              "class_id": 2,
+              "class_name": "Probe",
+              "introduced_task": 1,
+              "train_count": 11656,
+              "support": 2421,
+              "recall": 0.7327550598926064,
+              "precision": 0.5524758642167549,
+              "f1": 0.6299715909090909,
+              "error_to_newer_class": 1,
+              "error_to_normal": 318,
+              "error_to_other_old": 328,
+              "error_count": 647
+            },
+            {
+              "class_id": 3,
+              "class_name": "R2L",
+              "introduced_task": 2,
+              "train_count": 995,
+              "support": 2885,
+              "recall": 0.2616984402079723,
+              "precision": 0.9129383313180169,
+              "f1": 0.4067887931034483,
+              "error_to_newer_class": 51,
+              "error_to_normal": 1834,
+              "error_to_other_old": 245,
+              "error_count": 2130
+            },
+            {
+              "class_id": 4,
+              "class_name": "U2R",
+              "introduced_task": 3,
+              "train_count": 52,
+              "support": 67,
+              "recall": 0.6567164179104478,
+              "precision": 0.3963963963963964,
+              "f1": 0.4943820224719101,
+              "error_to_newer_class": 0,
+              "error_to_normal": 22,
+              "error_to_other_old": 1,
+              "error_count": 23
+            }
+          ],
+          "total_available_rows": 22544,
+          "excluded_unseen_rows": 0,
+          "attack_family_macro_recall_support_ge20": 0.619427868242703,
+          "attack_guard_excluded_classes": []
+        },
+        "0.02": {
+          "confusion_matrix": [
+            [
+              8855,
+              94,
+              709,
+              24,
+              29
+            ],
+            [
+              604,
+              6188,
+              566,
+              62,
+              40
+            ],
+            [
+              167,
+              405,
+              1845,
+              4,
+              0
+            ],
+            [
+              1511,
+              4,
+              277,
+              1032,
+              61
+            ],
+            [
+              15,
+              0,
+              1,
+              1,
+              50
+            ]
+          ],
+          "confusion_labels": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evaluated_rows": 22544,
+          "macro_f1": 0.6554792621604953,
+          "balanced_accuracy": 0.7214811802219157,
+          "attack_recall": 0.8210083378789059,
+          "attack_recall_definition": "P(predicted_label != Normal | true_label != Normal)",
+          "attack_family_macro_recall": 0.6738883406877538,
+          "attack_support": 12833,
+          "normal_fpr": 0.08814746164143754,
+          "normal_support": 9711,
+          "per_class": [
+            {
+              "class_id": 0,
+              "class_name": "Normal",
+              "introduced_task": 0,
+              "train_count": 67343,
+              "support": 9711,
+              "recall": 0.9118525383585625,
+              "precision": 0.7940279770444764,
+              "f1": 0.8488712074006615,
+              "error_to_newer_class": 762,
+              "error_to_normal": 0,
+              "error_to_other_old": 94,
+              "error_count": 856
+            },
+            {
+              "class_id": 1,
+              "class_name": "DoS",
+              "introduced_task": 0,
+              "train_count": 45927,
+              "support": 7460,
+              "recall": 0.8294906166219839,
+              "precision": 0.9248243909729488,
+              "f1": 0.8745671683979931,
+              "error_to_newer_class": 668,
+              "error_to_normal": 604,
+              "error_to_other_old": 0,
+              "error_count": 1272
+            },
+            {
+              "class_id": 2,
+              "class_name": "Probe",
+              "introduced_task": 1,
+              "train_count": 11656,
+              "support": 2421,
+              "recall": 0.7620817843866171,
+              "precision": 0.5429664508534432,
+              "f1": 0.6341295755284413,
+              "error_to_newer_class": 4,
+              "error_to_normal": 167,
+              "error_to_other_old": 405,
+              "error_count": 576
+            },
+            {
+              "class_id": 3,
+              "class_name": "R2L",
+              "introduced_task": 2,
+              "train_count": 995,
+              "support": 2885,
+              "recall": 0.35771230502599655,
+              "precision": 0.918967052537845,
+              "f1": 0.5149700598802395,
+              "error_to_newer_class": 61,
+              "error_to_normal": 1511,
+              "error_to_other_old": 281,
+              "error_count": 1853
+            },
+            {
+              "class_id": 4,
+              "class_name": "U2R",
+              "introduced_task": 3,
+              "train_count": 52,
+              "support": 67,
+              "recall": 0.746268656716418,
+              "precision": 0.2777777777777778,
+              "f1": 0.4048582995951417,
+              "error_to_newer_class": 0,
+              "error_to_normal": 15,
+              "error_to_other_old": 2,
+              "error_count": 17
+            }
+          ],
+          "total_available_rows": 22544,
+          "excluded_unseen_rows": 0,
+          "attack_family_macro_recall_support_ge20": 0.6738883406877538,
+          "attack_guard_excluded_classes": []
+        },
+        "0.05": {
+          "confusion_matrix": [
+            [
+              8713,
+              155,
+              724,
+              69,
+              50
+            ],
+            [
+              310,
+              6277,
+              628,
+              195,
+              50
+            ],
+            [
+              43,
+              468,
+              1899,
+              7,
+              4
+            ],
+            [
+              1116,
+              225,
+              291,
+              1179,
+              74
+            ],
+            [
+              8,
+              0,
+              1,
+              6,
+              52
+            ]
+          ],
+          "confusion_labels": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "evaluated_rows": 22544,
+          "macro_f1": 0.6533127643660126,
+          "balanced_accuracy": 0.7415644776602954,
+          "attack_recall": 0.8849061014571807,
+          "attack_recall_definition": "P(predicted_label != Normal | true_label != Normal)",
+          "attack_family_macro_recall": 0.7026481107196902,
+          "attack_support": 12833,
+          "normal_fpr": 0.1027700545772835,
+          "normal_support": 9711,
+          "per_class": [
+            {
+              "class_id": 0,
+              "class_name": "Normal",
+              "introduced_task": 0,
+              "train_count": 67343,
+              "support": 9711,
+              "recall": 0.8972299454227165,
+              "precision": 0.855053974484789,
+              "f1": 0.8756343902316467,
+              "error_to_newer_class": 843,
+              "error_to_normal": 0,
+              "error_to_other_old": 155,
+              "error_count": 998
+            },
+            {
+              "class_id": 1,
+              "class_name": "DoS",
+              "introduced_task": 0,
+              "train_count": 45927,
+              "support": 7460,
+              "recall": 0.8414209115281501,
+              "precision": 0.8809824561403509,
+              "f1": 0.8607473431607816,
+              "error_to_newer_class": 873,
+              "error_to_normal": 310,
+              "error_to_other_old": 0,
+              "error_count": 1183
+            },
+            {
+              "class_id": 2,
+              "class_name": "Probe",
+              "introduced_task": 1,
+              "train_count": 11656,
+              "support": 2421,
+              "recall": 0.7843866171003717,
+              "precision": 0.5359864521591872,
+              "f1": 0.6368209255533199,
+              "error_to_newer_class": 11,
+              "error_to_normal": 43,
+              "error_to_other_old": 468,
+              "error_count": 522
+            },
+            {
+              "class_id": 3,
+              "class_name": "R2L",
+              "introduced_task": 2,
+              "train_count": 995,
+              "support": 2885,
+              "recall": 0.40866551126516465,
+              "precision": 0.8097527472527473,
+              "f1": 0.5431928127159641,
+              "error_to_newer_class": 74,
+              "error_to_normal": 1116,
+              "error_to_other_old": 516,
+              "error_count": 1706
+            },
+            {
+              "class_id": 4,
+              "class_name": "U2R",
+              "introduced_task": 3,
+              "train_count": 52,
+              "support": 67,
+              "recall": 0.7761194029850746,
+              "precision": 0.22608695652173913,
+              "f1": 0.3501683501683502,
+              "error_to_newer_class": 0,
+              "error_to_normal": 8,
+              "error_to_other_old": 7,
+              "error_count": 15
+            }
+          ],
+          "total_available_rows": 22544,
+          "excluded_unseen_rows": 0,
+          "attack_family_macro_recall_support_ge20": 0.7026481107196902,
+          "attack_guard_excluded_classes": []
+        }
+      },
+      "default_decision": {
+        "confusion_matrix": [
+          [
+            9475,
+            32,
+            199,
+            0,
+            5
+          ],
+          [
+            2055,
+            5129,
+            276,
+            0,
+            0
+          ],
+          [
+            864,
+            153,
+            1404,
+            0,
+            0
+          ],
+          [
+            2699,
+            0,
+            0,
+            181,
+            5
+          ],
+          [
+            48,
+            0,
+            0,
+            0,
+            19
+          ]
+        ],
+        "seen_classes": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "accuracy": 0.7189496096522356,
+        "macro_f1": 0.5464954475492299,
+        "weighted_f1": 0.6806047300998729,
+        "attack_detection": 0.5584820384945064,
+        "normal_fpr": 0.024302337555349607,
+        "per_class_recall": {
+          "0": 0.9756976624446504,
+          "1": 0.6875335120643432,
+          "2": 0.5799256505576208,
+          "3": 0.06273830155979203,
+          "4": 0.2835820895522388
+        },
+        "evaluated_test_rows": 22544
+      },
+      "stage_attempt_seconds": 21.52951340000436
+    }
+  ]
+}

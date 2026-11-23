@@ -1,0 +1,2 @@
+results/implementation_equivalence/*.json -text
+results/implementation_equivalence/SHA256SUMS -text

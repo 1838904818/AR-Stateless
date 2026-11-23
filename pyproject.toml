@@ -12,13 +12,14 @@ dependencies = [
     "scikit-learn>=1.7,<1.8",
     "scipy>=1.11",
     "torch>=2.1",
+    "pandas>=2.2,<3",
 ]
 
 [project.optional-dependencies]
 test = ["pytest>=8"]
 
 [tool.setuptools]
-packages = ["ar_stateless"]
+packages = ["ar_stateless", "ar_stateless._raw_cache"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
