@@ -1,0 +1,342 @@
+# Published-method comparison evidence
+
+Existing literature-method comparisons, calibration and same-score rescoring evidence, including original limitations and adaptation statements. This is a release copy of historical records, not a new experiment. No training, scoring, or analysis was rerun to assemble the bundle.
+
+Nonnumeric provenance identifiers and local/remote paths are relabelled. The explicitly listed administrative numeric scheduler/resume IDs are replaced with "redacted-administrative-id" under the owner exception. All other numeric tokens are unchanged. Every numeric-preservation statement below excludes only these individually listed administrative key paths. Numeric JSON tokens, all confusion matrices, scientific-content/source hashes, and adaptation/limitation wording outside identifiers are unchanged. Provenance script aliases are descriptive metadata, not additional executable entry points. The private source-to-release mapping remains outside this bundle. SHA256SUMS covers every result file.
+
+Relabeling is applied only where needed. Files already free of internal identifiers remain byte-for-byte copies; a per-file relabeling note states the sanitization policy, not that an edit was required in every record.
+
+Retained hashes bind the original scientific/source records, not newly serialized provenance-renamed identities. SHA256SUMS verifies the delivery bytes.
+
+## Per-file notes
+
+- `cic-ids-2017/cer-bic-common_overview/aggregate.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_overview/costs_and_scope.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_overview/log_artifacts.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_overview/native_budget_failure.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_overview/per_seed_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_seed10/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_seed10/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_seed10/retained_row_ids_and_checkpoint_hashes.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_seed10/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/cer-bic-common_seed11/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_seed11/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_seed11/retained_row_ids_and_checkpoint_hashes.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_seed11/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/cer-bic-common_seed12/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_seed12/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_seed12/retained_row_ids_and_checkpoint_hashes.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_seed12/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/cer-bic-common_seed13/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_seed13/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_seed13/retained_row_ids_and_checkpoint_hashes.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_seed13/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/cer-bic-common_seed14/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_seed14/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_seed14/retained_row_ids_and_checkpoint_hashes.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/cer-bic-common_seed14/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/derpp_overview/aggregate.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/derpp_overview/log_artifacts.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/derpp_overview/per_seed_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/derpp_seed10/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/derpp_seed10/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/derpp_seed10/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/derpp_seed11/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/derpp_seed11/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/derpp_seed11/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/derpp_seed12/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/derpp_seed12/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/derpp_seed12/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/derpp_seed13/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/derpp_seed13/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/derpp_seed13/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/derpp_seed14/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/derpp_seed14/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/derpp_seed14/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/ecbrs-paper_overview/aggregate.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/ecbrs-paper_overview/log_artifacts.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/ecbrs-paper_overview/per_seed_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/ecbrs-paper_seed10/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/ecbrs-paper_seed10/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/ecbrs-paper_seed10/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/ecbrs-paper_seed11/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/ecbrs-paper_seed11/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/ecbrs-paper_seed11/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/ecbrs-paper_seed12/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/ecbrs-paper_seed12/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/ecbrs-paper_seed12/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/ecbrs-paper_seed13/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/ecbrs-paper_seed13/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/ecbrs-paper_seed13/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/ecbrs-paper_seed14/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/ecbrs-paper_seed14/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/ecbrs-paper_seed14/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/icarl_overview/aggregate.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/icarl_overview/log_artifacts.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/icarl_overview/per_seed_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/icarl_seed10/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/icarl_seed10/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/icarl_seed10/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/icarl_seed11/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/icarl_seed11/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/icarl_seed11/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/icarl_seed12/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/icarl_seed12/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/icarl_seed12/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/icarl_seed13/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/icarl_seed13/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/icarl_seed13/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2017/icarl_seed14/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/icarl_seed14/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2017/icarl_seed14/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/cer-bic-common-completed_overview/aggregate.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_overview/consumer_aliases.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_overview/failed_attempt_and_resume_evidence.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/seed14_original_job`, `/seed14_completion_job`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/cer-bic-common-completed_overview/log_artifacts.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_overview/per_class_aggregate.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_overview/per_seed_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/3/costs/linux_new_attempt_job`, `/4/costs/linux_new_attempt_job`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/cer-bic-common-completed_overview/scope.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed10/checkpoints.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed10/costs.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed10/metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed10/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed10/retained_row_ids.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed10/source_state.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed10/summary.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed11/checkpoints.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed11/costs.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed11/metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed11/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed11/retained_row_ids.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed11/source_state.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed11/summary.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed12/checkpoints.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed12/costs.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed12/metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed12/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed12/retained_row_ids.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed12/source_state.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed12/summary.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed13/checkpoints.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed13/costs.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/linux_new_attempt_job`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/cer-bic-common-completed_seed13/metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed13/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed13/retained_row_ids.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed13/source_state.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed13/summary.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed14/checkpoints.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed14/costs.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/linux_new_attempt_job`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/cer-bic-common-completed_seed14/metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed14/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/identity/resume/original_job`, `/identity/resume/resumed_job`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/cer-bic-common-completed_seed14/retained_row_ids.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed14/source_state.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common-completed_seed14/summary.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common_seed10/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common_seed10/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/cer-bic-common_seed11/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common_seed11/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/cer-bic-common_seed12/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common_seed12/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/cer-bic-common_seed13/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/cer-bic-common_seed13/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/cer-bic-common_seed14/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/identity/resume/original_job`, `/identity/resume/resumed_job`, `/delivery/original_job`, `/delivery/completion_job`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/cer-bic-common_seed14/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/derpp_overview/aggregate.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_overview/log_artifacts.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_overview/per_class_aggregate.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_overview/per_seed_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_seed10/checkpoint_records.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_seed10/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_seed10/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_seed10/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/derpp_seed11/checkpoint_records.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_seed11/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_seed11/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_seed11/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/derpp_seed12/checkpoint_records.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_seed12/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_seed12/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_seed12/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/derpp_seed13/checkpoint_records.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_seed13/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_seed13/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_seed13/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/derpp_seed14/checkpoint_records.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_seed14/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_seed14/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/derpp_seed14/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/ecbrs-paper_overview/aggregate.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_overview/costs.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_overview/interrupted_attempt.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_overview/interrupted_seed13_identity.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_overview/log_artifacts.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_overview/per_class_aggregate.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_overview/per_seed_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_seed10/checkpoint_records.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_seed10/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_seed10/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_seed10/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/ecbrs-paper_seed11/checkpoint_records.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_seed11/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_seed11/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_seed11/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/ecbrs-paper_seed12/checkpoint_records.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_seed12/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_seed12/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_seed12/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/ecbrs-paper_seed13/checkpoint_records.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_seed13/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_seed13/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_seed13/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/ecbrs-paper_seed14/checkpoint_records.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_seed14/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_seed14/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/ecbrs-paper_seed14/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/icarl-scoped-npy_overview/aggregate.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_overview/costs.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_overview/log_artifacts.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_overview/per_class_aggregate.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_overview/per_seed_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_overview/scope.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/new_attempt_job`, `/prediction_verification_job`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/icarl-scoped-npy_seed10/checkpoints.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed10/costs.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed10/memory_features.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed10/metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed10/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed10/source_state.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed10/summary.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed11/checkpoints.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed11/costs.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed11/memory_features.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed11/metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed11/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed11/source_state.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed11/summary.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed12/checkpoints.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed12/costs.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed12/memory_features.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed12/metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed12/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed12/source_state.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed12/summary.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed13/checkpoints.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed13/costs.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed13/memory_features.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed13/metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed13/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed13/source_state.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed13/summary.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed14/checkpoints.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed14/costs.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed14/memory_features.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed14/metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed14/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed14/source_state.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl-scoped-npy_seed14/summary.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl_seed10/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl_seed10/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/icarl_seed11/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl_seed11/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/icarl_seed12/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl_seed12/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/icarl_seed13/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl_seed13/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `cic-ids-2018/icarl_seed14/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `cic-ids-2018/icarl_seed14/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `same-score-robustness/aggregate.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `same-score-robustness/verification.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/job/id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/cer-bic-common_overview/aggregate.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_overview/costs_and_scope.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_overview/log_artifacts.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_overview/native_budget_failure.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_overview/per_seed_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_seed10/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_seed10/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_seed10/retained_row_ids_and_checkpoint_hashes.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_seed10/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/cer-bic-common_seed11/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_seed11/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_seed11/retained_row_ids_and_checkpoint_hashes.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_seed11/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/cer-bic-common_seed12/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_seed12/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_seed12/retained_row_ids_and_checkpoint_hashes.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_seed12/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/cer-bic-common_seed13/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_seed13/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_seed13/retained_row_ids_and_checkpoint_hashes.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_seed13/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/cer-bic-common_seed14/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_seed14/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_seed14/retained_row_ids_and_checkpoint_hashes.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic-common_seed14/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/cer-bic_overview/aggregate.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic_overview/costs_and_scope.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic_overview/log_artifacts.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic_overview/per_seed_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic_seed10/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic_seed10/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic_seed10/retained_row_ids_and_checkpoint_hashes.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic_seed11/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic_seed11/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic_seed11/retained_row_ids_and_checkpoint_hashes.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic_seed12/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic_seed12/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic_seed12/retained_row_ids_and_checkpoint_hashes.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic_seed13/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic_seed13/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic_seed13/retained_row_ids_and_checkpoint_hashes.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic_seed14/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic_seed14/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/cer-bic_seed14/retained_row_ids_and_checkpoint_hashes.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/derpp_seed10/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/derpp_seed10/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/derpp_seed11/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/derpp_seed11/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/derpp_seed12/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/derpp_seed12/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/derpp_seed13/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/derpp_seed13/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/derpp_seed14/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/derpp_seed14/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/ecbrs-author_overview/aggregate.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-author_overview/author_component_parity.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-author_overview/paper_author_comparison.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-author_overview/per_seed_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-author_seed10/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-author_seed10/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-author_seed11/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-author_seed11/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-author_seed12/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-author_seed12/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-author_seed13/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-author_seed13/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-author_seed14/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-author_seed14/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-paper_overview/aggregate.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-paper_overview/per_seed_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-paper_seed10/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-paper_seed10/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-paper_seed10/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/ecbrs-paper_seed11/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-paper_seed11/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-paper_seed11/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/ecbrs-paper_seed12/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-paper_seed12/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-paper_seed12/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/ecbrs-paper_seed13/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-paper_seed13/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-paper_seed13/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/ecbrs-paper_seed14/independent_metrics.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-paper_seed14/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/ecbrs-paper_seed14/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/icarl_seed10/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/icarl_seed10/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/icarl_seed11/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/icarl_seed11/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/icarl_seed12/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/icarl_seed12/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/icarl_seed13/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/icarl_seed13/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.
+- `unsw-nb15/icarl_seed14/result.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling.
+- `unsw-nb15/icarl_seed14/same_score_calibration.json`: provenance identifiers relabelled; numeric content byte-equivalent after relabeling. Scientific numeric content excludes the following administrative-ID exceptions only: `/publication/job_id`; each replaced with `redacted-administrative-id`, original retained privately.

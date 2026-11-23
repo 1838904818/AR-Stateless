@@ -4,3 +4,5 @@ results/forgetting_diagnostics_unsw/**/*.json -text
 results/nsl_calibration_refresh/**/*.json -text
 results/neural_replay_controls/**/*.json -text
 results/forgetting_reduction_variants/** -text
+results/published_methods_runs/** -text
+results/nsl_kdd/** -text

@@ -90,7 +90,8 @@ Each `result.json` holds, for every task, the default and calibrated (1/2/5%)
 confusion matrices, the calibration record and the checkpoint hash.
 In the evidence folders below the results table, provenance strings (script names, local
 paths) were replaced by neutral labels; every number and confusion matrix is unchanged,
-and each folder's `SHA256SUMS` lists its files.
+and each folder's `SHA256SUMS` lists its files. Scheduler job numbers in those files are replaced by
+`redacted-administrative-id`.
 
 | Folder | Contents |
 |---|---|
@@ -98,6 +99,7 @@ and each folder's `SHA256SUMS` lists its files.
 | `results/er_bal_tabt/` | ER-Bal-TabT, UNSW-NB15 and CIC-IDS-2017 |
 | `results/er_bal_tabt_cse2018_incomplete/` | ER-Bal-TabT on CSE-CIC-IDS2018, the three seeds that finished |
 | `results/published_methods_s1.json` | DER++, iCaRL, ECBRS and BiC: per-seed values and paired tests |
+| `results/published_methods_runs/` | DER++, iCaRL, ECBRS and BiC: every run, calibration record and the same-score re-scoring |
 | `results/nsl_kdd/` | All methods on NSL-KDD (diagnostic, not part of the registered comparison) |
 | `results/benign_volume_and_hybrid/` | Benign volume 5k/10k/20k and the hybrid control R3-H |
 | `results/neural_replay_controls/` | Neural AR, Replay-BS, Freq and WACB on UNSW-NB15 and CIC-IDS-2017, seeds 10–14 |
