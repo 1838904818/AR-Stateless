@@ -21,7 +21,7 @@ benign rows in memory (200 per class) and does not refresh them. A hybrid contro
 recovers almost all of the gap between R3-L and AR-Stateless, so the gain comes from
 refreshing benign data rather than from giving its memory share to attacks.
 
-A five-page summary is in [`docs/AR_Stateless_summary.pdf`](docs/AR_Stateless_summary.pdf) (Chinese: [`docs/AR_Stateless_summary_zh.pdf`](docs/AR_Stateless_summary_zh.pdf)).
+A 14-page summary is in [`docs/AR_Stateless_summary.pdf`](docs/AR_Stateless_summary.pdf) (Chinese: [`docs/AR_Stateless_summary_zh.pdf`](docs/AR_Stateless_summary_zh.pdf)).
 The full method, protocol, comparators, results and limitations are in
 [`docs/AR_Stateless_technical_report.pdf`](docs/AR_Stateless_technical_report.pdf).
 
