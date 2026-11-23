@@ -1,2 +1,4 @@
 results/implementation_equivalence/*.json -text
 results/implementation_equivalence/SHA256SUMS -text
+results/forgetting_diagnostics_unsw/**/*.json -text
+results/nsl_calibration_refresh/**/*.json -text

@@ -1,0 +1,1673 @@
+{
+  "command": [
+    "ncd/experiment_runner_benign_calibration_refresh_refresh.py",
+    "--repo",
+    "<LOCAL_ARTIFACT>",
+    "--reference-root",
+    "<LOCAL_ARTIFACT>",
+    "--data-root",
+    "<LOCAL_ARTIFACT>",
+    "--nsl-checkpoints",
+    "<LOCAL_ARTIFACT>",
+    "--unsw-checkpoints",
+    "<LOCAL_ARTIFACT>",
+    "--output",
+    "<LOCAL_ARTIFACT>",
+    "--source-commit",
+    "a4bfec488cbf497d154c3da30e437280329c041d",
+    "--stdout-log",
+    "<LOCAL_ARTIFACT>",
+    "--stderr-log",
+    "<LOCAL_ARTIFACT>"
+  ],
+  "completed": true,
+  "data_binding": {
+    "x_test": {
+      "dtype": "<f4",
+      "sha256": "6653758a8723598a0656c3f111dc1e138629fb4b258502d672c095843471f3fe",
+      "shape": [
+        22544,
+        116
+      ]
+    },
+    "x_train": {
+      "dtype": "<f4",
+      "sha256": "39e5f031eccb8fc087a1726a544fe49ad7bc1094af5f3e446901723b99cb2e57",
+      "shape": [
+        125973,
+        116
+      ]
+    },
+    "y_test": {
+      "dtype": "<i8",
+      "sha256": "bd8d6fabd14dafaa9630e23a8655cb9190b179a9c65df6f4b5d7be32467e2b4e",
+      "shape": [
+        22544
+      ]
+    },
+    "y_train": {
+      "dtype": "<i8",
+      "sha256": "9e21f69466a2c8f72c9abd1d96679ceb7850248d7fd9d70794a640d2a16a3aac",
+      "shape": [
+        125973
+      ]
+    }
+  },
+  "dataset": "NSL-KDD",
+  "diagnostic": "benign_calibration_refresh unregistered extension",
+  "elapsed_seconds": 5.148507499980042,
+  "evaluation_scope": "Same held-out Normal half E plus ALL test attack rows at every task, including attacks not introduced yet, literally as benign_calibration_refresh; this incremental BAcc is not the historical seen-only incremental BAcc.",
+  "implementation_sha256": "52b717a8fb099d14e41dd86ac7bd4d767975b33dcc29efdea787f3233ee367e5",
+  "limitation": "Labelled test-period Normal calibration half simulates confirmed-benign deployment traffic; not unlabelled calibration. Calibration half is never evaluated. No retraining or registered result mutation.",
+  "method": "R3-A",
+  "metrics": {
+    "0.01": {
+      "original": {
+        "final_balanced_accuracy": 0.6785324099154144,
+        "final_normal_fpr": 0.0850494233937397,
+        "incremental_balanced_accuracy": 0.5345808152831614,
+        "old_class_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "per_class_signed_forgetting": [
+          0.05251235584843483,
+          0.06112600536193025,
+          0.17265592730276746,
+          0.03916811091854416
+        ],
+        "signed_forgetting": 0.08136559985791918
+      },
+      "refreshed": {
+        "final_balanced_accuracy": 0.3684273056818474,
+        "final_normal_fpr": 0.014621087314662273,
+        "incremental_balanced_accuracy": 0.3578435758602242,
+        "old_class_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "per_class_signed_forgetting": [
+          0.007413509060955503,
+          0.21286863270777479,
+          0.005782734407269674,
+          0.0
+        ],
+        "signed_forgetting": 0.05651621904399999
+      }
+    },
+    "0.02": {
+      "original": {
+        "final_balanced_accuracy": 0.7207828307050631,
+        "final_normal_fpr": 0.09163920922570017,
+        "incremental_balanced_accuracy": 0.5537694483315374,
+        "old_class_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "per_class_signed_forgetting": [
+          -0.0018533772652389313,
+          0.11380697050938338,
+          0.1590251961999174,
+          0.09636048526863084
+        ],
+        "signed_forgetting": 0.09183481867817317
+      },
+      "refreshed": {
+        "final_balanced_accuracy": 0.45339281188194247,
+        "final_normal_fpr": 0.024093904448105437,
+        "incremental_balanced_accuracy": 0.43352598586212887,
+        "old_class_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "per_class_signed_forgetting": [
+          0.004530477759472795,
+          0.1919571045576407,
+          0.0024783147459727095,
+          0.0904679376083189
+        ],
+        "signed_forgetting": 0.07235845866785127
+      }
+    },
+    "0.05": {
+      "original": {
+        "final_balanced_accuracy": 0.7405781261375315,
+        "final_normal_fpr": 0.1077018121911038,
+        "incremental_balanced_accuracy": 0.5624160906065356,
+        "old_class_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "per_class_signed_forgetting": [
+          0.0010296540362437767,
+          0.1183646112600536,
+          0.137546468401487,
+          0.08110918544194107
+        ],
+        "signed_forgetting": 0.08451247978493136
+      },
+      "refreshed": {
+        "final_balanced_accuracy": 0.6551402385160825,
+        "final_normal_fpr": 0.04798187808896211,
+        "incremental_balanced_accuracy": 0.5301131703453186,
+        "old_class_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "per_class_signed_forgetting": [
+          0.011120263591433366,
+          0.09436997319034846,
+          0.13506815365551428,
+          0.1220103986135182
+        ],
+        "signed_forgetting": 0.09064219726270357
+      }
+    }
+  },
+  "original_result_sha256": "67aa645f274ca0e1206f49505d73c4ae54706ed175612642d8d8b9a217e3bfaf",
+  "reference_root_commit": "0618e0d0b971b463658000166f732a0f7b8daac0",
+  "score_scope": "Original frozen gate_scores, float32 torch.logsumexp; original thresholds and full original seen-class CMs reproduced exactly before paired scoring.",
+  "seed": 14,
+  "source_commit": "a4bfec488cbf497d154c3da30e437280329c041d",
+  "split": {
+    "current_ids_sha256": "d1addd6b87d4fbc2c80a41c52be0bfb2629141b1695017a0512a6e4cea8e70eb",
+    "current_rows": 4855,
+    "evaluation_ids_sha256": "6b35e54b0f9edd1cea4cf86158663b9379ecefb6f27acf2b3a4aeda6cdf2856e",
+    "evaluation_normal_rows": 4856,
+    "evaluation_total_rows": 17689,
+    "rng_seed": 2800071
+  },
+  "stages": [
+    {
+      "checkpoint_sha256": "7467347c89a20ef29713daa4100311be1d9950285e6bc37e804ff5be7c76151b",
+      "ks": {
+        "D": 0.1858262286333363,
+        "method": "scipy ks_2samp auto",
+        "p": 1.3205537289533617e-85,
+        "stale": true
+      },
+      "operating_points": {
+        "0.01": {
+          "original": {
+            "balanced_accuracy": 0.3702847476491867,
+            "confusion_matrix": [
+              [
+                4680,
+                176,
+                0,
+                0,
+                0
+              ],
+              [
+                838,
+                6622,
+                0,
+                0,
+                0
+              ],
+              [
+                381,
+                2040,
+                0,
+                0,
+                0
+              ],
+              [
+                2463,
+                422,
+                0,
+                0,
+                0
+              ],
+              [
+                63,
+                4,
+                0,
+                0,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.036243822075782535,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.9637561779242174,
+              0.8876675603217158,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "original_threshold": {
+            "actual_false_alarms": 67,
+            "actual_fpr": 0.009948032665181886,
+            "allowed_false_alarms": 67,
+            "calibration_rows": 6735,
+            "threshold": -8.729532241821289
+          },
+          "refreshed": {
+            "balanced_accuracy": 0.3491214870302238,
+            "confusion_matrix": [
+              [
+                4821,
+                35,
+                0,
+                0,
+                0
+              ],
+              [
+                1844,
+                5616,
+                0,
+                0,
+                0
+              ],
+              [
+                1627,
+                794,
+                0,
+                0,
+                0
+              ],
+              [
+                2885,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                67,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.0072075782537067545,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.9927924217462932,
+              0.7528150134048257,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "refreshed_threshold": {
+            "actual_false_alarms": 48,
+            "actual_fpr": 0.009886714727085478,
+            "allowed_false_alarms": 48,
+            "calibration_rows": 4855,
+            "threshold": 5.058416366577148
+          }
+        },
+        "0.02": {
+          "original": {
+            "balanced_accuracy": 0.36996100012808564,
+            "confusion_matrix": [
+              [
+                4402,
+                454,
+                0,
+                0,
+                0
+              ],
+              [
+                423,
+                7037,
+                0,
+                0,
+                0
+              ],
+              [
+                242,
+                2179,
+                0,
+                0,
+                0
+              ],
+              [
+                2385,
+                500,
+                0,
+                0,
+                0
+              ],
+              [
+                62,
+                5,
+                0,
+                0,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.09349258649093904,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.9065074135090609,
+              0.9432975871313672,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "original_threshold": {
+            "actual_false_alarms": 134,
+            "actual_fpr": 0.019896065330363772,
+            "allowed_false_alarms": 134,
+            "calibration_rows": 6735,
+            "threshold": -9.44838809967041
+          },
+          "refreshed": {
+            "balanced_accuracy": 0.36493449964886865,
+            "confusion_matrix": [
+              [
+                4761,
+                95,
+                0,
+                0,
+                0
+              ],
+              [
+                1162,
+                6298,
+                0,
+                0,
+                0
+              ],
+              [
+                1490,
+                931,
+                0,
+                0,
+                0
+              ],
+              [
+                2885,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                67,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.019563426688632618,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.9804365733113674,
+              0.8442359249329758,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "refreshed_threshold": {
+            "actual_false_alarms": 97,
+            "actual_fpr": 0.019979402677651904,
+            "allowed_false_alarms": 97,
+            "calibration_rows": 4855,
+            "threshold": -1.1080513000488281
+          }
+        },
+        "0.05": {
+          "original": {
+            "balanced_accuracy": 0.3697165773747742,
+            "confusion_matrix": [
+              [
+                4316,
+                540,
+                0,
+                0,
+                0
+              ],
+              [
+                300,
+                7160,
+                0,
+                0,
+                0
+              ],
+              [
+                89,
+                2332,
+                0,
+                0,
+                0
+              ],
+              [
+                2248,
+                637,
+                0,
+                0,
+                0
+              ],
+              [
+                48,
+                19,
+                0,
+                0,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.11120263591433278,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.8887973640856672,
+              0.9597855227882037,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "original_threshold": {
+            "actual_false_alarms": 336,
+            "actual_fpr": 0.049888641425389756,
+            "allowed_false_alarms": 336,
+            "calibration_rows": 6735,
+            "threshold": -10.10590648651123
+          },
+          "refreshed": {
+            "balanced_accuracy": 0.3701611891648374,
+            "confusion_matrix": [
+              [
+                4677,
+                179,
+                0,
+                0,
+                0
+              ],
+              [
+                838,
+                6622,
+                0,
+                0,
+                0
+              ],
+              [
+                380,
+                2041,
+                0,
+                0,
+                0
+              ],
+              [
+                2459,
+                426,
+                0,
+                0,
+                0
+              ],
+              [
+                63,
+                4,
+                0,
+                0,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.03686161449752883,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.9631383855024712,
+              0.8876675603217158,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "refreshed_threshold": {
+            "actual_false_alarms": 173,
+            "actual_fpr": 0.035633367662203916,
+            "allowed_false_alarms": 242,
+            "calibration_rows": 4855,
+            "threshold": -8.747391700744629
+          }
+        }
+      },
+      "seen_classes": [
+        0,
+        1
+      ],
+      "task_index": 0
+    },
+    {
+      "checkpoint_sha256": "9c2c0104650ca5cfa1ea93ba3b5a732560f04e4012c26ce4aac15969b6530ea1",
+      "ks": {
+        "D": 0.16522508347114578,
+        "method": "scipy ks_2samp auto",
+        "p": 1.0890761011636528e-67,
+        "stale": true
+      },
+      "operating_points": {
+        "0.01": {
+          "original": {
+            "balanced_accuracy": 0.5311589825776061,
+            "confusion_matrix": [
+              [
+                4397,
+                47,
+                412,
+                0,
+                0
+              ],
+              [
+                266,
+                6303,
+                891,
+                0,
+                0
+              ],
+              [
+                53,
+                176,
+                2192,
+                0,
+                0
+              ],
+              [
+                2261,
+                303,
+                321,
+                0,
+                0
+              ],
+              [
+                54,
+                2,
+                11,
+                0,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.09452224052718286,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.9054777594728172,
+              0.8449061662198392,
+              0.9054109871953738,
+              0.0,
+              0.0
+            ]
+          },
+          "original_threshold": {
+            "actual_false_alarms": 67,
+            "actual_fpr": 0.009948032665181886,
+            "allowed_false_alarms": 67,
+            "calibration_rows": 6735,
+            "threshold": -6.4722065925598145
+          },
+          "refreshed": {
+            "balanced_accuracy": 0.34492821933083856,
+            "confusion_matrix": [
+              [
+                4797,
+                0,
+                59,
+                0,
+                0
+              ],
+              [
+                3987,
+                3472,
+                1,
+                0,
+                0
+              ],
+              [
+                1764,
+                0,
+                657,
+                0,
+                0
+              ],
+              [
+                2885,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                67,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.012149917627677101,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.9878500823723229,
+              0.46541554959785525,
+              0.27137546468401486,
+              0.0,
+              0.0
+            ]
+          },
+          "refreshed_threshold": {
+            "actual_false_alarms": 48,
+            "actual_fpr": 0.009886714727085478,
+            "allowed_false_alarms": 48,
+            "calibration_rows": 4855,
+            "threshold": 11.768078804016113
+          }
+        },
+        "0.02": {
+          "original": {
+            "balanced_accuracy": 0.5337134040144498,
+            "confusion_matrix": [
+              [
+                4347,
+                52,
+                457,
+                0,
+                0
+              ],
+              [
+                78,
+                6358,
+                1024,
+                0,
+                0
+              ],
+              [
+                3,
+                188,
+                2230,
+                0,
+                0
+              ],
+              [
+                1982,
+                398,
+                505,
+                0,
+                0
+              ],
+              [
+                44,
+                8,
+                15,
+                0,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.10481878088962109,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.895181219110379,
+              0.8522788203753351,
+              0.9211069805865345,
+              0.0,
+              0.0
+            ]
+          },
+          "original_threshold": {
+            "actual_false_alarms": 134,
+            "actual_fpr": 0.019896065330363772,
+            "allowed_false_alarms": 134,
+            "calibration_rows": 6735,
+            "threshold": -7.693915367126465
+          },
+          "refreshed": {
+            "balanced_accuracy": 0.4476299503019689,
+            "confusion_matrix": [
+              [
+                4737,
+                5,
+                114,
+                0,
+                0
+              ],
+              [
+                2018,
+                5352,
+                90,
+                0,
+                0
+              ],
+              [
+                1100,
+                1,
+                1320,
+                0,
+                0
+              ],
+              [
+                2885,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                67,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.024505766062602966,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.975494233937397,
+              0.717426273458445,
+              0.5452292441140025,
+              0.0,
+              0.0
+            ]
+          },
+          "refreshed_threshold": {
+            "actual_false_alarms": 97,
+            "actual_fpr": 0.019979402677651904,
+            "allowed_false_alarms": 97,
+            "calibration_rows": 4855,
+            "threshold": 4.906072616577148
+          }
+        },
+        "0.05": {
+          "original": {
+            "balanced_accuracy": 0.5314703939486697,
+            "confusion_matrix": [
+              [
+                4269,
+                71,
+                516,
+                0,
+                0
+              ],
+              [
+                41,
+                6388,
+                1031,
+                0,
+                0
+              ],
+              [
+                0,
+                189,
+                2232,
+                0,
+                0
+              ],
+              [
+                1731,
+                491,
+                663,
+                0,
+                0
+              ],
+              [
+                27,
+                17,
+                23,
+                0,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.12088138385502471,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.8791186161449753,
+              0.8563002680965147,
+              0.9219330855018587,
+              0.0,
+              0.0
+            ]
+          },
+          "original_threshold": {
+            "actual_false_alarms": 336,
+            "actual_fpr": 0.049888641425389756,
+            "allowed_false_alarms": 336,
+            "calibration_rows": 6735,
+            "threshold": -9.036747932434082
+          },
+          "refreshed": {
+            "balanced_accuracy": 0.5252106724701658,
+            "confusion_matrix": [
+              [
+                4608,
+                28,
+                220,
+                0,
+                0
+              ],
+              [
+                760,
+                6250,
+                450,
+                0,
+                0
+              ],
+              [
+                233,
+                156,
+                2032,
+                0,
+                0
+              ],
+              [
+                2799,
+                3,
+                83,
+                0,
+                0
+              ],
+              [
+                62,
+                0,
+                5,
+                0,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.051070840197693576,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.9489291598023064,
+              0.8378016085790885,
+              0.8393225939694341,
+              0.0,
+              0.0
+            ]
+          },
+          "refreshed_threshold": {
+            "actual_false_alarms": 227,
+            "actual_fpr": 0.04675592173017508,
+            "allowed_false_alarms": 242,
+            "calibration_rows": 4855,
+            "threshold": -4.167753219604492
+          }
+        }
+      },
+      "seen_classes": [
+        0,
+        1,
+        2
+      ],
+      "task_index": 1
+    },
+    {
+      "checkpoint_sha256": "cdbb58d6062cbc0f0d9ab5b08dfc919c595fffb0bc791d23f0a0dea15d768358",
+      "ks": {
+        "D": 0.14436230491223967,
+        "method": "scipy ks_2samp auto",
+        "p": 1.0024182492823027e-51,
+        "stale": true
+      },
+      "operating_points": {
+        "0.01": {
+          "original": {
+            "balanced_accuracy": 0.5583471209904383,
+            "confusion_matrix": [
+              [
+                4698,
+                15,
+                128,
+                15,
+                0
+              ],
+              [
+                707,
+                6040,
+                306,
+                407,
+                0
+              ],
+              [
+                436,
+                254,
+                1728,
+                3,
+                0
+              ],
+              [
+                1906,
+                4,
+                107,
+                868,
+                0
+              ],
+              [
+                41,
+                3,
+                0,
+                23,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.032537067545304776,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.9674629324546952,
+              0.8096514745308311,
+              0.7137546468401487,
+              0.30086655112651645,
+              0.0
+            ]
+          },
+          "original_threshold": {
+            "actual_false_alarms": 67,
+            "actual_fpr": 0.009948032665181886,
+            "allowed_false_alarms": 67,
+            "calibration_rows": 6735,
+            "threshold": -5.438607215881348
+          },
+          "refreshed": {
+            "balanced_accuracy": 0.36889729139798694,
+            "confusion_matrix": [
+              [
+                4782,
+                0,
+                74,
+                0,
+                0
+              ],
+              [
+                3452,
+                4007,
+                1,
+                0,
+                0
+              ],
+              [
+                1640,
+                0,
+                781,
+                0,
+                0
+              ],
+              [
+                2885,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                67,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.015238879736408566,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.9847611202635914,
+              0.5371313672922252,
+              0.3225939694341181,
+              0.0,
+              0.0
+            ]
+          },
+          "refreshed_threshold": {
+            "actual_false_alarms": 48,
+            "actual_fpr": 0.009886714727085478,
+            "allowed_false_alarms": 48,
+            "calibration_rows": 4855,
+            "threshold": 9.82689094543457
+          }
+        },
+        "0.02": {
+          "original": {
+            "balanced_accuracy": 0.5906205584785511,
+            "confusion_matrix": [
+              [
+                4398,
+                40,
+                389,
+                29,
+                0
+              ],
+              [
+                395,
+                6306,
+                344,
+                415,
+                0
+              ],
+              [
+                272,
+                326,
+                1811,
+                12,
+                0
+              ],
+              [
+                1451,
+                4,
+                120,
+                1310,
+                0
+              ],
+              [
+                25,
+                6,
+                0,
+                36,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.0943163097199341,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.9056836902800659,
+              0.8453083109919571,
+              0.7480380008261049,
+              0.4540727902946274,
+              0.0
+            ]
+          },
+          "original_threshold": {
+            "actual_false_alarms": 134,
+            "actual_fpr": 0.019896065330363772,
+            "allowed_false_alarms": 134,
+            "calibration_rows": 6735,
+            "threshold": -6.676617622375488
+          },
+          "refreshed": {
+            "balanced_accuracy": 0.4681466816157355,
+            "confusion_matrix": [
+              [
+                4739,
+                4,
+                113,
+                0,
+                0
+              ],
+              [
+                2040,
+                5391,
+                29,
+                0,
+                0
+              ],
+              [
+                1011,
+                76,
+                1334,
+                0,
+                0
+              ],
+              [
+                2622,
+                0,
+                0,
+                263,
+                0
+              ],
+              [
+                63,
+                0,
+                0,
+                4,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.024093904448105437,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.9759060955518946,
+              0.7226541554959786,
+              0.5510119785212721,
+              0.09116117850953206,
+              0.0
+            ]
+          },
+          "refreshed_threshold": {
+            "actual_false_alarms": 97,
+            "actual_fpr": 0.019979402677651904,
+            "allowed_false_alarms": 97,
+            "calibration_rows": 4855,
+            "threshold": 2.8310799598693848
+          }
+        },
+        "0.05": {
+          "original": {
+            "balanced_accuracy": 0.6078992649651674,
+            "confusion_matrix": [
+              [
+                4338,
+                57,
+                400,
+                61,
+                0
+              ],
+              [
+                312,
+                6385,
+                345,
+                418,
+                0
+              ],
+              [
+                80,
+                382,
+                1938,
+                21,
+                0
+              ],
+              [
+                1339,
+                5,
+                128,
+                1413,
+                0
+              ],
+              [
+                16,
+                7,
+                0,
+                44,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.10667215815485996,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.89332784184514,
+              0.8558981233243967,
+              0.8004956629491945,
+              0.4897746967071057,
+              0.0
+            ]
+          },
+          "original_threshold": {
+            "actual_false_alarms": 336,
+            "actual_fpr": 0.049888641425389756,
+            "allowed_false_alarms": 336,
+            "calibration_rows": 6735,
+            "threshold": -7.894317150115967
+          },
+          "refreshed": {
+            "balanced_accuracy": 0.5699405812301885,
+            "confusion_matrix": [
+              [
+                4611,
+                27,
+                199,
+                19,
+                0
+              ],
+              [
+                644,
+                6074,
+                335,
+                407,
+                0
+              ],
+              [
+                363,
+                276,
+                1779,
+                3,
+                0
+              ],
+              [
+                1749,
+                4,
+                119,
+                1013,
+                0
+              ],
+              [
+                34,
+                5,
+                0,
+                28,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.05045304777594728,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.9495469522240527,
+              0.8142091152815013,
+              0.734820322180917,
+              0.3511265164644714,
+              0.0
+            ]
+          },
+          "refreshed_threshold": {
+            "actual_false_alarms": 241,
+            "actual_fpr": 0.04963954685890834,
+            "allowed_false_alarms": 242,
+            "calibration_rows": 4855,
+            "threshold": -5.995889663696289
+          }
+        }
+      },
+      "seen_classes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "task_index": 2
+    },
+    {
+      "checkpoint_sha256": "f2874832164c24b5ca123d8443480c4347bf08f915069eb61f585c1759183582",
+      "ks": {
+        "D": 0.1410876823577894,
+        "method": "scipy ks_2samp auto",
+        "p": 2.035272774709414e-49,
+        "stale": true
+      },
+      "operating_points": {
+        "0.01": {
+          "original": {
+            "balanced_accuracy": 0.6785324099154144,
+            "confusion_matrix": [
+              [
+                4443,
+                26,
+                379,
+                3,
+                5
+              ],
+              [
+                730,
+                6166,
+                503,
+                61,
+                0
+              ],
+              [
+                318,
+                328,
+                1774,
+                1,
+                0
+              ],
+              [
+                1834,
+                4,
+                241,
+                755,
+                51
+              ],
+              [
+                22,
+                0,
+                0,
+                1,
+                44
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.0850494233937397,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.9149505766062603,
+              0.8265415549597855,
+              0.7327550598926064,
+              0.2616984402079723,
+              0.6567164179104478
+            ]
+          },
+          "original_threshold": {
+            "actual_false_alarms": 67,
+            "actual_fpr": 0.009948032665181886,
+            "allowed_false_alarms": 67,
+            "calibration_rows": 6735,
+            "threshold": -5.838860034942627
+          },
+          "refreshed": {
+            "balanced_accuracy": 0.3684273056818474,
+            "confusion_matrix": [
+              [
+                4785,
+                0,
+                71,
+                0,
+                0
+              ],
+              [
+                3432,
+                4028,
+                0,
+                0,
+                0
+              ],
+              [
+                1654,
+                0,
+                767,
+                0,
+                0
+              ],
+              [
+                2885,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                67,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.014621087314662273,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.9853789126853377,
+              0.5399463806970509,
+              0.31681123502684844,
+              0.0,
+              0.0
+            ]
+          },
+          "refreshed_threshold": {
+            "actual_false_alarms": 48,
+            "actual_fpr": 0.009886714727085478,
+            "allowed_false_alarms": 48,
+            "calibration_rows": 4855,
+            "threshold": 10.0502290725708
+          }
+        },
+        "0.02": {
+          "original": {
+            "balanced_accuracy": 0.7207828307050631,
+            "confusion_matrix": [
+              [
+                4411,
+                41,
+                385,
+                8,
+                11
+              ],
+              [
+                604,
+                6188,
+                566,
+                62,
+                40
+              ],
+              [
+                167,
+                405,
+                1845,
+                4,
+                0
+              ],
+              [
+                1511,
+                4,
+                277,
+                1032,
+                61
+              ],
+              [
+                15,
+                0,
+                1,
+                1,
+                50
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.09163920922570017,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.9083607907742999,
+              0.8294906166219839,
+              0.7620817843866171,
+              0.35771230502599655,
+              0.746268656716418
+            ]
+          },
+          "original_threshold": {
+            "actual_false_alarms": 134,
+            "actual_fpr": 0.019896065330363772,
+            "allowed_false_alarms": 134,
+            "calibration_rows": 6735,
+            "threshold": -7.094252109527588
+          },
+          "refreshed": {
+            "balanced_accuracy": 0.45339281188194247,
+            "confusion_matrix": [
+              [
+                4739,
+                4,
+                113,
+                0,
+                0
+              ],
+              [
+                2539,
+                4866,
+                55,
+                0,
+                0
+              ],
+              [
+                1088,
+                5,
+                1328,
+                0,
+                0
+              ],
+              [
+                2880,
+                0,
+                0,
+                2,
+                3
+              ],
+              [
+                61,
+                0,
+                0,
+                0,
+                6
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.024093904448105437,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.9759060955518946,
+              0.6522788203753351,
+              0.5485336637752994,
+              0.0006932409012131716,
+              0.08955223880597014
+            ]
+          },
+          "refreshed_threshold": {
+            "actual_false_alarms": 97,
+            "actual_fpr": 0.019979402677651904,
+            "allowed_false_alarms": 97,
+            "calibration_rows": 4855,
+            "threshold": 3.7341771125793457
+          }
+        },
+        "0.05": {
+          "original": {
+            "balanced_accuracy": 0.7405781261375315,
+            "confusion_matrix": [
+              [
+                4333,
+                77,
+                393,
+                27,
+                26
+              ],
+              [
+                310,
+                6277,
+                628,
+                195,
+                50
+              ],
+              [
+                43,
+                468,
+                1899,
+                7,
+                4
+              ],
+              [
+                1116,
+                225,
+                291,
+                1179,
+                74
+              ],
+              [
+                8,
+                0,
+                1,
+                6,
+                52
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.1077018121911038,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.8922981878088962,
+              0.8414209115281501,
+              0.7843866171003717,
+              0.40866551126516465,
+              0.7761194029850746
+            ]
+          },
+          "original_threshold": {
+            "actual_false_alarms": 336,
+            "actual_fpr": 0.049888641425389756,
+            "allowed_false_alarms": 336,
+            "calibration_rows": 6735,
+            "threshold": -8.483699798583984
+          },
+          "refreshed": {
+            "balanced_accuracy": 0.6551402385160825,
+            "confusion_matrix": [
+              [
+                4623,
+                22,
+                205,
+                2,
+                4
+              ],
+              [
+                1088,
+                5918,
+                417,
+                37,
+                0
+              ],
+              [
+                432,
+                283,
+                1705,
+                1,
+                0
+              ],
+              [
+                1970,
+                4,
+                204,
+                661,
+                46
+              ],
+              [
+                26,
+                0,
+                0,
+                1,
+                40
+              ]
+            ],
+            "evaluated_rows": 17689,
+            "normal_fpr": 0.04798187808896211,
+            "normal_support": 4856,
+            "per_class_recall": [
+              0.9520181219110379,
+              0.7932975871313673,
+              0.7042544403139198,
+              0.2291161178509532,
+              0.5970149253731343
+            ]
+          },
+          "refreshed_threshold": {
+            "actual_false_alarms": 230,
+            "actual_fpr": 0.04737384140061792,
+            "allowed_false_alarms": 242,
+            "calibration_rows": 4855,
+            "threshold": -4.903835296630859
+          }
+        }
+      },
+      "seen_classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "task_index": 3
+    }
+  ],
+  "stderr_log": "<LOCAL_ARTIFACT>",
+  "stdout_log": "<LOCAL_ARTIFACT>",
+  "tasks": [
+    [
+      0,
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ]
+  ]
+}

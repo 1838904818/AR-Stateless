@@ -88,6 +88,9 @@ scikit-learn 1.7 or later is required for early stopping on an explicit validati
 
 Each `result.json` holds, for every task, the default and calibrated (1/2/5%)
 confusion matrices, the calibration record and the checkpoint hash.
+In the evidence folders below the results table, provenance strings (script names, local
+paths) were replaced by neutral labels; every number and confusion matrix is unchanged,
+and each folder's `SHA256SUMS` lists its files.
 
 | Folder | Contents |
 |---|---|
@@ -97,6 +100,8 @@ confusion matrices, the calibration record and the checkpoint hash.
 | `results/published_methods_s1.json` | DER++, iCaRL, ECBRS and BiC: per-seed values and paired tests |
 | `results/nsl_kdd/` | All methods on NSL-KDD (diagnostic, not part of the registered comparison) |
 | `results/benign_volume_and_hybrid/` | Benign volume 5k/10k/20k and the hybrid control R3-H |
+| `results/forgetting_diagnostics_unsw/` | UNSW-NB15 forgetting diagnostics D1–D3 (offline joint model, matched exposure, larger memory), seeds 10–14 |
+| `results/nsl_calibration_refresh/` | NSL-KDD calibration-pool refresh with UNSW-NB15 as control, seeds 10–14 |
 | `results/implementation_equivalence/` | This package versus the experiment pipeline: 40 runs, all thresholds and confusion matrices identical (checksums in `SHA256SUMS`) |
 
 ## Use of AI tools

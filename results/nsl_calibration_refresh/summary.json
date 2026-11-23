@@ -1,0 +1,22 @@
+{
+  "N1": true,
+  "N2": false,
+  "cells": 20,
+  "completed": true,
+  "individual_fprs": [
+    0.01029654036243822,
+    0.00844316309719934,
+    0.014827018121911038,
+    0.011532125205930808,
+    0.014621087314662273
+  ],
+  "mean_BAcc_delta_pp": -32.44724001383805,
+  "mean_fpr": 0.011943986820428335,
+  "nsl_final_alarm_count": 3,
+  "paired_t_descriptive": {
+    "p": 2.013632107367512e-06,
+    "t": -41.50716910494501
+  },
+  "scope": "Registered now benign_calibration_refresh criteria, unregistered diagnostic extension, no paper change or confirmatory inference",
+  "unsw_final_alarm_count": 0
+}
