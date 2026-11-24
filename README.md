@@ -32,10 +32,15 @@ Final balanced accuracy at the 1% FPR target, mean over seeds 10–14:
 | | UNSW-NB15 | CIC-IDS-2017 | CSE-CIC-IDS2018 |
 |---|---|---|---|
 | AR-Stateless | 65.4 | 98.3 | 81.7 |
-| ER-Bal-TabT (Ariffin et al.) | 56.3 | 92.7 | incomplete (3 of 5 seeds) |
+| ER-Bal-TabT (Ariffin et al.) | 56.3 | 92.7 | 80.8* |
 | R3-L | 45.8 | 92.9 | 79.7 |
 | R3-H | 64.9 | 97.8 | 82.1 |
 | Best of DER++, iCaRL, ECBRS, BiC | 15.4 | 35.9 | 34.6 |
+
+*On CSE-CIC-IDS2018 the difference from ER-Bal-TabT (+0.95 points, one-sided p = 0.155)
+is not significant; this comparison was registered after three of its five seeds had been
+seen, and two seeds were run on different hardware. On UNSW-NB15 and CIC-IDS-2017 the
+differences are significant in all five seeds.
 
 Measured test FPR stays between 0.75% and 1.15% for AR-Stateless on these three
 datasets. On NSL-KDD, whose test benign traffic is shifted, it does not; see the
