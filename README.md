@@ -40,7 +40,7 @@ Final balanced accuracy at the 1% FPR target, mean over seeds 10–14:
 *On CSE-CIC-IDS2018 the difference from ER-Bal-TabT (+0.95 points, one-sided p = 0.155)
 is not significant; this comparison was registered after three of its five seeds had been
 seen, and two seeds were run on different hardware. On UNSW-NB15 and CIC-IDS-2017 the
-differences are significant in all five seeds.
+differences are significant and every seed favours AR-Stateless.
 
 Measured test FPR stays between 0.75% and 1.15% for AR-Stateless on these three
 datasets. On NSL-KDD, whose test benign traffic is shifted, it does not; see the
