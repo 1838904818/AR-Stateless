@@ -1,0 +1,507 @@
+{
+  "completed": true,
+  "seeds": [
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "new_seed14_verification": {
+    "completed": true,
+    "result_sha256": "d7425dc74ad2a1e142c0be1b9c7d36b358a07f8787b4777436554580977519c0",
+    "sidecar_sha256": {
+      "checkpoint_000.json": "34c1fecb12031f576e970ca9042322d3347376d0625ce9c4c8491a90e13a679d",
+      "checkpoint_001.json": "0cb6451fee48c5d8c353d8b7966f26fd3882710a38c6e55f000381b03110a22c",
+      "checkpoint_002.json": "81d1890d4784aeb9cf24dcab860b72bc3629cfb757227f8cd2d123ccee074f41",
+      "checkpoint_003.json": "ac009be2a1962409c6220a2707031d904b39b76b7f06d357686de1bb92368668"
+    },
+    "views": {
+      "0.01": {
+        "final_bacc": 0.8188008700582804,
+        "incremental_bacc": 0.8591117317767344,
+        "forgetting": -0.016051723742014426,
+        "final_fpr": 0.008995637249886048
+      },
+      "0.02": {
+        "final_bacc": 0.8217077869917707,
+        "incremental_bacc": 0.8594282368524105,
+        "forgetting": -0.014233616231161447,
+        "final_fpr": 0.01918456572497
+      },
+      "0.05": {
+        "final_bacc": 0.8232102331475133,
+        "incremental_bacc": 0.8555544717412168,
+        "forgetting": -0.008970577570669852,
+        "final_fpr": 0.05117273327689975
+      },
+      "default": {
+        "final_bacc": 0.7610451861624554,
+        "incremental_bacc": 0.868800724662516,
+        "forgetting": 0.2503340850722656,
+        "final_fpr": 0.0011709658514804514
+      }
+    },
+    "verified_CM": 16,
+    "execution_source_commit": "c62d1590baa320b548fc2cdb113303be4fd3666d",
+    "identity_hash": "395b5e067ab090e5a6f88ba43b6ec178b4ff44d16b9c0c60f0a02ee3b8f70434",
+    "completed_at": "2026-11-24T18:05:50.015697+08:00"
+  },
+  "per_seed": {
+    "10": {
+      "AR": {
+        "0.01": {
+          "final_bacc": 0.8318822661694566,
+          "incremental_bacc": 0.899340729929347,
+          "forgetting": 0.02781363631945331,
+          "final_fpr": 0.009515446367940763
+        },
+        "0.02": {
+          "final_bacc": 0.8414972185535895,
+          "incremental_bacc": 0.9039719763644355,
+          "forgetting": 0.030121378364918835,
+          "final_fpr": 0.01984725723481642
+        },
+        "0.05": {
+          "final_bacc": 0.8520196938985236,
+          "incremental_bacc": 0.9036224360793947,
+          "forgetting": 0.030947493252136204,
+          "final_fpr": 0.04981311801750681
+        },
+        "default": {
+          "final_bacc": 0.8375625201485982,
+          "incremental_bacc": 0.9137230618071945,
+          "forgetting": 0.11521754679862756,
+          "final_fpr": 0.014409540376368593
+        }
+      },
+      "TabT": {
+        "0.01": {
+          "final_bacc": 0.8018009816860632,
+          "incremental_bacc": 0.8601440502822497,
+          "forgetting": 0.0042413066721408476,
+          "final_fpr": 0.009316378452293467
+        },
+        "0.02": {
+          "final_bacc": 0.8171591653655825,
+          "incremental_bacc": 0.8633589946818283,
+          "forgetting": -0.009141508723972685,
+          "final_fpr": 0.018908847359559448
+        },
+        "0.05": {
+          "final_bacc": 0.8217089665110368,
+          "incremental_bacc": 0.8608719934238989,
+          "forgetting": -0.006684623693798061,
+          "final_fpr": 0.04896959098054902
+        },
+        "default": {
+          "final_bacc": 0.7652792223881334,
+          "incremental_bacc": 0.8764737855776589,
+          "forgetting": 0.2502790262901644,
+          "final_fpr": 0.0008602710672458861
+        }
+      },
+      "TabT_hardware": "V100S",
+      "TabT_seed12_rng_restored": null
+    },
+    "11": {
+      "AR": {
+        "0.01": {
+          "final_bacc": 0.807572307235246,
+          "incremental_bacc": 0.8799315530526467,
+          "forgetting": 0.08856141610310402,
+          "final_fpr": 0.00918912382210398
+        },
+        "0.02": {
+          "final_bacc": 0.8248080936205637,
+          "incremental_bacc": 0.8880274556720111,
+          "forgetting": 0.08492560464823933,
+          "final_fpr": 0.019085961991051247
+        },
+        "0.05": {
+          "final_bacc": 0.8339753774015152,
+          "incremental_bacc": 0.8865249511610194,
+          "forgetting": 0.08466617986201501,
+          "final_fpr": 0.04784141542869369
+        },
+        "default": {
+          "final_bacc": 0.8185833600673144,
+          "incremental_bacc": 0.8965307780538619,
+          "forgetting": 0.1706922491203128,
+          "final_fpr": 0.01332266676589055
+        }
+      },
+      "TabT": {
+        "0.01": {
+          "final_bacc": 0.8103551903976729,
+          "incremental_bacc": 0.8553403910733026,
+          "forgetting": -0.0070190463512290234,
+          "final_fpr": 0.010048650710225952
+        },
+        "0.02": {
+          "final_bacc": 0.817153156414603,
+          "incremental_bacc": 0.8561703674961353,
+          "forgetting": -0.010232290825140086,
+          "final_fpr": 0.019867722160724088
+        },
+        "0.05": {
+          "final_bacc": 0.8248094097517313,
+          "incremental_bacc": 0.8222899747930462,
+          "forgetting": -0.01131443418042811,
+          "final_fpr": 0.04814429633212714
+        },
+        "default": {
+          "final_bacc": 0.7685911675951205,
+          "incremental_bacc": 0.8671707965570734,
+          "forgetting": 0.23188877652308607,
+          "final_fpr": 0.0011776634635956875
+        }
+      },
+      "TabT_hardware": "V100S",
+      "TabT_seed12_rng_restored": null
+    },
+    "12": {
+      "AR": {
+        "0.01": {
+          "final_bacc": 0.8147065795271426,
+          "incremental_bacc": 0.8809698886994035,
+          "forgetting": 0.07292363904550238,
+          "final_fpr": 0.00966725890921945
+        },
+        "0.02": {
+          "final_bacc": 0.8246976729700463,
+          "incremental_bacc": 0.8849863955673177,
+          "forgetting": 0.0743297337567779,
+          "final_fpr": 0.019664189170333298
+        },
+        "0.05": {
+          "final_bacc": 0.8323570015175514,
+          "incremental_bacc": 0.8839822935332172,
+          "forgetting": 0.07670524097111328,
+          "final_fpr": 0.049068938893591686
+        },
+        "default": {
+          "final_bacc": 0.8193248488298631,
+          "incremental_bacc": 0.8943753947887932,
+          "forgetting": 0.1592032254353192,
+          "final_fpr": 0.014475028139273123
+        }
+      },
+      "TabT": {
+        "0.01": {
+          "final_bacc": 0.8115448721294823,
+          "incremental_bacc": 0.8571052408284978,
+          "forgetting": -0.006863219705687725,
+          "final_fpr": 0.008560664551957656
+        },
+        "0.02": {
+          "final_bacc": 0.8225467171861992,
+          "incremental_bacc": 0.8228558994213481,
+          "forgetting": -0.015384137518213006,
+          "final_fpr": 0.019194612143142855
+        },
+        "0.05": {
+          "final_bacc": 0.825913592442175,
+          "incremental_bacc": 0.819340434478697,
+          "forgetting": -0.012233092274116975,
+          "final_fpr": 0.04858857126910447
+        },
+        "default": {
+          "final_bacc": 0.7777304015510416,
+          "incremental_bacc": 0.8717368500597102,
+          "forgetting": 0.22545914024801975,
+          "final_fpr": 0.001291522869554702
+        }
+      },
+      "TabT_hardware": "RTX4060Ti",
+      "TabT_seed12_rng_restored": false
+    },
+    "13": {
+      "AR": {
+        "0.01": {
+          "final_bacc": 0.823343558422892,
+          "incremental_bacc": 0.8927704601297586,
+          "forgetting": 0.07902814632764993,
+          "final_fpr": 0.009717118910521762
+        },
+        "0.02": {
+          "final_bacc": 0.8410084408690292,
+          "incremental_bacc": 0.8988852426043239,
+          "forgetting": 0.07161855214469258,
+          "final_fpr": 0.01995255858085041
+        },
+        "0.05": {
+          "final_bacc": 0.8539597195470209,
+          "incremental_bacc": 0.9034256896617128,
+          "forgetting": 0.0748610763021715,
+          "final_fpr": 0.049413121738402434
+        },
+        "default": {
+          "final_bacc": 0.8298550132077913,
+          "incremental_bacc": 0.9071937108391508,
+          "forgetting": 0.16479533915235747,
+          "final_fpr": 0.012240630319717956
+        }
+      },
+      "TabT": {
+        "0.01": {
+          "final_bacc": 0.7959123735198339,
+          "incremental_bacc": 0.8519530589862472,
+          "forgetting": 0.010036724009184502,
+          "final_fpr": 0.009232286211291059
+        },
+        "0.02": {
+          "final_bacc": 0.799880822975045,
+          "incremental_bacc": 0.853032987628509,
+          "forgetting": 0.012468036185021986,
+          "final_fpr": 0.018925963479409495
+        },
+        "0.05": {
+          "final_bacc": 0.8171905277807736,
+          "incremental_bacc": 0.8538055615147233,
+          "forgetting": -0.0009199766503944865,
+          "final_fpr": 0.051906121803518106
+        },
+        "default": {
+          "final_bacc": 0.7665530896512985,
+          "incremental_bacc": 0.8669369818747985,
+          "forgetting": 0.2362355559360264,
+          "final_fpr": 0.0015441716821238873
+        }
+      },
+      "TabT_hardware": "V100S",
+      "TabT_seed12_rng_restored": null
+    },
+    "14": {
+      "AR": {
+        "0.01": {
+          "final_bacc": 0.8083751724162934,
+          "incremental_bacc": 0.8836110805266817,
+          "forgetting": 0.09535963816778524,
+          "final_fpr": 0.009824280704365541
+        },
+        "0.02": {
+          "final_bacc": 0.8215994361672995,
+          "incremental_bacc": 0.8887922196302384,
+          "forgetting": 0.0923890464430722,
+          "final_fpr": 0.019837210816643566
+        },
+        "0.05": {
+          "final_bacc": 0.8312721913215567,
+          "incremental_bacc": 0.8884524359372217,
+          "forgetting": 0.0952781731522061,
+          "final_fpr": 0.050469111915238
+        },
+        "default": {
+          "final_bacc": 0.8139746103401261,
+          "incremental_bacc": 0.8974794063911881,
+          "forgetting": 0.17973908388193563,
+          "final_fpr": 0.014526376498823266
+        }
+      },
+      "TabT": {
+        "0.01": {
+          "final_bacc": 0.8188008700582804,
+          "incremental_bacc": 0.8591117317767344,
+          "forgetting": -0.016051723742014426,
+          "final_fpr": 0.008995637249886048
+        },
+        "0.02": {
+          "final_bacc": 0.8217077869917707,
+          "incremental_bacc": 0.8594282368524105,
+          "forgetting": -0.014233616231161447,
+          "final_fpr": 0.01918456572497
+        },
+        "0.05": {
+          "final_bacc": 0.8232102331475133,
+          "incremental_bacc": 0.8555544717412168,
+          "forgetting": -0.008970577570669852,
+          "final_fpr": 0.05117273327689975
+        },
+        "default": {
+          "final_bacc": 0.7610451861624554,
+          "incremental_bacc": 0.868800724662516,
+          "forgetting": 0.2503340850722656,
+          "final_fpr": 0.0011709658514804514
+        }
+      },
+      "TabT_hardware": "RTX4060Ti",
+      "TabT_seed12_rng_restored": null
+    }
+  },
+  "aggregates": {
+    "AR": {
+      "0.01": {
+        "final_bacc": {
+          "mean": 0.817175976754206,
+          "sd": 0.010369384744208234
+        },
+        "incremental_bacc": {
+          "mean": 0.8873247424675675,
+          "sd": 0.008409436614434565
+        },
+        "forgetting": {
+          "mean": 0.07273729519269898,
+          "sd": 0.026551449408944175
+        },
+        "final_fpr": {
+          "mean": 0.009582645742830301,
+          "sd": 0.00024647775430512356
+        }
+      },
+      "0.02": {
+        "final_bacc": {
+          "mean": 0.8307221724361057,
+          "sd": 0.009700569264110812
+        },
+        "incremental_bacc": {
+          "mean": 0.8929326579676653,
+          "sd": 0.008087755248589623
+        },
+        "forgetting": {
+          "mean": 0.07067686307154017,
+          "sd": 0.024152759291751473
+        },
+        "final_fpr": {
+          "mean": 0.01967743555873899,
+          "sd": 0.00034643782273266775
+        }
+      },
+      "0.05": {
+        "final_bacc": {
+          "mean": 0.8407167967372337,
+          "sd": 0.011265699834203979
+        },
+        "incremental_bacc": {
+          "mean": 0.8932015612745131,
+          "sd": 0.009555805103961257
+        },
+        "forgetting": {
+          "mean": 0.07249163270792842,
+          "sd": 0.02458012563276463
+        },
+        "final_fpr": {
+          "mean": 0.049321141198686524,
+          "sd": 0.000977437048238748
+        }
+      }
+    },
+    "TabT": {
+      "0.01": {
+        "final_bacc": {
+          "mean": 0.8076828575582665,
+          "sd": 0.008927590374484073
+        },
+        "incremental_bacc": {
+          "mean": 0.8567308945894064,
+          "sd": 0.003248821543344112
+        },
+        "forgetting": {
+          "mean": -0.003131191823521165,
+          "sd": 0.010292367699470922
+        },
+        "final_fpr": {
+          "mean": 0.009230723435130837,
+          "sd": 0.0005432744870208832
+        }
+      },
+      "0.02": {
+        "final_bacc": {
+          "mean": 0.81568952978664,
+          "sd": 0.00918501063575495
+        },
+        "incremental_bacc": {
+          "mean": 0.8509692972160463,
+          "sd": 0.01617661389788603
+        },
+        "forgetting": {
+          "mean": -0.007304703422693048,
+          "sd": 0.011359939935134851
+        },
+        "final_fpr": {
+          "mean": 0.019216342173561177,
+          "sd": 0.0003887964349240475
+        }
+      },
+      "0.05": {
+        "final_bacc": {
+          "mean": 0.822566545926646,
+          "sd": 0.003401635831189346
+        },
+        "incremental_bacc": {
+          "mean": 0.8423724871903163,
+          "sd": 0.01987771611875514
+        },
+        "forgetting": {
+          "mean": -0.008024540873881497,
+          "sd": 0.004519416420946646
+        },
+        "final_fpr": {
+          "mean": 0.0497562627324397,
+          "sd": 0.0016739977825049835
+        }
+      }
+    }
+  },
+  "source_result_sha256": {
+    "AR_seed10": "75d2c4ebd8f80599fe04c154b1ace4930853bf41d7feaed056d668a5bc581ee3",
+    "TabT_seed10": "34fc17d5ec0d3fa2b0a1e6087c4507ac3c85ca9aa28fa0a2dd32e722dee3dc61",
+    "AR_equivalence_seed10": "ebf4c06c4023f12f5036b7c53c829aab768b3a3ab2b5943b818d96d6fa413e88",
+    "AR_seed11": "75def74f25b14b2b998491837cae2d112c254c5cf4ec94dec541e8108cf05df5",
+    "TabT_seed11": "f0cf4bedb0ebc879d2070d5eabe2843960bbcce5124e3ba7c7d79185bc59e007",
+    "AR_equivalence_seed11": "73f6fdfb5c598b99abf6436aba4aea015ff3d79331f31f321ae0147b59e1500e",
+    "AR_seed12": "f5ea2a9484ae7bf7517d38057ff9cd2bf6f3a6ec90138f2ff5cc3367902a54b5",
+    "TabT_seed12": "135751b04ab601dc5e30597776a5e6cb8f75eed577bdddcebdfec28da328423c",
+    "AR_equivalence_seed12": "e6ccc67a462e9f56faed566a63446d80210471f4cbd7e39d9af3efcadf2ef2bf",
+    "AR_seed13": "f06ef5f3d9a3904b4d2cd457ebfe70f2671f9603b88c83a61b7041dcf2661e18",
+    "TabT_seed13": "be2f48242a2d0148355f07d882c838d3ff142096be3c49c53826bf21302988e8",
+    "AR_equivalence_seed13": "f3fe94fb047d0be3309a290d3427747af767e93e7bc228f37a9dc670ebadcfe0",
+    "AR_seed14": "e81eece55c8340c786c3010e10e13e4016b73b1547c9f9f531eaf8d282a4fb0b",
+    "TabT_seed14": "d7425dc74ad2a1e142c0be1b9c7d36b358a07f8787b4777436554580977519c0",
+    "AR_equivalence_seed14": "1f39347eea23dc4d0e9e7ad8595444852fb18933df790335e04db5d243318954"
+  },
+  "verified_CM": 160,
+  "registered_comparison": {
+    "endpoint": "final BAcc at1%",
+    "paired_difference_AR_minus_TabT": [
+      0.030081284483393422,
+      -0.002782883162426919,
+      0.003161707397660307,
+      0.02743118490305807,
+      -0.010425697641986975
+    ],
+    "t": 1.1627260841730083,
+    "p_one_sided": 0.15479027300060016,
+    "exact_sign_flip": {
+      "observed_mean_difference": 0.009493119195939582,
+      "permutations": 32,
+      "p": 0.1875,
+      "alternative": "AR minus TabT > 0",
+      "statistic": "mean paired difference",
+      "complete_enumeration": true
+    },
+    "scope": "Registered after three seeds were seen; mixed hardware V100S10/11/13 and RTX4060Ti12/14; not independent prospective confirmation."
+  },
+  "limitations": [
+    "Seed12 restored task0 model/memory but NOT RNG; original per-task reseeding retained.",
+    "Calibration pool previously available to allocation validation; TEST FPR not guaranteed.",
+    "Signed forgetting includes Normal and may be negative; no clipping.",
+    "Five-seed result does not close locked innovation/RQ1/RQ3 gates."
+  ],
+  "analysis_provenance": {
+    "git_commit": "c2886bbf8930d0a4e7411ec9a35dd176329b5b00",
+    "analyzer_sha256": "c19f88dbb1c0d633640f3825d5cad03115696d39eb107e160f6bea3c471f7949",
+    "command": [
+      "<LOCAL_ARTIFACT>",
+      "ncd/summarize_cse_tabt_completion.py",
+      "--run-root",
+      "<LOCAL_ARTIFACT>",
+      "--data-root",
+      "<LOCAL_ARTIFACT>",
+      "--frozen-root",
+      "<LOCAL_ARTIFACT>",
+      "--out",
+      "<LOCAL_ARTIFACT>"
+    ]
+  }
+}

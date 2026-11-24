@@ -101,8 +101,7 @@ and each folder's `SHA256SUMS` lists its files. Scheduler job numbers in those f
 | Folder | Contents |
 |---|---|
 | `results/confirmation/` | AR-Stateless (`R3-A`) and R3-L, three datasets, seeds 10–14 |
-| `results/er_bal_tabt/` | ER-Bal-TabT, UNSW-NB15 and CIC-IDS-2017 |
-| `results/er_bal_tabt_cse2018_incomplete/` | ER-Bal-TabT on CSE-CIC-IDS2018, the three seeds that finished |
+| `results/er_bal_tabt/` | ER-Bal-TabT on UNSW-NB15, CIC-IDS-2017 and CSE-CIC-IDS2018 (seeds 10–14). On CSE-CIC-IDS2018, seeds 12 and 14 ran on a different GPU and `five-seed-summary.json` holds the paired comparison |
 | `results/published_methods_s1.json` | DER++, iCaRL, ECBRS and BiC: per-seed values and paired tests |
 | `results/published_methods_runs/` | DER++, iCaRL, ECBRS and BiC: every run, calibration record and the same-score re-scoring |
 | `results/nsl_kdd/` | All methods on NSL-KDD (diagnostic, not part of the registered comparison) |

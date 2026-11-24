@@ -389,8 +389,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -2110,8 +2110,8 @@
             "herding_mmap_threshold_bytes": 268435456,
             "hidden": 128,
             "lambda_files": {
-              "UNSW-NB15": "ncd/results/crr/section15/registered/unsw-real/lambda_selections.json",
-              "default": "ncd/results/crr/section15/registered/nsl-real/lambda_selections.json"
+              "UNSW-NB15": "ncd/results/crr/study_component_684e2baa/registered/unsw-real/lambda_selections.json",
+              "default": "ncd/results/crr/study_component_684e2baa/registered/nsl-real/lambda_selections.json"
             },
             "learning_rate": 0.0005,
             "memory_setting": "fixed200",
@@ -2131,8 +2131,8 @@
             "rcl_features": 8,
             "rcl_prediction_weight": 0.5,
             "rcl_temperature": 0.5,
-            "section123_confirmation": true,
-            "section81": true,
+            "early_stopping_confirmation": true,
+            "balanced_replay": true,
             "seeds": [
               1,
               2,
@@ -2146,7 +2146,7 @@
             "weight_decay": 1e-05
           },
           "exposure_policy": {
-            "attack_stopping": "Original section26 TRAIN validation split; old rows only from bounded memory",
+            "attack_stopping": "Original calibration TRAIN validation split; old rows only from bounded memory",
             "benign_stopping": "Fixed 10% of non-calibration TRAIN, stable across tasks",
             "benign_stream": "Original AR select_rows, union of optimization and stopping rows",
             "calibration_used_for_stopping": false,
@@ -2250,7 +2250,7 @@
             "torch": "2.6.0+cu118"
           },
           "scientific_result": true,
-          "section": 81,
+          "section": "redacted-administrative-id",
           "seed": 11,
           "source_hashes": {
             "ncd/aacil_iso.py": "d2cdfc2552d43001cca4339c1dfd8b43fc0818f14e7185cf8c7fe36c06a9c3ce",
@@ -2262,18 +2262,18 @@
             "ncd/groundtruth.py": "461b49da778ac982a45d45965234de0dc00387ef53fff51d2ff8b3b8937c0bb7",
             "ncd/model.py": "4ecffaf1e11f6c5d04d6924f612fb20d13e7d4c785e35e32b5f736dbcc189964",
             "ncd/prepare_problem_scout_data.py": "66e0040d13029d7c62bbf3096bfaac7a6dc231b2f58b2bd772ba3c04b5051879",
-            "ncd/run_aacil.py": "8b174c437b6eb0f17ec37b24ee1dca1bb56379cb6e6ed3b8066790ee037656d8",
-            "ncd/run_aacil_retention.py": "838d0d28d8726709eba5f6d13756e0705c8e1a2b00a5cdfbd02ee593f682c94a",
-            "ncd/run_crr_real_sequence.py": "89c37fde631a2d0a253144cc65a207f0a4a2a4805411ba0c4577f3a63a7127f2",
-            "ncd/run_problem_scout.py": "fbaa435e4e9f658797e30bf6adc2f36e1e5be119d9cb72840255e3362cc2f2ac",
-            "ncd/run_replay_bs.py": "9bc350830e2bdafe18022ba14ccbecb6a84eb2af17e18d4b07533d12475a0846",
-            "ncd/run_section81_er.py": "8dd218243900b8a8b6b42046cfa9f6cb4997879bd69d94a007ed0a3b85d05ab3",
-            "ncd/run_section81_local.py": "a419953b3ec03fd765c5dbcce1bb4660e281309acd305dfa6ea7249cff1d68ff",
-            "ncd/section81_er_cell.py": "a2f2c533ad61fffe2bc8611f04bfcf35f49fa783b1023dee157eec68390fc929",
-            "ncd/section81_er_training.py": "4809cd13545dc41af5f21fb8a4ba4e2f7314300b3a024d2ca9492328c8c3d1bb",
-            "ncd/section81_exposure.py": "3da79cf809fb9842b3bb1d1d4eb003cfc1eb32186233055d03319ad5bc9b7bb5",
-            "ncd/section81_memory.py": "54c27596f34eabf31a97dfded1118e284975b6a8e66bc74f64f92ee705232ab3",
-            "ncd/section81_tabtransformer.py": "036842a76f5a5293c45eee3b61fd8d67907b92445b4e966a6c3ff7648b449883",
+            "ncd/experiment_runner_aacil.py": "8b174c437b6eb0f17ec37b24ee1dca1bb56379cb6e6ed3b8066790ee037656d8",
+            "ncd/experiment_runner_aacil_retention.py": "838d0d28d8726709eba5f6d13756e0705c8e1a2b00a5cdfbd02ee593f682c94a",
+            "ncd/experiment_runner_crr_real_sequence.py": "89c37fde631a2d0a253144cc65a207f0a4a2a4805411ba0c4577f3a63a7127f2",
+            "ncd/experiment_runner_problem_scout.py": "fbaa435e4e9f658797e30bf6adc2f36e1e5be119d9cb72840255e3362cc2f2ac",
+            "ncd/experiment_runner_replay_bs.py": "9bc350830e2bdafe18022ba14ccbecb6a84eb2af17e18d4b07533d12475a0846",
+            "ncd/experiment_runner_balanced_replay_er.py": "8dd218243900b8a8b6b42046cfa9f6cb4997879bd69d94a007ed0a3b85d05ab3",
+            "ncd/experiment_runner_balanced_replay_local.py": "a419953b3ec03fd765c5dbcce1bb4660e281309acd305dfa6ea7249cff1d68ff",
+            "ncd/balanced_replay_er_cell.py": "a2f2c533ad61fffe2bc8611f04bfcf35f49fa783b1023dee157eec68390fc929",
+            "ncd/balanced_replay_er_training.py": "4809cd13545dc41af5f21fb8a4ba4e2f7314300b3a024d2ca9492328c8c3d1bb",
+            "ncd/balanced_replay_exposure.py": "3da79cf809fb9842b3bb1d1d4eb003cfc1eb32186233055d03319ad5bc9b7bb5",
+            "ncd/balanced_replay_memory.py": "54c27596f34eabf31a97dfded1118e284975b6a8e66bc74f64f92ee705232ab3",
+            "ncd/balanced_replay_tabtransformer.py": "036842a76f5a5293c45eee3b61fd8d67907b92445b4e966a6c3ff7648b449883",
             "ncd/source_commit.py": "55965f417c285649c5e947917c1fe04f650700d171b9b984b7c8ae1b5a6b451d",
             "ncd/train_cil.py": "10448b2c1a4081794ce3c60c318b6786e17c0b59c585e54704e5e31096558533",
             "src/methods/replay_dpmeans.py": "0165a79066cb5c3b0c0ecffa68dfe34b0d3be67026fd68e70713043af1243ecd"
@@ -2919,8 +2919,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -5315,8 +5315,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -7935,8 +7935,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -10917,8 +10917,8 @@
       "herding_mmap_threshold_bytes": 268435456,
       "hidden": 128,
       "lambda_files": {
-        "UNSW-NB15": "ncd/results/crr/section15/registered/unsw-real/lambda_selections.json",
-        "default": "ncd/results/crr/section15/registered/nsl-real/lambda_selections.json"
+        "UNSW-NB15": "ncd/results/crr/study_component_684e2baa/registered/unsw-real/lambda_selections.json",
+        "default": "ncd/results/crr/study_component_684e2baa/registered/nsl-real/lambda_selections.json"
       },
       "learning_rate": 0.0005,
       "memory_setting": "fixed200",
@@ -10938,8 +10938,8 @@
       "rcl_features": 8,
       "rcl_prediction_weight": 0.5,
       "rcl_temperature": 0.5,
-      "section123_confirmation": true,
-      "section81": true,
+      "early_stopping_confirmation": true,
+      "balanced_replay": true,
       "seeds": [
         1,
         2,
@@ -10953,7 +10953,7 @@
       "weight_decay": 1e-05
     },
     "exposure_policy": {
-      "attack_stopping": "Original section26 TRAIN validation split; old rows only from bounded memory",
+      "attack_stopping": "Original calibration TRAIN validation split; old rows only from bounded memory",
       "benign_stopping": "Fixed 10% of non-calibration TRAIN, stable across tasks",
       "benign_stream": "Original AR select_rows, union of optimization and stopping rows",
       "calibration_used_for_stopping": false,
@@ -11058,7 +11058,7 @@
       "torch": "2.6.0+cu118"
     },
     "scientific_result": true,
-    "section": 81,
+    "section": "redacted-administrative-id",
     "seed": 11,
     "source_hashes": {
       "ncd/aacil_iso.py": "d2cdfc2552d43001cca4339c1dfd8b43fc0818f14e7185cf8c7fe36c06a9c3ce",
@@ -11070,18 +11070,18 @@
       "ncd/groundtruth.py": "461b49da778ac982a45d45965234de0dc00387ef53fff51d2ff8b3b8937c0bb7",
       "ncd/model.py": "4ecffaf1e11f6c5d04d6924f612fb20d13e7d4c785e35e32b5f736dbcc189964",
       "ncd/prepare_problem_scout_data.py": "66e0040d13029d7c62bbf3096bfaac7a6dc231b2f58b2bd772ba3c04b5051879",
-      "ncd/run_aacil.py": "8b174c437b6eb0f17ec37b24ee1dca1bb56379cb6e6ed3b8066790ee037656d8",
-      "ncd/run_aacil_retention.py": "838d0d28d8726709eba5f6d13756e0705c8e1a2b00a5cdfbd02ee593f682c94a",
-      "ncd/run_crr_real_sequence.py": "89c37fde631a2d0a253144cc65a207f0a4a2a4805411ba0c4577f3a63a7127f2",
-      "ncd/run_problem_scout.py": "fbaa435e4e9f658797e30bf6adc2f36e1e5be119d9cb72840255e3362cc2f2ac",
-      "ncd/run_replay_bs.py": "9bc350830e2bdafe18022ba14ccbecb6a84eb2af17e18d4b07533d12475a0846",
-      "ncd/run_section81_er.py": "8dd218243900b8a8b6b42046cfa9f6cb4997879bd69d94a007ed0a3b85d05ab3",
-      "ncd/run_section81_local.py": "a419953b3ec03fd765c5dbcce1bb4660e281309acd305dfa6ea7249cff1d68ff",
-      "ncd/section81_er_cell.py": "a2f2c533ad61fffe2bc8611f04bfcf35f49fa783b1023dee157eec68390fc929",
-      "ncd/section81_er_training.py": "4809cd13545dc41af5f21fb8a4ba4e2f7314300b3a024d2ca9492328c8c3d1bb",
-      "ncd/section81_exposure.py": "3da79cf809fb9842b3bb1d1d4eb003cfc1eb32186233055d03319ad5bc9b7bb5",
-      "ncd/section81_memory.py": "54c27596f34eabf31a97dfded1118e284975b6a8e66bc74f64f92ee705232ab3",
-      "ncd/section81_tabtransformer.py": "036842a76f5a5293c45eee3b61fd8d67907b92445b4e966a6c3ff7648b449883",
+      "ncd/experiment_runner_aacil.py": "8b174c437b6eb0f17ec37b24ee1dca1bb56379cb6e6ed3b8066790ee037656d8",
+      "ncd/experiment_runner_aacil_retention.py": "838d0d28d8726709eba5f6d13756e0705c8e1a2b00a5cdfbd02ee593f682c94a",
+      "ncd/experiment_runner_crr_real_sequence.py": "89c37fde631a2d0a253144cc65a207f0a4a2a4805411ba0c4577f3a63a7127f2",
+      "ncd/experiment_runner_problem_scout.py": "fbaa435e4e9f658797e30bf6adc2f36e1e5be119d9cb72840255e3362cc2f2ac",
+      "ncd/experiment_runner_replay_bs.py": "9bc350830e2bdafe18022ba14ccbecb6a84eb2af17e18d4b07533d12475a0846",
+      "ncd/experiment_runner_balanced_replay_er.py": "8dd218243900b8a8b6b42046cfa9f6cb4997879bd69d94a007ed0a3b85d05ab3",
+      "ncd/experiment_runner_balanced_replay_local.py": "a419953b3ec03fd765c5dbcce1bb4660e281309acd305dfa6ea7249cff1d68ff",
+      "ncd/balanced_replay_er_cell.py": "a2f2c533ad61fffe2bc8611f04bfcf35f49fa783b1023dee157eec68390fc929",
+      "ncd/balanced_replay_er_training.py": "4809cd13545dc41af5f21fb8a4ba4e2f7314300b3a024d2ca9492328c8c3d1bb",
+      "ncd/balanced_replay_exposure.py": "3da79cf809fb9842b3bb1d1d4eb003cfc1eb32186233055d03319ad5bc9b7bb5",
+      "ncd/balanced_replay_memory.py": "54c27596f34eabf31a97dfded1118e284975b6a8e66bc74f64f92ee705232ab3",
+      "ncd/balanced_replay_tabtransformer.py": "036842a76f5a5293c45eee3b61fd8d67907b92445b4e966a6c3ff7648b449883",
       "ncd/source_commit.py": "55965f417c285649c5e947917c1fe04f650700d171b9b984b7c8ae1b5a6b451d",
       "ncd/train_cil.py": "10448b2c1a4081794ce3c60c318b6786e17c0b59c585e54704e5e31096558533",
       "src/methods/replay_dpmeans.py": "0165a79066cb5c3b0c0ecffa68dfe34b0d3be67026fd68e70713043af1243ecd"
@@ -11325,7 +11325,7 @@
     "checkpoint_reference_base": "Original cell directory; weights are not included in this publication.",
     "execution_hashes_preserved": true,
     "identity_hash_semantics": "Saved identity hashes refer to original execution identities, not path-redacted publication identities.",
-    "original_json": "job510909/seed11/cell/result.json",
+    "original_json": "execution_record/seed11/cell/result.json",
     "original_json_sha256": "3f9445839bd7ddfc63abfc7220c30db5226ee03f2059ccd3d584764b52fe6531",
     "redacted_fields": [
       "checkpoints.0.recovered_from.identity.effective_config.problem_scout_data_root",
@@ -11347,7 +11347,7 @@
       12
     ],
     "five_seed_comparison": false,
-    "job_id": 510909,
+    "job_id": "redacted-administrative-id",
     "kind": "incomplete CSE extension; individual descriptive results only",
     "limitation": "Calibration uses the permanent TRAIN Normal holdout, not an independent current-period sample; target FPR is not a guaranteed TEST ceiling.",
     "weights_exported": false

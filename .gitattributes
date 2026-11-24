@@ -9,3 +9,5 @@ results/nsl_kdd/** -text
 results/confirmation/** -text
 results/benign_volume_and_hybrid/** -text
 results/published_methods_s1.json -text
+results/er_bal_tabt/** -text
+results/nsl_kdd/** -text
