@@ -587,8 +587,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -2737,8 +2737,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -5005,8 +5005,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -7385,8 +7385,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -9159,7 +9159,7 @@
     "Infiltration",
     "Botnet"
   ],
-  "command": "python -I ncd/run_replay_bs.py --method replay_bs --dataset CSE-CIC-IDS2018 --seed 11 --data-root work/exp_h_section21_data/clean_v1 --output-dir work/section165_local/confirmation/cse-cic-ids2018/replay_bs/seed11 --threads 2",
+  "command": "python -I ncd/experiment_runner_replay_bs.py --method replay_bs --dataset CSE-CIC-IDS2018 --seed 11 --data-root work/exp_h_study_component_c0f1b6fb_data/clean_v1 --output-dir work/confirmation_local/confirmation/cse-cic-ids2018/replay_bs/seed11 --threads 2",
   "completed": true,
   "completed_at": "2026-10-27T09:35:27.272751+08:00",
   "completed_attempt_elapsed_seconds": 239.58194139999978,
@@ -9551,7 +9551,7 @@
       "Infiltration",
       "Botnet"
     ],
-    "command": "work/section151_publish/ncd/run_section123_fixed.py --method replay_bs --dataset CSE-CIC-IDS2018 --seed 11 --data-root work/exp_h_section21_data/clean_v1 --output-dir work/section165_local/confirmation/cse-cic-ids2018/replay_bs/seed11 --threads 2",
+    "command": "work/study_component_a216b45b_publish/ncd/experiment_runner_early_stopping_fixed.py --method replay_bs --dataset CSE-CIC-IDS2018 --seed 11 --data-root work/exp_h_study_component_c0f1b6fb_data/clean_v1 --output-dir work/confirmation_local/confirmation/cse-cic-ids2018/replay_bs/seed11 --threads 2",
     "data_binding": {
       "x_test": {
         "dtype": "<f4",
@@ -9604,8 +9604,8 @@
         "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
         "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
         "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-        "section": "27.9",
-        "section26_10_unchanged": true,
+        "section": "benign_holdout_calibration",
+        "calibration_component_f57f16e0_unchanged": true,
         "targets": [
           0.01,
           0.02,
@@ -9640,8 +9640,8 @@
       "hidden": 128,
       "hidden_layers": 2,
       "lambda_files": {
-        "UNSW-NB15": "ncd/results/crr/section15/registered/unsw-real/lambda_selections.json",
-        "default": "ncd/results/crr/section15/registered/nsl-real/lambda_selections.json"
+        "UNSW-NB15": "ncd/results/crr/study_component_684e2baa/registered/unsw-real/lambda_selections.json",
+        "default": "ncd/results/crr/study_component_684e2baa/registered/nsl-real/lambda_selections.json"
       },
       "lambda_g": 0.0,
       "learning_rate": 0.001,
@@ -9656,16 +9656,16 @@
       "min_steps_per_task": 2000,
       "normal_training_rows": 50000,
       "post_hoc": true,
-      "problem_scout_data_root": "<WORKSPACE>/work/exp_h_section21_data/clean_v1",
+      "problem_scout_data_root": "<WORKSPACE>/work/exp_h_study_component_c0f1b6fb_data/clean_v1",
       "rcl_beta": 1.0,
       "rcl_features": 8,
       "rcl_prediction_weight": 0.5,
       "rcl_temperature": 0.5,
-      "section27": true,
-      "section28": true,
-      "section28_method": "replay_bs",
-      "section31": true,
-      "section81": true,
+      "study_component_42b6c031": true,
+      "study_component_da0869c1": true,
+      "study_component_da0869c1_method": "replay_bs",
+      "study_component_0b5678d4": true,
+      "balanced_replay": true,
       "seeds": [
         1,
         2,
@@ -9774,8 +9774,8 @@
       228721
     ],
     "regularization": 0.0,
-    "section26_access_policy": "benign_refresh_attack_memory_only",
-    "section26_holdout": {
+    "calibration_access_policy": "benign_refresh_attack_memory_only",
+    "calibration_holdout": {
       "0": {
         "train_count": 9632451,
         "validation_count": 1070273,
@@ -9812,8 +9812,8 @@
         "validation_indices_sha256": "bc20b421a9f7d8c6b98cb0623ba052b0eff5a995f9916508cfcbde91ddfc4a74"
       }
     },
-    "section27_access_policy": "benign_refresh_shared_attack_memory_only",
-    "section28_access_policy": "benign_refresh_shared_attack_memory_only",
+    "study_component_42b6c031_access_policy": "benign_refresh_shared_attack_memory_only",
+    "study_component_da0869c1_access_policy": "benign_refresh_shared_attack_memory_only",
     "seed": 11,
     "tasks": [
       [
@@ -9834,7 +9834,7 @@
     ]
   },
   "limitations": [
-    "Post-hoc Section27.10/28 control; does not replace the original seven-baseline registered verdict.",
+    "Post-hoc study_component_3cac8fd9_component_3cac8fd9/28 control; does not replace the original seven-baseline registered verdict.",
     "One multiclass network, same AA-CIL G input rows; not compute-matched to G+F combined.",
     "Calibrated alpha is not a guarantee of equal test FPR; permanent Normal holdout and benign stream storage are outside M."
   ],
@@ -9850,7 +9850,7 @@
       "raw_sha256": "431516a78e4e44f4427298a9af7d6061ec0ae9c6f6269084ed81b923954e855d"
     }
   },
-  "log_path": "../section165_local/confirmation/cse-cic-ids2018/replay_bs/seed11/cell/run.log",
+  "log_path": "../confirmation_local/confirmation/cse-cic-ids2018/replay_bs/seed11/cell/run.log",
   "os_exit_code": null,
   "post_hoc": true,
   "publication_derivation": {
@@ -9862,7 +9862,7 @@
     "execution_hashes_preserved": true,
     "identity_hash_semantics": "Saved hashes refer to the original execution identity, not the path-redacted public identity.",
     "original_identity_canonical_sha256": "caf4b624d1815d2bc5b8f97ec74c1b34bda5ff5ee14a279c808ddf5d9714b2ff",
-    "original_json": "section123/confirmation/cell/result.json",
+    "original_json": "early_stopping/confirmation/cell/result.json",
     "original_json_sha256": "0405fa35b13b1be2c94b4c11bbd28560a9722d28d6f5188b19c7ef37389b0ae2",
     "published_identity_canonical_sha256": "09d90960e2aaea89bf6324fe4a17b92364a17afc640155265c4009c49730841d",
     "redacted_fields": [

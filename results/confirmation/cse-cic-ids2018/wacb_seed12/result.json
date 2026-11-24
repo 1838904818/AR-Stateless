@@ -5061,7 +5061,7 @@
     "Infiltration",
     "Botnet"
   ],
-  "command": "python -I ncd/run_problem_scout.py --method wacb --seed 12 --output-dir @@HPC_SCRATCH@@/classil-b-v2-20261102/cells/cic-ids-2018/wacb/seed12 --threads 4 --dataset CSE-CIC-IDS2018 --data-root @@HPC_SCRATCH@@/classil-b-v2-20261102/data --resume",
+  "command": "python -I ncd/experiment_runner_problem_scout.py --method wacb --seed 12 --output-dir @@HPC_SCRATCH@@/classil-b-v2-20261102/cells/cic-ids-2018/wacb/seed12 --threads 4 --dataset CSE-CIC-IDS2018 --data-root @@HPC_SCRATCH@@/classil-b-v2-20261102/data --resume",
   "completed": true,
   "completed_at": "2026-11-02T13:26:28.213849+08:00",
   "identity": {
@@ -5151,8 +5151,8 @@
       "hidden": 128,
       "hidden_layers": 2,
       "lambda_files": {
-        "UNSW-NB15": "ncd/results/crr/section15/registered/unsw-real/lambda_selections.json",
-        "default": "ncd/results/crr/section15/registered/nsl-real/lambda_selections.json"
+        "UNSW-NB15": "ncd/results/crr/study_component_684e2baa/registered/unsw-real/lambda_selections.json",
+        "default": "ncd/results/crr/study_component_684e2baa/registered/nsl-real/lambda_selections.json"
       },
       "lambda_g": 0.0,
       "learning_rate": 0.001,
@@ -5171,12 +5171,12 @@
       "rcl_features": 8,
       "rcl_prediction_weight": 0.5,
       "rcl_temperature": 0.5,
-      "section26": true,
-      "section26_access_policy": "benign_refresh_attack_memory_only",
-      "section26_schema_version": 2,
-      "section27": true,
-      "section31": true,
-      "section81": true,
+      "calibration": true,
+      "calibration_access_policy": "benign_refresh_attack_memory_only",
+      "calibration_schema_version": 2,
+      "study_component_42b6c031": true,
+      "study_component_0b5678d4": true,
+      "balanced_replay": true,
       "seeds": [
         1,
         2,
@@ -5287,8 +5287,8 @@
     ],
     "portable_entry_sha256": "421260b39603cbf9085d3abb87d2610c0c826c07c0173550f38077c89d423e2a",
     "regularization": 0.0,
-    "section26_access_policy": "benign_refresh_attack_memory_only",
-    "section26_holdout": {
+    "calibration_access_policy": "benign_refresh_attack_memory_only",
+    "calibration_holdout": {
       "0": {
         "train_count": 9632451,
         "validation_count": 1070273,
@@ -5325,8 +5325,8 @@
         "validation_indices_sha256": "675124e26076c0c78367c302a0944c453b644d962d23b797289d39cfde15d5c0"
       }
     },
-    "section27_access_policy": "benign_refresh_shared_attack_memory_only",
-    "section28_access_policy": "benign_refresh_shared_attack_memory_only",
+    "study_component_42b6c031_access_policy": "benign_refresh_shared_attack_memory_only",
+    "study_component_da0869c1_access_policy": "benign_refresh_shared_attack_memory_only",
     "seed": 12,
     "tasks": [
       [
@@ -5360,13 +5360,13 @@
     "replay_count_scope": "replay_examples/bytes fields measure optimization replay only; allocation.actual_total includes retained validation. Selection time includes validation scoring and archive sampling.",
     "resource_measurement": "CUDA allocated/reserved peaks cover optimization only, not exemplar selection or evaluation; host RAM peak is not measured. Large exemplar embedding matrices use temporary disk-backed mmap, whose resident file pages remain OS-managed.",
     "rng": "Deterministic task-local seed = seed*10000+task_index; checkpoint-boundary resume uses exactly the same task-local seed.",
-    "scope": "Section26.9 benign stream available/old attacks inaccessible deployment comparison under RQ2/RO2; Joint explicitly offline; no OFRA motivation or RQ1/RQ3 completion.",
-    "selection_change_from_history": "Section26.9: Normal training/validation pools are refreshed each task with common task-dependent RNG; old attacks use stored replay/validation only, never old attack pools. New attacks use current-task TRAIN only.",
+    "scope": "calibration_component_965e80b7 benign stream available/old attacks inaccessible deployment comparison under RQ2/RO2; Joint explicitly offline; no OFRA motivation or RQ1/RQ3 completion.",
+    "selection_change_from_history": "calibration_component_965e80b7: Normal training/validation pools are refreshed each task with common task-dependent RNG; old attacks use stored replay/validation only, never old attack pools. New attacks use current-task TRAIN only.",
     "validation": "Permanent max(5,ceil(10%)) per-class TRAIN holdout. Allocation uses old retained validation and at most20 heldout rows for each new class; retained validation is counted inside M."
   },
   "schema_version": 1,
-  "section26_policy": "benign_refresh_attack_memory_only",
-  "section26_schema_version": 2,
+  "calibration_policy": "benign_refresh_attack_memory_only",
+  "calibration_schema_version": 2,
   "setting_metadata": {
     "cache_files": [
       {
@@ -7648,7 +7648,7 @@
         "sha256": "cffdd2fa3acdeb390742d70d525ead92944386ce09a6a8f55e64729770ce2980"
       }
     ],
-    "log_path": "ncd/results/problem_scout/section21/preparation_cic_full.log",
+    "log_path": "ncd/results/problem_scout/study_component_c0f1b6fb/preparation_cic_full.log",
     "preparation_script_sha256": "a772fdffb1071eca12cef278a5fdc6a502d5b4f65c243a5fb283ce2eedcbfc98",
     "preprocessing": "Finite raw cache values; numeric StandardScaler incrementally fitted in float64 on Task0 training only; test/shift never fit; outputs float32",
     "quality": {
@@ -7662,8 +7662,8 @@
           "test_rows": 3255102
         },
         "audit_sha256": "01bbb1decbb022411334e435e1735dd8aa66c08c307248e495eb43153d329a11",
-        "audit_source": "ncd/results/data_quality/section18/cic/cic_audit.json",
-        "caveat": "Within-split duplicates and label conflicts are retained by explicit Section21 instruction to preserve these feature-hash grouped caches; zero cross-split overlap is not absence of label noise.",
+        "audit_source": "ncd/results/data_quality/study_component_321fc1a3/cic/cic_audit.json",
+        "caveat": "Within-split duplicates and label conflicts are retained by explicit study_component_c0f1b6fb instruction to preserve these feature-hash grouped caches; zero cross-split overlap is not absence of label noise.",
         "full_uncapped_raw_audit": {
           "decision": "保持",
           "overall_test_match_rate": 0.0,
@@ -7794,7 +7794,7 @@
         "manifest_sha256": "c9de770b59a06821b25b38249217461c657a08c1f156b89a7e65376ac82b9fed",
         "raw_train_test_exact_overlap_rows": 0,
         "schema_sha256": "ac2fa15c57546f320a414e258fae16ce928f457c75a91d357179e0c99458fca0",
-        "verification": "Current SHA256 and size of every exact expected shard and schema checked against frozen manifest; manifest/schema hashes match Section18 full-row exact audit"
+        "verification": "Current SHA256 and size of every exact expected shard and schema checked against frozen manifest; manifest/schema hashes match study_component_321fc1a3 full-row exact audit"
       },
       "transformed": {
         "equality": "Complete little-endian float32 feature bytes; signed-zero canonical; hash routing followed by full bytes, not hash-only equality",
@@ -8958,8 +8958,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -10828,8 +10828,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -12806,8 +12806,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -14896,8 +14896,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -17036,8 +17036,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -18544,8 +18544,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -20076,8 +20076,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -21636,8 +21636,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,

@@ -1,5 +1,5 @@
 {
-  "analysis": "Section 178 S1",
+  "analysis": "published_methods S1",
   "analysis_source_sha256": "d431293263712829002e862c7082bc8fdc216e2594707945eaa9fd76159b1830",
   "datasets": {
     "cic-ids-2017": {
@@ -198,7 +198,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "4ee45e6020a591293d68d231c79b39dfc2f14d40aedd8613e0d045696df03a79",
               "seed": 10,
-              "source_path": "paper_aacil/results/section165_confirmation/cic-ids-2017/R3-A_seed10/result.json",
+              "source_path": "paper_aacil/results/confirmation_confirmation/cic-ids-2017/R3-A_seed10/result.json",
               "source_sha256": "c8f23080c44e88f15c297492e8f8d57edbc50e671cf4a21ee19e44e359421990",
               "views": {
                 "0.01": {
@@ -375,7 +375,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "4396172bb383d69d5d796058c39df29ab234d53c4d955c3f9d3df31f51ff1f29",
               "seed": 11,
-              "source_path": "paper_aacil/results/section165_confirmation/cic-ids-2017/R3-A_seed11/result.json",
+              "source_path": "paper_aacil/results/confirmation_confirmation/cic-ids-2017/R3-A_seed11/result.json",
               "source_sha256": "c9443bda1ed6896c5b3cfe28430a53094c0078cad8fc84f100df30d96c9190d9",
               "views": {
                 "0.01": {
@@ -552,7 +552,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "62c376bfce093e55264841217b9866fbee070a80d6e6922a0fb9adb21101a3ce",
               "seed": 12,
-              "source_path": "paper_aacil/results/section165_confirmation/cic-ids-2017/R3-A_seed12/result.json",
+              "source_path": "paper_aacil/results/confirmation_confirmation/cic-ids-2017/R3-A_seed12/result.json",
               "source_sha256": "20262f3af4601c4dbe879f43929dfe3393cbe3ab3571910c6a5d1a9f313cf8b9",
               "views": {
                 "0.01": {
@@ -729,7 +729,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "e2dd1d641400aa14957043bdf85a96fab811410187dfa52ab897c238e485471a",
               "seed": 13,
-              "source_path": "paper_aacil/results/section165_confirmation/cic-ids-2017/R3-A_seed13/result.json",
+              "source_path": "paper_aacil/results/confirmation_confirmation/cic-ids-2017/R3-A_seed13/result.json",
               "source_sha256": "c4a527d57e4547767fbe88d3cf50834e92232d1b57f9ac320614efe0600b8750",
               "views": {
                 "0.01": {
@@ -906,7 +906,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "1cb478fe8f1c7bea4902b1613a00ae070f01596e529609d55d9f6beac2f57835",
               "seed": 14,
-              "source_path": "paper_aacil/results/section165_confirmation/cic-ids-2017/R3-A_seed14/result.json",
+              "source_path": "paper_aacil/results/confirmation_confirmation/cic-ids-2017/R3-A_seed14/result.json",
               "source_sha256": "5f28ed45045bdeb113877ee849958298e60487cd9e74b87623ab38499e852178",
               "views": {
                 "0.01": {
@@ -1158,7 +1158,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "4ee45e6020a591293d68d231c79b39dfc2f14d40aedd8613e0d045696df03a79",
               "seed": 10,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/cer-bic-common_seed10/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/cer-bic-common_seed10/result.json",
               "source_sha256": "b141460f39725d9756e6739b137fb4660f3cb2d779de081d1f2bcbfeec71ba24",
               "views": {
                 "0.01": {
@@ -1335,7 +1335,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "4396172bb383d69d5d796058c39df29ab234d53c4d955c3f9d3df31f51ff1f29",
               "seed": 11,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/cer-bic-common_seed11/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/cer-bic-common_seed11/result.json",
               "source_sha256": "7779efc38135bab4566ab89f918fd0e048b6d1e1d34b351176d5ce134da7eb69",
               "views": {
                 "0.01": {
@@ -1512,7 +1512,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "62c376bfce093e55264841217b9866fbee070a80d6e6922a0fb9adb21101a3ce",
               "seed": 12,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/cer-bic-common_seed12/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/cer-bic-common_seed12/result.json",
               "source_sha256": "71631df8a91800ae37e7df2f72dc3026aa46ddce66e5782b8538edaa6dc032be",
               "views": {
                 "0.01": {
@@ -1689,7 +1689,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "e2dd1d641400aa14957043bdf85a96fab811410187dfa52ab897c238e485471a",
               "seed": 13,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/cer-bic-common_seed13/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/cer-bic-common_seed13/result.json",
               "source_sha256": "f7a0d05f5207d1ef3a27c0ba132265e00f3a04bd2077265f6c280e5c335a6122",
               "views": {
                 "0.01": {
@@ -1866,7 +1866,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "1cb478fe8f1c7bea4902b1613a00ae070f01596e529609d55d9f6beac2f57835",
               "seed": 14,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/cer-bic-common_seed14/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/cer-bic-common_seed14/result.json",
               "source_sha256": "b88d6b05361a122ac1a93748caa301119533b3b681122471d81b71ee8158fba1",
               "views": {
                 "0.01": {
@@ -2118,7 +2118,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "4ee45e6020a591293d68d231c79b39dfc2f14d40aedd8613e0d045696df03a79",
               "seed": 10,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/derpp_seed10/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/derpp_seed10/result.json",
               "source_sha256": "2e317f806324db22289c6531e7b59bb15d2c065f76720ddb7d671f5f010746c6",
               "views": {
                 "0.01": {
@@ -2295,7 +2295,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "4396172bb383d69d5d796058c39df29ab234d53c4d955c3f9d3df31f51ff1f29",
               "seed": 11,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/derpp_seed11/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/derpp_seed11/result.json",
               "source_sha256": "bf86b43fe9bea2316b43d24a0b69fae83816a3be83814f7d8a3aa8bbf19d7658",
               "views": {
                 "0.01": {
@@ -2472,7 +2472,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "62c376bfce093e55264841217b9866fbee070a80d6e6922a0fb9adb21101a3ce",
               "seed": 12,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/derpp_seed12/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/derpp_seed12/result.json",
               "source_sha256": "659e08cebebecff6debaa1d14773c94604bdf0637bfee8d9f82009d78ef00350",
               "views": {
                 "0.01": {
@@ -2649,7 +2649,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "e2dd1d641400aa14957043bdf85a96fab811410187dfa52ab897c238e485471a",
               "seed": 13,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/derpp_seed13/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/derpp_seed13/result.json",
               "source_sha256": "961cd5bbda0312048899eeb3b0da9f641e83d66f5ababb8329b25692955ba2a2",
               "views": {
                 "0.01": {
@@ -2826,7 +2826,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "1cb478fe8f1c7bea4902b1613a00ae070f01596e529609d55d9f6beac2f57835",
               "seed": 14,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/derpp_seed14/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/derpp_seed14/result.json",
               "source_sha256": "454079728850f4178fbc666035022c7015d686b07ba44cff14170c868e30f6f6",
               "views": {
                 "0.01": {
@@ -3078,7 +3078,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "4ee45e6020a591293d68d231c79b39dfc2f14d40aedd8613e0d045696df03a79",
               "seed": 10,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/ecbrs-paper_seed10/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/ecbrs-paper_seed10/result.json",
               "source_sha256": "997973415fd05ce927adf74cf69cae906fa5daee2380c7e624b6aa2ee13f2374",
               "views": {
                 "0.01": {
@@ -3255,7 +3255,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "4396172bb383d69d5d796058c39df29ab234d53c4d955c3f9d3df31f51ff1f29",
               "seed": 11,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/ecbrs-paper_seed11/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/ecbrs-paper_seed11/result.json",
               "source_sha256": "9360b95661993733914910df836f7ddcdb6b20905ffe8b39e722fb35abc3feef",
               "views": {
                 "0.01": {
@@ -3432,7 +3432,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "62c376bfce093e55264841217b9866fbee070a80d6e6922a0fb9adb21101a3ce",
               "seed": 12,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/ecbrs-paper_seed12/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/ecbrs-paper_seed12/result.json",
               "source_sha256": "58fb3100f28e5bc2c0ece43668b74c95750285814496f04ca1393561c3b77acc",
               "views": {
                 "0.01": {
@@ -3609,7 +3609,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "e2dd1d641400aa14957043bdf85a96fab811410187dfa52ab897c238e485471a",
               "seed": 13,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/ecbrs-paper_seed13/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/ecbrs-paper_seed13/result.json",
               "source_sha256": "b11f00279cba4bf57e37c9806f76729e6a82ab7082cd5328fec8a8af2cce6b9e",
               "views": {
                 "0.01": {
@@ -3786,7 +3786,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "1cb478fe8f1c7bea4902b1613a00ae070f01596e529609d55d9f6beac2f57835",
               "seed": 14,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/ecbrs-paper_seed14/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/ecbrs-paper_seed14/result.json",
               "source_sha256": "5cdcb82e896847ce1b2aacff5ebbfa71e06e063ba3061dbf10dbf2785385f7a5",
               "views": {
                 "0.01": {
@@ -4038,7 +4038,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "4ee45e6020a591293d68d231c79b39dfc2f14d40aedd8613e0d045696df03a79",
               "seed": 10,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/icarl_seed10/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/icarl_seed10/result.json",
               "source_sha256": "536d28b610515f93f3baaaddd9619168ea73bfb6e43f3350c70fb36dc1336a5e",
               "views": {
                 "0.01": {
@@ -4215,7 +4215,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "4396172bb383d69d5d796058c39df29ab234d53c4d955c3f9d3df31f51ff1f29",
               "seed": 11,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/icarl_seed11/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/icarl_seed11/result.json",
               "source_sha256": "b6c498dcb609d107ce76c31bd89e7335a82737a52a738daa7addaa77912fe71f",
               "views": {
                 "0.01": {
@@ -4392,7 +4392,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "62c376bfce093e55264841217b9866fbee070a80d6e6922a0fb9adb21101a3ce",
               "seed": 12,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/icarl_seed12/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/icarl_seed12/result.json",
               "source_sha256": "aa2c6dc16eed657a7a4d240182eee17a0dd58b7de30fcd3b547f71428da578da",
               "views": {
                 "0.01": {
@@ -4569,7 +4569,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "e2dd1d641400aa14957043bdf85a96fab811410187dfa52ab897c238e485471a",
               "seed": 13,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/icarl_seed13/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/icarl_seed13/result.json",
               "source_sha256": "445bb8bc7c22f3f80a69a29ea0c23a1a1a2c4d5416fcc0fb48de4d234f2c7d83",
               "views": {
                 "0.01": {
@@ -4746,7 +4746,7 @@
               "normal_holdout_rows": 181176,
               "normal_holdout_sha256": "1cb478fe8f1c7bea4902b1613a00ae070f01596e529609d55d9f6beac2f57835",
               "seed": 14,
-              "source_path": "paper_aacil/results/section178_literature/cic-ids-2017/icarl_seed14/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/cic-ids-2017/icarl_seed14/result.json",
               "source_sha256": "5101bd1ca726c9adfd28081c0c07e6b43cb9da2e27cc84da0bc48531df3ccbab",
               "views": {
                 "0.01": {
@@ -5139,7 +5139,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "76ff90e6a388ae65f406141b1136aaaf84adad75dbe4400867f1392da47f8d0c",
               "seed": 10,
-              "source_path": "paper_aacil/results/section165_confirmation/unsw-nb15/R3-A_seed10/result.json",
+              "source_path": "paper_aacil/results/confirmation_confirmation/unsw-nb15/R3-A_seed10/result.json",
               "source_sha256": "3ef93111183ac498bcd922e02a46562413f85aba3d93e5e1e9b1d8611c134010",
               "views": {
                 "0.01": {
@@ -5370,7 +5370,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "19f89e55d5585e25411ccc5353bf4fdc2059ca759451b2d4ebba181d189583fd",
               "seed": 11,
-              "source_path": "paper_aacil/results/section165_confirmation/unsw-nb15/R3-A_seed11/result.json",
+              "source_path": "paper_aacil/results/confirmation_confirmation/unsw-nb15/R3-A_seed11/result.json",
               "source_sha256": "ca5f87b5f82cfb55468c6c77ab141402af189c68f1c3d1b79827ea32c16c0ba1",
               "views": {
                 "0.01": {
@@ -5601,7 +5601,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "2195d5d4d1d7df80f4f1b6dda79659b77b78c9bbe1c0a292840b4c8a2618576b",
               "seed": 12,
-              "source_path": "paper_aacil/results/section165_confirmation/unsw-nb15/R3-A_seed12/result.json",
+              "source_path": "paper_aacil/results/confirmation_confirmation/unsw-nb15/R3-A_seed12/result.json",
               "source_sha256": "04e8d53c46f566f2fe447fa3a5ebc24b7286b043d943eaf28265acd67f5f068b",
               "views": {
                 "0.01": {
@@ -5832,7 +5832,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "fcad25ce9a45f67a3e1d4b494147a4f94c0d6a09f18fb9a4e1ffb9318ff9fe91",
               "seed": 13,
-              "source_path": "paper_aacil/results/section165_confirmation/unsw-nb15/R3-A_seed13/result.json",
+              "source_path": "paper_aacil/results/confirmation_confirmation/unsw-nb15/R3-A_seed13/result.json",
               "source_sha256": "56f74e594798b819a00e68a0424199954cbd6ae12c3ba0ecca074163adf3b3c3",
               "views": {
                 "0.01": {
@@ -6063,7 +6063,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "3600a284deece3327429b5e4c4d90931f1326f23f3a35cb40a0ff7d4f529c4e1",
               "seed": 14,
-              "source_path": "paper_aacil/results/section165_confirmation/unsw-nb15/R3-A_seed14/result.json",
+              "source_path": "paper_aacil/results/confirmation_confirmation/unsw-nb15/R3-A_seed14/result.json",
               "source_sha256": "bf65c2f47d66f1fe5e90efc21c275d3506722cec7dd7bc4ad9159099175d86fd",
               "views": {
                 "0.01": {
@@ -6369,7 +6369,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "76ff90e6a388ae65f406141b1136aaaf84adad75dbe4400867f1392da47f8d0c",
               "seed": 10,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/cer-bic-common_seed10/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/cer-bic-common_seed10/result.json",
               "source_sha256": "730bf458ce70f09c3709a4f614cea7e5ce2ce8d4ba2d3aadfe551fe36c1c94a0",
               "views": {
                 "0.01": {
@@ -6600,7 +6600,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "19f89e55d5585e25411ccc5353bf4fdc2059ca759451b2d4ebba181d189583fd",
               "seed": 11,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/cer-bic-common_seed11/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/cer-bic-common_seed11/result.json",
               "source_sha256": "c3283da5c6b33ca490e408911ae94c9472080e88ac89d0d9828dd82d778eb380",
               "views": {
                 "0.01": {
@@ -6831,7 +6831,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "2195d5d4d1d7df80f4f1b6dda79659b77b78c9bbe1c0a292840b4c8a2618576b",
               "seed": 12,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/cer-bic-common_seed12/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/cer-bic-common_seed12/result.json",
               "source_sha256": "910b07110190a683ff7022d142df94fe0e0ab1cb6c7ff953a6ed0fec27aa05c3",
               "views": {
                 "0.01": {
@@ -7062,7 +7062,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "fcad25ce9a45f67a3e1d4b494147a4f94c0d6a09f18fb9a4e1ffb9318ff9fe91",
               "seed": 13,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/cer-bic-common_seed13/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/cer-bic-common_seed13/result.json",
               "source_sha256": "302e7234996b425175e919d482fef2ab676bbf87ae6f3369e104d174dbe70d6d",
               "views": {
                 "0.01": {
@@ -7293,7 +7293,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "3600a284deece3327429b5e4c4d90931f1326f23f3a35cb40a0ff7d4f529c4e1",
               "seed": 14,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/cer-bic-common_seed14/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/cer-bic-common_seed14/result.json",
               "source_sha256": "44115955802bdf71b6aa2c5853f4912fb8848c9552d8611d8b7e777a0c46f3d8",
               "views": {
                 "0.01": {
@@ -7599,7 +7599,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "76ff90e6a388ae65f406141b1136aaaf84adad75dbe4400867f1392da47f8d0c",
               "seed": 10,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/derpp_seed10/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/derpp_seed10/result.json",
               "source_sha256": "096ea809b08ddf8a3116a9286c20f1725730955a6f0a5236320d52886878e15c",
               "views": {
                 "0.01": {
@@ -7830,7 +7830,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "19f89e55d5585e25411ccc5353bf4fdc2059ca759451b2d4ebba181d189583fd",
               "seed": 11,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/derpp_seed11/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/derpp_seed11/result.json",
               "source_sha256": "1a0f0bb47f646cf526b167b1704fee3e11b875d2ae2fd6cc01cbc3aee1b143ae",
               "views": {
                 "0.01": {
@@ -8061,7 +8061,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "2195d5d4d1d7df80f4f1b6dda79659b77b78c9bbe1c0a292840b4c8a2618576b",
               "seed": 12,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/derpp_seed12/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/derpp_seed12/result.json",
               "source_sha256": "49172bd9ee94c5984ea74c7e6e8fd81cee89dd1b493dc29a054be0f5a92a2b1d",
               "views": {
                 "0.01": {
@@ -8292,7 +8292,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "fcad25ce9a45f67a3e1d4b494147a4f94c0d6a09f18fb9a4e1ffb9318ff9fe91",
               "seed": 13,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/derpp_seed13/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/derpp_seed13/result.json",
               "source_sha256": "00f1847860456c9b73b830c24f3052bb139a5e07ce9cc4f40f03db4f8b30a311",
               "views": {
                 "0.01": {
@@ -8523,7 +8523,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "3600a284deece3327429b5e4c4d90931f1326f23f3a35cb40a0ff7d4f529c4e1",
               "seed": 14,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/derpp_seed14/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/derpp_seed14/result.json",
               "source_sha256": "6ee538ada966665cfe784e12b06d2ee59cc9f794021783b9ac5315bc04d54897",
               "views": {
                 "0.01": {
@@ -8829,7 +8829,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "76ff90e6a388ae65f406141b1136aaaf84adad75dbe4400867f1392da47f8d0c",
               "seed": 10,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/ecbrs-paper_seed10/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/ecbrs-paper_seed10/result.json",
               "source_sha256": "fbdd9c1773ef30e1ff377571a536bcc69972a1e0908155446554f65d26be77af",
               "views": {
                 "0.01": {
@@ -9060,7 +9060,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "19f89e55d5585e25411ccc5353bf4fdc2059ca759451b2d4ebba181d189583fd",
               "seed": 11,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/ecbrs-paper_seed11/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/ecbrs-paper_seed11/result.json",
               "source_sha256": "06380d8e8448e50108341043da18c6f64f1d1a389e7b0582045ca983cc7b7be9",
               "views": {
                 "0.01": {
@@ -9291,7 +9291,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "2195d5d4d1d7df80f4f1b6dda79659b77b78c9bbe1c0a292840b4c8a2618576b",
               "seed": 12,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/ecbrs-paper_seed12/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/ecbrs-paper_seed12/result.json",
               "source_sha256": "4b7dfdc52e1e2f6b13a27a6f57a8c2ac5ac4237a388db506bd1ec66d1573cf16",
               "views": {
                 "0.01": {
@@ -9522,7 +9522,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "fcad25ce9a45f67a3e1d4b494147a4f94c0d6a09f18fb9a4e1ffb9318ff9fe91",
               "seed": 13,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/ecbrs-paper_seed13/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/ecbrs-paper_seed13/result.json",
               "source_sha256": "37a06832d0e5b218bf621f1509f6930f74fc7226c547e672a9de4d848438d840",
               "views": {
                 "0.01": {
@@ -9753,7 +9753,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "3600a284deece3327429b5e4c4d90931f1326f23f3a35cb40a0ff7d4f529c4e1",
               "seed": 14,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/ecbrs-paper_seed14/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/ecbrs-paper_seed14/result.json",
               "source_sha256": "31dbb829237272f6bd1c471388a56c82f7be5ee3f98c7f5d7cfeaec3282fc45e",
               "views": {
                 "0.01": {
@@ -10059,7 +10059,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "76ff90e6a388ae65f406141b1136aaaf84adad75dbe4400867f1392da47f8d0c",
               "seed": 10,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/icarl_seed10/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/icarl_seed10/result.json",
               "source_sha256": "fd69b911b74ecfd37af950dac0725adedd3f0618938e9f84198011c50c0c94bd",
               "views": {
                 "0.01": {
@@ -10290,7 +10290,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "19f89e55d5585e25411ccc5353bf4fdc2059ca759451b2d4ebba181d189583fd",
               "seed": 11,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/icarl_seed11/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/icarl_seed11/result.json",
               "source_sha256": "4e6abbf98ed1ea49bbd7a31e6fbb60615b19645ab1b97140ec511d866611b842",
               "views": {
                 "0.01": {
@@ -10521,7 +10521,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "2195d5d4d1d7df80f4f1b6dda79659b77b78c9bbe1c0a292840b4c8a2618576b",
               "seed": 12,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/icarl_seed12/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/icarl_seed12/result.json",
               "source_sha256": "aeaacb031b7ca389366501af7555d79c5cf7fee20057bd828e63dd6828d0d080",
               "views": {
                 "0.01": {
@@ -10752,7 +10752,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "fcad25ce9a45f67a3e1d4b494147a4f94c0d6a09f18fb9a4e1ffb9318ff9fe91",
               "seed": 13,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/icarl_seed13/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/icarl_seed13/result.json",
               "source_sha256": "52063f994a2454ca25598bc70c97936509cdaf51be3f429a2a702f512e48b41d",
               "views": {
                 "0.01": {
@@ -10983,7 +10983,7 @@
               "normal_holdout_rows": 6825,
               "normal_holdout_sha256": "3600a284deece3327429b5e4c4d90931f1326f23f3a35cb40a0ff7d4f529c4e1",
               "seed": 14,
-              "source_path": "paper_aacil/results/section178_literature/unsw-nb15/icarl_seed14/result.json",
+              "source_path": "paper_aacil/results/published_methods_literature/unsw-nb15/icarl_seed14/result.json",
               "source_sha256": "0c539e083cd8a73356c8620cf5f17edb3c6a42c890bf003b00ea3a22f2fec3ce",
               "views": {
                 "0.01": {

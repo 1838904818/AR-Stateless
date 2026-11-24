@@ -4737,7 +4737,7 @@
   },
   "identity": {
     "command": [
-      "ncd/run_section165.py",
+      "ncd/experiment_runner_confirmation.py",
       "--dataset",
       "UNSW-NB15",
       "--method",
@@ -4809,8 +4809,8 @@
       "herding_mmap_threshold_bytes": 268435456,
       "hidden": 128,
       "lambda_files": {
-        "UNSW-NB15": "ncd/results/crr/section15/registered/unsw-real/lambda_selections.json",
-        "default": "ncd/results/crr/section15/registered/nsl-real/lambda_selections.json"
+        "UNSW-NB15": "ncd/results/crr/study_component_684e2baa/registered/unsw-real/lambda_selections.json",
+        "default": "ncd/results/crr/study_component_684e2baa/registered/nsl-real/lambda_selections.json"
       },
       "lambda_g": 0.0,
       "learning_rate": 0.001,
@@ -4829,7 +4829,7 @@
       "rcl_features": 8,
       "rcl_prediction_weight": 0.5,
       "rcl_temperature": 0.5,
-      "section156": {
+      "method_configuration": {
         "attack_memory_per_class": 200,
         "benign_hard": false,
         "control": true,
@@ -4840,14 +4840,14 @@
         "family_hidden_layers": 2,
         "gate": "embedding",
         "gate_retention": false,
-        "gate_schedule": "section123_es",
+        "gate_schedule": "early_stopping_es",
         "last_layer_cbf_epochs": 1,
         "normal_training_rows": 50000,
         "store_logits": false,
         "weight_alignment": true
       },
-      "section165_memory": "exact_c1",
-      "section489_benign_volume": true,
+      "confirmation_memory": "exact_c1",
+      "study_component_5e22f08c_benign_volume": true,
       "seeds": [
         1,
         2,

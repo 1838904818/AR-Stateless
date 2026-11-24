@@ -7152,7 +7152,7 @@
     "R2L",
     "U2R"
   ],
-  "command": "python -I ncd/run_aacil_compact.py --method ar --seed 13 --output-dir @@HPC_SCRATCH@@/classil-b-v2-20261102/cells/nsl-kdd/ar/seed13 --threads 4 --dataset NSL-KDD --data-root @@HPC_SCRATCH@@/classil-b-v2-20261102/data --resume",
+  "command": "python -I ncd/experiment_runner_aacil_compact.py --method ar --seed 13 --output-dir @@HPC_SCRATCH@@/classil-b-v2-20261102/cells/nsl-kdd/ar/seed13 --threads 4 --dataset NSL-KDD --data-root @@HPC_SCRATCH@@/classil-b-v2-20261102/data --resume",
   "completed": true,
   "completed_at": "2026-11-02T12:30:32.522865+08:00",
   "cost_scope": "training=gate+family; family=base_family+CBF (nested, not additive again); EMA consistency forward/update included in base_family; buffer_selection includes CBF subset selection; WA and gate-teacher/entry-logit/calibration/evaluation separate; prototype cost is zero; excludes loading/serialization/failed attempts",
@@ -7246,8 +7246,8 @@
       "hidden": 128,
       "hidden_layers": 2,
       "lambda_files": {
-        "UNSW-NB15": "ncd/results/crr/section15/registered/unsw-real/lambda_selections.json",
-        "default": "ncd/results/crr/section15/registered/nsl-real/lambda_selections.json"
+        "UNSW-NB15": "ncd/results/crr/study_component_684e2baa/registered/unsw-real/lambda_selections.json",
+        "default": "ncd/results/crr/study_component_684e2baa/registered/nsl-real/lambda_selections.json"
       },
       "lambda_g": 0.0,
       "learning_rate": 0.001,
@@ -7266,9 +7266,9 @@
       "rcl_features": 8,
       "rcl_prediction_weight": 0.5,
       "rcl_temperature": 0.5,
-      "section27": true,
-      "section31": true,
-      "section81": true,
+      "study_component_42b6c031": true,
+      "study_component_0b5678d4": true,
+      "balanced_replay": true,
       "seeds": [
         1,
         2,
@@ -7415,8 +7415,8 @@
     ],
     "portable_entry_sha256": "421260b39603cbf9085d3abb87d2610c0c826c07c0173550f38077c89d423e2a",
     "regularization": 0.0,
-    "section26_access_policy": "benign_refresh_attack_memory_only",
-    "section26_holdout": {
+    "calibration_access_policy": "benign_refresh_attack_memory_only",
+    "calibration_holdout": {
       "0": {
         "train_count": 60608,
         "validation_count": 6735,
@@ -7443,8 +7443,8 @@
         "validation_indices_sha256": "aecddb7853d40ac0ba76ab1f231fe5b23f1f8e7af1a670d077012f8295e6e451"
       }
     },
-    "section27_access_policy": "benign_refresh_shared_attack_memory_only",
-    "section28_access_policy": "benign_refresh_shared_attack_memory_only",
+    "study_component_42b6c031_access_policy": "benign_refresh_shared_attack_memory_only",
+    "study_component_da0869c1_access_policy": "benign_refresh_shared_attack_memory_only",
     "seed": 13,
     "tasks": [
       [
@@ -7474,10 +7474,10 @@
   "memory_logit_forward_seconds_total": 0.003002110868692398,
   "ncm_prototype_seconds_total": 0.0,
   "schema_version": 1,
-  "section31_schema_version": 1,
+  "study_component_0b5678d4_schema_version": 1,
   "selection_metrics": null,
   "selection_only": false,
-  "selection_rule": "Section44 fixed post-unsealing intervention; no validation selection or tuning",
+  "selection_rule": "study_component_3dcc7418 fixed post-unsealing intervention; no validation selection or tuning",
   "tasks": [
     [
       0,

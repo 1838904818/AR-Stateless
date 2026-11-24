@@ -394,8 +394,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -2192,8 +2192,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -4063,8 +4063,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -5989,8 +5989,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -8085,8 +8085,8 @@
       "hidden": 128,
       "hidden_layers": 2,
       "lambda_files": {
-        "UNSW-NB15": "ncd/results/crr/section15/registered/unsw-real/lambda_selections.json",
-        "default": "ncd/results/crr/section15/registered/nsl-real/lambda_selections.json"
+        "UNSW-NB15": "ncd/results/crr/study_component_684e2baa/registered/unsw-real/lambda_selections.json",
+        "default": "ncd/results/crr/study_component_684e2baa/registered/nsl-real/lambda_selections.json"
       },
       "learning_rate": 0.001,
       "methods": [
@@ -8173,10 +8173,10 @@
       "ncd/ecbrs_memory.py": "08ea2476f9fb4b521227b6c49108a8162d17004baaa31618762dd7dea752a19c",
       "ncd/model.py": "4ecffaf1e11f6c5d04d6924f612fb20d13e7d4c785e35e32b5f736dbcc189964",
       "ncd/prepare_problem_scout_data.py": "66e0040d13029d7c62bbf3096bfaac7a6dc231b2f58b2bd772ba3c04b5051879",
-      "ncd/run_problem_scout.py": "fbaa435e4e9f658797e30bf6adc2f36e1e5be119d9cb72840255e3362cc2f2ac",
-      "ncd/run_replay_bs.py": "9bc350830e2bdafe18022ba14ccbecb6a84eb2af17e18d4b07533d12475a0846",
-      "ncd/run_section178_ecbrs.py": "418dfd10fef943d17a3577ebb8193e41c2eaaed473dba2df231a229b4852f008",
-      "ncd/run_section178_ecbrs_extended.py": "bdc6645604d5b09793d8de182d176d90563104af3e18c36257f9555f8b681cc5"
+      "ncd/experiment_runner_problem_scout.py": "fbaa435e4e9f658797e30bf6adc2f36e1e5be119d9cb72840255e3362cc2f2ac",
+      "ncd/experiment_runner_replay_bs.py": "9bc350830e2bdafe18022ba14ccbecb6a84eb2af17e18d4b07533d12475a0846",
+      "ncd/experiment_runner_published_methods_ecbrs.py": "418dfd10fef943d17a3577ebb8193e41c2eaaed473dba2df231a229b4852f008",
+      "ncd/experiment_runner_published_methods_ecbrs_extended.py": "bdc6645604d5b09793d8de182d176d90563104af3e18c36257f9555f8b681cc5"
     },
     "tasks": [
       [
@@ -8630,8 +8630,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -10156,8 +10156,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -11713,8 +11713,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,
@@ -13283,8 +13283,8 @@
           "pool": "Same seed-specific permanent Normal TRAIN holdout for every method; never optimized",
           "replay_la": "Same Replay weights and total tau; baseline tau=1 plus delta, no extra training or inference",
           "rule": "First adjacent initial-grid bracket when present; otherwise expand toward the missing infeasible lower or feasible upper endpoint; retain feasible upper endpoint after 50 bisections",
-          "section": "27.9",
-          "section26_10_unchanged": true,
+          "section": "benign_holdout_calibration",
+          "calibration_component_f57f16e0_unchanged": true,
           "targets": [
             0.01,
             0.02,

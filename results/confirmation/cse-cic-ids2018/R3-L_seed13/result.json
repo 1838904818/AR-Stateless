@@ -2615,7 +2615,7 @@
     "source_commit": "f3569bb98de3d8ea11b6bc349b43b4bfa3266462"
   },
   "identity": {
-    "command": "work/section151_publish/ncd/run_section165.py --method R3-L --dataset CSE-CIC-IDS2018 --seed 13 --data-root work/exp_h_section21_data/clean_v1 --output-root work/section165_local --threads 2",
+    "command": "work/study_component_a216b45b_publish/ncd/experiment_runner_confirmation.py --method R3-L --dataset CSE-CIC-IDS2018 --seed 13 --data-root work/exp_h_study_component_c0f1b6fb_data/clean_v1 --output-root work/confirmation_local --threads 2",
     "data_binding": {
       "x_test": {
         "dtype": "<f4",
@@ -2672,8 +2672,8 @@
       "herding_mmap_threshold_bytes": 268435456,
       "hidden": 128,
       "lambda_files": {
-        "UNSW-NB15": "ncd/results/crr/section15/registered/unsw-real/lambda_selections.json",
-        "default": "ncd/results/crr/section15/registered/nsl-real/lambda_selections.json"
+        "UNSW-NB15": "ncd/results/crr/study_component_684e2baa/registered/unsw-real/lambda_selections.json",
+        "default": "ncd/results/crr/study_component_684e2baa/registered/nsl-real/lambda_selections.json"
       },
       "lambda_g": 0.0,
       "learning_rate": 0.001,
@@ -2687,12 +2687,12 @@
       ],
       "min_steps_per_task": 2000,
       "normal_training_rows": 50000,
-      "problem_scout_data_root": "<WORKSPACE>/work/exp_h_section21_data/clean_v1",
+      "problem_scout_data_root": "<WORKSPACE>/work/exp_h_study_component_c0f1b6fb_data/clean_v1",
       "rcl_beta": 1.0,
       "rcl_features": 8,
       "rcl_prediction_weight": 0.5,
       "rcl_temperature": 0.5,
-      "section156": {
+      "method_configuration": {
         "attack_memory_per_class": 200,
         "benign_hard": false,
         "control": true,
@@ -2703,13 +2703,13 @@
         "family_hidden_layers": 2,
         "gate": "embedding",
         "gate_retention": false,
-        "gate_schedule": "section123_es",
+        "gate_schedule": "early_stopping_es",
         "last_layer_cbf_epochs": 1,
         "normal_training_rows": 50000,
         "store_logits": false,
         "weight_alignment": true
       },
-      "section165_memory": "literature",
+      "confirmation_memory": "literature",
       "seeds": [
         1,
         2,
@@ -2727,7 +2727,7 @@
     "smoke": false
   },
   "publication_derivation": {
-    "original_json": "section165/confirmation/cell/result.json",
+    "original_json": "confirmation/confirmation/cell/result.json",
     "original_json_sha256": "b6c53a91b0b1b5ded9e746c45b9a1d4ded0ba7bbcfc54b342bbaea38640cf02f",
     "redacted_fields": [
       "identity.command_representation_list_to_string",
