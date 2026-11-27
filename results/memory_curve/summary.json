@@ -1,0 +1,4580 @@
+{
+ "cells_verified": 60,
+ "confusion_matrices_verified": 1080,
+ "operating_alpha": 0.01,
+ "groups": [
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 0.5,
+   "seeds": [
+    70,
+    71,
+    72,
+    73,
+    74
+   ],
+   "final_bacc_percent_or_pp": {
+    "mean": 62.62318955223367,
+    "sample_sd": 1.2154962378482856
+   },
+   "forgetting_percent_or_pp": {
+    "mean": 26.045342481506907,
+    "sample_sd": 1.0871920258615515
+   },
+   "memory_MB": {
+    "mean": 0.28,
+    "sample_sd": 0.0
+   },
+   "model_pickle_MB": {
+    "mean": 7.0405974,
+    "sample_sd": 0.34269233284142814
+   },
+   "error_destinations_per_seed": [
+    {
+     "seed": 70,
+     "old_attack_errors": 7328,
+     "Normal": 4678,
+     "other_old": 1899,
+     "new": 751,
+     "fractions": {
+      "Normal": 0.6383733624454149,
+      "other_old": 0.2591430131004367,
+      "new": 0.10248362445414848
+     }
+    },
+    {
+     "seed": 71,
+     "old_attack_errors": 7248,
+     "Normal": 4611,
+     "other_old": 2018,
+     "new": 619,
+     "fractions": {
+      "Normal": 0.6361754966887417,
+      "other_old": 0.2784216335540839,
+      "new": 0.0854028697571744
+     }
+    },
+    {
+     "seed": 72,
+     "old_attack_errors": 7194,
+     "Normal": 4474,
+     "other_old": 1824,
+     "new": 896,
+     "fractions": {
+      "Normal": 0.6219071448429246,
+      "other_old": 0.2535446205170976,
+      "new": 0.12454823463997776
+     }
+    },
+    {
+     "seed": 73,
+     "old_attack_errors": 7320,
+     "Normal": 4402,
+     "other_old": 2139,
+     "new": 779,
+     "fractions": {
+      "Normal": 0.6013661202185793,
+      "other_old": 0.29221311475409834,
+      "new": 0.10642076502732241
+     }
+    },
+    {
+     "seed": 74,
+     "old_attack_errors": 7302,
+     "Normal": 4378,
+     "other_old": 2249,
+     "new": 675,
+     "fractions": {
+      "Normal": 0.5995617639003012,
+      "other_old": 0.3079978088195015,
+      "new": 0.0924404272801972
+     }
+    }
+   ],
+   "error_destinations_pooled_counts": {
+    "old_attack_errors": 36392,
+    "Normal": 22543,
+    "other_old": 10129,
+    "new": 3720
+   },
+   "error_destinations_pooled_fractions": {
+    "Normal": 0.619449329522972,
+    "other_old": 0.27833040228621675,
+    "new": 0.10222026819081116
+   }
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 1,
+   "seeds": [
+    70,
+    71,
+    72,
+    73,
+    74
+   ],
+   "final_bacc_percent_or_pp": {
+    "mean": 64.98865760370494,
+    "sample_sd": 0.9785176335744789
+   },
+   "forgetting_percent_or_pp": {
+    "mean": 20.797654028872945,
+    "sample_sd": 0.5842481275573146
+   },
+   "memory_MB": {
+    "mean": 0.5334,
+    "sample_sd": 0.0
+   },
+   "model_pickle_MB": {
+    "mean": 8.555238,
+    "sample_sd": 0.9918677884171357
+   },
+   "error_destinations_per_seed": [
+    {
+     "seed": 70,
+     "old_attack_errors": 6753,
+     "Normal": 4199,
+     "other_old": 1993,
+     "new": 561,
+     "fractions": {
+      "Normal": 0.6217977195320599,
+      "other_old": 0.2951280912187176,
+      "new": 0.08307418924922257
+     }
+    },
+    {
+     "seed": 71,
+     "old_attack_errors": 6836,
+     "Normal": 4288,
+     "other_old": 2036,
+     "new": 512,
+     "fractions": {
+      "Normal": 0.6272674078408426,
+      "other_old": 0.2978349912229374,
+      "new": 0.07489760093622001
+     }
+    },
+    {
+     "seed": 72,
+     "old_attack_errors": 6752,
+     "Normal": 4125,
+     "other_old": 1999,
+     "new": 628,
+     "fractions": {
+      "Normal": 0.6109300947867299,
+      "other_old": 0.29606042654028436,
+      "new": 0.09300947867298578
+     }
+    },
+    {
+     "seed": 73,
+     "old_attack_errors": 7010,
+     "Normal": 4180,
+     "other_old": 2232,
+     "new": 598,
+     "fractions": {
+      "Normal": 0.5962910128388017,
+      "other_old": 0.31840228245363766,
+      "new": 0.08530670470756063
+     }
+    },
+    {
+     "seed": 74,
+     "old_attack_errors": 6863,
+     "Normal": 4181,
+     "other_old": 2178,
+     "new": 504,
+     "fractions": {
+      "Normal": 0.6092088008159697,
+      "other_old": 0.31735392685414543,
+      "new": 0.0734372723298849
+     }
+    }
+   ],
+   "error_destinations_pooled_counts": {
+    "old_attack_errors": 34214,
+    "Normal": 20973,
+    "other_old": 10438,
+    "new": 2803
+   },
+   "error_destinations_pooled_fractions": {
+    "Normal": 0.6129946805401297,
+    "other_old": 0.30507979189805345,
+    "new": 0.0819255275618168
+   }
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 1.5,
+   "seeds": [
+    70,
+    71,
+    72,
+    73,
+    74
+   ],
+   "final_bacc_percent_or_pp": {
+    "mean": 66.66532905035652,
+    "sample_sd": 0.38523326618179743
+   },
+   "forgetting_percent_or_pp": {
+    "mean": 17.22144871397596,
+    "sample_sd": 0.9441755077002374
+   },
+   "memory_MB": {
+    "mean": 0.76748,
+    "sample_sd": 0.0
+   },
+   "model_pickle_MB": {
+    "mean": 10.006071,
+    "sample_sd": 0.2666446017970363
+   },
+   "error_destinations_per_seed": [
+    {
+     "seed": 70,
+     "old_attack_errors": 6554,
+     "Normal": 4201,
+     "other_old": 1899,
+     "new": 454,
+     "fractions": {
+      "Normal": 0.6409826060421117,
+      "other_old": 0.2897467195605737,
+      "new": 0.06927067439731462
+     }
+    },
+    {
+     "seed": 71,
+     "old_attack_errors": 6624,
+     "Normal": 4149,
+     "other_old": 2024,
+     "new": 451,
+     "fractions": {
+      "Normal": 0.626358695652174,
+      "other_old": 0.3055555555555556,
+      "new": 0.06808574879227053
+     }
+    },
+    {
+     "seed": 72,
+     "old_attack_errors": 6674,
+     "Normal": 4205,
+     "other_old": 1966,
+     "new": 503,
+     "fractions": {
+      "Normal": 0.6300569373688942,
+      "other_old": 0.2945759664369194,
+      "new": 0.0753670961941864
+     }
+    },
+    {
+     "seed": 73,
+     "old_attack_errors": 6683,
+     "Normal": 4058,
+     "other_old": 2135,
+     "new": 490,
+     "fractions": {
+      "Normal": 0.6072123297920096,
+      "other_old": 0.3194673051024989,
+      "new": 0.07332036510549154
+     }
+    },
+    {
+     "seed": 74,
+     "old_attack_errors": 6591,
+     "Normal": 4139,
+     "other_old": 2019,
+     "new": 433,
+     "fractions": {
+      "Normal": 0.6279775451373084,
+      "other_old": 0.3063268092853892,
+      "new": 0.06569564557730238
+     }
+    }
+   ],
+   "error_destinations_pooled_counts": {
+    "old_attack_errors": 33126,
+    "Normal": 20752,
+    "other_old": 10043,
+    "new": 2331
+   },
+   "error_destinations_pooled_fractions": {
+    "Normal": 0.6264565598019682,
+    "other_old": 0.3031757531848095,
+    "new": 0.07036768701322224
+   }
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 2,
+   "seeds": [
+    70,
+    71,
+    72,
+    73,
+    74
+   ],
+   "final_bacc_percent_or_pp": {
+    "mean": 66.78504170168627,
+    "sample_sd": 0.6328723421187468
+   },
+   "forgetting_percent_or_pp": {
+    "mean": 16.15937599863753,
+    "sample_sd": 1.0237990558689074
+   },
+   "memory_MB": {
+    "mean": 0.9618,
+    "sample_sd": 0.0
+   },
+   "model_pickle_MB": {
+    "mean": 10.5009434,
+    "sample_sd": 0.5440431320339412
+   },
+   "error_destinations_per_seed": [
+    {
+     "seed": 70,
+     "old_attack_errors": 6286,
+     "Normal": 4019,
+     "other_old": 1811,
+     "new": 456,
+     "fractions": {
+      "Normal": 0.6393573019408209,
+      "other_old": 0.28810054088450526,
+      "new": 0.07254215717467388
+     }
+    },
+    {
+     "seed": 71,
+     "old_attack_errors": 6511,
+     "Normal": 4100,
+     "other_old": 1995,
+     "new": 416,
+     "fractions": {
+      "Normal": 0.6297035785593611,
+      "other_old": 0.3064045461526647,
+      "new": 0.0638918752879742
+     }
+    },
+    {
+     "seed": 72,
+     "old_attack_errors": 6337,
+     "Normal": 4096,
+     "other_old": 1819,
+     "new": 422,
+     "fractions": {
+      "Normal": 0.6463626321603282,
+      "other_old": 0.2870443427489348,
+      "new": 0.06659302509073695
+     }
+    },
+    {
+     "seed": 73,
+     "old_attack_errors": 6479,
+     "Normal": 3951,
+     "other_old": 2124,
+     "new": 404,
+     "fractions": {
+      "Normal": 0.6098163296805063,
+      "other_old": 0.32782836857539743,
+      "new": 0.062355301744096314
+     }
+    },
+    {
+     "seed": 74,
+     "old_attack_errors": 6461,
+     "Normal": 4057,
+     "other_old": 2010,
+     "new": 394,
+     "fractions": {
+      "Normal": 0.6279213744002476,
+      "other_old": 0.31109735335087446,
+      "new": 0.06098127224887788
+     }
+    }
+   ],
+   "error_destinations_pooled_counts": {
+    "old_attack_errors": 32074,
+    "Normal": 20223,
+    "other_old": 9759,
+    "new": 2092
+   },
+   "error_destinations_pooled_fractions": {
+    "Normal": 0.6305106940200785,
+    "other_old": 0.30426513687098583,
+    "new": 0.06522416910893558
+   }
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 3,
+   "seeds": [
+    70,
+    71,
+    72,
+    73,
+    74
+   ],
+   "final_bacc_percent_or_pp": {
+    "mean": 67.47095840717397,
+    "sample_sd": 1.1689649716421466
+   },
+   "forgetting_percent_or_pp": {
+    "mean": 14.0276782247211,
+    "sample_sd": 0.33268234201414726
+   },
+   "memory_MB": {
+    "mean": 1.33504,
+    "sample_sd": 0.0
+   },
+   "model_pickle_MB": {
+    "mean": 12.9380714,
+    "sample_sd": 0.7062809971359132
+   },
+   "error_destinations_per_seed": [
+    {
+     "seed": 70,
+     "old_attack_errors": 6068,
+     "Normal": 3760,
+     "other_old": 1949,
+     "new": 359,
+     "fractions": {
+      "Normal": 0.6196440342781806,
+      "other_old": 0.3211931443638761,
+      "new": 0.05916282135794331
+     }
+    },
+    {
+     "seed": 71,
+     "old_attack_errors": 6169,
+     "Normal": 3938,
+     "other_old": 1849,
+     "new": 382,
+     "fractions": {
+      "Normal": 0.6383530556005835,
+      "other_old": 0.2997244285945858,
+      "new": 0.0619225158048306
+     }
+    },
+    {
+     "seed": 72,
+     "old_attack_errors": 6056,
+     "Normal": 3890,
+     "other_old": 1783,
+     "new": 383,
+     "fractions": {
+      "Normal": 0.642338177014531,
+      "other_old": 0.2944187582562748,
+      "new": 0.06324306472919419
+     }
+    },
+    {
+     "seed": 73,
+     "old_attack_errors": 5981,
+     "Normal": 3693,
+     "other_old": 1924,
+     "new": 364,
+     "fractions": {
+      "Normal": 0.6174552750376191,
+      "other_old": 0.3216853369001839,
+      "new": 0.060859388062196956
+     }
+    },
+    {
+     "seed": 74,
+     "old_attack_errors": 6129,
+     "Normal": 3847,
+     "other_old": 1950,
+     "new": 332,
+     "fractions": {
+      "Normal": 0.6276717245880241,
+      "other_old": 0.31815956926089084,
+      "new": 0.054168706151085
+     }
+    }
+   ],
+   "error_destinations_pooled_counts": {
+    "old_attack_errors": 30403,
+    "Normal": 19128,
+    "other_old": 9455,
+    "new": 1820
+   },
+   "error_destinations_pooled_fractions": {
+    "Normal": 0.6291484392987534,
+    "other_old": 0.31098904713350656,
+    "new": 0.05986251356774003
+   }
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 4,
+   "seeds": [
+    70,
+    71,
+    72,
+    73,
+    74
+   ],
+   "final_bacc_percent_or_pp": {
+    "mean": 67.61489544129788,
+    "sample_sd": 1.0058610351915644
+   },
+   "forgetting_percent_or_pp": {
+    "mean": 11.946000638909089,
+    "sample_sd": 0.75087253160517
+   },
+   "memory_MB": {
+    "mean": 1.70828,
+    "sample_sd": 0.0
+   },
+   "model_pickle_MB": {
+    "mean": 13.8060024,
+    "sample_sd": 1.1574562275569218
+   },
+   "error_destinations_per_seed": [
+    {
+     "seed": 70,
+     "old_attack_errors": 5777,
+     "Normal": 3685,
+     "other_old": 1781,
+     "new": 311,
+     "fractions": {
+      "Normal": 0.637874329236628,
+      "other_old": 0.308291500778951,
+      "new": 0.053834169984420976
+     }
+    },
+    {
+     "seed": 71,
+     "old_attack_errors": 5871,
+     "Normal": 3693,
+     "other_old": 1855,
+     "new": 323,
+     "fractions": {
+      "Normal": 0.6290240163515585,
+      "other_old": 0.31595980241866806,
+      "new": 0.05501618122977346
+     }
+    },
+    {
+     "seed": 72,
+     "old_attack_errors": 5787,
+     "Normal": 3630,
+     "other_old": 1811,
+     "new": 346,
+     "fractions": {
+      "Normal": 0.6272680145152929,
+      "other_old": 0.31294280283393816,
+      "new": 0.05978918265076896
+     }
+    },
+    {
+     "seed": 73,
+     "old_attack_errors": 5773,
+     "Normal": 3627,
+     "other_old": 1799,
+     "new": 347,
+     "fractions": {
+      "Normal": 0.6282695305733588,
+      "other_old": 0.3116230729256885,
+      "new": 0.06010739650095271
+     }
+    },
+    {
+     "seed": 74,
+     "old_attack_errors": 5922,
+     "Normal": 3865,
+     "other_old": 1750,
+     "new": 307,
+     "fractions": {
+      "Normal": 0.6526511313745357,
+      "other_old": 0.29550827423167847,
+      "new": 0.05184059439378588
+     }
+    }
+   ],
+   "error_destinations_pooled_counts": {
+    "old_attack_errors": 29130,
+    "Normal": 18500,
+    "other_old": 8996,
+    "new": 1634
+   },
+   "error_destinations_pooled_fractions": {
+    "Normal": 0.6350841057329214,
+    "other_old": 0.3088225197391006,
+    "new": 0.05609337452797803
+   }
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 0.5,
+   "seeds": [
+    70,
+    71,
+    72,
+    73,
+    74
+   ],
+   "final_bacc_percent_or_pp": {
+    "mean": 98.19983221402815,
+    "sample_sd": 1.0613155592610708
+   },
+   "forgetting_percent_or_pp": {
+    "mean": 0.5236802543774843,
+    "sample_sd": 0.15586509621290326
+   },
+   "memory_MB": {
+    "mean": 0.226256,
+    "sample_sd": 0.0
+   },
+   "model_pickle_MB": {
+    "mean": 2.9057274,
+    "sample_sd": 0.51890349565001
+   },
+   "error_destinations_per_seed": [
+    {
+     "seed": 70,
+     "old_attack_errors": 758,
+     "Normal": 298,
+     "other_old": 424,
+     "new": 36,
+     "fractions": {
+      "Normal": 0.39313984168865435,
+      "other_old": 0.5593667546174143,
+      "new": 0.047493403693931395
+     }
+    },
+    {
+     "seed": 71,
+     "old_attack_errors": 1761,
+     "Normal": 999,
+     "other_old": 575,
+     "new": 187,
+     "fractions": {
+      "Normal": 0.5672913117546848,
+      "other_old": 0.326519023282226,
+      "new": 0.10618966496308915
+     }
+    },
+    {
+     "seed": 72,
+     "old_attack_errors": 897,
+     "Normal": 287,
+     "other_old": 379,
+     "new": 231,
+     "fractions": {
+      "Normal": 0.31995540691192864,
+      "other_old": 0.42251950947603123,
+      "new": 0.25752508361204013
+     }
+    },
+    {
+     "seed": 73,
+     "old_attack_errors": 490,
+     "Normal": 175,
+     "other_old": 281,
+     "new": 34,
+     "fractions": {
+      "Normal": 0.35714285714285715,
+      "other_old": 0.573469387755102,
+      "new": 0.06938775510204082
+     }
+    },
+    {
+     "seed": 74,
+     "old_attack_errors": 948,
+     "Normal": 473,
+     "other_old": 468,
+     "new": 7,
+     "fractions": {
+      "Normal": 0.4989451476793249,
+      "other_old": 0.4936708860759494,
+      "new": 0.007383966244725738
+     }
+    }
+   ],
+   "error_destinations_pooled_counts": {
+    "old_attack_errors": 4854,
+    "Normal": 2232,
+    "other_old": 2127,
+    "new": 495
+   },
+   "error_destinations_pooled_fractions": {
+    "Normal": 0.45982694684796044,
+    "other_old": 0.43819530284301605,
+    "new": 0.10197775030902348
+   }
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 1,
+   "seeds": [
+    70,
+    71,
+    72,
+    73,
+    74
+   ],
+   "final_bacc_percent_or_pp": {
+    "mean": 98.35699110850291,
+    "sample_sd": 1.1411068837842924
+   },
+   "forgetting_percent_or_pp": {
+    "mean": 0.2987279146430596,
+    "sample_sd": 0.07499193450008099
+   },
+   "memory_MB": {
+    "mean": 0.443032,
+    "sample_sd": 0.0
+   },
+   "model_pickle_MB": {
+    "mean": 3.0538096,
+    "sample_sd": 0.24788465705605914
+   },
+   "error_destinations_per_seed": [
+    {
+     "seed": 70,
+     "old_attack_errors": 549,
+     "Normal": 215,
+     "other_old": 307,
+     "new": 27,
+     "fractions": {
+      "Normal": 0.39162112932604737,
+      "other_old": 0.5591985428051002,
+      "new": 0.04918032786885246
+     }
+    },
+    {
+     "seed": 71,
+     "old_attack_errors": 441,
+     "Normal": 179,
+     "other_old": 242,
+     "new": 20,
+     "fractions": {
+      "Normal": 0.40589569160997735,
+      "other_old": 0.5487528344671202,
+      "new": 0.045351473922902494
+     }
+    },
+    {
+     "seed": 72,
+     "old_attack_errors": 802,
+     "Normal": 399,
+     "other_old": 386,
+     "new": 17,
+     "fractions": {
+      "Normal": 0.4975062344139651,
+      "other_old": 0.48129675810473815,
+      "new": 0.02119700748129676
+     }
+    },
+    {
+     "seed": 73,
+     "old_attack_errors": 551,
+     "Normal": 136,
+     "other_old": 383,
+     "new": 32,
+     "fractions": {
+      "Normal": 0.24682395644283123,
+      "other_old": 0.6950998185117967,
+      "new": 0.05807622504537205
+     }
+    },
+    {
+     "seed": 74,
+     "old_attack_errors": 456,
+     "Normal": 152,
+     "other_old": 293,
+     "new": 11,
+     "fractions": {
+      "Normal": 0.3333333333333333,
+      "other_old": 0.6425438596491229,
+      "new": 0.02412280701754386
+     }
+    }
+   ],
+   "error_destinations_pooled_counts": {
+    "old_attack_errors": 2799,
+    "Normal": 1081,
+    "other_old": 1611,
+    "new": 107
+   },
+   "error_destinations_pooled_fractions": {
+    "Normal": 0.38620936048588783,
+    "other_old": 0.5755627009646302,
+    "new": 0.038227938549481956
+   }
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 1.5,
+   "seeds": [
+    70,
+    71,
+    72,
+    73,
+    74
+   ],
+   "final_bacc_percent_or_pp": {
+    "mean": 98.82611727021091,
+    "sample_sd": 1.130288547329183
+   },
+   "forgetting_percent_or_pp": {
+    "mean": 0.19973192554866404,
+    "sample_sd": 0.0585215624601294
+   },
+   "memory_MB": {
+    "mean": 0.659808,
+    "sample_sd": 0.0
+   },
+   "model_pickle_MB": {
+    "mean": 2.8454702,
+    "sample_sd": 0.8027570388263189
+   },
+   "error_destinations_per_seed": [
+    {
+     "seed": 70,
+     "old_attack_errors": 627,
+     "Normal": 185,
+     "other_old": 407,
+     "new": 35,
+     "fractions": {
+      "Normal": 0.29505582137161085,
+      "other_old": 0.6491228070175439,
+      "new": 0.05582137161084529
+     }
+    },
+    {
+     "seed": 71,
+     "old_attack_errors": 279,
+     "Normal": 106,
+     "other_old": 138,
+     "new": 35,
+     "fractions": {
+      "Normal": 0.37992831541218636,
+      "other_old": 0.4946236559139785,
+      "new": 0.12544802867383512
+     }
+    },
+    {
+     "seed": 72,
+     "old_attack_errors": 415,
+     "Normal": 144,
+     "other_old": 270,
+     "new": 1,
+     "fractions": {
+      "Normal": 0.3469879518072289,
+      "other_old": 0.6506024096385542,
+      "new": 0.0024096385542168677
+     }
+    },
+    {
+     "seed": 73,
+     "old_attack_errors": 382,
+     "Normal": 173,
+     "other_old": 203,
+     "new": 6,
+     "fractions": {
+      "Normal": 0.45287958115183247,
+      "other_old": 0.5314136125654451,
+      "new": 0.015706806282722512
+     }
+    },
+    {
+     "seed": 74,
+     "old_attack_errors": 451,
+     "Normal": 169,
+     "other_old": 274,
+     "new": 8,
+     "fractions": {
+      "Normal": 0.37472283813747226,
+      "other_old": 0.6075388026607539,
+      "new": 0.017738359201773836
+     }
+    }
+   ],
+   "error_destinations_pooled_counts": {
+    "old_attack_errors": 2154,
+    "Normal": 777,
+    "other_old": 1292,
+    "new": 85
+   },
+   "error_destinations_pooled_fractions": {
+    "Normal": 0.3607242339832869,
+    "other_old": 0.5998142989786444,
+    "new": 0.03946146703806871
+   }
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 2,
+   "seeds": [
+    70,
+    71,
+    72,
+    73,
+    74
+   ],
+   "final_bacc_percent_or_pp": {
+    "mean": 98.4578773471411,
+    "sample_sd": 1.140205012975657
+   },
+   "forgetting_percent_or_pp": {
+    "mean": 0.13424294336225087,
+    "sample_sd": 0.06083215952662359
+   },
+   "memory_MB": {
+    "mean": 0.876268,
+    "sample_sd": 0.0
+   },
+   "model_pickle_MB": {
+    "mean": 2.92007,
+    "sample_sd": 0.5921041265989455
+   },
+   "error_destinations_per_seed": [
+    {
+     "seed": 70,
+     "old_attack_errors": 362,
+     "Normal": 141,
+     "other_old": 194,
+     "new": 27,
+     "fractions": {
+      "Normal": 0.38950276243093923,
+      "other_old": 0.5359116022099447,
+      "new": 0.07458563535911603
+     }
+    },
+    {
+     "seed": 71,
+     "old_attack_errors": 247,
+     "Normal": 108,
+     "other_old": 111,
+     "new": 28,
+     "fractions": {
+      "Normal": 0.43724696356275305,
+      "other_old": 0.4493927125506073,
+      "new": 0.11336032388663968
+     }
+    },
+    {
+     "seed": 72,
+     "old_attack_errors": 345,
+     "Normal": 76,
+     "other_old": 265,
+     "new": 4,
+     "fractions": {
+      "Normal": 0.22028985507246376,
+      "other_old": 0.7681159420289855,
+      "new": 0.011594202898550725
+     }
+    },
+    {
+     "seed": 73,
+     "old_attack_errors": 361,
+     "Normal": 88,
+     "other_old": 268,
+     "new": 5,
+     "fractions": {
+      "Normal": 0.24376731301939059,
+      "other_old": 0.7423822714681441,
+      "new": 0.013850415512465374
+     }
+    },
+    {
+     "seed": 74,
+     "old_attack_errors": 251,
+     "Normal": 63,
+     "other_old": 177,
+     "new": 11,
+     "fractions": {
+      "Normal": 0.250996015936255,
+      "other_old": 0.7051792828685259,
+      "new": 0.043824701195219126
+     }
+    }
+   ],
+   "error_destinations_pooled_counts": {
+    "old_attack_errors": 1566,
+    "Normal": 476,
+    "other_old": 1015,
+    "new": 75
+   },
+   "error_destinations_pooled_fractions": {
+    "Normal": 0.30395913154533843,
+    "other_old": 0.6481481481481481,
+    "new": 0.04789272030651341
+   }
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 3,
+   "seeds": [
+    70,
+    71,
+    72,
+    73,
+    74
+   ],
+   "final_bacc_percent_or_pp": {
+    "mean": 98.48715171773165,
+    "sample_sd": 1.152053052200128
+   },
+   "forgetting_percent_or_pp": {
+    "mean": 0.10965840877730079,
+    "sample_sd": 0.029019015898954878
+   },
+   "memory_MB": {
+    "mean": 1.30982,
+    "sample_sd": 0.0
+   },
+   "model_pickle_MB": {
+    "mean": 2.5180952,
+    "sample_sd": 0.6244202376842859
+   },
+   "error_destinations_per_seed": [
+    {
+     "seed": 70,
+     "old_attack_errors": 304,
+     "Normal": 43,
+     "other_old": 241,
+     "new": 20,
+     "fractions": {
+      "Normal": 0.14144736842105263,
+      "other_old": 0.7927631578947368,
+      "new": 0.06578947368421052
+     }
+    },
+    {
+     "seed": 71,
+     "old_attack_errors": 244,
+     "Normal": 91,
+     "other_old": 141,
+     "new": 12,
+     "fractions": {
+      "Normal": 0.3729508196721312,
+      "other_old": 0.5778688524590164,
+      "new": 0.04918032786885246
+     }
+    },
+    {
+     "seed": 72,
+     "old_attack_errors": 241,
+     "Normal": 42,
+     "other_old": 195,
+     "new": 4,
+     "fractions": {
+      "Normal": 0.17427385892116182,
+      "other_old": 0.8091286307053942,
+      "new": 0.016597510373443983
+     }
+    },
+    {
+     "seed": 73,
+     "old_attack_errors": 253,
+     "Normal": 86,
+     "other_old": 161,
+     "new": 6,
+     "fractions": {
+      "Normal": 0.33992094861660077,
+      "other_old": 0.6363636363636364,
+      "new": 0.023715415019762844
+     }
+    },
+    {
+     "seed": 74,
+     "old_attack_errors": 302,
+     "Normal": 72,
+     "other_old": 224,
+     "new": 6,
+     "fractions": {
+      "Normal": 0.23841059602649006,
+      "other_old": 0.7417218543046358,
+      "new": 0.019867549668874173
+     }
+    }
+   ],
+   "error_destinations_pooled_counts": {
+    "old_attack_errors": 1344,
+    "Normal": 334,
+    "other_old": 962,
+    "new": 48
+   },
+   "error_destinations_pooled_fractions": {
+    "Normal": 0.24851190476190477,
+    "other_old": 0.7157738095238095,
+    "new": 0.03571428571428571
+   }
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 4,
+   "seeds": [
+    70,
+    71,
+    72,
+    73,
+    74
+   ],
+   "final_bacc_percent_or_pp": {
+    "mean": 98.94375437606901,
+    "sample_sd": 1.151099268322617
+   },
+   "forgetting_percent_or_pp": {
+    "mean": 0.04196520779802149,
+    "sample_sd": 0.013803582356108852
+   },
+   "memory_MB": {
+    "mean": 1.743056,
+    "sample_sd": 0.0
+   },
+   "model_pickle_MB": {
+    "mean": 2.3122322,
+    "sample_sd": 0.25865630623222774
+   },
+   "error_destinations_per_seed": [
+    {
+     "seed": 70,
+     "old_attack_errors": 221,
+     "Normal": 24,
+     "other_old": 193,
+     "new": 4,
+     "fractions": {
+      "Normal": 0.1085972850678733,
+      "other_old": 0.8733031674208145,
+      "new": 0.01809954751131222
+     }
+    },
+    {
+     "seed": 71,
+     "old_attack_errors": 135,
+     "Normal": 39,
+     "other_old": 89,
+     "new": 7,
+     "fractions": {
+      "Normal": 0.28888888888888886,
+      "other_old": 0.6592592592592592,
+      "new": 0.05185185185185185
+     }
+    },
+    {
+     "seed": 72,
+     "old_attack_errors": 184,
+     "Normal": 46,
+     "other_old": 132,
+     "new": 6,
+     "fractions": {
+      "Normal": 0.25,
+      "other_old": 0.717391304347826,
+      "new": 0.03260869565217391
+     }
+    },
+    {
+     "seed": 73,
+     "old_attack_errors": 234,
+     "Normal": 41,
+     "other_old": 182,
+     "new": 11,
+     "fractions": {
+      "Normal": 0.1752136752136752,
+      "other_old": 0.7777777777777778,
+      "new": 0.04700854700854701
+     }
+    },
+    {
+     "seed": 74,
+     "old_attack_errors": 238,
+     "Normal": 51,
+     "other_old": 180,
+     "new": 7,
+     "fractions": {
+      "Normal": 0.21428571428571427,
+      "other_old": 0.7563025210084033,
+      "new": 0.029411764705882353
+     }
+    }
+   ],
+   "error_destinations_pooled_counts": {
+    "old_attack_errors": 1012,
+    "Normal": 201,
+    "other_old": 776,
+    "new": 35
+   },
+   "error_destinations_pooled_fractions": {
+    "Normal": 0.19861660079051383,
+    "other_old": 0.766798418972332,
+    "new": 0.03458498023715415
+   }
+  }
+ ],
+ "paired_tests": [
+  {
+   "dataset": "UNSW-NB15",
+   "endpoint": "forgetting",
+   "multiplier": 0.5,
+   "deltas_pp": [
+    -7.3052617402430355,
+    -4.585231540441537,
+    -5.143575987369175,
+    -4.500399437882313,
+    -4.703973557233756
+   ],
+   "mean_delta_pp": -5.247688452633962,
+   "t_statistic": -9.973131331231384,
+   "t_one_sided_p": 0.9997160561090088,
+   "sign_flip_one_sided_p": 1.0,
+   "t_holm5_p": 0.9997160561090088,
+   "sign_flip_holm5_p": 1.0
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "endpoint": "forgetting",
+   "multiplier": 1.5,
+   "deltas_pp": [
+    3.7288395211592995,
+    3.2838329054958066,
+    3.271619320742078,
+    2.5344395331612644,
+    5.062295293926463
+   ],
+   "mean_delta_pp": 3.5762053148969826,
+   "t_statistic": 8.554522711886776,
+   "t_one_sided_p": 0.0005125953057134994,
+   "sign_flip_one_sided_p": 0.03125,
+   "t_holm5_p": 0.0010251906114269987,
+   "sign_flip_holm5_p": 0.15625
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "endpoint": "forgetting",
+   "multiplier": 2,
+   "deltas_pp": [
+    5.0342683152416745,
+    5.230615958258689,
+    4.027047148744237,
+    3.4334455998854487,
+    5.466013129047031
+   ],
+   "mean_delta_pp": 4.6382780302354165,
+   "t_statistic": 11.940131633645397,
+   "t_one_sided_p": 0.00014094333848175454,
+   "sign_flip_one_sided_p": 0.03125,
+   "t_holm5_p": 0.00042283001544526363,
+   "sign_flip_holm5_p": 0.15625
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "endpoint": "forgetting",
+   "multiplier": 3,
+   "deltas_pp": [
+    6.8707385214047765,
+    6.285294770018851,
+    6.080071605367504,
+    7.590297553519146,
+    7.023476570448945
+   ],
+   "mean_delta_pp": 6.769975804151844,
+   "t_statistic": 25.072032386317616,
+   "t_one_sided_p": 7.512269944962556e-06,
+   "sign_flip_one_sided_p": 0.03125,
+   "t_holm5_p": 3.0049079779850223e-05,
+   "sign_flip_holm5_p": 0.15625
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "endpoint": "forgetting",
+   "multiplier": 4,
+   "deltas_pp": [
+    8.922321415902983,
+    9.145130602778176,
+    8.770838168778358,
+    9.086611442189977,
+    8.333365320169783
+   ],
+   "mean_delta_pp": 8.851653389963854,
+   "t_statistic": 60.97474716472873,
+   "t_one_sided_p": 2.166421126874525e-07,
+   "sign_flip_one_sided_p": 0.03125,
+   "t_holm5_p": 1.0832105634372625e-06,
+   "sign_flip_holm5_p": 0.15625
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "endpoint": "final_bacc",
+   "multiplier": 0.5,
+   "deltas_pp": [
+    -3.298843812998209,
+    -1.035101048077769,
+    -3.2256460526730257,
+    -1.4054291770387195,
+    -2.8623201665686104
+   ],
+   "mean_delta_pp": -2.3654680514712667,
+   "t_statistic": -4.959635898509707,
+   "t_one_sided_p": 0.9961459466189883,
+   "sign_flip_one_sided_p": 1.0,
+   "t_holm5_p": 0.9961459466189883,
+   "sign_flip_holm5_p": 1.0
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "endpoint": "final_bacc",
+   "multiplier": 1.5,
+   "deltas_pp": [
+    1.8719841380140156,
+    2.560290064487125,
+    0.22034883005693784,
+    1.5519620529561906,
+    2.1787721477436794
+   ],
+   "mean_delta_pp": 1.6766714466515897,
+   "t_statistic": 4.186799899218003,
+   "t_one_sided_p": 0.0069210867285534,
+   "sign_flip_one_sided_p": 0.03125,
+   "t_holm5_p": 0.024127727688060204,
+   "sign_flip_holm5_p": 0.15625
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "endpoint": "final_bacc",
+   "multiplier": 2,
+   "deltas_pp": [
+    2.3394781434949996,
+    3.1173519990716936,
+    0.9278627555531771,
+    1.5284182527986911,
+    1.0688093389881081
+   ],
+   "mean_delta_pp": 1.796384097981334,
+   "t_statistic": 4.3598169485837825,
+   "t_one_sided_p": 0.006031931922015051,
+   "sign_flip_one_sided_p": 0.03125,
+   "t_holm5_p": 0.024127727688060204,
+   "sign_flip_holm5_p": 0.15625
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "endpoint": "final_bacc",
+   "multiplier": 3,
+   "deltas_pp": [
+    3.950604988909412,
+    3.993398487163824,
+    0.08992472143009023,
+    2.888190654009537,
+    1.489385165832291
+   ],
+   "mean_delta_pp": 2.482300803469031,
+   "t_statistic": 3.30044393356672,
+   "t_one_sided_p": 0.01496048480821405,
+   "sign_flip_one_sided_p": 0.03125,
+   "t_holm5_p": 0.0299209696164281,
+   "sign_flip_holm5_p": 0.15625
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "endpoint": "final_bacc",
+   "multiplier": 4,
+   "deltas_pp": [
+    3.5926334837732,
+    3.2415941995302178,
+    1.5549154370538276,
+    3.148497618896362,
+    1.593548448711113
+   ],
+   "mean_delta_pp": 2.626237837592944,
+   "t_statistic": 6.025384690171973,
+   "t_one_sided_p": 0.001911450409696421,
+   "sign_flip_one_sided_p": 0.03125,
+   "t_holm5_p": 0.009557252048482104,
+   "sign_flip_holm5_p": 0.15625
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "endpoint": "forgetting",
+   "multiplier": 0.5,
+   "deltas_pp": [
+    -0.05179821246158456,
+    -0.46219982540188964,
+    -0.07924947365903208,
+    -0.15148665016282056,
+    -0.3800275369867971
+   ],
+   "mean_delta_pp": -0.22495233973442486,
+   "t_statistic": -2.718533496550836,
+   "t_one_sided_p": 0.9734664133963055,
+   "sign_flip_one_sided_p": 1.0,
+   "t_holm5_p": 0.9734664133963055,
+   "sign_flip_holm5_p": 1.0
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "endpoint": "forgetting",
+   "multiplier": 1.5,
+   "deltas_pp": [
+    0.03193406424121066,
+    0.12736345287347647,
+    0.21597117329092236,
+    0.18927243478906733,
+    -0.06956117972269918
+   ],
+   "mean_delta_pp": 0.09899598909439554,
+   "t_statistic": 1.8784688430010037,
+   "t_one_sided_p": 0.06675863970895206,
+   "sign_flip_one_sided_p": 0.09375,
+   "t_holm5_p": 0.13351727941790412,
+   "sign_flip_holm5_p": 0.1875
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "endpoint": "forgetting",
+   "multiplier": 2,
+   "deltas_pp": [
+    0.13507140345206023,
+    0.2766937041551824,
+    0.2072668492661578,
+    0.16763909754759684,
+    0.03575380198304612
+   ],
+   "mean_delta_pp": 0.16448497128080866,
+   "t_statistic": 4.120637734843886,
+   "t_one_sided_p": 0.0073024230661745656,
+   "sign_flip_one_sided_p": 0.03125,
+   "t_holm5_p": 0.021907269198523698,
+   "sign_flip_holm5_p": 0.15625
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "endpoint": "forgetting",
+   "multiplier": 3,
+   "deltas_pp": [
+    0.20142352786695444,
+    0.21233928000463642,
+    0.2772587321788404,
+    0.2009054972287187,
+    0.05342049204964394
+   ],
+   "mean_delta_pp": 0.18906950586575877,
+   "t_statistic": 5.144658986916261,
+   "t_one_sided_p": 0.003384708571589143,
+   "sign_flip_one_sided_p": 0.03125,
+   "t_holm5_p": 0.013538834286356572,
+   "sign_flip_holm5_p": 0.15625
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "endpoint": "forgetting",
+   "multiplier": 4,
+   "deltas_pp": [
+    0.28091481519080996,
+    0.24368738718764477,
+    0.31496018970528045,
+    0.31595063966444736,
+    0.12830050247700786
+   ],
+   "mean_delta_pp": 0.2567627068450381,
+   "t_statistic": 7.389507428259966,
+   "t_one_sided_p": 0.0008941556066356722,
+   "sign_flip_one_sided_p": 0.03125,
+   "t_holm5_p": 0.004470778033178361,
+   "sign_flip_holm5_p": 0.15625
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "endpoint": "final_bacc",
+   "multiplier": 0.5,
+   "deltas_pp": [
+    -2.12001851806769,
+    -0.3722919589799867,
+    -0.08981194186317154,
+    -0.08574032487884686,
+    1.8820682714158599
+   ],
+   "mean_delta_pp": -0.15715889447476705,
+   "t_statistic": -0.24745315030250645,
+   "t_one_sided_p": 0.5916298773860331,
+   "sign_flip_one_sided_p": 0.75,
+   "t_holm5_p": 0.5916298773860331,
+   "sign_flip_holm5_p": 0.75
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "endpoint": "final_bacc",
+   "multiplier": 1.5,
+   "deltas_pp": [
+    0.02907878939759634,
+    0.0678677223984625,
+    0.10670834602652945,
+    0.08355412944587304,
+    2.0584218212715832
+   ],
+   "mean_delta_pp": 0.46912616170800886,
+   "t_statistic": 1.1801172552537529,
+   "t_one_sided_p": 0.1516704651257851,
+   "sign_flip_one_sided_p": 0.03125,
+   "t_holm5_p": 0.3317156021182194,
+   "sign_flip_holm5_p": 0.15625
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "endpoint": "final_bacc",
+   "multiplier": 2,
+   "deltas_pp": [
+    0.10377872470870297,
+    0.09690080908983933,
+    0.12847526203355608,
+    0.09354680588470332,
+    0.0817295914742111
+   ],
+   "mean_delta_pp": 0.10088623863820256,
+   "t_statistic": 12.990578509221269,
+   "t_one_sided_p": 0.0001013076842232135,
+   "sign_flip_one_sided_p": 0.03125,
+   "t_holm5_p": 0.0005065384211160675,
+   "sign_flip_holm5_p": 0.15625
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "endpoint": "final_bacc",
+   "multiplier": 3,
+   "deltas_pp": [
+    0.15433160913493893,
+    0.13146139634107046,
+    0.17633052748656786,
+    0.12016828783452116,
+    0.06851122534659027
+   ],
+   "mean_delta_pp": 0.13016060922873773,
+   "t_statistic": 7.1553098381576845,
+   "t_one_sided_p": 0.001009419657218543,
+   "sign_flip_one_sided_p": 0.03125,
+   "t_holm5_p": 0.004037678628874172,
+   "sign_flip_holm5_p": 0.15625
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "endpoint": "final_bacc",
+   "multiplier": 4,
+   "deltas_pp": [
+    0.1873978939317289,
+    0.15984341982443473,
+    0.20444122453201485,
+    0.1749202220946211,
+    2.207213577447731
+   ],
+   "mean_delta_pp": 0.5867632675661061,
+   "t_statistic": 1.448158833235271,
+   "t_one_sided_p": 0.1105718673727398,
+   "sign_flip_one_sided_p": 0.03125,
+   "t_holm5_p": 0.3317156021182194,
+   "sign_flip_holm5_p": 0.15625
+  }
+ ],
+ "smallest_qualifying_UNSW_multiplier": 3,
+ "selection_rule": "UNSW mean forgetting >=5pp below x1 and mean finalBAcc not lower; descriptive only",
+ "statistical_scope": "Separate dataset/endpoint/test-method Holm families of five nonreference multipliers; n=5 paired seeds70-74",
+ "limitations": [
+  "No new mechanism or substantive-innovation claim",
+  "TEST FPR may exceed nominal TRAIN calibration alpha",
+  "Exact n5 sign-flip p>=1/32; Holm5 cannot reject at0.05",
+  "Replay memory includes feature+rowID bytes, excludes model/container/host RAM"
+ ],
+ "verified_cells": [
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 0.5,
+   "seed": 70,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9747065035267022,
+     "incremental_bacc": 0.9893809055499594,
+     "forgetting": 0.003626006922520427,
+     "final_fpr": 0.010227084802116789
+    },
+    "0.02": {
+     "final_bacc": 0.9945210012839591,
+     "incremental_bacc": 0.9923594316013598,
+     "forgetting": 0.003346307476042106,
+     "final_fpr": 0.019618595016145737
+    },
+    "0.05": {
+     "final_bacc": 0.9911283289730661,
+     "incremental_bacc": 0.9848670445898513,
+     "forgetting": 0.0030370289943599618,
+     "final_fpr": 0.04890287315803675
+    },
+    "default": {
+     "final_bacc": 0.9629133433803343,
+     "incremental_bacc": 0.9837545087991221,
+     "forgetting": 0.020449802546506357,
+     "final_fpr": 0.0014252639458269141
+    }
+   },
+   "final_memory_rows": 716,
+   "feature_bytes": 220528,
+   "row_id_bytes": 5728,
+   "model_bytes": 3370712,
+   "error_destinations": {
+    "old_attack_errors": 758,
+    "Normal": 298,
+    "other_old": 424,
+    "new": 36,
+    "fractions": {
+     "Normal": 0.39313984168865435,
+     "other_old": 0.5593667546174143,
+     "new": 0.047493403693931395
+    }
+   },
+   "measured_cell_seconds": 127.07800000000861,
+   "result": "CIC-IDS-2017_x0.5_seed70.json",
+   "result_sha256": "fcf1f4c1c721be407e8d2efa5a0174e195af0dc028325a2a54d47accf6c54051",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 0.5,
+   "seed": 71,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9924945084274641,
+     "incremental_bacc": 0.9924604187742123,
+     "forgetting": 0.00771364452623811,
+     "final_fpr": 0.009828881287481177
+    },
+    "0.02": {
+     "final_bacc": 0.9924144505604537,
+     "incremental_bacc": 0.9901516988138797,
+     "forgetting": 0.006139084620457221,
+     "final_fpr": 0.020297499368967107
+    },
+    "0.05": {
+     "final_bacc": 0.9895867143334404,
+     "incremental_bacc": 0.9826500787750978,
+     "forgetting": 0.0050892512172930155,
+     "final_fpr": 0.048569948908095496
+    },
+    "default": {
+     "final_bacc": 0.9563409253476187,
+     "incremental_bacc": 0.980278928199585,
+     "forgetting": 0.029490956339405478,
+     "final_fpr": 0.0012707696860502563
+    }
+   },
+   "final_memory_rows": 716,
+   "feature_bytes": 220528,
+   "row_id_bytes": 5728,
+   "model_bytes": 3463390,
+   "error_destinations": {
+    "old_attack_errors": 1761,
+    "Normal": 999,
+    "other_old": 575,
+    "new": 187,
+    "fractions": {
+     "Normal": 0.5672913117546848,
+     "other_old": 0.326519023282226,
+     "new": 0.10618966496308915
+    }
+   },
+   "measured_cell_seconds": 103.82799999997951,
+   "result": "CIC-IDS-2017_x0.5_seed71.json",
+   "result_sha256": "5c54e6ec4d87ac4c4f579a6a2b8098152f72258044cefedcdb85514f0f52abca",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 0.5,
+   "seed": 72,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9738851608808589,
+     "incremental_bacc": 0.9887622500301987,
+     "forgetting": 0.004296911511899444,
+     "final_fpr": 0.009691794831623017
+    },
+    "0.02": {
+     "final_bacc": 0.97276736228754,
+     "incremental_bacc": 0.9862245092137728,
+     "forgetting": 0.00412232572403672,
+     "final_fpr": 0.020073373893516464
+    },
+    "0.05": {
+     "final_bacc": 0.9900078153533954,
+     "incremental_bacc": 0.9844370816672744,
+     "forgetting": 0.004098849638712894,
+     "final_fpr": 0.04930325264816217
+    },
+    "default": {
+     "final_bacc": 0.946465100072311,
+     "incremental_bacc": 0.9788021308994248,
+     "forgetting": 0.014178420118657756,
+     "final_fpr": 0.0014600795536639075
+    }
+   },
+   "final_memory_rows": 716,
+   "feature_bytes": 220528,
+   "row_id_bytes": 5728,
+   "model_bytes": 2869926,
+   "error_destinations": {
+    "old_attack_errors": 897,
+    "Normal": 287,
+    "other_old": 379,
+    "new": 231,
+    "fractions": {
+     "Normal": 0.31995540691192864,
+     "other_old": 0.42251950947603123,
+     "new": 0.25752508361204013
+    }
+   },
+   "measured_cell_seconds": 118.60899999999674,
+   "result": "CIC-IDS-2017_x0.5_seed72.json",
+   "result_sha256": "e452664414a01e1d0002a62974b68c342142c3ecc56cf8439d7fadf68b354756",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 0.5,
+   "seed": 73,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9742217798656423,
+     "incremental_bacc": 0.9887643547323308,
+     "forgetting": 0.005047847835182288,
+     "final_fpr": 0.009909392380604225
+    },
+    "0.02": {
+     "final_bacc": 0.9732696300310774,
+     "incremental_bacc": 0.9866844200181057,
+     "forgetting": 0.0046737941279641855,
+     "final_fpr": 0.020066845967047026
+    },
+    "0.05": {
+     "final_bacc": 0.9698914052301859,
+     "incremental_bacc": 0.9790277802354621,
+     "forgetting": 0.0042774343968475055,
+     "final_fpr": 0.04973409579514496
+    },
+    "default": {
+     "final_bacc": 0.945095834809584,
+     "incremental_bacc": 0.9788182731246576,
+     "forgetting": 0.016427386693902646,
+     "final_fpr": 0.0013599846811325517
+    }
+   },
+   "final_memory_rows": 716,
+   "feature_bytes": 220528,
+   "row_id_bytes": 5728,
+   "model_bytes": 2236761,
+   "error_destinations": {
+    "old_attack_errors": 490,
+    "Normal": 175,
+    "other_old": 281,
+    "new": 34,
+    "fractions": {
+     "Normal": 0.35714285714285715,
+     "other_old": 0.573469387755102,
+     "new": 0.06938775510204082
+    }
+   },
+   "measured_cell_seconds": 106.76500000001397,
+   "result": "CIC-IDS-2017_x0.5_seed73.json",
+   "result_sha256": "5cbac2f3de3d94c8ad0f433e7feeabaa7e8ed349ee3232d521c27ecd3e64c775",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 0.5,
+   "seed": 74,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9946836580007397,
+     "incremental_bacc": 0.9950226429012063,
+     "forgetting": 0.005499601923033948,
+     "final_fpr": 0.010079118468809567
+    },
+    "0.02": {
+     "final_bacc": 0.9938423402186332,
+     "incremental_bacc": 0.9927242909205624,
+     "forgetting": 0.004996267937534678,
+     "final_fpr": 0.01954896380047175
+    },
+    "0.05": {
+     "final_bacc": 0.9907519850170989,
+     "incremental_bacc": 0.985158649294596,
+     "forgetting": 0.004382544198912393,
+     "final_fpr": 0.047945443942519435
+    },
+    "default": {
+     "final_bacc": 0.942691572503537,
+     "incremental_bacc": 0.9791379517117093,
+     "forgetting": 0.019963331720145694,
+     "final_fpr": 0.0014143840683778538
+    }
+   },
+   "final_memory_rows": 716,
+   "feature_bytes": 220528,
+   "row_id_bytes": 5728,
+   "model_bytes": 2587848,
+   "error_destinations": {
+    "old_attack_errors": 948,
+    "Normal": 473,
+    "other_old": 468,
+    "new": 7,
+    "fractions": {
+     "Normal": 0.4989451476793249,
+     "other_old": 0.4936708860759494,
+     "new": 0.007383966244725738
+    }
+   },
+   "measured_cell_seconds": 256.73499999998603,
+   "result": "CIC-IDS-2017_x0.5_seed74.json",
+   "result_sha256": "2d3fc80d6d73533ae6968fd9ea0c05d119885992bd50cda0a257167497549a9d",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 1.5,
+   "seed": 70,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.996197476601355,
+     "incremental_bacc": 0.9958409235965835,
+     "forgetting": 0.002788684155492475,
+     "final_fpr": 0.009937680061971783
+    },
+    "0.02": {
+     "final_bacc": 0.9953043128286373,
+     "incremental_bacc": 0.9934750311208256,
+     "forgetting": 0.0023577421207096605,
+     "final_fpr": 0.019842720491596383
+    },
+    "0.05": {
+     "final_bacc": 0.9917671524479363,
+     "incremental_bacc": 0.9858661614158649,
+     "forgetting": 0.002155888692087197,
+     "final_fpr": 0.048820186089423886
+    },
+    "default": {
+     "final_bacc": 0.9748094451476006,
+     "incremental_bacc": 0.990530081967645,
+     "forgetting": 0.004189892934204205,
+     "final_fpr": 0.0015949900340322567
+    }
+   },
+   "final_memory_rows": 2088,
+   "feature_bytes": 643104,
+   "row_id_bytes": 16704,
+   "model_bytes": 2865896,
+   "error_destinations": {
+    "old_attack_errors": 627,
+    "Normal": 185,
+    "other_old": 407,
+    "new": 35,
+    "fractions": {
+     "Normal": 0.29505582137161085,
+     "other_old": 0.6491228070175439,
+     "new": 0.05582137161084529
+    }
+   },
+   "measured_cell_seconds": 120.34400000001187,
+   "result": "CIC-IDS-2017_x1.5_seed70.json",
+   "result_sha256": "8e71c1445bfc4b8909a2aa6ec4f2146dffc68de5cd7eda24918bc32c247c217e",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 1.5,
+   "seed": 71,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9968961052412486,
+     "incremental_bacc": 0.996146857572859,
+     "forgetting": 0.001818011743484449,
+     "final_fpr": 0.010042126885482762
+    },
+    "0.02": {
+     "final_bacc": 0.9957176346145413,
+     "incremental_bacc": 0.9936720792430649,
+     "forgetting": 0.0017243220001397404,
+     "final_fpr": 0.020347546805232784
+    },
+    "0.05": {
+     "final_bacc": 0.9921239054903791,
+     "incremental_bacc": 0.9859621627538359,
+     "forgetting": 0.001696900447585507,
+     "final_fpr": 0.049758031525532896
+    },
+    "default": {
+     "final_bacc": 0.9718523456822092,
+     "incremental_bacc": 0.989871703196913,
+     "forgetting": 0.008298546107621152,
+     "final_fpr": 0.00142091199484729
+    }
+   },
+   "final_memory_rows": 2088,
+   "feature_bytes": 643104,
+   "row_id_bytes": 16704,
+   "model_bytes": 3723694,
+   "error_destinations": {
+    "old_attack_errors": 279,
+    "Normal": 106,
+    "other_old": 138,
+    "new": 35,
+    "fractions": {
+     "Normal": 0.37992831541218636,
+     "other_old": 0.4946236559139785,
+     "new": 0.12544802867383512
+    }
+   },
+   "measured_cell_seconds": 117.76600000000326,
+   "result": "CIC-IDS-2017_x1.5_seed71.json",
+   "result_sha256": "0dbf2b79cd4271ca4c3c66d7860031a58e113877122f8c2369cf8806b33639ef",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 1.5,
+   "seed": 72,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9758503637597559,
+     "incremental_bacc": 0.9900109805285331,
+     "forgetting": 0.0013447050423999,
+     "final_fpr": 0.01002036713058464
+    },
+    "0.02": {
+     "final_bacc": 0.9750037917016134,
+     "incremental_bacc": 0.9878442849469786,
+     "forgetting": 0.0008026812729957089,
+     "final_fpr": 0.019409701369123778
+    },
+    "0.05": {
+     "final_bacc": 0.9714928433013701,
+     "incremental_bacc": 0.980292991181643,
+     "forgetting": 0.0006159259733623709,
+     "final_fpr": 0.048815834138444265
+    },
+    "default": {
+     "final_bacc": 0.9515997347154863,
+     "incremental_bacc": 0.9833000634395181,
+     "forgetting": 0.007297090243974698,
+     "final_fpr": 0.0015188308918888337
+    }
+   },
+   "final_memory_rows": 2088,
+   "feature_bytes": 643104,
+   "row_id_bytes": 16704,
+   "model_bytes": 2340242,
+   "error_destinations": {
+    "old_attack_errors": 415,
+    "Normal": 144,
+    "other_old": 270,
+    "new": 1,
+    "fractions": {
+     "Normal": 0.3469879518072289,
+     "other_old": 0.6506024096385542,
+     "new": 0.0024096385542168677
+    }
+   },
+   "measured_cell_seconds": 105.96899999998277,
+   "result": "CIC-IDS-2017_x1.5_seed72.json",
+   "result_sha256": "cc87ca12ca294fed9289243ef3bb9cc31364a0a1e52e38caf1ecc0edde8278fa",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 1.5,
+   "seed": 73,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9759147244088895,
+     "incremental_bacc": 0.9903765375710012,
+     "forgetting": 0.0016402569856634093,
+     "final_fpr": 0.0103010679687704
+    },
+    "0.02": {
+     "final_bacc": 0.9748659824297539,
+     "incremental_bacc": 0.9880346165482659,
+     "forgetting": 0.0014483042040399075,
+     "final_fpr": 0.019851424393555632
+    },
+    "0.05": {
+     "final_bacc": 0.9712330581875241,
+     "incremental_bacc": 0.9803723291375486,
+     "forgetting": 0.0013839278138267168,
+     "final_fpr": 0.04963400092261361
+    },
+    "default": {
+     "final_bacc": 0.9521364479236037,
+     "incremental_bacc": 0.9840316516512079,
+     "forgetting": 0.006260478622265346,
+     "final_fpr": 0.0016080458869711291
+    }
+   },
+   "final_memory_rows": 2088,
+   "feature_bytes": 643104,
+   "row_id_bytes": 16704,
+   "model_bytes": 1790466,
+   "error_destinations": {
+    "old_attack_errors": 382,
+    "Normal": 173,
+    "other_old": 203,
+    "new": 6,
+    "fractions": {
+     "Normal": 0.45287958115183247,
+     "other_old": 0.5314136125654451,
+     "new": 0.015706806282722512
+    }
+   },
+   "measured_cell_seconds": 82.96900000001187,
+   "result": "CIC-IDS-2017_x1.5_seed73.json",
+   "result_sha256": "5e6b73834a9fa9d9591c3f48fb491f0a569cd1d41caf58a42510537cacd22b2e",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 1.5,
+   "seed": 74,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9964471934992969,
+     "incremental_bacc": 0.996079453883575,
+     "forgetting": 0.0023949383503929686,
+     "final_fpr": 0.010392458939342507
+    },
+    "0.02": {
+     "final_bacc": 0.9953880737566305,
+     "incremental_bacc": 0.9935307692336734,
+     "forgetting": 0.0021845456170449342,
+     "final_fpr": 0.020103837550373833
+    },
+    "0.05": {
+     "final_bacc": 0.9919054106210208,
+     "incremental_bacc": 0.9858104162423518,
+     "forgetting": 0.0019140184833656242,
+     "final_fpr": 0.04897685632469036
+    },
+    "default": {
+     "final_bacc": 0.951747789444538,
+     "incremental_bacc": 0.9849032642341934,
+     "forgetting": 0.0078604800858606,
+     "final_fpr": 0.0014579035781740954
+    }
+   },
+   "final_memory_rows": 2088,
+   "feature_bytes": 643104,
+   "row_id_bytes": 16704,
+   "model_bytes": 3507053,
+   "error_destinations": {
+    "old_attack_errors": 451,
+    "Normal": 169,
+    "other_old": 274,
+    "new": 8,
+    "fractions": {
+     "Normal": 0.37472283813747226,
+     "other_old": 0.6075388026607539,
+     "new": 0.017738359201773836
+    }
+   },
+   "measured_cell_seconds": 257.625,
+   "result": "CIC-IDS-2017_x1.5_seed74.json",
+   "result_sha256": "c469396fc8951950253cdbe9fd3b8cd999cb71cc23677cb52ce9a69341da834b",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 1,
+   "seed": 70,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9959066887073791,
+     "incremental_bacc": 0.9955486334373245,
+     "forgetting": 0.0031080247979045814,
+     "final_fpr": 0.00999860737568652
+    },
+    "0.02": {
+     "final_bacc": 0.9950849399347041,
+     "incremental_bacc": 0.9932048299551713,
+     "forgetting": 0.0026340861748198976,
+     "final_fpr": 0.019921055609229618
+    },
+    "0.05": {
+     "final_bacc": 0.9917750869515605,
+     "incremental_bacc": 0.9856995154633377,
+     "forgetting": 0.0021734010510808623,
+     "final_fpr": 0.04828924806990974
+    },
+    "default": {
+     "final_bacc": 0.9727128612226381,
+     "incremental_bacc": 0.9885923671581865,
+     "forgetting": 0.007370389547082912,
+     "final_fpr": 0.0014317918722963504
+    }
+   },
+   "final_memory_rows": 1402,
+   "feature_bytes": 431816,
+   "row_id_bytes": 11216,
+   "model_bytes": 3172209,
+   "error_destinations": {
+    "old_attack_errors": 549,
+    "Normal": 215,
+    "other_old": 307,
+    "new": 27,
+    "fractions": {
+     "Normal": 0.39162112932604737,
+     "other_old": 0.5591985428051002,
+     "new": 0.04918032786885246
+    }
+   },
+   "measured_cell_seconds": 117.98399999999674,
+   "result": "CIC-IDS-2017_x1_seed70.json",
+   "result_sha256": "63c1039c76e613e7ea76d42bb8eaf5353ed6688d5bf94911c18736cff5252268",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 1,
+   "seed": 71,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.996217428017264,
+     "incremental_bacc": 0.9956687606964265,
+     "forgetting": 0.0030916462722192137,
+     "final_fpr": 0.010177037365851111
+    },
+    "0.02": {
+     "final_bacc": 0.995071488368839,
+     "incremental_bacc": 0.9930753173295995,
+     "forgetting": 0.002910699718786732,
+     "final_fpr": 0.020032030359210033
+    },
+    "0.05": {
+     "final_bacc": 0.9915539585045322,
+     "incremental_bacc": 0.9854031992244672,
+     "forgetting": 0.002836078540337313,
+     "final_fpr": 0.04869397951101479
+    },
+    "default": {
+     "final_bacc": 0.9711891038365525,
+     "incremental_bacc": 0.9882215601869662,
+     "forgetting": 0.008863351049475129,
+     "final_fpr": 0.0013621606566223638
+    }
+   },
+   "final_memory_rows": 1402,
+   "feature_bytes": 431816,
+   "row_id_bytes": 11216,
+   "model_bytes": 3309276,
+   "error_destinations": {
+    "old_attack_errors": 441,
+    "Normal": 179,
+    "other_old": 242,
+    "new": 20,
+    "fractions": {
+     "Normal": 0.40589569160997735,
+     "other_old": 0.5487528344671202,
+     "new": 0.045351473922902494
+    }
+   },
+   "measured_cell_seconds": 97.75,
+   "result": "CIC-IDS-2017_x1_seed71.json",
+   "result_sha256": "bc844585918b803720256e24f2db05b2201b6e25c3f383bd90eed89c84edbcfa",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 1,
+   "seed": 72,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9747832802994906,
+     "incremental_bacc": 0.990065136934592,
+     "forgetting": 0.0035044167753091235,
+     "final_fpr": 0.009730962390439635
+    },
+    "0.02": {
+     "final_bacc": 0.995255089465698,
+     "incremental_bacc": 0.9929372267327718,
+     "forgetting": 0.0022764949257331932,
+     "final_fpr": 0.019418405271083027
+    },
+    "0.05": {
+     "final_bacc": 0.9917406408177429,
+     "incremental_bacc": 0.9855213057231208,
+     "forgetting": 0.0022039307227024,
+     "final_fpr": 0.048106466128765527
+    },
+    "default": {
+     "final_bacc": 0.9498033594605316,
+     "incremental_bacc": 0.9812821060277934,
+     "forgetting": 0.010092345860262475,
+     "final_fpr": 0.0015035990634601492
+    }
+   },
+   "final_memory_rows": 1402,
+   "feature_bytes": 431816,
+   "row_id_bytes": 11216,
+   "model_bytes": 3096757,
+   "error_destinations": {
+    "old_attack_errors": 802,
+    "Normal": 399,
+    "other_old": 386,
+    "new": 17,
+    "fractions": {
+     "Normal": 0.4975062344139651,
+     "other_old": 0.48129675810473815,
+     "new": 0.02119700748129676
+    }
+   },
+   "measured_cell_seconds": 118.59299999999348,
+   "result": "CIC-IDS-2017_x1_seed72.json",
+   "result_sha256": "6607aee401de2a08b925d9e5bddea1194dc5d9c1185fc168d14882318d6f4571",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 1,
+   "seed": 73,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9750791831144308,
+     "incremental_bacc": 0.990169661577432,
+     "forgetting": 0.0035329813335540825,
+     "final_fpr": 0.009776657875725688
+    },
+    "0.02": {
+     "final_bacc": 0.9741989869870546,
+     "incremental_bacc": 0.9879071065300834,
+     "forgetting": 0.003103244896645633,
+     "final_fpr": 0.019764385373963148
+    },
+    "0.05": {
+     "final_bacc": 0.9705722968315289,
+     "incremental_bacc": 0.9800510336355807,
+     "forgetting": 0.002895645910458803,
+     "final_fpr": 0.05000174078039185
+    },
+    "default": {
+     "final_bacc": 0.9507746800505794,
+     "incremental_bacc": 0.9840840881378121,
+     "forgetting": 0.008830177352692259,
+     "final_fpr": 0.0014666074801333439
+    }
+   },
+   "final_memory_rows": 1402,
+   "feature_bytes": 431816,
+   "row_id_bytes": 11216,
+   "model_bytes": 2648179,
+   "error_destinations": {
+    "old_attack_errors": 551,
+    "Normal": 136,
+    "other_old": 383,
+    "new": 32,
+    "fractions": {
+     "Normal": 0.24682395644283123,
+     "other_old": 0.6950998185117967,
+     "new": 0.05807622504537205
+    }
+   },
+   "measured_cell_seconds": 106.25,
+   "result": "CIC-IDS-2017_x1_seed73.json",
+   "result_sha256": "2441f0d7dc5070d878bf971e6dc827e8ed5404107b46ef22df28a576a7954527",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 1,
+   "seed": 74,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9758629752865811,
+     "incremental_bacc": 0.9905487660008769,
+     "forgetting": 0.001699326553165977,
+     "final_fpr": 0.010412042718750816
+    },
+    "0.02": {
+     "final_bacc": 0.9956872431795133,
+     "incremental_bacc": 0.9932326733162744,
+     "forgetting": 0.0014323493024167393,
+     "final_fpr": 0.019877536099433376
+    },
+    "0.05": {
+     "final_bacc": 0.992239479908215,
+     "incremental_bacc": 0.9855356231221414,
+     "forgetting": 0.001057625665842073,
+     "final_fpr": 0.048034658937601726
+    },
+    "default": {
+     "final_bacc": 0.9527956006703318,
+     "incremental_bacc": 0.9841248672104798,
+     "forgetting": 0.005745911072450445,
+     "final_fpr": 0.0014774873575824042
+    }
+   },
+   "final_memory_rows": 1402,
+   "feature_bytes": 431816,
+   "row_id_bytes": 11216,
+   "model_bytes": 3042627,
+   "error_destinations": {
+    "old_attack_errors": 456,
+    "Normal": 152,
+    "other_old": 293,
+    "new": 11,
+    "fractions": {
+     "Normal": 0.3333333333333333,
+     "other_old": 0.6425438596491229,
+     "new": 0.02412280701754386
+    }
+   },
+   "measured_cell_seconds": 127.75,
+   "result": "CIC-IDS-2017_x1_seed74.json",
+   "result_sha256": "4405a974a557a8a1ed8134f3b0d7b4db8bd2514e54a80ab905ff9d21d2f59e80",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 2,
+   "seed": 70,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9969444759544661,
+     "incremental_bacc": 0.9962243137519876,
+     "forgetting": 0.001757310763383979,
+     "final_fpr": 0.00983105726297099
+    },
+    "0.02": {
+     "final_bacc": 0.9958419378774045,
+     "incremental_bacc": 0.9937635171024881,
+     "forgetting": 0.0016309208484407238,
+     "final_fpr": 0.019572899530859684
+    },
+    "0.05": {
+     "final_bacc": 0.9924564902562718,
+     "incremental_bacc": 0.9861468043564533,
+     "forgetting": 0.0012362129675165627,
+     "final_fpr": 0.048243552584623685
+    },
+    "default": {
+     "final_bacc": 0.9743557413798638,
+     "incremental_bacc": 0.9911343665732367,
+     "forgetting": 0.004792655315696744,
+     "final_fpr": 0.0015710543036443238
+    }
+   },
+   "final_memory_rows": 2773,
+   "feature_bytes": 854084,
+   "row_id_bytes": 22184,
+   "model_bytes": 3337471,
+   "error_destinations": {
+    "old_attack_errors": 362,
+    "Normal": 141,
+    "other_old": 194,
+    "new": 27,
+    "fractions": {
+     "Normal": 0.38950276243093923,
+     "other_old": 0.5359116022099447,
+     "new": 0.07458563535911603
+    }
+   },
+   "measured_cell_seconds": 100.56299999999464,
+   "result": "CIC-IDS-2017_x2_seed70.json",
+   "result_sha256": "5e4d549828181a3041973b6427c6d9934ca5454b05714dad939a957eb8d0bc4c",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 2,
+   "seed": 71,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9971864361081624,
+     "incremental_bacc": 0.9961113595361191,
+     "forgetting": 0.0003247092306673897,
+     "final_fpr": 0.010161805537422427
+    },
+    "0.02": {
+     "final_bacc": 0.9960869672303448,
+     "incremental_bacc": 0.9935382361448928,
+     "forgetting": 0.00013910233765670096,
+     "final_fpr": 0.020136477182721015
+    },
+    "0.05": {
+     "final_bacc": 0.9925554271170376,
+     "incremental_bacc": 0.9858124136545461,
+     "forgetting": -2.4186632956280096e-05,
+     "final_fpr": 0.04845462220713546
+    },
+    "default": {
+     "final_bacc": 0.9744004458742155,
+     "incremental_bacc": 0.9908884302073003,
+     "forgetting": 0.0038212507964377105,
+     "final_fpr": 0.0014927191860110887
+    }
+   },
+   "final_memory_rows": 2773,
+   "feature_bytes": 854084,
+   "row_id_bytes": 22184,
+   "model_bytes": 2984307,
+   "error_destinations": {
+    "old_attack_errors": 247,
+    "Normal": 108,
+    "other_old": 111,
+    "new": 28,
+    "fractions": {
+     "Normal": 0.43724696356275305,
+     "other_old": 0.4493927125506073,
+     "new": 0.11336032388663968
+    }
+   },
+   "measured_cell_seconds": 100.29699999999139,
+   "result": "CIC-IDS-2017_x2_seed71.json",
+   "result_sha256": "0c9a56a189accdff0f0ecf5fb6510479a6a48290443fa34d4c2eead97f032480",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 2,
+   "seed": 72,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9760680329198261,
+     "incremental_bacc": 0.99064937373308,
+     "forgetting": 0.0014317482826475454,
+     "final_fpr": 0.009907216405114412
+    },
+    "0.02": {
+     "final_bacc": 0.9959518363341537,
+     "incremental_bacc": 0.9933953996941361,
+     "forgetting": 0.0010444094649796527,
+     "final_fpr": 0.019701282084758596
+    },
+    "0.05": {
+     "final_bacc": 0.9924356159667813,
+     "incremental_bacc": 0.9858460399472417,
+     "forgetting": 0.0008766513200454407,
+     "final_fpr": 0.048149985638561765
+    },
+    "default": {
+     "final_bacc": 0.9532520807949746,
+     "incremental_bacc": 0.9836414626978777,
+     "forgetting": 0.005091982146709029,
+     "final_fpr": 0.0014796633330722163
+    }
+   },
+   "final_memory_rows": 2773,
+   "feature_bytes": 854084,
+   "row_id_bytes": 22184,
+   "model_bytes": 3092178,
+   "error_destinations": {
+    "old_attack_errors": 345,
+    "Normal": 76,
+    "other_old": 265,
+    "new": 4,
+    "fractions": {
+     "Normal": 0.22028985507246376,
+     "other_old": 0.7681159420289855,
+     "new": 0.011594202898550725
+    }
+   },
+   "measured_cell_seconds": 121.79699999999139,
+   "result": "CIC-IDS-2017_x2_seed72.json",
+   "result_sha256": "bdcba5391f4171684c44184936a24b15d744e16cba9fe3539ab37ff1ce44771b",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 2,
+   "seed": 73,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9760146511732778,
+     "incremental_bacc": 0.9909841218133647,
+     "forgetting": 0.001856590358078114,
+     "final_fpr": 0.009933328110992158
+    },
+    "0.02": {
+     "final_bacc": 0.974866444740486,
+     "incremental_bacc": 0.9885762390624377,
+     "forgetting": 0.0018251818667821922,
+     "final_fpr": 0.019718689888677095
+    },
+    "0.05": {
+     "final_bacc": 0.9710645414348118,
+     "incremental_bacc": 0.9808071580480913,
+     "forgetting": 0.0019853855693316804,
+     "final_fpr": 0.05026068186367949
+    },
+    "default": {
+     "final_bacc": 0.9539102774081551,
+     "incremental_bacc": 0.9857897137597587,
+     "forgetting": 0.004648851534969893,
+     "final_fpr": 0.0015819341810933841
+    }
+   },
+   "final_memory_rows": 2773,
+   "feature_bytes": 854084,
+   "row_id_bytes": 22184,
+   "model_bytes": 1892952,
+   "error_destinations": {
+    "old_attack_errors": 361,
+    "Normal": 88,
+    "other_old": 268,
+    "new": 5,
+    "fractions": {
+     "Normal": 0.24376731301939059,
+     "other_old": 0.7423822714681441,
+     "new": 0.013850415512465374
+    }
+   },
+   "measured_cell_seconds": 73.17199999999139,
+   "result": "CIC-IDS-2017_x2_seed73.json",
+   "result_sha256": "885f118c0432433a8800ad85f77a9fb6629a0719055ee85fadc8c5dc1ab8dab5",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 2,
+   "seed": 74,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9766802712013232,
+     "incremental_bacc": 0.991340909959521,
+     "forgetting": 0.0013417885333355157,
+     "final_fpr": 0.010401162841301756
+    },
+    "0.02": {
+     "final_bacc": 0.975604121684107,
+     "incremental_bacc": 0.9888938184723591,
+     "forgetting": 0.0011279904601760131,
+     "final_fpr": 0.019851424393555632
+    },
+    "0.05": {
+     "final_bacc": 0.9927992030584976,
+     "incremental_bacc": 0.9863450437455461,
+     "forgetting": 0.0010841362077675758,
+     "final_fpr": 0.04899644010409867
+    },
+    "default": {
+     "final_bacc": 0.9546633200347684,
+     "incremental_bacc": 0.9867684245850534,
+     "forgetting": 0.004342562854138439,
+     "final_fpr": 0.001444847725235223
+    }
+   },
+   "final_memory_rows": 2773,
+   "feature_bytes": 854084,
+   "row_id_bytes": 22184,
+   "model_bytes": 3293442,
+   "error_destinations": {
+    "old_attack_errors": 251,
+    "Normal": 63,
+    "other_old": 177,
+    "new": 11,
+    "fractions": {
+     "Normal": 0.250996015936255,
+     "other_old": 0.7051792828685259,
+     "new": 0.043824701195219126
+    }
+   },
+   "measured_cell_seconds": 187.95300000000861,
+   "result": "CIC-IDS-2017_x2_seed74.json",
+   "result_sha256": "e6608e13331265a3ccb37862353c60e48c2e620839a074253c40187268c98dcb",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 3,
+   "seed": 70,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9974500047987285,
+     "incremental_bacc": 0.9966618452760527,
+     "forgetting": 0.001093789519235037,
+     "final_fpr": 0.010100878223707688
+    },
+    "0.02": {
+     "final_bacc": 0.9962687919735966,
+     "incremental_bacc": 0.9941390574287192,
+     "forgetting": 0.001065771341915785,
+     "final_fpr": 0.019677346354370663
+    },
+    "0.05": {
+     "final_bacc": 0.9926156919320155,
+     "incremental_bacc": 0.9863800240316671,
+     "forgetting": 0.0008719884448197454,
+     "final_fpr": 0.048989912177629234
+    },
+    "default": {
+     "final_bacc": 0.976158224972788,
+     "incremental_bacc": 0.9922719095942798,
+     "forgetting": 0.0023897065210461608,
+     "final_fpr": 0.0016776771026451157
+    }
+   },
+   "final_memory_rows": 4145,
+   "feature_bytes": 1276660,
+   "row_id_bytes": 33160,
+   "model_bytes": 2336940,
+   "error_destinations": {
+    "old_attack_errors": 304,
+    "Normal": 43,
+    "other_old": 241,
+    "new": 20,
+    "fractions": {
+     "Normal": 0.14144736842105263,
+     "other_old": 0.7927631578947368,
+     "new": 0.06578947368421052
+    }
+   },
+   "measured_cell_seconds": 111.28100000001723,
+   "result": "CIC-IDS-2017_x3_seed70.json",
+   "result_sha256": "1d6d665ae1b31a54d4b30d9813d9b37b95da9a2e6c8bdb2baead4041685122e6",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 3,
+   "seed": 71,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9975320419806747,
+     "incremental_bacc": 0.9966454139045551,
+     "forgetting": 0.0009682534721728494,
+     "final_fpr": 0.01007259054234013
+    },
+    "0.02": {
+     "final_bacc": 0.9963331319391955,
+     "incremental_bacc": 0.9940317803084021,
+     "forgetting": 0.0009482370923064772,
+     "final_fpr": 0.019951519266086987
+    },
+    "0.05": {
+     "final_bacc": 0.9927964487782566,
+     "incremental_bacc": 0.9862597486628943,
+     "forgetting": 0.0007602538739336547,
+     "final_fpr": 0.04865698792768798
+    },
+    "default": {
+     "final_bacc": 0.9758179444064599,
+     "incremental_bacc": 0.9915411107717701,
+     "forgetting": 0.0030269009230078914,
+     "final_fpr": 0.001627629666379438
+    }
+   },
+   "final_memory_rows": 4145,
+   "feature_bytes": 1276660,
+   "row_id_bytes": 33160,
+   "model_bytes": 2385442,
+   "error_destinations": {
+    "old_attack_errors": 244,
+    "Normal": 91,
+    "other_old": 141,
+    "new": 12,
+    "fractions": {
+     "Normal": 0.3729508196721312,
+     "other_old": 0.5778688524590164,
+     "new": 0.04918032786885246
+    }
+   },
+   "measured_cell_seconds": 99.25,
+   "result": "CIC-IDS-2017_x3_seed71.json",
+   "result_sha256": "01514ee483842129dfe0aea30c5dec96f2b98da47a732dd4eeff8572d4bca7a3",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 3,
+   "seed": 72,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9765465855743563,
+     "incremental_bacc": 0.9912261399413369,
+     "forgetting": 0.0007318294535207196,
+     "final_fpr": 0.009815825434542305
+    },
+    "0.02": {
+     "final_bacc": 0.9755272301482922,
+     "incremental_bacc": 0.9887413539796004,
+     "forgetting": 0.0004655163307166014,
+     "final_fpr": 0.01946410075636908
+    },
+    "0.05": {
+     "final_bacc": 0.9927221547990849,
+     "incremental_bacc": 0.9863257588481361,
+     "forgetting": 0.0004835236819830853,
+     "final_fpr": 0.04878101853060727
+    },
+    "default": {
+     "final_bacc": 0.9550708364069289,
+     "incremental_bacc": 0.9862365390894319,
+     "forgetting": 0.002666053354731505,
+     "final_fpr": 0.0016493894212775586
+    }
+   },
+   "final_memory_rows": 4145,
+   "feature_bytes": 1276660,
+   "row_id_bytes": 33160,
+   "model_bytes": 3479415,
+   "error_destinations": {
+    "old_attack_errors": 241,
+    "Normal": 42,
+    "other_old": 195,
+    "new": 4,
+    "fractions": {
+     "Normal": 0.17427385892116182,
+     "other_old": 0.8091286307053942,
+     "new": 0.016597510373443983
+    }
+   },
+   "measured_cell_seconds": 135.28100000001723,
+   "result": "CIC-IDS-2017_x3_seed72.json",
+   "result_sha256": "27659798dbc905fd0fbdc83cc9807a3904c9b0ccd26f3e0a499044d24e4d64f3",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 3,
+   "seed": 73,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.976280865992776,
+     "incremental_bacc": 0.991282731314926,
+     "forgetting": 0.0015239263612668956,
+     "final_fpr": 0.010024719081564265
+    },
+    "0.02": {
+     "final_bacc": 0.9751800756438274,
+     "incremental_bacc": 0.9888604244677563,
+     "forgetting": 0.0014644746952652092,
+     "final_fpr": 0.01919427979563238
+    },
+    "0.05": {
+     "final_bacc": 0.9713277893621775,
+     "incremental_bacc": 0.981029671797332,
+     "forgetting": 0.0016320163731459725,
+     "final_fpr": 0.050297673447006294
+    },
+    "default": {
+     "final_bacc": 0.9556643852280144,
+     "incremental_bacc": 0.9866074321902193,
+     "forgetting": 0.0015549741935200385,
+     "final_fpr": 0.001655917347746995
+    }
+   },
+   "final_memory_rows": 4145,
+   "feature_bytes": 1276660,
+   "row_id_bytes": 33160,
+   "model_bytes": 1761086,
+   "error_destinations": {
+    "old_attack_errors": 253,
+    "Normal": 86,
+    "other_old": 161,
+    "new": 6,
+    "fractions": {
+     "Normal": 0.33992094861660077,
+     "other_old": 0.6363636363636364,
+     "new": 0.023715415019762844
+    }
+   },
+   "measured_cell_seconds": 78.17200000002049,
+   "result": "CIC-IDS-2017_x3_seed73.json",
+   "result_sha256": "6a9f8ae767613f56eb9d61b58143782bda99a21530e46adb12f52d3f0827a6ae",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 3,
+   "seed": 74,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.976548087540047,
+     "incremental_bacc": 0.991263242016282,
+     "forgetting": 0.0011651216326695375,
+     "final_fpr": 0.010272780287402843
+    },
+    "0.02": {
+     "final_bacc": 0.975341537119892,
+     "incremental_bacc": 0.9886594316726708,
+     "forgetting": 0.0011756015289424715,
+     "final_fpr": 0.020129949256251577
+    },
+    "0.05": {
+     "final_bacc": 0.9925466953477008,
+     "incremental_bacc": 0.9859698685006669,
+     "forgetting": 0.0009387934940667253,
+     "final_fpr": 0.049418579349122214
+    },
+    "default": {
+     "final_bacc": 0.9557889779755573,
+     "incremental_bacc": 0.9871292281298865,
+     "forgetting": 0.0021262075178516415,
+     "final_fpr": 0.0015949900340322567
+    }
+   },
+   "final_memory_rows": 4145,
+   "feature_bytes": 1276660,
+   "row_id_bytes": 33160,
+   "model_bytes": 2627593,
+   "error_destinations": {
+    "old_attack_errors": 302,
+    "Normal": 72,
+    "other_old": 224,
+    "new": 6,
+    "fractions": {
+     "Normal": 0.23841059602649006,
+     "other_old": 0.7417218543046358,
+     "new": 0.019867549668874173
+    }
+   },
+   "measured_cell_seconds": 149.76600000000326,
+   "result": "CIC-IDS-2017_x3_seed74.json",
+   "result_sha256": "1e67dae7a01619739f8cd0ea9a4916715ad1504013a86aab47bf0cd2d0c8eb9b",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 4,
+   "seed": 70,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9977806676466964,
+     "incremental_bacc": 0.996657394417547,
+     "forgetting": 0.000298876645996482,
+     "final_fpr": 0.009833233238460802
+    },
+    "0.02": {
+     "final_bacc": 0.9965963947486083,
+     "incremental_bacc": 0.9941088831167767,
+     "forgetting": 0.00023540834455404447,
+     "final_fpr": 0.01936835783481735
+    },
+    "0.05": {
+     "final_bacc": 0.9930123365243901,
+     "incremental_bacc": 0.9864223555352818,
+     "forgetting": 5.3291189321717315e-05,
+     "final_fpr": 0.04808470637386741
+    },
+    "default": {
+     "final_bacc": 0.9769158798466929,
+     "incremental_bacc": 0.9923017838356605,
+     "forgetting": 0.0006465569108813352,
+     "final_fpr": 0.001653741372257183
+    }
+   },
+   "final_memory_rows": 5516,
+   "feature_bytes": 1698928,
+   "row_id_bytes": 44128,
+   "model_bytes": 2395609,
+   "error_destinations": {
+    "old_attack_errors": 221,
+    "Normal": 24,
+    "other_old": 193,
+    "new": 4,
+    "fractions": {
+     "Normal": 0.1085972850678733,
+     "other_old": 0.8733031674208145,
+     "new": 0.01809954751131222
+    }
+   },
+   "measured_cell_seconds": 85.96799999999348,
+   "result": "CIC-IDS-2017_x4_seed70.json",
+   "result_sha256": "3bb20e65e841e2fe35265a03fa7dd714915f857bdf9003dd53fda453bf40a571",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 4,
+   "seed": 71,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9978158622155083,
+     "incremental_bacc": 0.9967913627407943,
+     "forgetting": 0.0006547724003427661,
+     "final_fpr": 0.010222732851137164
+    },
+    "0.02": {
+     "final_bacc": 0.9966434553057487,
+     "incremental_bacc": 0.9941667940848978,
+     "forgetting": 0.0005352272345676146,
+     "final_fpr": 0.019979806947454545
+    },
+    "0.05": {
+     "final_bacc": 0.9930669900707598,
+     "incremental_bacc": 0.9863703103459963,
+     "forgetting": 0.00038976956672709395,
+     "final_fpr": 0.04912047070701796
+    },
+    "default": {
+     "final_bacc": 0.9768922114766017,
+     "incremental_bacc": 0.9923056640428998,
+     "forgetting": 0.0015998180898369834,
+     "final_fpr": 0.0016863810046043642
+    }
+   },
+   "final_memory_rows": 5516,
+   "feature_bytes": 1698928,
+   "row_id_bytes": 44128,
+   "model_bytes": 1982944,
+   "error_destinations": {
+    "old_attack_errors": 135,
+    "Normal": 39,
+    "other_old": 89,
+    "new": 7,
+    "fractions": {
+     "Normal": 0.28888888888888886,
+     "other_old": 0.6592592592592592,
+     "new": 0.05185185185185185
+    }
+   },
+   "measured_cell_seconds": 87.81299999999464,
+   "result": "CIC-IDS-2017_x4_seed71.json",
+   "result_sha256": "56b9e4c09c79f71ae48a2865fb65aec22e4fd6fcf30a41cac86abf593950293d",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 4,
+   "seed": 72,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9768276925448107,
+     "incremental_bacc": 0.9914058381605995,
+     "forgetting": 0.00035481487825631913,
+     "final_fpr": 0.009952911890400467
+    },
+    "0.02": {
+     "final_bacc": 0.9966861655910624,
+     "incremental_bacc": 0.9940626040390159,
+     "forgetting": 8.865798903912037e-06,
+     "final_fpr": 0.019357477957368287
+    },
+    "0.05": {
+     "final_bacc": 0.9929181710935395,
+     "incremental_bacc": 0.9863910998614387,
+     "forgetting": 0.0001318363340477302,
+     "final_fpr": 0.04954043397655169
+    },
+    "default": {
+     "final_bacc": 0.9553586547417576,
+     "incremental_bacc": 0.9868522785478807,
+     "forgetting": 0.0026475671909385046,
+     "final_fpr": 0.0017973557545847803
+    }
+   },
+   "final_memory_rows": 5516,
+   "feature_bytes": 1698928,
+   "row_id_bytes": 44128,
+   "model_bytes": 2563794,
+   "error_destinations": {
+    "old_attack_errors": 184,
+    "Normal": 46,
+    "other_old": 132,
+    "new": 6,
+    "fractions": {
+     "Normal": 0.25,
+     "other_old": 0.717391304347826,
+     "new": 0.03260869565217391
+    }
+   },
+   "measured_cell_seconds": 113.34399999998277,
+   "result": "CIC-IDS-2017_x4_seed72.json",
+   "result_sha256": "c9426fe96bb1df12dbe8e4f31c761183e80a46ee2370beeaac5f5d28ab45951d",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 4,
+   "seed": 73,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.976828385335377,
+     "incremental_bacc": 0.9913238797795723,
+     "forgetting": 0.0003734749369096087,
+     "final_fpr": 0.010462090155016495
+    },
+    "0.02": {
+     "final_bacc": 0.9756365628674902,
+     "incremental_bacc": 0.9888737017810704,
+     "forgetting": 0.00040892506103279436,
+     "final_fpr": 0.020062494016067405
+    },
+    "0.05": {
+     "final_bacc": 0.9719235830890796,
+     "incremental_bacc": 0.9811163503997216,
+     "forgetting": 0.00048284103032987985,
+     "final_fpr": 0.050297673447006294
+    },
+    "default": {
+     "final_bacc": 0.9558671603840895,
+     "incremental_bacc": 0.9869825925666702,
+     "forgetting": 0.0016455269837524027,
+     "final_fpr": 0.0016341575928488742
+    }
+   },
+   "final_memory_rows": 5516,
+   "feature_bytes": 1698928,
+   "row_id_bytes": 44128,
+   "model_bytes": 2098539,
+   "error_destinations": {
+    "old_attack_errors": 234,
+    "Normal": 41,
+    "other_old": 182,
+    "new": 11,
+    "fractions": {
+     "Normal": 0.1752136752136752,
+     "other_old": 0.7777777777777778,
+     "new": 0.04700854700854701
+    }
+   },
+   "measured_cell_seconds": 160.01500000001397,
+   "result": "CIC-IDS-2017_x4_seed73.json",
+   "result_sha256": "4bed553e028071abf1ba6ea6dc0f4e17c265611018e5eb1f2985ad272411f089",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "multiplier": 4,
+   "seed": 74,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9979351110610584,
+     "incremental_bacc": 0.9967362107640569,
+     "forgetting": 0.00041632152839589837,
+     "final_fpr": 0.010288012115831528
+    },
+    "0.02": {
+     "final_bacc": 0.9967199775003969,
+     "incremental_bacc": 0.9941438196836683,
+     "forgetting": 0.00042736573456183163,
+     "final_fpr": 0.020101661574884022
+    },
+    "0.05": {
+     "final_bacc": 0.9931839990111073,
+     "incremental_bacc": 0.9862789346319704,
+     "forgetting": -5.516873080405974e-07,
+     "final_fpr": 0.049016023883506975
+    },
+    "default": {
+     "final_bacc": 0.9564329770603746,
+     "incremental_bacc": 0.9871049953724471,
+     "forgetting": 0.0016231884760760467,
+     "final_fpr": 0.001655917347746995
+    }
+   },
+   "final_memory_rows": 5516,
+   "feature_bytes": 1698928,
+   "row_id_bytes": 44128,
+   "model_bytes": 2520275,
+   "error_destinations": {
+    "old_attack_errors": 238,
+    "Normal": 51,
+    "other_old": 180,
+    "new": 7,
+    "fractions": {
+     "Normal": 0.21428571428571427,
+     "other_old": 0.7563025210084033,
+     "new": 0.029411764705882353
+    }
+   },
+   "measured_cell_seconds": 137.25,
+   "result": "CIC-IDS-2017_x4_seed74.json",
+   "result_sha256": "af2a4076aca39177a38ef45aee49b9c8b3244593d8ad8cdb2c17c033b334ea51",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 0.5,
+   "seed": 70,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.611792071580745,
+     "incremental_bacc": 0.7269640772187769,
+     "forgetting": 0.2784008896514745,
+     "final_fpr": 0.009670613058258117
+    },
+    "0.02": {
+     "final_bacc": 0.642837124852965,
+     "incremental_bacc": 0.745933520546741,
+     "forgetting": 0.2835807552782583,
+     "final_fpr": 0.020220372758176064
+    },
+    "0.05": {
+     "final_bacc": 0.6879206972354518,
+     "incremental_bacc": 0.772745601120749,
+     "forgetting": 0.2854722430242008,
+     "final_fpr": 0.05081467588793811
+    },
+    "default": {
+     "final_bacc": 0.6011695386216174,
+     "incremental_bacc": 0.743185189708141,
+     "forgetting": 0.35529994922398245,
+     "final_fpr": 0.007560661118274528
+    }
+   },
+   "final_memory_rows": 1000,
+   "feature_bytes": 272000,
+   "row_id_bytes": 8000,
+   "model_bytes": 7555329,
+   "error_destinations": {
+    "old_attack_errors": 7328,
+    "Normal": 4678,
+    "other_old": 1899,
+    "new": 751,
+    "fractions": {
+     "Normal": 0.6383733624454149,
+     "other_old": 0.2591430131004367,
+     "new": 0.10248362445414848
+    }
+   },
+   "measured_cell_seconds": 67.75,
+   "result": "UNSW-NB15_x0.5_seed70.json",
+   "result_sha256": "f89c3769b8fc002a128750d08895ccfceb824743125bfe9329f651c2b44da29d",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 0.5,
+   "seed": 71,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6281942658895756,
+     "incremental_bacc": 0.7252552414759018,
+     "forgetting": 0.25168401502270765,
+     "final_fpr": 0.009670613058258117
+    },
+    "0.02": {
+     "final_bacc": 0.6570403252626889,
+     "incremental_bacc": 0.7463691054422723,
+     "forgetting": 0.2600602433880023,
+     "final_fpr": 0.020923690071503926
+    },
+    "0.05": {
+     "final_bacc": 0.6968691838851291,
+     "incremental_bacc": 0.7749775285726445,
+     "forgetting": 0.27455354519559316,
+     "final_fpr": 0.046184503575196344
+    },
+    "default": {
+     "final_bacc": 0.6208988267040392,
+     "incremental_bacc": 0.7461183565436837,
+     "forgetting": 0.3337310201465953,
+     "final_fpr": 0.008674246864376978
+    }
+   },
+   "final_memory_rows": 1000,
+   "feature_bytes": 272000,
+   "row_id_bytes": 8000,
+   "model_bytes": 6933753,
+   "error_destinations": {
+    "old_attack_errors": 7248,
+    "Normal": 4611,
+    "other_old": 2018,
+    "new": 619,
+    "fractions": {
+     "Normal": 0.6361754966887417,
+     "other_old": 0.2784216335540839,
+     "new": 0.0854028697571744
+    }
+   },
+   "measured_cell_seconds": 102.36000000001513,
+   "result": "UNSW-NB15_x0.5_seed71.json",
+   "result_sha256": "461b89147095bebd93f291228db2507b66641caafd5b655bf4a42140e48db42b",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 0.5,
+   "seed": 72,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6303100656207414,
+     "incremental_bacc": 0.7274512988523469,
+     "forgetting": 0.2521775124340049,
+     "final_fpr": 0.01248388231156957
+    },
+    "0.02": {
+     "final_bacc": 0.6530782014556782,
+     "incremental_bacc": 0.7462485010703992,
+     "forgetting": 0.2679012406991026,
+     "final_fpr": 0.021040909623725238
+    },
+    "0.05": {
+     "final_bacc": 0.6911142340014027,
+     "incremental_bacc": 0.7732395665644601,
+     "forgetting": 0.2820220155007764,
+     "final_fpr": 0.04882194350017583
+    },
+    "default": {
+     "final_bacc": 0.6082186491491294,
+     "incremental_bacc": 0.742722368700626,
+     "forgetting": 0.34594247863902217,
+     "final_fpr": 0.008674246864376978
+    }
+   },
+   "final_memory_rows": 1000,
+   "feature_bytes": 272000,
+   "row_id_bytes": 8000,
+   "model_bytes": 6705581,
+   "error_destinations": {
+    "old_attack_errors": 7194,
+    "Normal": 4474,
+    "other_old": 1824,
+    "new": 896,
+    "fractions": {
+     "Normal": 0.6219071448429246,
+     "other_old": 0.2535446205170976,
+     "new": 0.12454823463997776
+    }
+   },
+   "measured_cell_seconds": 106.39100000000326,
+   "result": "UNSW-NB15_x0.5_seed72.json",
+   "result_sha256": "7e55c3139b1acf419d21e337953b0cdc662fbfc57da78521ee2893815cefb620",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 0.5,
+   "seed": 73,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6432125304916829,
+     "incremental_bacc": 0.7355462252788442,
+     "forgetting": 0.2584398391880977,
+     "final_fpr": 0.013011370296565468
+    },
+    "0.02": {
+     "final_bacc": 0.6699344124028555,
+     "incremental_bacc": 0.753751749728137,
+     "forgetting": 0.25894968802773943,
+     "final_fpr": 0.024440276638143243
+    },
+    "0.05": {
+     "final_bacc": 0.7043589470210041,
+     "incremental_bacc": 0.7760787111306813,
+     "forgetting": 0.2625290976972097,
+     "final_fpr": 0.05732036103622084
+    },
+    "default": {
+     "final_bacc": 0.6208936244484231,
+     "incremental_bacc": 0.745942421086656,
+     "forgetting": 0.33406070522005127,
+     "final_fpr": 0.008439807759934357
+    }
+   },
+   "final_memory_rows": 1000,
+   "feature_bytes": 272000,
+   "row_id_bytes": 8000,
+   "model_bytes": 7202274,
+   "error_destinations": {
+    "old_attack_errors": 7320,
+    "Normal": 4402,
+    "other_old": 2139,
+    "new": 779,
+    "fractions": {
+     "Normal": 0.6013661202185793,
+     "other_old": 0.29221311475409834,
+     "new": 0.10642076502732241
+    }
+   },
+   "measured_cell_seconds": 60.875,
+   "result": "UNSW-NB15_x0.5_seed73.json",
+   "result_sha256": "fde0ce59632b1ca18d4a2fcf7389427780662adeaf0516b97bef5a8eb86b91ce",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 0.5,
+   "seed": 74,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6176505440289386,
+     "incremental_bacc": 0.726233941848168,
+     "forgetting": 0.26156486777906063,
+     "final_fpr": 0.010198101043254014
+    },
+    "0.02": {
+     "final_bacc": 0.6441874747750027,
+     "incremental_bacc": 0.7458450180331851,
+     "forgetting": 0.2771668383810151,
+     "final_fpr": 0.018989567459852304
+    },
+    "0.05": {
+     "final_bacc": 0.6876728157190015,
+     "incremental_bacc": 0.7731808222890247,
+     "forgetting": 0.2814895851045368,
+     "final_fpr": 0.051224944320712694
+    },
+    "default": {
+     "final_bacc": 0.6108153402298464,
+     "incremental_bacc": 0.7434157407006655,
+     "forgetting": 0.33641217639849347,
+     "final_fpr": 0.008674246864376978
+    }
+   },
+   "final_memory_rows": 1000,
+   "feature_bytes": 272000,
+   "row_id_bytes": 8000,
+   "model_bytes": 6806050,
+   "error_destinations": {
+    "old_attack_errors": 7302,
+    "Normal": 4378,
+    "other_old": 2249,
+    "new": 675,
+    "fractions": {
+     "Normal": 0.5995617639003012,
+     "other_old": 0.3079978088195015,
+     "new": 0.0924404272801972
+    }
+   },
+   "measured_cell_seconds": 52.25,
+   "result": "UNSW-NB15_x0.5_seed74.json",
+   "result_sha256": "52f7d20021c6bac3d3cac09a5da855f3b016de7576f663c16290765ba5f1e03f",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 1.5,
+   "seed": 70,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6635003510908672,
+     "incremental_bacc": 0.7484740340259923,
+     "forgetting": 0.16805987703745118,
+     "final_fpr": 0.010432540147696635
+    },
+    "0.02": {
+     "final_bacc": 0.690153394329713,
+     "incremental_bacc": 0.768387760982406,
+     "forgetting": 0.17395794371541196,
+     "final_fpr": 0.01916539678818427
+    },
+    "0.05": {
+     "final_bacc": 0.7393226903671622,
+     "incremental_bacc": 0.7990900616019594,
+     "forgetting": 0.17259017232790735,
+     "final_fpr": 0.051517993201265974
+    },
+    "default": {
+     "final_bacc": 0.6802500740043909,
+     "incremental_bacc": 0.7776410508813367,
+     "forgetting": 0.22922953678092065,
+     "final_fpr": 0.015648810221544955
+    }
+   },
+   "final_memory_rows": 2741,
+   "feature_bytes": 745552,
+   "row_id_bytes": 21928,
+   "model_bytes": 9770102,
+   "error_destinations": {
+    "old_attack_errors": 6554,
+    "Normal": 4201,
+    "other_old": 1899,
+    "new": 454,
+    "fractions": {
+     "Normal": 0.6409826060421117,
+     "other_old": 0.2897467195605737,
+     "new": 0.06927067439731462
+    }
+   },
+   "measured_cell_seconds": 137.89100000000326,
+   "result": "UNSW-NB15_x1.5_seed70.json",
+   "result_sha256": "eab41223958485557037e45059f4fd5403a92f04f28f13423dde084c97547c2b",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 1.5,
+   "seed": 71,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6641481770152246,
+     "incremental_bacc": 0.7477936954005013,
+     "forgetting": 0.17299337056333422,
+     "final_fpr": 0.009260344625483532
+    },
+    "0.02": {
+     "final_bacc": 0.7009463635118505,
+     "incremental_bacc": 0.7721889025104693,
+     "forgetting": 0.17604972750025316,
+     "final_fpr": 0.018227640370413786
+    },
+    "0.05": {
+     "final_bacc": 0.7360888601591684,
+     "incremental_bacc": 0.7991611761481497,
+     "forgetting": 0.1849271357116479,
+     "final_fpr": 0.049642480365725
+    },
+    "default": {
+     "final_bacc": 0.6956759999982015,
+     "incremental_bacc": 0.7821331524615318,
+     "forgetting": 0.22315412583674893,
+     "final_fpr": 0.015648810221544955
+    }
+   },
+   "final_memory_rows": 2741,
+   "feature_bytes": 745552,
+   "row_id_bytes": 21928,
+   "model_bytes": 10177926,
+   "error_destinations": {
+    "old_attack_errors": 6624,
+    "Normal": 4149,
+    "other_old": 2024,
+    "new": 451,
+    "fractions": {
+     "Normal": 0.626358695652174,
+     "other_old": 0.3055555555555556,
+     "new": 0.06808574879227053
+    }
+   },
+   "measured_cell_seconds": 142.67199999999139,
+   "result": "UNSW-NB15_x1.5_seed71.json",
+   "result_sha256": "be0994095587d23aeaf241ab7a32781c3a877962fbb0b1565ac5d93a25b1c58e",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 1.5,
+   "seed": 72,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6647700144480411,
+     "incremental_bacc": 0.748350702119423,
+     "forgetting": 0.16802555935289235,
+     "final_fpr": 0.011897784550463017
+    },
+    "0.02": {
+     "final_bacc": 0.695189603980514,
+     "incremental_bacc": 0.7715055408084578,
+     "forgetting": 0.1857968726804894,
+     "final_fpr": 0.02238893447427031
+    },
+    "0.05": {
+     "final_bacc": 0.7422456682986303,
+     "incremental_bacc": 0.7998124583515267,
+     "forgetting": 0.17944236000073285,
+     "final_fpr": 0.05392099402180284
+    },
+    "default": {
+     "final_bacc": 0.688028279510298,
+     "incremental_bacc": 0.7779993029397114,
+     "forgetting": 0.22880270128974467,
+     "final_fpr": 0.017114054624311335
+    }
+   },
+   "final_memory_rows": 2741,
+   "feature_bytes": 745552,
+   "row_id_bytes": 21928,
+   "model_bytes": 10368893,
+   "error_destinations": {
+    "old_attack_errors": 6674,
+    "Normal": 4205,
+    "other_old": 1966,
+    "new": 503,
+    "fractions": {
+     "Normal": 0.6300569373688942,
+     "other_old": 0.2945759664369194,
+     "new": 0.0753670961941864
+    }
+   },
+   "measured_cell_seconds": 147.21900000001187,
+   "result": "UNSW-NB15_x1.5_seed72.json",
+   "result_sha256": "ac0a27cb17d360d25df8295e8bf2a5cc66fa96425ad6cdaef72113a927997b7a",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 1.5,
+   "seed": 73,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.672786442791632,
+     "incremental_bacc": 0.7573089111327485,
+     "forgetting": 0.18809144947766193,
+     "final_fpr": 0.012015004102684327
+    },
+    "0.02": {
+     "final_bacc": 0.6975075188758659,
+     "incremental_bacc": 0.7745546053326269,
+     "forgetting": 0.18477197282300878,
+     "final_fpr": 0.022271714922048998
+    },
+    "0.05": {
+     "final_bacc": 0.7361441392524986,
+     "incremental_bacc": 0.7995486976473808,
+     "forgetting": 0.17888060755556798,
+     "final_fpr": 0.056558433946782324
+    },
+    "default": {
+     "final_bacc": 0.6854056232842151,
+     "incremental_bacc": 0.7787447556291168,
+     "forgetting": 0.23905559616831423,
+     "final_fpr": 0.01705544484820068
+    }
+   },
+   "final_memory_rows": 2741,
+   "feature_bytes": 745552,
+   "row_id_bytes": 21928,
+   "model_bytes": 9749645,
+   "error_destinations": {
+    "old_attack_errors": 6683,
+    "Normal": 4058,
+    "other_old": 2135,
+    "new": 490,
+    "fractions": {
+     "Normal": 0.6072123297920096,
+     "other_old": 0.3194673051024989,
+     "new": 0.07332036510549154
+    }
+   },
+   "measured_cell_seconds": 148.09400000001187,
+   "result": "UNSW-NB15_x1.5_seed73.json",
+   "result_sha256": "0b387b1080d7bff76311980341725a4a5c593d6b8cb98efba448d72fee460710",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 1.5,
+   "seed": 74,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6680614671720615,
+     "incremental_bacc": 0.7528575488702482,
+     "forgetting": 0.16390217926745843,
+     "final_fpr": 0.009377564177704842
+    },
+    "0.02": {
+     "final_bacc": 0.6989465593539294,
+     "incremental_bacc": 0.7749294824222305,
+     "forgetting": 0.17278514758102242,
+     "final_fpr": 0.01775876216152854
+    },
+    "0.05": {
+     "final_bacc": 0.7469107908620138,
+     "incremental_bacc": 0.8038504151874779,
+     "forgetting": 0.17055001649280252,
+     "final_fpr": 0.051049114992380726
+    },
+    "default": {
+     "final_bacc": 0.6922859952787914,
+     "incremental_bacc": 0.7820722327901185,
+     "forgetting": 0.21661267252156502,
+     "final_fpr": 0.015707419997655608
+    }
+   },
+   "final_memory_rows": 2741,
+   "feature_bytes": 745552,
+   "row_id_bytes": 21928,
+   "model_bytes": 9963789,
+   "error_destinations": {
+    "old_attack_errors": 6591,
+    "Normal": 4139,
+    "other_old": 2019,
+    "new": 433,
+    "fractions": {
+     "Normal": 0.6279775451373084,
+     "other_old": 0.3063268092853892,
+     "new": 0.06569564557730238
+    }
+   },
+   "measured_cell_seconds": 127.95300000000861,
+   "result": "UNSW-NB15_x1.5_seed74.json",
+   "result_sha256": "40367dc944e058804a010166b4e7d833e0497c69577dac141b028cb447f721a6",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 1,
+   "seed": 70,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6447805097107271,
+     "incremental_bacc": 0.7405246353956576,
+     "forgetting": 0.20534827224904417,
+     "final_fpr": 0.011077247684913843
+    },
+    "0.02": {
+     "final_bacc": 0.680510738828045,
+     "incremental_bacc": 0.7613728604715124,
+     "forgetting": 0.1966101259774723,
+     "final_fpr": 0.022154495369827686
+    },
+    "0.05": {
+     "final_bacc": 0.7206522154356697,
+     "incremental_bacc": 0.7910639725279118,
+     "forgetting": 0.21499469219560602,
+     "final_fpr": 0.055913726409565115
+    },
+    "default": {
+     "final_bacc": 0.6492335858517643,
+     "incremental_bacc": 0.761513608081674,
+     "forgetting": 0.2673786941487336,
+     "final_fpr": 0.012425272535458914
+    }
+   },
+   "final_memory_rows": 1905,
+   "feature_bytes": 518160,
+   "row_id_bytes": 15240,
+   "model_bytes": 7983563,
+   "error_destinations": {
+    "old_attack_errors": 6753,
+    "Normal": 4199,
+    "other_old": 1993,
+    "new": 561,
+    "fractions": {
+     "Normal": 0.6217977195320599,
+     "other_old": 0.2951280912187176,
+     "new": 0.08307418924922257
+    }
+   },
+   "measured_cell_seconds": 69.89000000001397,
+   "result": "UNSW-NB15_x1_seed70.json",
+   "result_sha256": "dfd8d4bab52538e4b5f923cdee1ef8a9840d437388e5c3b270def565e892b8aa",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 1,
+   "seed": 71,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6385452763703533,
+     "incremental_bacc": 0.7351773766492722,
+     "forgetting": 0.20583169961829229,
+     "final_fpr": 0.010666979252139257
+    },
+    "0.02": {
+     "final_bacc": 0.6677665140311888,
+     "incremental_bacc": 0.7564791484145745,
+     "forgetting": 0.20712090982520215,
+     "final_fpr": 0.020454811862618685
+    },
+    "0.05": {
+     "final_bacc": 0.7062480044310757,
+     "incremental_bacc": 0.7850967595673936,
+     "forgetting": 0.22145682562756838,
+     "final_fpr": 0.04929082170906107
+    },
+    "default": {
+     "final_bacc": 0.6490512118070286,
+     "incremental_bacc": 0.7627495947948162,
+     "forgetting": 0.2745688918203863,
+     "final_fpr": 0.013304419177118743
+    }
+   },
+   "final_memory_rows": 1905,
+   "feature_bytes": 518160,
+   "row_id_bytes": 15240,
+   "model_bytes": 9090046,
+   "error_destinations": {
+    "old_attack_errors": 6836,
+    "Normal": 4288,
+    "other_old": 2036,
+    "new": 512,
+    "fractions": {
+     "Normal": 0.6272674078408426,
+     "other_old": 0.2978349912229374,
+     "new": 0.07489760093622001
+    }
+   },
+   "measured_cell_seconds": 63.360000000015134,
+   "result": "UNSW-NB15_x1_seed71.json",
+   "result_sha256": "c088168221325390d947d483447bed8a2624bfca29183f07c4b1fd32502c5229",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 1,
+   "seed": 72,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6625665261474717,
+     "incremental_bacc": 0.7452075351622702,
+     "forgetting": 0.20074175256031312,
+     "final_fpr": 0.011018637908803188
+    },
+    "0.02": {
+     "final_bacc": 0.6890467661544576,
+     "incremental_bacc": 0.764740658119233,
+     "forgetting": 0.2098790603507773,
+     "final_fpr": 0.02221310514593834
+    },
+    "0.05": {
+     "final_bacc": 0.7297537179875918,
+     "incremental_bacc": 0.7923410927373513,
+     "forgetting": 0.21343776009099502,
+     "final_fpr": 0.05726175126011018
+    },
+    "default": {
+     "final_bacc": 0.6644122546921738,
+     "incremental_bacc": 0.7648209483571197,
+     "forgetting": 0.2632965237922831,
+     "final_fpr": 0.011546125893799086
+    }
+   },
+   "final_memory_rows": 1905,
+   "feature_bytes": 518160,
+   "row_id_bytes": 15240,
+   "model_bytes": 8242466,
+   "error_destinations": {
+    "old_attack_errors": 6752,
+    "Normal": 4125,
+    "other_old": 1999,
+    "new": 628,
+    "fractions": {
+     "Normal": 0.6109300947867299,
+     "other_old": 0.29606042654028436,
+     "new": 0.09300947867298578
+    }
+   },
+   "measured_cell_seconds": 64.125,
+   "result": "UNSW-NB15_x1_seed72.json",
+   "result_sha256": "d9254a7e8d2f8fbc4eae937a0bd0bf8cb404540c23319ed5a665f915296b245a",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 1,
+   "seed": 73,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6572668222620701,
+     "incremental_bacc": 0.7458195022916433,
+     "forgetting": 0.21343584480927458,
+     "final_fpr": 0.013011370296565468
+    },
+    "0.02": {
+     "final_bacc": 0.6857403130880629,
+     "incremental_bacc": 0.7668462011701418,
+     "forgetting": 0.22038517758225734,
+     "final_fpr": 0.023150861563708828
+    },
+    "0.05": {
+     "final_bacc": 0.7191517054946084,
+     "incremental_bacc": 0.790472960486144,
+     "forgetting": 0.22128197542576689,
+     "final_fpr": 0.05421404290235611
+    },
+    "default": {
+     "final_bacc": 0.6530416011684383,
+     "incremental_bacc": 0.7626484410778251,
+     "forgetting": 0.2822973804863721,
+     "final_fpr": 0.01160473566990974
+    }
+   },
+   "final_memory_rows": 1905,
+   "feature_bytes": 518160,
+   "row_id_bytes": 15240,
+   "model_bytes": 9987719,
+   "error_destinations": {
+    "old_attack_errors": 7010,
+    "Normal": 4180,
+    "other_old": 2232,
+    "new": 598,
+    "fractions": {
+     "Normal": 0.5962910128388017,
+     "other_old": 0.31840228245363766,
+     "new": 0.08530670470756063
+    }
+   },
+   "measured_cell_seconds": 66.68799999999464,
+   "result": "UNSW-NB15_x1_seed73.json",
+   "result_sha256": "8e9b7eb746753191759556627a413c8932d1bff9b95379211f04a254ea2e89b2",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 1,
+   "seed": 74,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6462737456946247,
+     "incremental_bacc": 0.7435300882098971,
+     "forgetting": 0.21452513220672306,
+     "final_fpr": 0.01002227171492205
+    },
+    "0.02": {
+     "final_bacc": 0.6747241400321392,
+     "incremental_bacc": 0.7651692911780078,
+     "forgetting": 0.22639398373065958,
+     "final_fpr": 0.018813738131520336
+    },
+    "0.05": {
+     "final_bacc": 0.7207702800915323,
+     "incremental_bacc": 0.7922817114713505,
+     "forgetting": 0.2215730618637409,
+     "final_fpr": 0.04952526081350369
+    },
+    "default": {
+     "final_bacc": 0.6544639097370515,
+     "incremental_bacc": 0.765106406224052,
+     "forgetting": 0.27200200984665546,
+     "final_fpr": 0.011780564998241707
+    }
+   },
+   "final_memory_rows": 1905,
+   "feature_bytes": 518160,
+   "row_id_bytes": 15240,
+   "model_bytes": 7472396,
+   "error_destinations": {
+    "old_attack_errors": 6863,
+    "Normal": 4181,
+    "other_old": 2178,
+    "new": 504,
+    "fractions": {
+     "Normal": 0.6092088008159697,
+     "other_old": 0.31735392685414543,
+     "new": 0.0734372723298849
+    }
+   },
+   "measured_cell_seconds": 75.43799999999464,
+   "result": "UNSW-NB15_x1_seed74.json",
+   "result_sha256": "639b1befdf92468288ea00efe50c9edda6e37e079a9fd357136954c20bc87de3",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 2,
+   "seed": 70,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6681752911456771,
+     "incremental_bacc": 0.7539621158593462,
+     "forgetting": 0.15500558909662743,
+     "final_fpr": 0.010432540147696635
+    },
+    "0.02": {
+     "final_bacc": 0.69782400909403,
+     "incremental_bacc": 0.7752563851662038,
+     "forgetting": 0.15849167178762977,
+     "final_fpr": 0.02162700738483179
+    },
+    "0.05": {
+     "final_bacc": 0.7402716161307485,
+     "incremental_bacc": 0.8044025836211045,
+     "forgetting": 0.1612574640931243,
+     "final_fpr": 0.05175243230570859
+    },
+    "default": {
+     "final_bacc": 0.6946964278809126,
+     "incremental_bacc": 0.7876455682094274,
+     "forgetting": 0.21245225268561357,
+     "final_fpr": 0.020161762982065408
+    }
+   },
+   "final_memory_rows": 3435,
+   "feature_bytes": 934320,
+   "row_id_bytes": 27480,
+   "model_bytes": 10753320,
+   "error_destinations": {
+    "old_attack_errors": 6286,
+    "Normal": 4019,
+    "other_old": 1811,
+    "new": 456,
+    "fractions": {
+     "Normal": 0.6393573019408209,
+     "other_old": 0.28810054088450526,
+     "new": 0.07254215717467388
+    }
+   },
+   "measured_cell_seconds": 134.14100000000326,
+   "result": "UNSW-NB15_x2_seed70.json",
+   "result_sha256": "311abf27818d6220d1314406e3da941a8aad3ecebe17b6dc4573f3d327d1a46c",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 2,
+   "seed": 71,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6697187963610702,
+     "incremental_bacc": 0.7506750749501077,
+     "forgetting": 0.1535255400357054,
+     "final_fpr": 0.009084515297151565
+    },
+    "0.02": {
+     "final_bacc": 0.6931047728123698,
+     "incremental_bacc": 0.7729287331567918,
+     "forgetting": 0.17177607260671157,
+     "final_fpr": 0.018051811042081818
+    },
+    "0.05": {
+     "final_bacc": 0.7313065085722299,
+     "incremental_bacc": 0.8006470969773908,
+     "forgetting": 0.17549187173381522,
+     "final_fpr": 0.05140077364904466
+    },
+    "default": {
+     "final_bacc": 0.6950129066886799,
+     "incremental_bacc": 0.7876603931514157,
+     "forgetting": 0.2240330760702509,
+     "final_fpr": 0.019106787012073613
+    }
+   },
+   "final_memory_rows": 3435,
+   "feature_bytes": 934320,
+   "row_id_bytes": 27480,
+   "model_bytes": 10557430,
+   "error_destinations": {
+    "old_attack_errors": 6511,
+    "Normal": 4100,
+    "other_old": 1995,
+    "new": 416,
+    "fractions": {
+     "Normal": 0.6297035785593611,
+     "other_old": 0.3064045461526647,
+     "new": 0.0638918752879742
+    }
+   },
+   "measured_cell_seconds": 78.875,
+   "result": "UNSW-NB15_x2_seed71.json",
+   "result_sha256": "11010ebc380957f2132a9184140be0a9e0034a88eef2d9afbde6ca98cc15ebad",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 2,
+   "seed": 72,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6718451537030035,
+     "incremental_bacc": 0.7549240789352932,
+     "forgetting": 0.16047128107287076,
+     "final_fpr": 0.010549759699917947
+    },
+    "0.02": {
+     "final_bacc": 0.7054547803063758,
+     "incremental_bacc": 0.7779862956338286,
+     "forgetting": 0.15949987797786572,
+     "final_fpr": 0.020454811862618685
+    },
+    "0.05": {
+     "final_bacc": 0.7559043620283634,
+     "incremental_bacc": 0.8082303652732563,
+     "forgetting": 0.15692042395913758,
+     "final_fpr": 0.057027312155667566
+    },
+    "default": {
+     "final_bacc": 0.7052735992073603,
+     "incremental_bacc": 0.788749820342454,
+     "forgetting": 0.2047747223387785,
+     "final_fpr": 0.020220372758176064
+    }
+   },
+   "final_memory_rows": 3435,
+   "feature_bytes": 934320,
+   "row_id_bytes": 27480,
+   "model_bytes": 9906889,
+   "error_destinations": {
+    "old_attack_errors": 6337,
+    "Normal": 4096,
+    "other_old": 1819,
+    "new": 422,
+    "fractions": {
+     "Normal": 0.6463626321603282,
+     "other_old": 0.2870443427489348,
+     "new": 0.06659302509073695
+    }
+   },
+   "measured_cell_seconds": 80.59399999998277,
+   "result": "UNSW-NB15_x2_seed72.json",
+   "result_sha256": "6558949381054ca0b542e2b666dac438ec9031d773fc97fbfdcc731467fbfc61",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 2,
+   "seed": 73,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.672551004790057,
+     "incremental_bacc": 0.7602212159265214,
+     "forgetting": 0.1791013888104201,
+     "final_fpr": 0.012776931192122845
+    },
+    "0.02": {
+     "final_bacc": 0.7058233802487397,
+     "incremental_bacc": 0.7815842138880041,
+     "forgetting": 0.1735898903557337,
+     "final_fpr": 0.024909154847028485
+    },
+    "0.05": {
+     "final_bacc": 0.7417433227817319,
+     "incremental_bacc": 0.80521278175952,
+     "forgetting": 0.1688771513939182,
+     "final_fpr": 0.05661704372289298
+    },
+    "default": {
+     "final_bacc": 0.7020434116429478,
+     "incremental_bacc": 0.7880886410366086,
+     "forgetting": 0.21589655492360077,
+     "final_fpr": 0.02221310514593834
+    }
+   },
+   "final_memory_rows": 3435,
+   "feature_bytes": 934320,
+   "row_id_bytes": 27480,
+   "model_bytes": 10042091,
+   "error_destinations": {
+    "old_attack_errors": 6479,
+    "Normal": 3951,
+    "other_old": 2124,
+    "new": 404,
+    "fractions": {
+     "Normal": 0.6098163296805063,
+     "other_old": 0.32782836857539743,
+     "new": 0.062355301744096314
+    }
+   },
+   "measured_cell_seconds": 75.59400000001187,
+   "result": "UNSW-NB15_x2_seed73.json",
+   "result_sha256": "cf909bb5d927f07dc5a7a8f21bdf61ff0413b9ad4c97e7dc0b2519d050d5e6ae",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 2,
+   "seed": 74,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6569618390845058,
+     "incremental_bacc": 0.7523898435354658,
+     "forgetting": 0.15986500091625275,
+     "final_fpr": 0.008967295744930255
+    },
+    "0.02": {
+     "final_bacc": 0.6969805053466515,
+     "incremental_bacc": 0.777630120492186,
+     "forgetting": 0.16131162857034065,
+     "final_fpr": 0.01939983589262689
+    },
+    "0.05": {
+     "final_bacc": 0.7326354830532714,
+     "incremental_bacc": 0.8021974340573095,
+     "forgetting": 0.16839974956522774,
+     "final_fpr": 0.049759699917946314
+    },
+    "default": {
+     "final_bacc": 0.692146263076659,
+     "incremental_bacc": 0.7875032892021261,
+     "forgetting": 0.21056065272808794,
+     "final_fpr": 0.018110420818192474
+    }
+   },
+   "final_memory_rows": 3435,
+   "feature_bytes": 934320,
+   "row_id_bytes": 27480,
+   "model_bytes": 11244987,
+   "error_destinations": {
+    "old_attack_errors": 6461,
+    "Normal": 4057,
+    "other_old": 2010,
+    "new": 394,
+    "fractions": {
+     "Normal": 0.6279213744002476,
+     "other_old": 0.31109735335087446,
+     "new": 0.06098127224887788
+    }
+   },
+   "measured_cell_seconds": 78.75,
+   "result": "UNSW-NB15_x2_seed74.json",
+   "result_sha256": "a683eb514d9c017b13c6932d18b8407f6f66673cb574a89ca9d89e0977bcd241",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 3,
+   "seed": 70,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6842865595998212,
+     "incremental_bacc": 0.7634915033461253,
+     "forgetting": 0.1366408870349964,
+     "final_fpr": 0.010549759699917947
+    },
+    "0.02": {
+     "final_bacc": 0.7067778618956609,
+     "incremental_bacc": 0.7823632571964713,
+     "forgetting": 0.13892040266774627,
+     "final_fpr": 0.02127534872816786
+    },
+    "0.05": {
+     "final_bacc": 0.7435652286566575,
+     "incremental_bacc": 0.8072213617119625,
+     "forgetting": 0.1371736129551203,
+     "final_fpr": 0.05327628648458563
+    },
+    "default": {
+     "final_bacc": 0.7047906263869061,
+     "incremental_bacc": 0.7956664478121128,
+     "forgetting": 0.18904125019536125,
+     "final_fpr": 0.020806470519282617
+    }
+   },
+   "final_memory_rows": 4768,
+   "feature_bytes": 1296896,
+   "row_id_bytes": 38144,
+   "model_bytes": 13833034,
+   "error_destinations": {
+    "old_attack_errors": 6068,
+    "Normal": 3760,
+    "other_old": 1949,
+    "new": 359,
+    "fractions": {
+     "Normal": 0.6196440342781806,
+     "other_old": 0.3211931443638761,
+     "new": 0.05916282135794331
+    }
+   },
+   "measured_cell_seconds": 99.15700000000652,
+   "result": "UNSW-NB15_x3_seed70.json",
+   "result_sha256": "2d404f07be66d2cb7a47bb499f60b7358c139648532405ce32dc66263aa7c004",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 3,
+   "seed": 71,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6784792612419915,
+     "incremental_bacc": 0.7617676383330724,
+     "forgetting": 0.14297875191810377,
+     "final_fpr": 0.009377564177704842
+    },
+    "0.02": {
+     "final_bacc": 0.7117426466332598,
+     "incremental_bacc": 0.782578852941143,
+     "forgetting": 0.1329264450738468,
+     "final_fpr": 0.019751494549290823
+    },
+    "0.05": {
+     "final_bacc": 0.7502473888290643,
+     "incremental_bacc": 0.8124054253990016,
+     "forgetting": 0.14650642944259712,
+     "final_fpr": 0.04718086976907748
+    },
+    "default": {
+     "final_bacc": 0.717571207785839,
+     "incremental_bacc": 0.7995860732506379,
+     "forgetting": 0.18421471176693321,
+     "final_fpr": 0.024791935294807173
+    }
+   },
+   "final_memory_rows": 4768,
+   "feature_bytes": 1296896,
+   "row_id_bytes": 38144,
+   "model_bytes": 12775725,
+   "error_destinations": {
+    "old_attack_errors": 6169,
+    "Normal": 3938,
+    "other_old": 1849,
+    "new": 382,
+    "fractions": {
+     "Normal": 0.6383530556005835,
+     "other_old": 0.2997244285945858,
+     "new": 0.0619225158048306
+    }
+   },
+   "measured_cell_seconds": 97.71899999998277,
+   "result": "UNSW-NB15_x3_seed71.json",
+   "result_sha256": "34465ada8c3501e601789fdb22f7f9abdae4e91b03ef9cb53881f57cf88f6736",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 3,
+   "seed": 72,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6634657733617726,
+     "incremental_bacc": 0.7571776609172138,
+     "forgetting": 0.13994103650663808,
+     "final_fpr": 0.010842808580471222
+    },
+    "0.02": {
+     "final_bacc": 0.6972653217988449,
+     "incremental_bacc": 0.7801831020824821,
+     "forgetting": 0.13894168407638727,
+     "final_fpr": 0.023268081115930137
+    },
+    "0.05": {
+     "final_bacc": 0.7387159322321516,
+     "incremental_bacc": 0.8088898075140014,
+     "forgetting": 0.14569879486372822,
+     "final_fpr": 0.05327628648458563
+    },
+    "default": {
+     "final_bacc": 0.6983608238787454,
+     "incremental_bacc": 0.7970805929985215,
+     "forgetting": 0.1949277783892248,
+     "final_fpr": 0.023912788653147346
+    }
+   },
+   "final_memory_rows": 4768,
+   "feature_bytes": 1296896,
+   "row_id_bytes": 38144,
+   "model_bytes": 13432987,
+   "error_destinations": {
+    "old_attack_errors": 6056,
+    "Normal": 3890,
+    "other_old": 1783,
+    "new": 383,
+    "fractions": {
+     "Normal": 0.642338177014531,
+     "other_old": 0.2944187582562748,
+     "new": 0.06324306472919419
+    }
+   },
+   "measured_cell_seconds": 94.1710000000021,
+   "result": "UNSW-NB15_x3_seed72.json",
+   "result_sha256": "92aa37ef039632ee6b44594e12020bc50ddad4357d830801d9415dc74b34b187",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 3,
+   "seed": 73,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6861487288021655,
+     "incremental_bacc": 0.7674615672271801,
+     "forgetting": 0.13753286927408312,
+     "final_fpr": 0.012718321416012191
+    },
+    "0.02": {
+     "final_bacc": 0.7101455027726912,
+     "incremental_bacc": 0.786707165638471,
+     "forgetting": 0.1407274747424005,
+     "final_fpr": 0.021040909623725238
+    },
+    "0.05": {
+     "final_bacc": 0.7541865096860086,
+     "incremental_bacc": 0.8131136892402788,
+     "forgetting": 0.13184822092744605,
+     "final_fpr": 0.05397960379791349
+    },
+    "default": {
+     "final_bacc": 0.7142544005992102,
+     "incremental_bacc": 0.7999915709580111,
+     "forgetting": 0.18299001038361074,
+     "final_fpr": 0.023443910444262105
+    }
+   },
+   "final_memory_rows": 4768,
+   "feature_bytes": 1296896,
+   "row_id_bytes": 38144,
+   "model_bytes": 12615560,
+   "error_destinations": {
+    "old_attack_errors": 5981,
+    "Normal": 3693,
+    "other_old": 1924,
+    "new": 364,
+    "fractions": {
+     "Normal": 0.6174552750376191,
+     "other_old": 0.3216853369001839,
+     "new": 0.060859388062196956
+    }
+   },
+   "measured_cell_seconds": 96.96899999998277,
+   "result": "UNSW-NB15_x3_seed73.json",
+   "result_sha256": "f3d3596d84b6a4dd53e9648ecdf404a1fafebc2abc35b4aeaba15d854ac0d523",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 3,
+   "seed": 74,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6611675973529476,
+     "incremental_bacc": 0.7602392458376472,
+     "forgetting": 0.14429036650223362,
+     "final_fpr": 0.009787832610479427
+    },
+    "0.02": {
+     "final_bacc": 0.6911641475437668,
+     "incremental_bacc": 0.7798980670142458,
+     "forgetting": 0.14478923673411556,
+     "final_fpr": 0.01981010432540148
+    },
+    "0.05": {
+     "final_bacc": 0.7382627507756786,
+     "incremental_bacc": 0.8082028861760691,
+     "forgetting": 0.1365908209636048,
+     "final_fpr": 0.05011135857461024
+    },
+    "default": {
+     "final_bacc": 0.7011510724901221,
+     "incremental_bacc": 0.7975184323340254,
+     "forgetting": 0.1862538937951586,
+     "final_fpr": 0.024264447309811275
+    }
+   },
+   "final_memory_rows": 4768,
+   "feature_bytes": 1296896,
+   "row_id_bytes": 38144,
+   "model_bytes": 12033051,
+   "error_destinations": {
+    "old_attack_errors": 6129,
+    "Normal": 3847,
+    "other_old": 1950,
+    "new": 332,
+    "fractions": {
+     "Normal": 0.6276717245880241,
+     "other_old": 0.31815956926089084,
+     "new": 0.054168706151085
+    }
+   },
+   "measured_cell_seconds": 93.48499999998603,
+   "result": "UNSW-NB15_x3_seed74.json",
+   "result_sha256": "8b18b0ec0dcf57e39d42353ce25f4a04da4a35f18beafc44f9903115feafdd7b",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 4,
+   "seed": 70,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6807068445484591,
+     "incremental_bacc": 0.7661905277985699,
+     "forgetting": 0.11612505809001435,
+     "final_fpr": 0.009963661938811394
+    },
+    "0.02": {
+     "final_bacc": 0.7121485099270028,
+     "incremental_bacc": 0.7883279995646266,
+     "forgetting": 0.11785934695697933,
+     "final_fpr": 0.020337592310397373
+    },
+    "0.05": {
+     "final_bacc": 0.7480434301589962,
+     "incremental_bacc": 0.8147173270736788,
+     "forgetting": 0.12080879005484967,
+     "final_fpr": 0.05251435939514711
+    },
+    "default": {
+     "final_bacc": 0.7189748984509363,
+     "incremental_bacc": 0.8089099731191173,
+     "forgetting": 0.16949968814452676,
+     "final_fpr": 0.02508498417536045
+    }
+   },
+   "final_memory_rows": 6101,
+   "feature_bytes": 1659472,
+   "row_id_bytes": 48808,
+   "model_bytes": 14699706,
+   "error_destinations": {
+    "old_attack_errors": 5777,
+    "Normal": 3685,
+    "other_old": 1781,
+    "new": 311,
+    "fractions": {
+     "Normal": 0.637874329236628,
+     "other_old": 0.308291500778951,
+     "new": 0.053834169984420976
+    }
+   },
+   "measured_cell_seconds": 106.23399999999674,
+   "result": "UNSW-NB15_x4_seed70.json",
+   "result_sha256": "af2a2247838623bcea5d28adf856a0b782f2a5a0d2a0d516a340f1f6b6538e18",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 4,
+   "seed": 71,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6709612183656555,
+     "incremental_bacc": 0.7601266405680034,
+     "forgetting": 0.11438039359051053,
+     "final_fpr": 0.011428906341577776
+    },
+    "0.02": {
+     "final_bacc": 0.6967459442681591,
+     "incremental_bacc": 0.7816159637878234,
+     "forgetting": 0.1214722185773461,
+     "final_fpr": 0.02063064119095065
+    },
+    "0.05": {
+     "final_bacc": 0.7345303450888984,
+     "incremental_bacc": 0.8085711397602708,
+     "forgetting": 0.12427060513655205,
+     "final_fpr": 0.048470284843511895
+    },
+    "default": {
+     "final_bacc": 0.707831923600745,
+     "incremental_bacc": 0.8040683387340499,
+     "forgetting": 0.17576610423616748,
+     "final_fpr": 0.02578830148868831
+    }
+   },
+   "final_memory_rows": 6101,
+   "feature_bytes": 1659472,
+   "row_id_bytes": 48808,
+   "model_bytes": 15371516,
+   "error_destinations": {
+    "old_attack_errors": 5871,
+    "Normal": 3693,
+    "other_old": 1855,
+    "new": 323,
+    "fractions": {
+     "Normal": 0.6290240163515585,
+     "other_old": 0.31595980241866806,
+     "new": 0.05501618122977346
+    }
+   },
+   "measured_cell_seconds": 117.4539999999979,
+   "result": "UNSW-NB15_x4_seed71.json",
+   "result_sha256": "ff48a06aec96e8ad6e999dfa5c5c365a88d92f1fe2c1e4f0590fea26fd77b43d",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 4,
+   "seed": 72,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.67811568051801,
+     "incremental_bacc": 0.7632327875598253,
+     "forgetting": 0.11303337087252954,
+     "final_fpr": 0.012073613878794983
+    },
+    "0.02": {
+     "final_bacc": 0.6995970282087112,
+     "incremental_bacc": 0.7821511129111127,
+     "forgetting": 0.12009604010441402,
+     "final_fpr": 0.0217442269370531
+    },
+    "0.05": {
+     "final_bacc": 0.7428022649758781,
+     "incremental_bacc": 0.8122705224220488,
+     "forgetting": 0.12660615770371114,
+     "final_fpr": 0.05145938342515532
+    },
+    "default": {
+     "final_bacc": 0.7165681404940268,
+     "incremental_bacc": 0.806262375139182,
+     "forgetting": 0.16620884304162095,
+     "final_fpr": 0.03258703551752432
+    }
+   },
+   "final_memory_rows": 6101,
+   "feature_bytes": 1659472,
+   "row_id_bytes": 48808,
+   "model_bytes": 13221948,
+   "error_destinations": {
+    "old_attack_errors": 5787,
+    "Normal": 3630,
+    "other_old": 1811,
+    "new": 346,
+    "fractions": {
+     "Normal": 0.6272680145152929,
+     "other_old": 0.31294280283393816,
+     "new": 0.05978918265076896
+    }
+   },
+   "measured_cell_seconds": 95.26499999998487,
+   "result": "UNSW-NB15_x4_seed72.json",
+   "result_sha256": "1c707851bd635b816ee66690ee4eb3636dfd7e41b320e9e77ee538a8587e1b90",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 4,
+   "seed": 73,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6887517984510337,
+     "incremental_bacc": 0.7734924607387875,
+     "forgetting": 0.12256973038737481,
+     "final_fpr": 0.01236666275934826
+    },
+    "0.02": {
+     "final_bacc": 0.7152202851699456,
+     "incremental_bacc": 0.7899367479439988,
+     "forgetting": 0.11652288181637618,
+     "final_fpr": 0.023326690892040793
+    },
+    "0.05": {
+     "final_bacc": 0.7497649520677061,
+     "incremental_bacc": 0.8165335776950554,
+     "forgetting": 0.12040591733545411,
+     "final_fpr": 0.05743758058844215
+    },
+    "default": {
+     "final_bacc": 0.7252261559697634,
+     "incremental_bacc": 0.810249552798429,
+     "forgetting": 0.16296905419327423,
+     "final_fpr": 0.031063181338647286
+    }
+   },
+   "final_memory_rows": 6101,
+   "feature_bytes": 1659472,
+   "row_id_bytes": 48808,
+   "model_bytes": 12939285,
+   "error_destinations": {
+    "old_attack_errors": 5773,
+    "Normal": 3627,
+    "other_old": 1799,
+    "new": 347,
+    "fractions": {
+     "Normal": 0.6282695305733588,
+     "other_old": 0.3116230729256885,
+     "new": 0.06010739650095271
+    }
+   },
+   "measured_cell_seconds": 91.39100000000326,
+   "result": "UNSW-NB15_x4_seed73.json",
+   "result_sha256": "3f8ac8d9167c93150c58ae9ac244b620de25c66336de399c6a0cba968a3926db",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "multiplier": 4,
+   "seed": 74,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6622092301817358,
+     "incremental_bacc": 0.7627277864189158,
+     "forgetting": 0.13119147900502523,
+     "final_fpr": 0.007560661118274528
+    },
+    "0.02": {
+     "final_bacc": 0.6919216758533763,
+     "incremental_bacc": 0.7827582585605486,
+     "forgetting": 0.13523848679568964,
+     "final_fpr": 0.016762395967647403
+    },
+    "0.05": {
+     "final_bacc": 0.7411143895400837,
+     "incremental_bacc": 0.8102755294237693,
+     "forgetting": 0.11702964610049092,
+     "final_fpr": 0.05175243230570859
+    },
+    "default": {
+     "final_bacc": 0.7175598938690948,
+     "incremental_bacc": 0.8068729187588797,
+     "forgetting": 0.16353826085377615,
+     "final_fpr": 0.027253545891454695
+    }
+   },
+   "final_memory_rows": 6101,
+   "feature_bytes": 1659472,
+   "row_id_bytes": 48808,
+   "model_bytes": 12797557,
+   "error_destinations": {
+    "old_attack_errors": 5922,
+    "Normal": 3865,
+    "other_old": 1750,
+    "new": 307,
+    "fractions": {
+     "Normal": 0.6526511313745357,
+     "other_old": 0.29550827423167847,
+     "new": 0.05184059439378588
+    }
+   },
+   "measured_cell_seconds": 94.53200000000652,
+   "result": "UNSW-NB15_x4_seed74.json",
+   "result_sha256": "8cc417ee74c1daa9186cda07be2336a7b161062ab7feddd119bc369abb1aa63d",
+   "verified_cm": 20
+  }
+ ]
+}

@@ -1,0 +1,643 @@
+{
+ "completed": true,
+ "screen_cells": 16,
+ "cells": [
+  {
+   "dataset": "UNSW-NB15",
+   "arm": "AR-Stateless",
+   "seed": 60,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6493563349838307,
+     "incremental_bacc": 0.7384000746436484,
+     "forgetting": 0.1958682883387675,
+     "final_fpr": 0.009201734849372875
+    },
+    "0.02": {
+     "final_bacc": 0.6816722923666959,
+     "incremental_bacc": 0.7622168933996534,
+     "forgetting": 0.2003635220773764,
+     "final_fpr": 0.02027898253428672
+    },
+    "0.05": {
+     "final_bacc": 0.7269572080299783,
+     "incremental_bacc": 0.7946140195469351,
+     "forgetting": 0.21137240750017877,
+     "final_fpr": 0.05034579767905287
+    },
+    "default": {
+     "final_bacc": 0.6598935236307165,
+     "incremental_bacc": 0.766191529528925,
+     "forgetting": 0.26445472696951405,
+     "final_fpr": 0.01260110186379088
+    }
+   },
+   "result": "UNSW-NB15_AR-Stateless_seed60.json",
+   "result_sha256": "76f16d9e5852c7dee6cb5dae72c8c824821b72e6b2a855706ffca4363d1cf3be",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "arm": "AR-Stateless",
+   "seed": 61,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6411362545138817,
+     "incremental_bacc": 0.7437236517927323,
+     "forgetting": 0.23267712797201368,
+     "final_fpr": 0.01013949126714336
+    },
+    "0.02": {
+     "final_bacc": 0.6790603106392867,
+     "incremental_bacc": 0.7653074531011738,
+     "forgetting": 0.22335764557575088,
+     "final_fpr": 0.018872347907630992
+    },
+    "0.05": {
+     "final_bacc": 0.7213556287418698,
+     "incremental_bacc": 0.7922400582145305,
+     "forgetting": 0.2204474651023582,
+     "final_fpr": 0.0467706013363029
+    },
+    "default": {
+     "final_bacc": 0.6490634013888532,
+     "incremental_bacc": 0.7667630697731211,
+     "forgetting": 0.2945975033150909,
+     "final_fpr": 0.011839174774352363
+    }
+   },
+   "result": "UNSW-NB15_AR-Stateless_seed61.json",
+   "result_sha256": "39809af63ab113f608a131e76e7e0b0e3b44b88a59793927e75db04f532a46e4",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "arm": "M1",
+   "seed": 60,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.5969891004029044,
+     "incremental_bacc": 0.708896300854065,
+     "forgetting": 0.28687724343291016,
+     "final_fpr": 0.009729222834368773
+    },
+    "0.02": {
+     "final_bacc": 0.6393233558892948,
+     "incremental_bacc": 0.7342909622407354,
+     "forgetting": 0.288155357385825,
+     "final_fpr": 0.019575665220958854
+    },
+    "0.05": {
+     "final_bacc": 0.674232130356941,
+     "incremental_bacc": 0.7604936363067143,
+     "forgetting": 0.30930934739785865,
+     "final_fpr": 0.05210409096237252
+    },
+    "default": {
+     "final_bacc": 0.6109722172775847,
+     "incremental_bacc": 0.7360512274622413,
+     "forgetting": 0.3474946081517377,
+     "final_fpr": 0.012894150744344156
+    }
+   },
+   "result": "UNSW-NB15_M1_seed60.json",
+   "result_sha256": "30d463fc4aacbef781a0fe27e77c2b6997b248f5523bd81b786970aada121c76",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "arm": "M1",
+   "seed": 61,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.5900006510273621,
+     "incremental_bacc": 0.7061498685530595,
+     "forgetting": 0.30268198858406514,
+     "final_fpr": 0.01013949126714336
+    },
+    "0.02": {
+     "final_bacc": 0.6350179745046718,
+     "incremental_bacc": 0.7304552697930256,
+     "forgetting": 0.28731857629202995,
+     "final_fpr": 0.020982299847614582
+    },
+    "0.05": {
+     "final_bacc": 0.6689496332240809,
+     "incremental_bacc": 0.7572984763665256,
+     "forgetting": 0.3120438596346672,
+     "final_fpr": 0.05093189544015942
+    },
+    "default": {
+     "final_bacc": 0.5999091779048354,
+     "incremental_bacc": 0.7273717028836052,
+     "forgetting": 0.35578533366292187,
+     "final_fpr": 0.013245809401008089
+    }
+   },
+   "result": "UNSW-NB15_M1_seed61.json",
+   "result_sha256": "ed02ec1f995e19f7cf5609a5891d02fe44cb54de3d711e9fd9aef3d8311e2d96",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "arm": "M2",
+   "seed": 60,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6090304564368125,
+     "incremental_bacc": 0.7124697367101817,
+     "forgetting": 0.2531259522003284,
+     "final_fpr": 0.00990505216270074
+    },
+    "0.02": {
+     "final_bacc": 0.6533397844511157,
+     "incremental_bacc": 0.7397026188372502,
+     "forgetting": 0.25214450543345746,
+     "final_fpr": 0.02297503223537686
+    },
+    "0.05": {
+     "final_bacc": 0.7024629929736457,
+     "incremental_bacc": 0.7681624482339665,
+     "forgetting": 0.2474270107077972,
+     "final_fpr": 0.05773062946899543
+    },
+    "default": {
+     "final_bacc": 0.6331380699491238,
+     "incremental_bacc": 0.7465857125764878,
+     "forgetting": 0.31720520327065493,
+     "final_fpr": 0.016410737310983473
+    }
+   },
+   "result": "UNSW-NB15_M2_seed60.json",
+   "result_sha256": "c1fb6ae281bb7aabee3f1fb3ba8016c46379677c6d428cdf5d28bc4ff3effd4d",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "arm": "M2",
+   "seed": 61,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6021112953053119,
+     "incremental_bacc": 0.7078109512175054,
+     "forgetting": 0.26068245882715235,
+     "final_fpr": 0.00990505216270074
+    },
+    "0.02": {
+     "final_bacc": 0.6491216450422722,
+     "incremental_bacc": 0.7366352712422239,
+     "forgetting": 0.25695620452417706,
+     "final_fpr": 0.019224006564294925
+    },
+    "0.05": {
+     "final_bacc": 0.6867964104373223,
+     "incremental_bacc": 0.7625991585859048,
+     "forgetting": 0.26637683912520793,
+     "final_fpr": 0.05034579767905287
+    },
+    "default": {
+     "final_bacc": 0.6388207092654075,
+     "incremental_bacc": 0.7443240772849622,
+     "forgetting": 0.3047698058429626,
+     "final_fpr": 0.01693822529597937
+    }
+   },
+   "result": "UNSW-NB15_M2_seed61.json",
+   "result_sha256": "e5f407064ae96a22991a46a327a8e7081d29257d203822414c59ed0e246c3474",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "arm": "M3",
+   "seed": 60,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6447431246456544,
+     "incremental_bacc": 0.7414676352648993,
+     "forgetting": 0.1882706858963912,
+     "final_fpr": 0.008674246864376978
+    },
+    "0.02": {
+     "final_bacc": 0.6868099044479834,
+     "incremental_bacc": 0.7667728712707058,
+     "forgetting": 0.19075844174761133,
+     "final_fpr": 0.01893095768374165
+    },
+    "0.05": {
+     "final_bacc": 0.733385722224156,
+     "incremental_bacc": 0.7980470031520357,
+     "forgetting": 0.19312772503050563,
+     "final_fpr": 0.05163521275348728
+    },
+    "default": {
+     "final_bacc": 0.6579800684441234,
+     "incremental_bacc": 0.7504774175526572,
+     "forgetting": 0.2008356864796736,
+     "final_fpr": 0.011018637908803188
+    }
+   },
+   "result": "UNSW-NB15_M3_seed60.json",
+   "result_sha256": "100aa467863732398749872805b4575e4aaf2f6922092091fd22ed3671fa3cc5",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "UNSW-NB15",
+   "arm": "M3",
+   "seed": 61,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.6624007871456433,
+     "incremental_bacc": 0.7474467529041835,
+     "forgetting": 0.1866445089564041,
+     "final_fpr": 0.009963661938811394
+    },
+    "0.02": {
+     "final_bacc": 0.6844485505323348,
+     "incremental_bacc": 0.7676644163312984,
+     "forgetting": 0.20781946223472558,
+     "final_fpr": 0.01893095768374165
+    },
+    "0.05": {
+     "final_bacc": 0.7308791461469591,
+     "incremental_bacc": 0.7973214337831731,
+     "forgetting": 0.20809342786343843,
+     "final_fpr": 0.048470284843511895
+    },
+    "default": {
+     "final_bacc": 0.6648187674632793,
+     "incremental_bacc": 0.7529259899630899,
+     "forgetting": 0.20165890252078456,
+     "final_fpr": 0.010960028132692532
+    }
+   },
+   "result": "UNSW-NB15_M3_seed61.json",
+   "result_sha256": "60e8f1a833c1d584ccefb0cd9fc2807a7c30b9a882aa8a6997434e04a7132253",
+   "verified_cm": 20
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "arm": "AR-Stateless",
+   "seed": 60,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9753784792751345,
+     "incremental_bacc": 0.9905389519492931,
+     "forgetting": 0.0024345352663867614,
+     "final_fpr": 0.010007311277645769
+    },
+    "0.02": {
+     "final_bacc": 0.9746871260060848,
+     "incremental_bacc": 0.9881846246497512,
+     "forgetting": 0.0015970937112324002,
+     "final_fpr": 0.01945322087892002
+    },
+    "0.05": {
+     "final_bacc": 0.9710080215821744,
+     "incremental_bacc": 0.9805264441281769,
+     "forgetting": 0.0015950162217568213,
+     "final_fpr": 0.04985595042257444
+    },
+    "default": {
+     "final_bacc": 0.9471546772528654,
+     "incremental_bacc": 0.9832414599579431,
+     "forgetting": 0.013100649063841193,
+     "final_fpr": 0.0013273450487853704
+    }
+   },
+   "result": "CIC-IDS-2017_AR-Stateless_seed60.json",
+   "result_sha256": "01a3dc84a9c4d3701aa28ae43810121ccb154774de30aea519eaa7cdb61a7538",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "arm": "AR-Stateless",
+   "seed": 61,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9963085182150204,
+     "incremental_bacc": 0.9957518841175033,
+     "forgetting": 0.0029571065526459903,
+     "final_fpr": 0.010131341880565057
+    },
+    "0.02": {
+     "final_bacc": 0.9951775705426008,
+     "incremental_bacc": 0.9933108568534235,
+     "forgetting": 0.0028225379503123795,
+     "final_fpr": 0.019990686824903604
+    },
+    "0.05": {
+     "final_bacc": 0.9917424182538908,
+     "incremental_bacc": 0.9857553888646646,
+     "forgetting": 0.00248325335166788,
+     "final_fpr": 0.04872009121689253
+    },
+    "default": {
+     "final_bacc": 0.9695886245980381,
+     "incremental_bacc": 0.9882771352424059,
+     "forgetting": 0.011755470933527986,
+     "final_fpr": 0.0014383197987657868
+    }
+   },
+   "result": "CIC-IDS-2017_AR-Stateless_seed61.json",
+   "result_sha256": "44349c9fb234d50f8395235855de38e5b5ae0a5ee2df65ffe8a8d94947cc20b2",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "arm": "M1",
+   "seed": 60,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.8926430415490972,
+     "incremental_bacc": 0.9578882027815593,
+     "forgetting": 0.11307076298740891,
+     "final_fpr": 0.010455562228547058
+    },
+    "0.02": {
+     "final_bacc": 0.8997738305615564,
+     "incremental_bacc": 0.9591556395617682,
+     "forgetting": 0.10189410137307003,
+     "final_fpr": 0.020082077795475713
+    },
+    "0.05": {
+     "final_bacc": 0.9060170682665261,
+     "incremental_bacc": 0.9544800799542171,
+     "forgetting": 0.0887017645998191,
+     "final_fpr": 0.04973409579514496
+    },
+    "default": {
+     "final_bacc": 0.8091499851464817,
+     "incremental_bacc": 0.9283859018164805,
+     "forgetting": 0.19755176799128185,
+     "final_fpr": 0.0009400214115988198
+    }
+   },
+   "result": "CIC-IDS-2017_M1_seed60.json",
+   "result_sha256": "4315d49ca87188538f0669833088a1d4f9c5708dbcd5efe001ccd3f6de6c1384",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "arm": "M1",
+   "seed": 61,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9075099701899494,
+     "incremental_bacc": 0.9576751804996803,
+     "forgetting": 0.0939461243717181,
+     "final_fpr": 0.010170509439381675
+    },
+    "0.02": {
+     "final_bacc": 0.9512973114040638,
+     "incremental_bacc": 0.9682287110409302,
+     "forgetting": 0.06165621283898041,
+     "final_fpr": 0.019925407560209243
+    },
+    "0.05": {
+     "final_bacc": 0.9534344411522416,
+     "incremental_bacc": 0.9632784199131422,
+     "forgetting": 0.05386074448935955,
+     "final_fpr": 0.04998215700098354
+    },
+    "default": {
+     "final_bacc": 0.8326921374236983,
+     "incremental_bacc": 0.93013123899097,
+     "forgetting": 0.1942502451530921,
+     "final_fpr": 0.0008377505635776518
+    }
+   },
+   "result": "CIC-IDS-2017_M1_seed61.json",
+   "result_sha256": "71539fe8ab08b2ad8a35076b4bc8a4f09cc2170f4dea76cc277dd8616f7cbe0f",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "arm": "M2",
+   "seed": 60,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9199145061233884,
+     "incremental_bacc": 0.966975143676713,
+     "forgetting": 0.07657921987388289,
+     "final_fpr": 0.010296716017790775
+    },
+    "0.02": {
+     "final_bacc": 0.9354326331633622,
+     "incremental_bacc": 0.9705360516632131,
+     "forgetting": 0.054766359586689795,
+     "final_fpr": 0.020576024231663055
+    },
+    "0.05": {
+     "final_bacc": 0.9366199761146983,
+     "incremental_bacc": 0.9641719151845245,
+     "forgetting": 0.04839790288689664,
+     "final_fpr": 0.04992558163824843
+    },
+    "default": {
+     "final_bacc": 0.8121120729243188,
+     "incremental_bacc": 0.9311853345160488,
+     "forgetting": 0.19362096476062443,
+     "final_fpr": 0.0009661331174765647
+    }
+   },
+   "result": "CIC-IDS-2017_M2_seed60.json",
+   "result_sha256": "134b64d26467b0e130b9f49689b6221cb2c42d2f2e099739b9653e06e5f3f1ec",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "arm": "M2",
+   "seed": 61,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9422877054387491,
+     "incremental_bacc": 0.9701693388447653,
+     "forgetting": 0.047669377652713694,
+     "final_fpr": 0.009939856037461593
+    },
+    "0.02": {
+     "final_bacc": 0.9497806638315456,
+     "incremental_bacc": 0.9724257774736353,
+     "forgetting": 0.03601632118810207,
+     "final_fpr": 0.0200799018199859
+    },
+    "0.05": {
+     "final_bacc": 0.9477393640718381,
+     "incremental_bacc": 0.9651268711162513,
+     "forgetting": 0.033729683948661236,
+     "final_fpr": 0.04984507054512538
+    },
+    "default": {
+     "final_bacc": 0.8221257128444528,
+     "incremental_bacc": 0.9336699893313929,
+     "forgetting": 0.18071917095618986,
+     "final_fpr": 0.0007855271518221619
+    }
+   },
+   "result": "CIC-IDS-2017_M2_seed61.json",
+   "result_sha256": "9a3897c3113d173de175ef018cf195b414bf12557f5b81ff8d4206cbd7608362",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "arm": "M3",
+   "seed": 60,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9758094874047233,
+     "incremental_bacc": 0.9912189221784217,
+     "forgetting": 0.0025432736199430908,
+     "final_fpr": 0.010153101635463178
+    },
+    "0.02": {
+     "final_bacc": 0.9747433991096043,
+     "incremental_bacc": 0.9887055937196852,
+     "forgetting": 0.0021572143732312976,
+     "final_fpr": 0.020160412913108945
+    },
+    "0.05": {
+     "final_bacc": 0.9712984927496884,
+     "incremental_bacc": 0.9811719112790649,
+     "forgetting": 0.0019770882232605,
+     "final_fpr": 0.05017581881957681
+    },
+    "default": {
+     "final_bacc": 0.9510377909482954,
+     "incremental_bacc": 0.9843466197791704,
+     "forgetting": 0.008139789328216407,
+     "final_fpr": 0.0013991522399491691
+    }
+   },
+   "result": "CIC-IDS-2017_M3_seed60.json",
+   "result_sha256": "cbaa791b95987bc928b20dfe4fea65d487b15462cba7997fd781863e8d1fe188",
+   "verified_cm": 16
+  },
+  {
+   "dataset": "CIC-IDS-2017",
+   "arm": "M3",
+   "seed": 61,
+   "views": {
+    "0.01": {
+     "final_bacc": 0.9961476541298957,
+     "incremental_bacc": 0.9961730771122446,
+     "forgetting": 0.0031117151748249103,
+     "final_fpr": 0.009837585189440426
+    },
+    "0.02": {
+     "final_bacc": 0.9951792915235601,
+     "incremental_bacc": 0.9936999566286507,
+     "forgetting": 0.002701252483572577,
+     "final_fpr": 0.01969475415828916
+    },
+    "0.05": {
+     "final_bacc": 0.9915916794505211,
+     "incremental_bacc": 0.9863198979216361,
+     "forgetting": 0.002767583048293628,
+     "final_fpr": 0.049329364354039916
+    },
+    "default": {
+     "final_bacc": 0.9680990294500247,
+     "incremental_bacc": 0.9872507894663632,
+     "forgetting": 0.013072789801576149,
+     "final_fpr": 0.001394800288969545
+    }
+   },
+   "result": "CIC-IDS-2017_M3_seed61.json",
+   "result_sha256": "3274151b7639210f8e6a8575364751a4ceb4787ef40c0b1b41e82e1726b1b7b9",
+   "verified_cm": 16
+  }
+ ],
+ "means": {
+  "UNSW-NB15": {
+   "AR-Stateless": {
+    "final_bacc": 0.6452462947488562,
+    "forgetting": 0.21427270815539057,
+    "final_fpr": 0.009670613058258119
+   },
+   "M1": {
+    "final_bacc": 0.5934948757151333,
+    "forgetting": 0.2947796160084877,
+    "final_fpr": 0.009934357050756067
+   },
+   "M2": {
+    "final_bacc": 0.6055708758710623,
+    "forgetting": 0.2569042055137404,
+    "final_fpr": 0.00990505216270074
+   },
+   "M3": {
+    "final_bacc": 0.6535719558956489,
+    "forgetting": 0.18745759742639767,
+    "final_fpr": 0.009318954401594186
+   }
+  },
+  "CIC-IDS-2017": {
+   "AR-Stateless": {
+    "final_bacc": 0.9858434987450775,
+    "forgetting": 0.002695820909516376,
+    "final_fpr": 0.010069326579105413
+   },
+   "M1": {
+    "final_bacc": 0.9000765058695233,
+    "forgetting": 0.10350844367956351,
+    "final_fpr": 0.010313035833964366
+   },
+   "M2": {
+    "final_bacc": 0.9311011057810687,
+    "forgetting": 0.062124298763298294,
+    "final_fpr": 0.010118286027626183
+   },
+   "M3": {
+    "final_bacc": 0.9859785707673094,
+    "forgetting": 0.0028274943973840005,
+    "final_fpr": 0.009995343412451802
+   }
+  }
+ },
+ "selection": {
+  "M1": {
+   "advances": false,
+   "delta": {
+    "UNSW-NB15": {
+     "final_bacc": -0.051751419033722934,
+     "forgetting": 0.08050690785309711
+    },
+    "CIC-IDS-2017": {
+     "final_bacc": -0.08576699287555423,
+     "forgetting": 0.10081262277004713
+    }
+   },
+   "unsw_forgetting_reduction_pp": -8.050690785309712
+  },
+  "M2": {
+   "advances": false,
+   "delta": {
+    "UNSW-NB15": {
+     "final_bacc": -0.03967541887779391,
+     "forgetting": 0.04263149735834981
+    },
+    "CIC-IDS-2017": {
+     "final_bacc": -0.054742392964008735,
+     "forgetting": 0.05942847785378192
+    }
+   },
+   "unsw_forgetting_reduction_pp": -4.263149735834981
+  },
+  "M3": {
+   "advances": false,
+   "delta": {
+    "UNSW-NB15": {
+     "final_bacc": 0.008325661146792673,
+     "forgetting": -0.026815110728992897
+    },
+    "CIC-IDS-2017": {
+     "final_bacc": 0.00013507202223195236,
+     "forgetting": 0.00013167348786762446
+    }
+   },
+   "unsw_forgetting_reduction_pp": 2.6815110728992897
+  }
+ },
+ "selected_arm": null,
+ "confirmation_started": false,
+ "limitation": "Development only; no confirmatory significance or innovation claim"
+}

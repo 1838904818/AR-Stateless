@@ -1,0 +1,1678 @@
+{
+ "completed": true,
+ "dataset": "CIC-IDS-2017",
+ "seed": 82,
+ "variant": "R-prime-memory1x",
+ "tasks": [
+  [
+   0,
+   1
+  ],
+  [
+   2,
+   3
+  ],
+  [
+   4,
+   5
+  ],
+  [
+   6,
+   7
+  ]
+ ],
+ "class_order": [
+  "Normal",
+  "DoS",
+  "DDoS",
+  "Bruteforce",
+  "PortScan",
+  "WebAttack",
+  "Botnet",
+  "Infiltration"
+ ],
+ "results": [
+  {
+   "task": 0,
+   "seen": [
+    0,
+    1
+   ],
+   "training_rows": 230513,
+   "stopping_rows": 25634,
+   "memory_rows": 400,
+   "boosting_iterations": 120,
+   "fit_seconds": 6.173031599988462,
+   "thresholds": [
+    {
+     "target_fpr": 0.01,
+     "value": -7.604261875152588,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 1811,
+     "false_alarms": 1811
+    },
+    {
+     "target_fpr": 0.02,
+     "value": -8.398883819580078,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 3623,
+     "false_alarms": 3616
+    },
+    {
+     "target_fpr": 0.05,
+     "value": -9.285314559936523,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 9058,
+     "false_alarms": 9057
+    }
+   ],
+   "calibrated_cm": {
+    "0.01": [
+     [
+      455201,
+      4363,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      45575,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "0.02": [
+     [
+      450803,
+      8761,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      45575,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "0.05": [
+     [
+      437564,
+      22000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      45575,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   "default_cm": [
+    [
+     459169,
+     395,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     16,
+     45560,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "extra": {
+    "quotas": {
+     "1": 400
+    },
+    "memory_cap": 400,
+    "original_memory_cap": 400,
+    "memory_multiplier": 1,
+    "equal_row_budget": true,
+    "descriptive_only": true,
+    "stored_feature_bytes": 123200,
+    "stored_row_id_bytes": 3200,
+    "stored_memory_total_bytes": 126400,
+    "current_model_bytes": 976142,
+    "evaluation_model_bytes": 976142,
+    "evaluation_model_count": 1,
+    "retained_previous_model_bytes": 0,
+    "old_memory_never_refreshed": true,
+    "storage_scope": "feature payload and int64 row identifiers separately; Python container overhead excluded; model pickle byte estimate, not retained model file",
+    "measured_inference_seconds": null
+   }
+  },
+  {
+   "task": 1,
+   "seen": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "training_rows": 147742,
+   "stopping_rows": 16416,
+   "memory_rows": 800,
+   "boosting_iterations": 67,
+   "fit_seconds": 5.833849799993914,
+   "thresholds": [
+    {
+     "target_fpr": 0.01,
+     "value": -6.611584663391113,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 1811,
+     "false_alarms": 1810
+    },
+    {
+     "target_fpr": 0.02,
+     "value": -7.388634204864502,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 3623,
+     "false_alarms": 3623
+    },
+    {
+     "target_fpr": 0.05,
+     "value": -8.411928176879883,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 9058,
+     "false_alarms": 8905
+    }
+   ],
+   "calibrated_cm": {
+    "0.01": [
+     [
+      455089,
+      1647,
+      1827,
+      1001,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      20,
+      45508,
+      29,
+      19,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      25641,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      2458,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "0.02": [
+     [
+      450521,
+      2706,
+      4304,
+      2033,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      45522,
+      29,
+      21,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      25641,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      2458,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "0.05": [
+     [
+      437566,
+      6251,
+      8775,
+      6972,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      45524,
+      29,
+      21,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      25641,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      2458,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   "default_cm": [
+    [
+     459315,
+     155,
+     62,
+     32,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1124,
+     44424,
+     28,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     25640,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     2458,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "extra": {
+    "quotas": {
+     "1": 267,
+     "2": 267,
+     "3": 266
+    },
+    "memory_cap": 800,
+    "original_memory_cap": 800,
+    "memory_multiplier": 1,
+    "equal_row_budget": true,
+    "descriptive_only": true,
+    "stored_feature_bytes": 246400,
+    "stored_row_id_bytes": 6400,
+    "stored_memory_total_bytes": 252800,
+    "current_model_bytes": 1182037,
+    "evaluation_model_bytes": 1182037,
+    "evaluation_model_count": 1,
+    "retained_previous_model_bytes": 0,
+    "old_memory_never_refreshed": true,
+    "storage_scope": "feature payload and int64 row identifiers separately; Python container overhead excluded; model pickle byte estimate, not retained model file",
+    "measured_inference_seconds": null
+   }
+  },
+  {
+   "task": 2,
+   "seen": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "training_rows": 161758,
+   "stopping_rows": 17968,
+   "memory_rows": 1200,
+   "boosting_iterations": 80,
+   "fit_seconds": 12.498735600005602,
+   "thresholds": [
+    {
+     "target_fpr": 0.01,
+     "value": -6.574758529663086,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 1811,
+     "false_alarms": 1808
+    },
+    {
+     "target_fpr": 0.02,
+     "value": -7.552036762237549,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 3623,
+     "false_alarms": 3623
+    },
+    {
+     "target_fpr": 0.05,
+     "value": -8.745522499084473,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 9058,
+     "false_alarms": 9035
+    }
+   ],
+   "calibrated_cm": {
+    "0.01": [
+     [
+      455143,
+      1422,
+      194,
+      608,
+      1066,
+      1131,
+      0,
+      0
+     ],
+     [
+      99,
+      44412,
+      24,
+      0,
+      737,
+      304,
+      0,
+      0
+     ],
+     [
+      22,
+      12,
+      25604,
+      0,
+      3,
+      0,
+      0,
+      0
+     ],
+     [
+      8,
+      0,
+      0,
+      2448,
+      2,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      0,
+      0,
+      31601,
+      2,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0,
+      0,
+      451,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "0.02": [
+     [
+      450180,
+      3202,
+      324,
+      1131,
+      2482,
+      2245,
+      0,
+      0
+     ],
+     [
+      45,
+      44416,
+      24,
+      0,
+      786,
+      305,
+      0,
+      0
+     ],
+     [
+      19,
+      14,
+      25604,
+      0,
+      4,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      1,
+      0,
+      2452,
+      2,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      0,
+      0,
+      31601,
+      2,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0,
+      0,
+      451,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "0.05": [
+     [
+      435919,
+      6671,
+      969,
+      1425,
+      7760,
+      6820,
+      0,
+      0
+     ],
+     [
+      40,
+      44420,
+      24,
+      0,
+      787,
+      305,
+      0,
+      0
+     ],
+     [
+      7,
+      20,
+      25607,
+      0,
+      7,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      2455,
+      2,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      3,
+      0,
+      0,
+      31601,
+      2,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0,
+      0,
+      451,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   "default_cm": [
+    [
+     459145,
+     97,
+     25,
+     41,
+     227,
+     29,
+     0,
+     0
+    ],
+    [
+     1648,
+     43407,
+     9,
+     0,
+     356,
+     156,
+     0,
+     0
+    ],
+    [
+     206,
+     0,
+     25435,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     11,
+     0,
+     0,
+     2445,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     3,
+     0,
+     0,
+     31601,
+     2,
+     0,
+     0
+    ],
+    [
+     2,
+     1,
+     0,
+     0,
+     0,
+     449,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "extra": {
+    "quotas": {
+     "1": 240,
+     "2": 240,
+     "3": 240,
+     "4": 240,
+     "5": 240
+    },
+    "memory_cap": 1200,
+    "original_memory_cap": 1200,
+    "memory_multiplier": 1,
+    "equal_row_budget": true,
+    "descriptive_only": true,
+    "stored_feature_bytes": 369600,
+    "stored_row_id_bytes": 9600,
+    "stored_memory_total_bytes": 379200,
+    "current_model_bytes": 2019284,
+    "evaluation_model_bytes": 2019284,
+    "evaluation_model_count": 1,
+    "retained_previous_model_bytes": 0,
+    "old_memory_never_refreshed": true,
+    "storage_scope": "feature payload and int64 row identifiers separately; Python container overhead excluded; model pickle byte estimate, not retained model file",
+    "measured_inference_seconds": null
+   }
+  },
+  {
+   "task": 3,
+   "seen": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "training_rows": 47494,
+   "stopping_rows": 5322,
+   "memory_rows": 1402,
+   "boosting_iterations": 179,
+   "fit_seconds": 12.525583399983589,
+   "thresholds": [
+    {
+     "target_fpr": 0.01,
+     "value": -5.826165199279785,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 1811,
+     "false_alarms": 1811
+    },
+    {
+     "target_fpr": 0.02,
+     "value": -6.934463024139404,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 3623,
+     "false_alarms": 3623
+    },
+    {
+     "target_fpr": 0.05,
+     "value": -8.19658088684082,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 9058,
+     "false_alarms": 9058
+    }
+   ],
+   "calibrated_cm": {
+    "0.01": [
+     [
+      454994,
+      1076,
+      173,
+      214,
+      274,
+      481,
+      2062,
+      290
+     ],
+     [
+      103,
+      45141,
+      5,
+      0,
+      51,
+      225,
+      0,
+      51
+     ],
+     [
+      19,
+      6,
+      25616,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      0,
+      0,
+      2451,
+      3,
+      0,
+      0,
+      0
+     ],
+     [
+      7,
+      33,
+      0,
+      4,
+      31523,
+      13,
+      20,
+      6
+     ],
+     [
+      0,
+      1,
+      0,
+      0,
+      0,
+      451,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      370,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6
+     ]
+    ],
+    "0.02": [
+     [
+      450508,
+      2221,
+      337,
+      764,
+      437,
+      1277,
+      3353,
+      667
+     ],
+     [
+      59,
+      45155,
+      5,
+      0,
+      51,
+      255,
+      0,
+      51
+     ],
+     [
+      19,
+      6,
+      25616,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      0,
+      0,
+      2451,
+      3,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      34,
+      0,
+      4,
+      31525,
+      15,
+      21,
+      6
+     ],
+     [
+      0,
+      1,
+      0,
+      0,
+      0,
+      451,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      370,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6
+     ]
+    ],
+    "0.05": [
+     [
+      436756,
+      5501,
+      1149,
+      1522,
+      1029,
+      5082,
+      6971,
+      1554
+     ],
+     [
+      1,
+      45176,
+      5,
+      0,
+      51,
+      292,
+      0,
+      51
+     ],
+     [
+      10,
+      10,
+      25616,
+      0,
+      5,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      2454,
+      3,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      35,
+      0,
+      4,
+      31525,
+      15,
+      21,
+      6
+     ],
+     [
+      0,
+      1,
+      0,
+      0,
+      0,
+      451,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      370,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6
+     ]
+    ]
+   },
+   "default_cm": [
+    [
+     458872,
+     98,
+     23,
+     42,
+     203,
+     6,
+     314,
+     6
+    ],
+    [
+     1464,
+     43996,
+     4,
+     0,
+     1,
+     111,
+     0,
+     0
+    ],
+    [
+     168,
+     1,
+     25472,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     14,
+     0,
+     0,
+     2441,
+     3,
+     0,
+     0,
+     0
+    ],
+    [
+     680,
+     25,
+     0,
+     0,
+     30893,
+     2,
+     4,
+     2
+    ],
+    [
+     4,
+     0,
+     0,
+     0,
+     0,
+     448,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     370,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     5
+    ]
+   ],
+   "extra": {
+    "quotas": {
+     "1": 229,
+     "2": 229,
+     "3": 229,
+     "4": 229,
+     "5": 228,
+     "6": 228,
+     "7": 228
+    },
+    "memory_cap": 1600,
+    "original_memory_cap": 1600,
+    "memory_multiplier": 1,
+    "equal_row_budget": true,
+    "descriptive_only": true,
+    "stored_feature_bytes": 431816,
+    "stored_row_id_bytes": 11216,
+    "stored_memory_total_bytes": 443032,
+    "current_model_bytes": 4410506,
+    "evaluation_model_bytes": 4410506,
+    "evaluation_model_count": 1,
+    "retained_previous_model_bytes": 0,
+    "old_memory_never_refreshed": true,
+    "storage_scope": "feature payload and int64 row identifiers separately; Python container overhead excluded; model pickle byte estimate, not retained model file",
+    "measured_inference_seconds": null
+   }
+  }
+ ],
+ "metrics": {
+  "0.01": {
+   "final_bacc": 0.9964812471402323,
+   "incremental_bacc": 0.9954355990732917,
+   "forgetting": 0.0027106188753942737
+  },
+  "0.02": {
+   "final_bacc": 0.9953073761769888,
+   "incremental_bacc": 0.9929653356071408,
+   "forgetting": 0.0026807901256867273
+  },
+  "0.05": {
+   "final_bacc": 0.9917770334726119,
+   "incremental_bacc": 0.9854890684937925,
+   "forgetting": 0.002587349138415481
+  }
+ },
+ "multiplier": 1,
+ "config": {
+  "multipliers": [
+   1,
+   3
+  ],
+  "seeds": [
+   75,
+   76,
+   77,
+   78,
+   79,
+   80,
+   81,
+   82,
+   83,
+   84
+  ],
+  "datasets": [
+   "UNSW-NB15",
+   "CIC-IDS-2017"
+  ],
+  "cpu_threads": 2,
+  "ram_reserve_bytes": 4294967296,
+  "base_config": {
+   "max_iter": 500,
+   "learning_rate": 0.1,
+   "max_leaf_nodes": 63,
+   "l2_regularization": 1.0,
+   "class_weight": "balanced",
+   "early_stopping": true
+  },
+  "descriptive_curve": false,
+  "quotas": "200*multiplier*seen; equally divided among attack classes; remainder to lower class IDs",
+  "local_four_hour_limit": true,
+  "confirmation_started": true,
+  "registration": "registered before running; selected on seeds 70-74, confirmation on seeds 75-84",
+  "confirmation_rule": "UNSW forgetting reduction>=5pp, one-sided paired t and exact1024signflip p<0.05; finalBAcc delta>=-1pp on both datasets; one comparison/no Holm"
+ },
+ "runtime": {
+  "platform": "Windows-10-10.0.22631-SP0",
+  "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Mar 11 2026, 17:42:35) [MSC v.1942 64 bit (AMD64)]",
+  "numpy": "2.2.6",
+  "sklearn": "1.7.2",
+  "torch": "2.6.0+cu124",
+  "slurm_job_id": null
+ },
+ "data_quality_sha256": "987c75a6574d8d13fd49f8071f7d1dcaee66d5b2f17558a028a6b502b30ea69b",
+ "measured_cell_seconds": 104.0,
+ "error_destinations": {
+  "old_attack_errors": 551,
+  "Normal": 133,
+  "other_old": 341,
+  "new": 77,
+  "fractions": {
+   "Normal": 0.2413793103448276,
+   "other_old": 0.6188747731397459,
+   "new": 0.1397459165154265
+  }
+ },
+ "framing": "Registered unseen-seed confirmation of R-selected memory capacity; not a new mechanism"
+}

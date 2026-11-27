@@ -1,0 +1,1964 @@
+{
+ "completed": true,
+ "dataset": "CIC-IDS-2017",
+ "variant": "M1",
+ "seed": 61,
+ "tasks": [
+  [
+   0,
+   1
+  ],
+  [
+   2,
+   3
+  ],
+  [
+   4,
+   5
+  ],
+  [
+   6,
+   7
+  ]
+ ],
+ "class_order": [
+  "Normal",
+  "DoS",
+  "DDoS",
+  "Bruteforce",
+  "PortScan",
+  "WebAttack",
+  "Botnet",
+  "Infiltration"
+ ],
+ "results": [
+  {
+   "task": 0,
+   "seen": [
+    0,
+    1
+   ],
+   "training_rows": 230562,
+   "stopping_rows": 25585,
+   "memory_rows": 400,
+   "boosting_iterations": 118,
+   "fit_seconds": 10.892721499985782,
+   "thresholds": [
+    {
+     "target_fpr": 0.01,
+     "value": -7.519174575805664,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 1811,
+     "false_alarms": 1801
+    },
+    {
+     "target_fpr": 0.02,
+     "value": -8.36174201965332,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 3623,
+     "false_alarms": 3623
+    },
+    {
+     "target_fpr": 0.05,
+     "value": -9.131257057189941,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 9058,
+     "false_alarms": 9056
+    }
+   ],
+   "calibrated_cm": {
+    "0.01": [
+     [
+      455202,
+      4362,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      45575,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "0.02": [
+     [
+      450557,
+      9007,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      1,
+      45575,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "0.05": [
+     [
+      436909,
+      22655,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      45576,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   "default_cm": [
+    [
+     459273,
+     291,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     41,
+     45535,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "extra": {
+    "per_family": {
+     "1": {
+      "ar_row_quota": 400,
+      "allowed_feature_bytes": 123200,
+      "actual_rows": 400,
+      "actual_training_rows": 360,
+      "actual_stopping_rows": 40,
+      "training_payload_bytes": 110880,
+      "stopping_float32_bytes": 12320,
+      "parameter_bytes": 0,
+      "actual_feature_bytes": 123200,
+      "row_identifier_bytes": 3200,
+      "effective_actual_row_multiple": 1.0,
+      "payload_dtype": "float32",
+      "stopping_dtype": "float32",
+      "train_ids_sha256": "84a7e0601fac4d469c52092aa53f0b3b05fe03d0868fbdeca4059d2c6561523e",
+      "stopping_ids_sha256": "dc0dbe5a9e118823bb30de873d01ba406494bd4fe6e00ebcbcd27fa7557ebfc4",
+      "selection": "TRAIN-feature mean herding; lowest row ID breaks ties",
+      "shrink": "preserve admission-rank prefix independently within training/stopping roles",
+      "target_mean_scope": "current family optimization TRAIN pool only; no calibration/TEST",
+      "planned_rows": 400
+     }
+    },
+    "byte_budget": 123200,
+    "stored_feature_bytes": 123200,
+    "stored_row_id_bytes": 3200,
+    "parameter_bytes": 0,
+    "original_row_budget": 400,
+    "effective_row_multiple": 1.0,
+    "current_model_bytes": 962176,
+    "evaluation_model_count": 1,
+    "old_memory_never_refreshed": true,
+    "stopping_never_quantized": true,
+    "quantization_scope": "float32 original inputs and replay payload",
+    "byte_scope": "original feature-byte cap including stopping; IDs/model/host RSS separately excluded",
+    "inference_seconds": null,
+    "round": "M"
+   }
+  },
+  {
+   "task": 1,
+   "seen": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "training_rows": 147777,
+   "stopping_rows": 16381,
+   "memory_rows": 800,
+   "boosting_iterations": 100,
+   "fit_seconds": 15.305641699989792,
+   "thresholds": [
+    {
+     "target_fpr": 0.01,
+     "value": -7.552120685577393,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 1811,
+     "false_alarms": 1811
+    },
+    {
+     "target_fpr": 0.02,
+     "value": -8.305408477783203,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 3623,
+     "false_alarms": 3623
+    },
+    {
+     "target_fpr": 0.05,
+     "value": -9.507749557495117,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 9058,
+     "false_alarms": 8950
+    }
+   ],
+   "calibrated_cm": {
+    "0.01": [
+     [
+      455032,
+      1282,
+      2114,
+      1136,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2295,
+      40781,
+      1776,
+      724,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      25641,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      2458,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "0.02": [
+     [
+      450386,
+      2608,
+      4101,
+      2469,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      902,
+      42161,
+      1780,
+      733,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      25641,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      2458,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "0.05": [
+     [
+      436888,
+      8499,
+      8469,
+      5708,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      76,
+      42985,
+      1781,
+      734,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      25641,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      2458,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   "default_cm": [
+    [
+     459434,
+     42,
+     66,
+     22,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     11522,
+     33901,
+     152,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     25640,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     2458,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "extra": {
+    "per_family": {
+     "1": {
+      "ar_row_quota": 267,
+      "allowed_feature_bytes": 82236,
+      "actual_rows": 267,
+      "actual_training_rows": 240,
+      "actual_stopping_rows": 27,
+      "training_payload_bytes": 73920,
+      "stopping_float32_bytes": 8316,
+      "parameter_bytes": 0,
+      "actual_feature_bytes": 82236,
+      "row_identifier_bytes": 2136,
+      "effective_actual_row_multiple": 1.0,
+      "payload_dtype": "float32",
+      "stopping_dtype": "float32",
+      "train_ids_sha256": "7eacd68e706b138bdc18329c954e675a9647121654ec9cec6f3d0612ade1f4ca",
+      "stopping_ids_sha256": "29ccbea21b6bf91d53bb740e2032acb76451e0f325cba441bb8151bc0d8b0e1d",
+      "selection": "TRAIN-feature mean herding; lowest row ID breaks ties",
+      "shrink": "preserve admission-rank prefix independently within training/stopping roles",
+      "target_mean_scope": "current family optimization TRAIN pool only; no calibration/TEST",
+      "planned_rows": 267
+     },
+     "2": {
+      "ar_row_quota": 267,
+      "allowed_feature_bytes": 82236,
+      "actual_rows": 267,
+      "actual_training_rows": 240,
+      "actual_stopping_rows": 27,
+      "training_payload_bytes": 73920,
+      "stopping_float32_bytes": 8316,
+      "parameter_bytes": 0,
+      "actual_feature_bytes": 82236,
+      "row_identifier_bytes": 2136,
+      "effective_actual_row_multiple": 1.0,
+      "payload_dtype": "float32",
+      "stopping_dtype": "float32",
+      "train_ids_sha256": "aefea34f0dc6b5cbcb10b91116a4b88249957921aa9e2c26b7c4bba87d14b2c0",
+      "stopping_ids_sha256": "459bc119bc0f93d9f822c07624e5fc7b2dd49285c719fbfa7f2b60e6cc3191a3",
+      "selection": "TRAIN-feature mean herding; lowest row ID breaks ties",
+      "shrink": "preserve admission-rank prefix independently within training/stopping roles",
+      "target_mean_scope": "current family optimization TRAIN pool only; no calibration/TEST",
+      "planned_rows": 267
+     },
+     "3": {
+      "ar_row_quota": 266,
+      "allowed_feature_bytes": 81928,
+      "actual_rows": 266,
+      "actual_training_rows": 239,
+      "actual_stopping_rows": 27,
+      "training_payload_bytes": 73612,
+      "stopping_float32_bytes": 8316,
+      "parameter_bytes": 0,
+      "actual_feature_bytes": 81928,
+      "row_identifier_bytes": 2128,
+      "effective_actual_row_multiple": 1.0,
+      "payload_dtype": "float32",
+      "stopping_dtype": "float32",
+      "train_ids_sha256": "57fdec5ba4ef83588d3d4d97c5c71cd54b99bf3c7e7a0d20b8e5928040ec2ca4",
+      "stopping_ids_sha256": "8b07f0b138ea7fa218edd2ed5958980cbe2ab1c06f09aa7575a972a052982684",
+      "selection": "TRAIN-feature mean herding; lowest row ID breaks ties",
+      "shrink": "preserve admission-rank prefix independently within training/stopping roles",
+      "target_mean_scope": "current family optimization TRAIN pool only; no calibration/TEST",
+      "planned_rows": 266
+     }
+    },
+    "byte_budget": 246400,
+    "stored_feature_bytes": 246400,
+    "stored_row_id_bytes": 6400,
+    "parameter_bytes": 0,
+    "original_row_budget": 800,
+    "effective_row_multiple": 1.0,
+    "current_model_bytes": 1523093,
+    "evaluation_model_count": 1,
+    "old_memory_never_refreshed": true,
+    "stopping_never_quantized": true,
+    "quantization_scope": "float32 original inputs and replay payload",
+    "byte_scope": "original feature-byte cap including stopping; IDs/model/host RSS separately excluded",
+    "inference_seconds": null,
+    "round": "M"
+   }
+  },
+  {
+   "task": 2,
+   "seen": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "training_rows": 161718,
+   "stopping_rows": 18008,
+   "memory_rows": 1200,
+   "boosting_iterations": 139,
+   "fit_seconds": 39.12911010000971,
+   "thresholds": [
+    {
+     "target_fpr": 0.01,
+     "value": -7.737148284912109,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 1811,
+     "false_alarms": 1811
+    },
+    {
+     "target_fpr": 0.02,
+     "value": -8.602182388305664,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 3623,
+     "false_alarms": 3623
+    },
+    {
+     "target_fpr": 0.05,
+     "value": -9.598576545715332,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 9058,
+     "false_alarms": 9056
+    }
+   ],
+   "calibrated_cm": {
+    "0.01": [
+     [
+      454905,
+      691,
+      590,
+      505,
+      1280,
+      1593,
+      0,
+      0
+     ],
+     [
+      2774,
+      34337,
+      33,
+      0,
+      6131,
+      2301,
+      0,
+      0
+     ],
+     [
+      10,
+      2,
+      25629,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      0,
+      0,
+      2452,
+      2,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      31604,
+      2,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      452,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "0.02": [
+     [
+      450419,
+      1270,
+      1464,
+      758,
+      2581,
+      3072,
+      0,
+      0
+     ],
+     [
+      1771,
+      34353,
+      33,
+      0,
+      6484,
+      2935,
+      0,
+      0
+     ],
+     [
+      9,
+      2,
+      25630,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      0,
+      0,
+      2452,
+      2,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      31604,
+      2,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      452,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "0.05": [
+     [
+      436388,
+      4397,
+      2536,
+      1091,
+      7814,
+      7338,
+      0,
+      0
+     ],
+     [
+      368,
+      34573,
+      33,
+      0,
+      7666,
+      2936,
+      0,
+      0
+     ],
+     [
+      8,
+      2,
+      25631,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      0,
+      0,
+      2452,
+      2,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      31604,
+      2,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      452,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   "default_cm": [
+    [
+     459255,
+     6,
+     10,
+     35,
+     231,
+     27,
+     0,
+     0
+    ],
+    [
+     8325,
+     33106,
+     1,
+     0,
+     3299,
+     845,
+     0,
+     0
+    ],
+    [
+     33,
+     1,
+     25607,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     12,
+     0,
+     0,
+     2444,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0,
+     0,
+     31601,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     451,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "extra": {
+    "per_family": {
+     "1": {
+      "ar_row_quota": 240,
+      "allowed_feature_bytes": 73920,
+      "actual_rows": 240,
+      "actual_training_rows": 216,
+      "actual_stopping_rows": 24,
+      "training_payload_bytes": 66528,
+      "stopping_float32_bytes": 7392,
+      "parameter_bytes": 0,
+      "actual_feature_bytes": 73920,
+      "row_identifier_bytes": 1920,
+      "effective_actual_row_multiple": 1.0,
+      "payload_dtype": "float32",
+      "stopping_dtype": "float32",
+      "train_ids_sha256": "bc57d9f67e5d3de717d6ae212d3800eaa09dab86cbd7cc32f195a63c4b236573",
+      "stopping_ids_sha256": "d6bb2394ce13d4754da62cde6d8f41b3501ac95cbf55ccfed4a4a4436668b88a",
+      "selection": "TRAIN-feature mean herding; lowest row ID breaks ties",
+      "shrink": "preserve admission-rank prefix independently within training/stopping roles",
+      "target_mean_scope": "current family optimization TRAIN pool only; no calibration/TEST",
+      "planned_rows": 240
+     },
+     "2": {
+      "ar_row_quota": 240,
+      "allowed_feature_bytes": 73920,
+      "actual_rows": 240,
+      "actual_training_rows": 216,
+      "actual_stopping_rows": 24,
+      "training_payload_bytes": 66528,
+      "stopping_float32_bytes": 7392,
+      "parameter_bytes": 0,
+      "actual_feature_bytes": 73920,
+      "row_identifier_bytes": 1920,
+      "effective_actual_row_multiple": 1.0,
+      "payload_dtype": "float32",
+      "stopping_dtype": "float32",
+      "train_ids_sha256": "d16ba66ab60c14feb59e4a863f57012f44484e32ac57f261431cf52725370840",
+      "stopping_ids_sha256": "26a71f261aea9ef3df8831274e8452ccbbf345e65e00071c8c4bc19d57d8e583",
+      "selection": "TRAIN-feature mean herding; lowest row ID breaks ties",
+      "shrink": "preserve admission-rank prefix independently within training/stopping roles",
+      "target_mean_scope": "current family optimization TRAIN pool only; no calibration/TEST",
+      "planned_rows": 240
+     },
+     "3": {
+      "ar_row_quota": 240,
+      "allowed_feature_bytes": 73920,
+      "actual_rows": 240,
+      "actual_training_rows": 216,
+      "actual_stopping_rows": 24,
+      "training_payload_bytes": 66528,
+      "stopping_float32_bytes": 7392,
+      "parameter_bytes": 0,
+      "actual_feature_bytes": 73920,
+      "row_identifier_bytes": 1920,
+      "effective_actual_row_multiple": 1.0,
+      "payload_dtype": "float32",
+      "stopping_dtype": "float32",
+      "train_ids_sha256": "e094c948abac3a4e2c443cef3946b6898ae098e5340917f183232580b1a22f92",
+      "stopping_ids_sha256": "f67eb82b59363a2b3d48071c89a16ed77e4f02cc72843accc40f88d6fe12b97f",
+      "selection": "TRAIN-feature mean herding; lowest row ID breaks ties",
+      "shrink": "preserve admission-rank prefix independently within training/stopping roles",
+      "target_mean_scope": "current family optimization TRAIN pool only; no calibration/TEST",
+      "planned_rows": 240
+     },
+     "4": {
+      "ar_row_quota": 240,
+      "allowed_feature_bytes": 73920,
+      "actual_rows": 240,
+      "actual_training_rows": 216,
+      "actual_stopping_rows": 24,
+      "training_payload_bytes": 66528,
+      "stopping_float32_bytes": 7392,
+      "parameter_bytes": 0,
+      "actual_feature_bytes": 73920,
+      "row_identifier_bytes": 1920,
+      "effective_actual_row_multiple": 1.0,
+      "payload_dtype": "float32",
+      "stopping_dtype": "float32",
+      "train_ids_sha256": "240ff3f38b34604a0e8574ba44dcf9e3f11d291b5700616d2721bc49b4bf1dd5",
+      "stopping_ids_sha256": "525f0332234a9f2c9a6eb50219ab17ac83ded8a9745e2564f4e99d3efd108771",
+      "selection": "TRAIN-feature mean herding; lowest row ID breaks ties",
+      "shrink": "preserve admission-rank prefix independently within training/stopping roles",
+      "target_mean_scope": "current family optimization TRAIN pool only; no calibration/TEST",
+      "planned_rows": 240
+     },
+     "5": {
+      "ar_row_quota": 240,
+      "allowed_feature_bytes": 73920,
+      "actual_rows": 240,
+      "actual_training_rows": 216,
+      "actual_stopping_rows": 24,
+      "training_payload_bytes": 66528,
+      "stopping_float32_bytes": 7392,
+      "parameter_bytes": 0,
+      "actual_feature_bytes": 73920,
+      "row_identifier_bytes": 1920,
+      "effective_actual_row_multiple": 1.0,
+      "payload_dtype": "float32",
+      "stopping_dtype": "float32",
+      "train_ids_sha256": "006931a29e93c713e4ccd59de958c41eebd4a314cf95434076dc978ddc5c6f05",
+      "stopping_ids_sha256": "8d8fffa71cb5a29c2aa05b3f73b8de7f0478faa071e5aba4c96ca3f614606612",
+      "selection": "TRAIN-feature mean herding; lowest row ID breaks ties",
+      "shrink": "preserve admission-rank prefix independently within training/stopping roles",
+      "target_mean_scope": "current family optimization TRAIN pool only; no calibration/TEST",
+      "planned_rows": 240
+     }
+    },
+    "byte_budget": 369600,
+    "stored_feature_bytes": 369600,
+    "stored_row_id_bytes": 9600,
+    "parameter_bytes": 0,
+    "original_row_budget": 1200,
+    "effective_row_multiple": 1.0,
+    "current_model_bytes": 3370235,
+    "evaluation_model_count": 1,
+    "old_memory_never_refreshed": true,
+    "stopping_never_quantized": true,
+    "quantization_scope": "float32 original inputs and replay payload",
+    "byte_scope": "original feature-byte cap including stopping; IDs/model/host RSS separately excluded",
+    "inference_seconds": null,
+    "round": "M"
+   }
+  },
+  {
+   "task": 3,
+   "seen": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "training_rows": 47569,
+   "stopping_rows": 5247,
+   "memory_rows": 1402,
+   "boosting_iterations": 235,
+   "fit_seconds": 26.63828270000522,
+   "thresholds": [
+    {
+     "target_fpr": 0.01,
+     "value": -6.459552764892578,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 1811,
+     "false_alarms": 1811
+    },
+    {
+     "target_fpr": 0.02,
+     "value": -7.60922908782959,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 3623,
+     "false_alarms": 3623
+    },
+    {
+     "target_fpr": 0.05,
+     "value": -8.76365852355957,
+     "calibration_rows": 181176,
+     "allowed_false_alarms": 9058,
+     "false_alarms": 9058
+    }
+   ],
+   "calibrated_cm": {
+    "0.01": [
+     [
+      454890,
+      561,
+      554,
+      296,
+      290,
+      524,
+      2010,
+      439
+     ],
+     [
+      3665,
+      38019,
+      167,
+      0,
+      38,
+      3684,
+      0,
+      3
+     ],
+     [
+      7,
+      2,
+      25632,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      0,
+      0,
+      2453,
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      9997,
+      12,
+      38,
+      193,
+      20244,
+      45,
+      927,
+      150
+     ],
+     [
+      1,
+      15,
+      0,
+      0,
+      0,
+      436,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      370,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5
+     ]
+    ],
+    "0.02": [
+     [
+      450407,
+      1185,
+      1149,
+      620,
+      741,
+      1588,
+      3033,
+      841
+     ],
+     [
+      2100,
+      38638,
+      174,
+      0,
+      38,
+      4623,
+      0,
+      3
+     ],
+     [
+      7,
+      2,
+      25632,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      0,
+      0,
+      2453,
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      3242,
+      12,
+      79,
+      214,
+      25857,
+      50,
+      2002,
+      150
+     ],
+     [
+      0,
+      15,
+      0,
+      0,
+      0,
+      437,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      370,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6
+     ]
+    ],
+    "0.05": [
+     [
+      436594,
+      3412,
+      2533,
+      1295,
+      2220,
+      5420,
+      5677,
+      2413
+     ],
+     [
+      419,
+      40308,
+      180,
+      0,
+      38,
+      4628,
+      0,
+      3
+     ],
+     [
+      6,
+      2,
+      25633,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      0,
+      0,
+      2453,
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      2708,
+      12,
+      220,
+      236,
+      26188,
+      52,
+      2039,
+      151
+     ],
+     [
+      0,
+      15,
+      0,
+      0,
+      0,
+      437,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      370,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6
+     ]
+    ]
+   },
+   "default_cm": [
+    [
+     459179,
+     7,
+     18,
+     27,
+     18,
+     8,
+     305,
+     2
+    ],
+    [
+     11811,
+     33352,
+     5,
+     0,
+     12,
+     396,
+     0,
+     0
+    ],
+    [
+     23,
+     1,
+     25617,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     9,
+     0,
+     0,
+     2449,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     26739,
+     1,
+     11,
+     111,
+     4703,
+     34,
+     3,
+     4
+    ],
+    [
+     20,
+     0,
+     0,
+     0,
+     0,
+     432,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     369,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     5
+    ]
+   ],
+   "extra": {
+    "per_family": {
+     "1": {
+      "ar_row_quota": 229,
+      "allowed_feature_bytes": 70532,
+      "actual_rows": 229,
+      "actual_training_rows": 206,
+      "actual_stopping_rows": 23,
+      "training_payload_bytes": 63448,
+      "stopping_float32_bytes": 7084,
+      "parameter_bytes": 0,
+      "actual_feature_bytes": 70532,
+      "row_identifier_bytes": 1832,
+      "effective_actual_row_multiple": 1.0,
+      "payload_dtype": "float32",
+      "stopping_dtype": "float32",
+      "train_ids_sha256": "6d6286281cf3e62224a4959db8750759e1d3ffcd63de2f33e001ad3460da0b98",
+      "stopping_ids_sha256": "e64f2d45a8481509cc4897dc41489fc17af34df71a307ccbae04d67afdd63dbd",
+      "selection": "TRAIN-feature mean herding; lowest row ID breaks ties",
+      "shrink": "preserve admission-rank prefix independently within training/stopping roles",
+      "target_mean_scope": "current family optimization TRAIN pool only; no calibration/TEST",
+      "planned_rows": 229
+     },
+     "2": {
+      "ar_row_quota": 229,
+      "allowed_feature_bytes": 70532,
+      "actual_rows": 229,
+      "actual_training_rows": 206,
+      "actual_stopping_rows": 23,
+      "training_payload_bytes": 63448,
+      "stopping_float32_bytes": 7084,
+      "parameter_bytes": 0,
+      "actual_feature_bytes": 70532,
+      "row_identifier_bytes": 1832,
+      "effective_actual_row_multiple": 1.0,
+      "payload_dtype": "float32",
+      "stopping_dtype": "float32",
+      "train_ids_sha256": "bd0da93533596c14a3b9a4b65832be882a2404bee88c82893a5add396c4b4e0c",
+      "stopping_ids_sha256": "9f201a7d38959a347a5d1cb104d566778775dd2f911249efa95985d679511472",
+      "selection": "TRAIN-feature mean herding; lowest row ID breaks ties",
+      "shrink": "preserve admission-rank prefix independently within training/stopping roles",
+      "target_mean_scope": "current family optimization TRAIN pool only; no calibration/TEST",
+      "planned_rows": 229
+     },
+     "3": {
+      "ar_row_quota": 229,
+      "allowed_feature_bytes": 70532,
+      "actual_rows": 229,
+      "actual_training_rows": 206,
+      "actual_stopping_rows": 23,
+      "training_payload_bytes": 63448,
+      "stopping_float32_bytes": 7084,
+      "parameter_bytes": 0,
+      "actual_feature_bytes": 70532,
+      "row_identifier_bytes": 1832,
+      "effective_actual_row_multiple": 1.0,
+      "payload_dtype": "float32",
+      "stopping_dtype": "float32",
+      "train_ids_sha256": "4aa8ddbc4b32a3823c6174662b4469c8746d74f1dd8a15e461c1c82bcf990684",
+      "stopping_ids_sha256": "267d3d77c683bf78abf220494cfd6e70f1de857dadc00f709e36897f53bc1702",
+      "selection": "TRAIN-feature mean herding; lowest row ID breaks ties",
+      "shrink": "preserve admission-rank prefix independently within training/stopping roles",
+      "target_mean_scope": "current family optimization TRAIN pool only; no calibration/TEST",
+      "planned_rows": 229
+     },
+     "4": {
+      "ar_row_quota": 229,
+      "allowed_feature_bytes": 70532,
+      "actual_rows": 229,
+      "actual_training_rows": 206,
+      "actual_stopping_rows": 23,
+      "training_payload_bytes": 63448,
+      "stopping_float32_bytes": 7084,
+      "parameter_bytes": 0,
+      "actual_feature_bytes": 70532,
+      "row_identifier_bytes": 1832,
+      "effective_actual_row_multiple": 1.0,
+      "payload_dtype": "float32",
+      "stopping_dtype": "float32",
+      "train_ids_sha256": "c8b3d825ccdcdf280a107d97580cd63a58da3aba9dd1294aadac704971fa051a",
+      "stopping_ids_sha256": "3372be23a58ac1418016b7cac6587bb26358d714057c267452c4e1763547b6d4",
+      "selection": "TRAIN-feature mean herding; lowest row ID breaks ties",
+      "shrink": "preserve admission-rank prefix independently within training/stopping roles",
+      "target_mean_scope": "current family optimization TRAIN pool only; no calibration/TEST",
+      "planned_rows": 229
+     },
+     "5": {
+      "ar_row_quota": 228,
+      "allowed_feature_bytes": 70224,
+      "actual_rows": 228,
+      "actual_training_rows": 205,
+      "actual_stopping_rows": 23,
+      "training_payload_bytes": 63140,
+      "stopping_float32_bytes": 7084,
+      "parameter_bytes": 0,
+      "actual_feature_bytes": 70224,
+      "row_identifier_bytes": 1824,
+      "effective_actual_row_multiple": 1.0,
+      "payload_dtype": "float32",
+      "stopping_dtype": "float32",
+      "train_ids_sha256": "6b858e65c0893bff6c8aae7399b28c26b6ddc2f6a641f1700d10cae71cf7f4bc",
+      "stopping_ids_sha256": "d8cdfee0f5c1ac6a92b3d83b50846f40d6f2423c88682bd84f84aec14bf125d6",
+      "selection": "TRAIN-feature mean herding; lowest row ID breaks ties",
+      "shrink": "preserve admission-rank prefix independently within training/stopping roles",
+      "target_mean_scope": "current family optimization TRAIN pool only; no calibration/TEST",
+      "planned_rows": 228
+     },
+     "6": {
+      "ar_row_quota": 228,
+      "allowed_feature_bytes": 70224,
+      "actual_rows": 228,
+      "actual_training_rows": 205,
+      "actual_stopping_rows": 23,
+      "training_payload_bytes": 63140,
+      "stopping_float32_bytes": 7084,
+      "parameter_bytes": 0,
+      "actual_feature_bytes": 70224,
+      "row_identifier_bytes": 1824,
+      "effective_actual_row_multiple": 1.0,
+      "payload_dtype": "float32",
+      "stopping_dtype": "float32",
+      "train_ids_sha256": "27ae2a9aac9a6c907f16f2a6f1f0e0f8cef883bf12320cf4d91627d5d4ed5a40",
+      "stopping_ids_sha256": "6f7def65ac40953dfedc8e4e6dc1a4c1eea9fc45b68040c9f9a01d612aaff9dd",
+      "selection": "TRAIN-feature mean herding; lowest row ID breaks ties",
+      "shrink": "preserve admission-rank prefix independently within training/stopping roles",
+      "target_mean_scope": "current family optimization TRAIN pool only; no calibration/TEST",
+      "planned_rows": 228
+     },
+     "7": {
+      "ar_row_quota": 228,
+      "allowed_feature_bytes": 70224,
+      "actual_rows": 30,
+      "actual_training_rows": 25,
+      "actual_stopping_rows": 5,
+      "training_payload_bytes": 7700,
+      "stopping_float32_bytes": 1540,
+      "parameter_bytes": 0,
+      "actual_feature_bytes": 9240,
+      "row_identifier_bytes": 240,
+      "effective_actual_row_multiple": 0.13157894736842105,
+      "payload_dtype": "float32",
+      "stopping_dtype": "float32",
+      "train_ids_sha256": "da4bfb5cfaa691018600d96c608eaba686f3ca81969136f1171641712a9461f9",
+      "stopping_ids_sha256": "a0b2e49e84d5363dc3aa02863a64e837b6a3b669e0f3d0153713b6d0576a8ff4",
+      "selection": "TRAIN-feature mean herding; lowest row ID breaks ties",
+      "shrink": "preserve admission-rank prefix independently within training/stopping roles",
+      "target_mean_scope": "current family optimization TRAIN pool only; no calibration/TEST",
+      "planned_rows": 228
+     }
+    },
+    "byte_budget": 492800,
+    "stored_feature_bytes": 431816,
+    "stored_row_id_bytes": 11216,
+    "parameter_bytes": 0,
+    "original_row_budget": 1600,
+    "effective_row_multiple": 0.87625,
+    "current_model_bytes": 4895900,
+    "evaluation_model_count": 1,
+    "old_memory_never_refreshed": true,
+    "stopping_never_quantized": true,
+    "quantization_scope": "float32 original inputs and replay payload",
+    "byte_scope": "original feature-byte cap including stopping; IDs/model/host RSS separately excluded",
+    "inference_seconds": null,
+    "round": "M"
+   }
+  }
+ ],
+ "metrics": {
+  "0.01": {
+   "final_bacc": 0.9075099701899494,
+   "incremental_bacc": 0.9576751804996803,
+   "forgetting": 0.0939461243717181
+  },
+  "0.02": {
+   "final_bacc": 0.9512973114040638,
+   "incremental_bacc": 0.9682287110409302,
+   "forgetting": 0.06165621283898041
+  },
+  "0.05": {
+   "final_bacc": 0.9534344411522416,
+   "incremental_bacc": 0.9632784199131422,
+   "forgetting": 0.05386074448935955
+  }
+ },
+ "config": {
+  "seeds": [
+   60,
+   61
+  ],
+  "arms": [
+   "AR-Stateless",
+   "M1",
+   "M2",
+   "M3"
+  ],
+  "cpu_threads": 2,
+  "ram_reserve_bytes": 4294967296,
+  "base_config": {
+   "max_iter": 500,
+   "learning_rate": 0.1,
+   "max_leaf_nodes": 63,
+   "l2_regularization": 1.0,
+   "class_weight": "balanced",
+   "early_stopping": true
+  },
+  "herding": "float64 squared-distance input-feature mean matching; no learned embedding; lowest raw row ID tie",
+  "roles": "original fixed roles; both admission lists target optimization-TRAIN family mean; ranked prefixes on shrink",
+  "M2": "full-pipeline float16 round trip; float16 training payload, float32 represented stopping; original byte budget",
+  "M3": "all new attack rows retained; their sample weights sum to full family quota before unchanged balanced class weights",
+  "confirmation_started": false,
+  "endpoints": "registered screen rule at1%; other original alpha views descriptive only"
+ },
+ "data_quality_sha256": "987c75a6574d8d13fd49f8071f7d1dcaee66d5b2f17558a028a6b502b30ea69b",
+ "weighted_stages": [],
+ "framing": "registered borrowed-herding/representation/exposure screen; not established innovation"
+}

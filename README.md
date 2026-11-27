@@ -42,6 +42,11 @@ is not significant; this comparison was registered after three of its five seeds
 seen, and two seeds were run on different hardware. On UNSW-NB15 and CIC-IDS-2017 the
 differences are significant and every seed favours AR-Stateless.
 
+On UNSW-NB15 forgetting is 20.6 points. Same-budget variants did not reduce it enough;
+tripling the attack memory (about 1.3 MB instead of 0.53 MB) lowers it to 13.8 points and raises
+final BAcc by 2.3 points on ten unseen seeds (`results/memory_confirmation/`). The main table
+keeps the common 200-row budget used by every method.
+
 Measured test FPR stays between 0.75% and 1.15% for AR-Stateless on these three
 datasets. On NSL-KDD, whose test benign traffic is shifted, it does not; see the
 report.
@@ -110,6 +115,9 @@ and each folder's `SHA256SUMS` lists its files. Scheduler job numbers in those f
 | `results/forgetting_reduction_variants/` | Forgetting-reduction variants (capped new-class exposure, k-means memory): development screen and confirmation on seeds 15–19; none was confirmed |
 | `results/forgetting_diagnostics_unsw/` | UNSW-NB15 forgetting diagnostics D1–D3 (offline joint model, matched exposure, larger memory), seeds 10–14 |
 | `results/nsl_calibration_refresh/` | NSL-KDD calibration-pool refresh with UNSW-NB15 as control, seeds 10–14 |
+| `results/forgetting_round_m/` | Same-budget forgetting variants (herding, herding + float16, soft exposure matching), seeds 60–61; none advanced |
+| `results/memory_curve/` | Attack memory ×0.5 to ×4 on UNSW-NB15 and CIC-IDS-2017, seeds 70–74 |
+| `results/memory_confirmation/` | ×1 versus ×3 attack memory on ten unseen seeds (75–84): confirmed |
 | `results/implementation_equivalence/` | This package versus the experiment pipeline: 40 runs, all thresholds and confusion matrices identical (checksums in `SHA256SUMS`) |
 
 ## Use of AI tools
